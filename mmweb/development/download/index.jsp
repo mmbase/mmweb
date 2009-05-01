@@ -98,8 +98,7 @@ while (k.hasNext()) {
 </mm:url>">More builds &raquo;&raquo;</a></p>
 
 <h3>Source</h3>
-<p>You can access MMBase's CVS repository anonymously. You must of course have
-cvs installed. More about how to access the repository can be found on
+<p>You can access MMBase's repository anonymously. More about how to access the repository can be found on
 <a href="<mm:url page="index.jsp" referids="portal">
   <mm:param name="page" value="page_cvs" />
 </mm:url>">these pages</a>.
