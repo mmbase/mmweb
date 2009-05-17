@@ -1,0 +1,4 @@
+This will build the webapp as is running on www.mmbase.org.
+
+Sadly, it will not deploy and run without the database currently in use there, so it is not so easy
+to try this out without having a copy of that database.
