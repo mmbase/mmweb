@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0                              http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <name>MMBase Web-site</name>
+  <groupId>org.mmbase</groupId>
+  <artifactId>mmbase-website</artifactId>
+  <version>1</version>
+  <packaging>war</packaging>
+
+  <description>The web-site www.mmbase.org</description>
+
+  <properties>
+    <mmbase.version>1.9-SNAPSHOT</mmbase.version>
+  </properties>
+
+
+  <dependencies>
+
+    <dependency>
+      <groupId>org.mmbase</groupId>
+      <artifactId>base-webapp</artifactId>
+      <version>${mmbase.version}</version>
+      <type>war</type>
+    </dependency>
+
+    <dependency>
+      <groupId>org.mmbase</groupId>
+      <artifactId>mmbase-crontab</artifactId>
+      <version>${mmbase.version}</version>
+      <type>war</type>
+    </dependency>
+
+    <dependency>
+      <groupId>org.mmbase</groupId>
+      <artifactId>mmbase-cloudcontext</artifactId>
+      <version>${mmbase.version}</version>
+      <type>war</type>
+    </dependency>
+    <dependency>
+      <groupId>org.mmbase</groupId>
+      <artifactId>mmbase-editwizard</artifactId>
+      <version>${mmbase.version}</version>
+      <type>war</type>
+    </dependency>
+    <dependency>
+      <groupId>org.mmbase</groupId>
+      <artifactId>mmbase-media</artifactId>
+      <version>${mmbase.version}</version>
+      <type>war</type>
+    </dependency>
+    <dependency>
+      <groupId>org.mmbase</groupId>
+      <artifactId>mmbase-richtext</artifactId>
+      <version>${mmbase.version}</version>
+      <type>war</type>
+    </dependency>
+    <dependency>
+      <groupId>org.mmbase</groupId>
+      <artifactId>mmbase-email</artifactId>
+      <version>${mmbase.version}</version>
+      <type>war</type>
+    </dependency>
+    <dependency>
+      <groupId>org.mmbase</groupId>
+      <artifactId>mmbase-principletracker</artifactId>
+      <version>${mmbase.version}</version>
+      <type>war</type>
+    </dependency>
+
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>servlet-api</artifactId>
+      <version>2.5</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>opensymphony</groupId>
+      <artifactId>oscache</artifactId>
+      <version>2.4</version>
+      <exclusions>
+        <exclusion>
+          <groupId>javax.servlet</groupId>
+          <artifactId>servlet-api</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>log4j</groupId>
+          <artifactId>log4j</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+
+    <dependency>
+      <groupId>javax.mail</groupId>
+      <artifactId>mail</artifactId>
+      <version>1.4.1</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.mmbase</groupId>
+      <artifactId>mmbase</artifactId>
+      <version>${mmbase.version}</version>
+      <scope>provided</scope>
+    </dependency>
+
+
+    <!-- I think the following dependencies are silly -->
+    <dependency>
+      <groupId>commons-lang</groupId>
+      <artifactId>commons-lang</artifactId>
+      <version>2.4</version>
+    </dependency>
+
+    <dependency>
+      <groupId>commons-validator</groupId>
+      <artifactId>commons-validator</artifactId>
+      <version>1.3.1</version>
+    </dependency>
+
+  </dependencies>
+
+
+  <build>
+    <defaultGoal>install</defaultGoal>
+
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>1.6</source>
+          <target>1.6</target>
+          <maxmem>256M</maxmem>
+          <fork>${compiler.fork}</fork>
+          <debug>false</debug>
+          <showDeprecation>true</showDeprecation>
+        </configuration>
+      </plugin>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-assembly-plugin</artifactId>
+        <configuration>
+          <descriptors>
+            <descriptor>src/main/assembly/resources/war.xml</descriptor>
+          </descriptors>
+        </configuration>
+      </plugin>
+
+      <plugin>
+        <artifactId>maven-war-plugin</artifactId>
+        <configuration>
+          <useDefaultExcludes>false</useDefaultExcludes>
+        </configuration>
+      </plugin>
+
+      <plugin>
+        <groupId>org.mmbase.maven</groupId>
+        <artifactId>maven-mmbase-plugin</artifactId>
+        <version>1.9-SNAPSHOT</version>
+        <executions>
+          <execution>
+            <id>include-default-excludes</id>
+            <goals>
+              <goal>include-default-excludes</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+
+    </plugins>
+  </build>
+
+  <repositories>
+    <repository>
+      <id>mmbase_repository</id>
+      <url>http://www.mmbase.org/maven2/</url>
+    </repository>
+    <repository>
+      <id>mmbase_snapshots</id>
+      <url>http://www.mmbase.org/snapshots/</url>
+    </repository>
+
+  </repositories>
+  <pluginRepositories>
+    <pluginRepository>
+      <id>mmbase</id>
+      <name>MMBase Maven2 repository</name>
+      <url>http://www.mmbase.org/maven2</url>
+    </pluginRepository>
+    <pluginRepository>
+      <id>mmbase-snapshots</id>
+      <name>MMBase Maven2 snapshots repository</name>
+      <url>http://www.mmbase.org/snapshots</url>
+    </pluginRepository>
+  </pluginRepositories>
+
+  <profiles>
+    <profile>
+      <id>servlet25</id>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+      </activation>
+    </profile>
+  </profiles>
+
+
+</project>

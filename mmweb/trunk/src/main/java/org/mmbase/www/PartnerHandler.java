@@ -6,7 +6,7 @@ import java.net.InetAddress;
 import java.net.URL;
 import java.net.MalformedURLException;
 import javax.servlet.http.*;
-import org.apache.commons.lang.util.Validate;
+import org.apache.commons.lang.Validate;
 import org.apache.commons.validator.UrlValidator;
 import org.mmbase.bridge.Cloud;
 import org.mmbase.bridge.Node;
