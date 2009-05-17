@@ -1,7 +1,7 @@
 package org.mmbase.www;
 
 import java.util.*;
-import org.apache.commons.lang.util.Validate;
+import org.apache.commons.lang.Validate;
 import org.apache.commons.lang.StringUtils;
 import org.apache.commons.mail.SimpleEmail;
 import org.apache.commons.validator.EmailValidator;
