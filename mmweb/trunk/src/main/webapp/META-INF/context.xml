@@ -1,6 +1,0 @@
-<Context reloadable="false">
-
-  <Environment name="mmbase-builders/mmbasecontexts/readall"         value="true" type="java.lang.String" />
-
-
-</Context>
