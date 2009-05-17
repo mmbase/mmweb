@@ -9,5 +9,8 @@
     <property name="language">en</property>
     <property name="encoding">UTF-8</property>
     <property name="development">true</property>
+    <property name="datasource-context">java:comp/env</property>
+    <property name="datasource">jdbc/MMBase</property>
+
   </properties>
 </module>
