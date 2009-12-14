@@ -47,6 +47,47 @@
   <mm:param name="page" value="page_releases" />
 </mm:url>">Previous releases &raquo;&raquo;</a></p>
 
+<h3>Latest MMBase 1.9 builds</h3>
+<p>Latest builds from the stable branch (MMBase-1_9)</p>
+<ul>
+<%
+Iterator j = getStableBuilds(3).iterator();
+while (j.hasNext()) {
+  BuildInfo info = (BuildInfo) j.next(); %>
+  <li><%= info.dateString %> <%= info.remarks %> <a href="<mm:url page="<%= info.link %>" />">view</a></li>
+<% } %>
+<% ListIterator l = getReleaseBuilds(3).listIterator();
+while (l.hasNext()) l.next();
+while (l.hasPrevious()) {
+  BuildInfo info = (BuildInfo) l.previous(); %>
+  <li><%= info.dateString %> <%= info.remarks %> <a href="<mm:url page="<%= info.link %>" />">view</a></li>
+<% } %>
+</ul>
+
+<h3>Latest builds of MMBase HEAD</h3>
+<p>Latest builds from the HEAD branch. The 1.8 branch was made on 2006-08-30.<br />
+The 1.9 branch was made on 2009-12-08. Builds after that are 2.0.</p>
+
+<ul>
+<% Iterator k = getHeadBuilds(3).iterator();
+while (k.hasNext()) {
+  BuildInfo info = (BuildInfo) k.next(); %>
+  <li><%= info.dateString %> <%= info.remarks %> <a href="<mm:url page="<%= info.link %>" />">view</a></li>
+<% } %>
+</ul>
+
+<p><a href="<mm:url page="index.jsp" referids="portal">
+  <mm:param name="page" value="page_builds" />
+</mm:url>">More builds &raquo;&raquo;</a></p>
+
+<h3>Source</h3>
+<p>You can access MMBase's repository anonymously. 
+More information about how to access the repository can be found on
+<a href="<mm:url page="index.jsp" referids="portal">
+  <mm:param name="page" value="page_cvs" />
+</mm:url>">the repository pages</a>.
+</p>
+
 <h3>Packages and other applications</h3>
 <h5>Packages</h5>
 <p>
@@ -66,43 +107,6 @@
   <mm:last></ul></mm:last>
 </mm:list>
 
-<h3>MMBase builds</h3>
-<p>Latest builds from the previous stable branch (MMBase-1_8)</p>
-<ul>
-<%
-Iterator j = getStableBuilds(3).iterator();
-while (j.hasNext()) {
-  BuildInfo info = (BuildInfo) j.next(); %>
-  <li><%= info.dateString %> <%= info.remarks %> <a href="<mm:url page="<%= info.link %>" />">view</a></li>
-<% } %>
-<% ListIterator l = getReleaseBuilds(3).listIterator();
-while (l.hasNext()) l.next();
-while (l.hasPrevious()) {
-  BuildInfo info = (BuildInfo) l.previous(); %>
-  <li><%= info.dateString %> <%= info.remarks %> <a href="<mm:url page="<%= info.link %>" />">view</a></li>
-<% } %>
-</ul>
-
-<p>Latest builds from the HEAD branch. The 1.8 branch was made on 2006-08-30. Builds after that are 1.9.0.</p>
-<ul>
-</ul>
-<ul>
-<% Iterator k = getHeadBuilds(3).iterator();
-while (k.hasNext()) {
-  BuildInfo info = (BuildInfo) k.next(); %>
-  <li><%= info.dateString %> <%= info.remarks %> <a href="<mm:url page="<%= info.link %>" />">view</a></li>
-<% } %>
-</ul>
-<p><a href="<mm:url page="index.jsp" referids="portal">
-  <mm:param name="page" value="page_builds" />
-</mm:url>">More builds &raquo;&raquo;</a></p>
-
-<h3>Source</h3>
-<p>You can access MMBase's repository anonymously. More about how to access the repository can be found on
-<a href="<mm:url page="index.jsp" referids="portal">
-  <mm:param name="page" value="page_cvs" />
-</mm:url>">these pages</a>.
-</p>
 </div><!-- /textcontent -->
 </mm:node>
 <%@ include file="/includes/alterfooter.jsp" %>
