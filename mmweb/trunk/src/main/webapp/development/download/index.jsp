@@ -47,38 +47,45 @@
   <mm:param name="page" value="page_releases" />
 </mm:url>">Previous releases &raquo;&raquo;</a></p>
 
-<h3>Latest MMBase 1.9 builds</h3>
-<p>Latest builds from the stable branch (MMBase-1_9)</p>
+<h3>Latest stable builds</h3>
+<p>Nightly builds from the stable branch (MMBase-1_9):</p>
 <ul>
 <%
-Iterator j = getStableBuilds(3).iterator();
+Iterator j = getStableBuilds(5).iterator();
 while (j.hasNext()) {
   BuildInfo info = (BuildInfo) j.next(); %>
   <li><%= info.dateString %> <%= info.remarks %> <a href="<mm:url page="<%= info.link %>" />">view</a></li>
 <% } %>
-<% ListIterator l = getReleaseBuilds(3).listIterator();
+</ul>
+
+<%--
+<p>Release (?) builds:</p>
+<ul>
+<% ListIterator l = getReleaseBuilds(5).listIterator();
 while (l.hasNext()) l.next();
 while (l.hasPrevious()) {
   BuildInfo info = (BuildInfo) l.previous(); %>
   <li><%= info.dateString %> <%= info.remarks %> <a href="<mm:url page="<%= info.link %>" />">view</a></li>
 <% } %>
 </ul>
+--%>
 
 <h3>Latest builds of MMBase HEAD</h3>
 <p>Latest builds from the HEAD branch. The 1.8 branch was made on 2006-08-30.<br />
 The 1.9 branch was made on 2009-12-08. Builds after that are 2.0.</p>
 
 <ul>
-<% Iterator k = getHeadBuilds(3).iterator();
+<% Iterator k = getHeadBuilds(5).iterator();
 while (k.hasNext()) {
   BuildInfo info = (BuildInfo) k.next(); %>
   <li><%= info.dateString %> <%= info.remarks %> <a href="<mm:url page="<%= info.link %>" />">view</a></li>
 <% } %>
 </ul>
 
+<%--
 <p><a href="<mm:url page="index.jsp" referids="portal">
   <mm:param name="page" value="page_builds" />
-</mm:url>">More builds &raquo;&raquo;</a></p>
+</mm:url>">More builds &raquo;&raquo;</a></p> --%>
 
 <h3>Source</h3>
 <p>You can access MMBase's repository anonymously. 
