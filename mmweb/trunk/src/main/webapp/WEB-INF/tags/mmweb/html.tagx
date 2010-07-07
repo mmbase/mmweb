@@ -66,8 +66,43 @@
         </mmweb:head>
 
         <body class="${styleClass}">
-          <div id="main">
-            <jsp:invoke fragment="body" />
+          <div id="head">
+            <div id="head-inner">
+              <h1>
+                <a href="${mm:link('/')}"><img src="${mm:link('/html/style/images/mmbase-logo-sm.png')}" width="48" height="64" alt="MMBase" /></a>
+              </h1>
+              <div id="menu">
+                <ol>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Download</a></li>
+                  <li><a href="#">Documentation</a></li>
+                  <li><a href="#">Bugs</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ol>
+              </div>  
+            </div>
+          </div>          
+          <div id="wrap">
+            <div id="wrap-inner">
+              <div id="submenu"><jsp:text> <!-- empty --> </jsp:text></div>
+              
+              <jsp:invoke fragment="body" />
+              
+            </div>
+            
+            <div id="footer">
+              <div id="footer-inner">
+                <ul>
+                  <li><a href="${mm:link('')}">Home</a></li>
+                  <li><a href="sitemap.html">Sitemap</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Docs</a></li>
+                  <li><a href="#">Bugs</a></li>
+                </ul>
+                <p>This website is made and maintained by the MMBase community. Send comments to webmaster@mmbase.org.</p>
+              </div>
+            </div><!-- /#footer -->
+            
           </div>
         </body>
       
