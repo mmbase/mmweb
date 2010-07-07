@@ -137,7 +137,7 @@
 
   <error-page>
     <error-code>404</error-code>
-    <location>/index.jsp?page=21649</location>
+    <location>/mmbase/errorpages/404.jsp</location>
   </error-page>
   <error-page>
     <error-code>400</error-code>
@@ -156,9 +156,12 @@
     <location>/mmbase/errorpages/503.jsp</location>
   </error-page>
 
+<!-- don't know what this means -->
+<!-- 
   <env-entry>
     <env-entry-name>mmbase-builders/mmbasecontexts/readall</env-entry-name>
     <env-entry-type>java.lang.String</env-entry-type>
     <env-entry-value>true</env-entry-value>
   </env-entry>
+ -->
 </web-app>
