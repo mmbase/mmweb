@@ -5,6 +5,7 @@
   <authentication class="org.mmbase.security.implementation.context.ContextAuthentication" url="context/config.xml" />
 
   <!-- all jsp's of bugtracker may use 'class' authentication --> 
+<!-- 
   <authenticate class="org\.apache\.jsp\.development\.bugtracker\..*">
     <property name="username" value="admin" />
   </authenticate>
@@ -20,6 +21,7 @@
   <authenticate class="org\.mmbase\.applications\.principletracker\..*">
     <property name="rank" value="administrator" />
   </authenticate>
+ -->
 
 
 </security>
