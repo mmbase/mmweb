@@ -2,6 +2,8 @@
     version="2.0"
     xmlns:jsp="http://java.sun.com/JSP/Page"
     xmlns:c="http://java.sun.com/jsp/jstl/core"
+    xmlns:x="http://java.sun.com/jsp/jstl/xml"
+    xmlns:os="http://www.opensymphony.com/oscache"
     xmlns:mm="http://www.mmbase.org/mmbase-taglib-2.0"
     xmlns:mmweb="urn:jsptagdir:/WEB-INF/tags/mmweb">
   <mmweb:html styleClass="home">
@@ -39,11 +41,33 @@
             <li><a href="#">Bugtracker</a></li>
             <li><a href="#">Mailinglists</a></li>
           </ul>
-          <h4 class="twitter"><a href="#mmbase">Follow us on twitter</a></h4>
-          <ul class="nolist">
-            <li>[mihxil] http://www.mmbase.org/jira is running again. Thanks a lot, Justin. - 1 day ago</li>
-            <li>[elfuego] We've put Jira offline, for security reasons. http://mmbase.org/jira/ Read http://bit.ly/c2Ugm6 for more info. - 2 days ago</li>
-          </ul>
+
+          <!-- mmbase tweets -->
+          <mm:content expires="120" escaper="none">
+            <div class="tweets">
+              <h4><a href="http://twitter.com/elfuego2">Follow us on twitter</a></h4>
+              <ul>
+                <os:cache key="tweet.feed.elfuego2" time="120">
+                  <c:catch var="ex1">
+                    <c:import var="url" url="http://twitter.com/statuses/user_timeline/mmbase.xml?callback=twitterCallback2&amp;count=3" />
+                    <x:parse var="doc" doc="${url}" />
+                    <x:forEach var="n" select="$doc/statuses/status">
+                      <li class="tweet">
+                        <c:set var="id"><x:out select="$n/id" /></c:set>
+                        <mm:import id="text" reset="true"><x:out select="$n/text" /></mm:import>
+                        ${mm:escape('links', text)}
+                        <em><a href="http://twitter.com/elfuego2/statuses/${id}"><x:out select="$n/created_at" /></a></em>
+                      </li>
+                    </x:forEach>
+                  </c:catch>
+                  <c:if test="${! empty ex1}">
+                    <li class="tweet"><os:usecached /></li>
+                  </c:if>
+                </os:cache>
+              </ul>
+            </div>
+          </mm:content>
+
           <h4><a href="#">Bugtracker the last 7 days</a></h4>
           <ul class="nolist">
               <li><a href="#">3 new issues</a></li>
