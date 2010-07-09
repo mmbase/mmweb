@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<attachments exportsource="mmbase://jeeves.mmbase.org/install/foundation" timestamp="20100709170657">
+	<node number="48535" owner="default">
+		<handle file="attachments/48535.handle" />
+		<title>Minutes first meeting TB</title>
+		<description>Minutes first meeting of the Technical Board, January 2006</description>
+		<size>45030</size>
+		<filename>2006_january_technical_board_1.pdf</filename>
+		<mimetype>application/pdf</mimetype>
+	</node>
+
+	<node number="49648" owner="default">
+		<handle file="attachments/49648.handle" />
+		<title>Nadia Poulou's presentation and</title>
+		<description></description>
+		<size>863744</size>
+		<filename>MMBase Architecture.ppt</filename>
+		<mimetype>application/vnd.ms-powerpoint</mimetype>
+	</node>
+
+	<node number="49649" owner="default">
+		<handle file="attachments/49649.handle" />
+		<title>Minutes third meeting technical</title>
+		<description></description>
+		<size>31448</size>
+		<filename>MMBAse PDF.ok.pdf</filename>
+		<mimetype>application/pdf</mimetype>
+	</node>
+
+	<node number="50433" owner="default">
+		<handle file="attachments/50433.handle" />
+		<title>06.06.17.MMBase.LeoCMS.ppt</title>
+		<description></description>
+		<size>750080</size>
+		<filename>06.06.17.MMBase.LeoCMS.ppt</filename>
+		<mimetype>application/vnd.ms-powerpoint</mimetype>
+	</node>
+
+	<node number="50434" owner="default">
+		<handle file="attachments/50434.handle" />
+		<title>JSR 168</title>
+		<description></description>
+		<size>40836</size>
+		<filename>JSR168.zip</filename>
+		<mimetype>application/x-zip-compressed</mimetype>
+	</node>
+
+	<node number="50570" owner="default">
+		<handle file="attachments/50570.handle" />
+		<title>minutes fifth meeting technical</title>
+		<description>minutes May 2006</description>
+		<size>26344</size>
+		<filename>2006_may_technical_board_minutes.pdf</filename>
+		<mimetype>application/pdf</mimetype>
+	</node>
+
+	<node number="51893" owner="default">
+		<handle file="attachments/51893.handle" />
+		<title>Stratos evaluation report</title>
+		<description>Evaluation report (PDF)</description>
+		<size>300136</size>
+		<filename>STRATOS Evaluation report 1.3.pdf</filename>
+		<mimetype>application/pdf</mimetype>
+	</node>
+
+	<node number="52487" owner="default">
+		<handle file="attachments/52487.handle" />
+		<title>070424 CMS Container User Day</title>
+		<description></description>
+		<size>178238</size>
+		<filename>S:\MMBase\CMS Container\Organisation\GebruikersMiddag\07.04.24\07.04.24.CMSC_gebruikersmiddag.pdf</filename>
+		<mimetype>application/pdf</mimetype>
+	</node>
+
+	<node number="53955" owner="default">
+		<handle file="attachments/53955.handle" />
+		<title>MMBase Webservices, July 3, 2009</title>
+		<description></description>
+		<size>44441</size>
+		<filename>090703.MMBase webservices.pdf</filename>
+		<mimetype>application/pdf</mimetype>
+	</node>
+
+	<node number="54099" owner="default">
+		<handle file="attachments/54099.handle" />
+		<title>MMEvent 2009 uitnodiging</title>
+		<description>MMEvent 2009 uitnodiging by Jo Lahaye</description>
+		<size>46513</size>
+		<filename>2009_MMEvent_uitnodiging_Zoetermeer4.pdf</filename>
+		<mimetype>application/pdf</mimetype>
+	</node>
+
+</attachments>

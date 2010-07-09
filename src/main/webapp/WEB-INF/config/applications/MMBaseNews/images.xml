@@ -1,0 +1,850 @@
+<?xml version="1.0" encoding="utf-8"?>
+<images exportsource="mmbase://jeeves.mmbase.org/install/foundation" timestamp="20100709170657">
+	<node number="281" owner="admin">
+		<handle file="images/281.handle" />
+		<itype>jpeg</itype>
+		<title>The nature restoration projects</title>
+		<description></description>
+	</node>
+
+	<node number="294" owner="admin">
+		<handle file="images/294.handle" />
+		<itype>jpeg</itype>
+		<title>Stendersvroeg</title>
+		<description></description>
+	</node>
+
+	<node number="305" owner="admin">
+		<handle file="images/305.handle" />
+		<itype>jpeg</itype>
+		<title>Stendersvroeg column</title>
+		<description></description>
+	</node>
+
+	<node number="314" owner="admin">
+		<handle file="images/314.handle" />
+		<itype>gif</itype>
+		<title>VPRO</title>
+		<description></description>
+	</node>
+
+	<node number="13655" owner="import">
+		<handle file="images/13655.handle" />
+		<itype>jpeg</itype>
+		<title>2e MMBase meeting</title>
+		<description>Rob Vermeulen welcomes everybody</description>
+	</node>
+
+	<node number="13669" owner="import">
+		<handle file="images/13669.handle" />
+		<itype>gif</itype>
+		<title>Downloads from MMBase</title>
+		<description></description>
+	</node>
+
+	<node number="13673" owner="import">
+		<handle file="images/13673.handle" />
+		<itype>jpeg</itype>
+		<title>Roof of VPRO Building</title>
+		<description>The Roof of the VPRO Building</description>
+	</node>
+
+	<node number="13682" owner="import">
+		<handle file="images/13682.handle" />
+		<itype>jpeg</itype>
+		<title>MMBase Barbeque</title>
+		<description></description>
+	</node>
+
+	<node number="13684" owner="import">
+		<handle file="images/13684.handle" />
+		<itype>jpeg</itype>
+		<title>MMBase Barbeque</title>
+		<description>Kay Hofmeester is tellings about MMBase Object Clouds.</description>
+	</node>
+
+	<node number="13686" owner="import">
+		<handle file="images/13686.handle" />
+		<itype>jpeg</itype>
+		<title>MMBase Barbeque</title>
+		<description>And then the presentation cras.....</description>
+	</node>
+
+	<node number="13688" owner="import">
+		<handle file="images/13688.handle" />
+		<itype>jpeg</itype>
+		<title>MMBase Barbeque</title>
+		<description>The VPROs 'tuinzaal' occupied by MMBase community members</description>
+	</node>
+
+	<node number="13690" owner="import">
+		<handle file="images/13690.handle" />
+		<itype>jpeg</itype>
+		<title>MMBase Barbeque</title>
+		<description></description>
+	</node>
+
+	<node number="13692" owner="import">
+		<handle file="images/13692.handle" />
+		<itype>jpeg</itype>
+		<title>MMBase Barbeque</title>
+		<description></description>
+	</node>
+
+	<node number="13694" owner="import">
+		<handle file="images/13694.handle" />
+		<itype>jpeg</itype>
+		<title>MMBase Barbeque</title>
+		<description></description>
+	</node>
+
+	<node number="13696" owner="import">
+		<handle file="images/13696.handle" />
+		<itype>jpeg</itype>
+		<title>MMBase Barbeque</title>
+		<description></description>
+	</node>
+
+	<node number="13698" owner="import">
+		<handle file="images/13698.handle" />
+		<itype>jpeg</itype>
+		<title>MMBase Barbeque</title>
+		<description>Marcel and Rico are preparing the windscreen.</description>
+	</node>
+
+	<node number="13700" owner="import">
+		<handle file="images/13700.handle" />
+		<itype>jpeg</itype>
+		<title>MMBase Barbeque</title>
+		<description></description>
+	</node>
+
+	<node number="13702" owner="import">
+		<handle file="images/13702.handle" />
+		<itype>jpeg</itype>
+		<title>MMBase Barbeque</title>
+		<description></description>
+	</node>
+
+	<node number="13704" owner="import">
+		<handle file="images/13704.handle" />
+		<itype>jpeg</itype>
+		<title>MMBase Barbeque</title>
+		<description>Once upon a time I began programming MMBase .....</description>
+	</node>
+
+	<node number="13706" owner="import">
+		<handle file="images/13706.handle" />
+		<itype>jpeg</itype>
+		<title>MMBase Barbeque</title>
+		<description></description>
+	</node>
+
+	<node number="13708" owner="import">
+		<handle file="images/13708.handle" />
+		<itype>jpeg</itype>
+		<title>MMBase Barbeque</title>
+		<description>Daniel Ockeloen (submarine.nl) is talking about authorization.</description>
+	</node>
+
+	<node number="13710" owner="import">
+		<handle file="images/13710.handle" />
+		<itype>jpeg</itype>
+		<title>MMBase Barbeque</title>
+		<description></description>
+	</node>
+
+	<node number="13712" owner="import">
+		<handle file="images/13712.handle" />
+		<itype>jpeg</itype>
+		<title>MMBase Barbeque</title>
+		<description>Rob Vermeulen is talking about Wizards</description>
+	</node>
+
+	<node number="13714" owner="import">
+		<handle file="images/13714.handle" />
+		<itype>jpeg</itype>
+		<title>MMBase Barbeque</title>
+		<description></description>
+	</node>
+
+	<node number="13716" owner="import">
+		<handle file="images/13716.handle" />
+		<itype>jpeg</itype>
+		<title>MMBase Barbeque</title>
+		<description>Rico is talking about HTML input</description>
+	</node>
+
+	<node number="13718" owner="import">
+		<handle file="images/13718.handle" />
+		<itype>jpeg</itype>
+		<title>MMBase Barbeque</title>
+		<description>See those MMBase community members.</description>
+	</node>
+
+	<node number="13720" owner="import">
+		<handle file="images/13720.handle" />
+		<itype>jpeg</itype>
+		<title>MMBase Barbeque</title>
+		<description>Marcel Maarkamp is talking about the JSP project</description>
+	</node>
+
+	<node number="13722" owner="import">
+		<handle file="images/13722.handle" />
+		<itype>jpeg</itype>
+		<title>MMBase Barbeque</title>
+		<description></description>
+	</node>
+
+	<node number="13724" owner="import">
+		<handle file="images/13724.handle" />
+		<itype>jpeg</itype>
+		<title>MMBase Barbeque</title>
+		<description></description>
+	</node>
+
+	<node number="13726" owner="import">
+		<handle file="images/13726.handle" />
+		<itype>jpeg</itype>
+		<title>MMBase Barbeque</title>
+		<description>Gerard van Enk is telling about the XML project</description>
+	</node>
+
+	<node number="13729" owner="import">
+		<handle file="images/13729.handle" />
+		<itype>jpeg</itype>
+		<title>MMBase Barbeque</title>
+		<description></description>
+	</node>
+
+	<node number="13731" owner="import">
+		<handle file="images/13731.handle" />
+		<itype>jpeg</itype>
+		<title>MMBase Barbeque</title>
+		<description></description>
+	</node>
+
+	<node number="13733" owner="import">
+		<handle file="images/13733.handle" />
+		<itype>jpeg</itype>
+		<title>MMBase Barbeque</title>
+		<description></description>
+	</node>
+
+	<node number="13735" owner="import">
+		<handle file="images/13735.handle" />
+		<itype>jpeg</itype>
+		<title>MMBase Barbeque</title>
+		<description>In the back Daniel Ockeloen (submarine) and Martien van Steenbergen (Sun Microsystems), in front Jan-Wijbrand (V2)</description>
+	</node>
+
+	<node number="13737" owner="import">
+		<handle file="images/13737.handle" />
+		<itype>jpeg</itype>
+		<title>MMBase Barbeque</title>
+		<description></description>
+	</node>
+
+	<node number="13739" owner="import">
+		<handle file="images/13739.handle" />
+		<itype>jpeg</itype>
+		<title>MMBase Barbeque</title>
+		<description>The youngest community member.</description>
+	</node>
+
+	<node number="13741" owner="import">
+		<handle file="images/13741.handle" />
+		<itype>jpeg</itype>
+		<title>MMBase Barbeque</title>
+		<description></description>
+	</node>
+
+	<node number="13743" owner="import">
+		<handle file="images/13743.handle" />
+		<itype>jpeg</itype>
+		<title>MMBase Barbeque</title>
+		<description></description>
+	</node>
+
+	<node number="13745" owner="import">
+		<handle file="images/13745.handle" />
+		<itype>jpeg</itype>
+		<title>MMBase Barbeque</title>
+		<description></description>
+	</node>
+
+	<node number="13747" owner="import">
+		<handle file="images/13747.handle" />
+		<itype>jpeg</itype>
+		<title>MMBase Barbeque</title>
+		<description></description>
+	</node>
+
+	<node number="13749" owner="import">
+		<handle file="images/13749.handle" />
+		<itype>jpeg</itype>
+		<title>MMBase Barbeque</title>
+		<description>Frans Rijnierse and Gerrie Jansen of AdviseOnline are enjoying the barbecue.</description>
+	</node>
+
+	<node number="13751" owner="import">
+		<handle file="images/13751.handle" />
+		<itype>jpeg</itype>
+		<title>MMBase Barbeque</title>
+		<description></description>
+	</node>
+
+	<node number="13753" owner="import">
+		<handle file="images/13753.handle" />
+		<itype>jpeg</itype>
+		<title>MMBase Barbeque</title>
+		<description></description>
+	</node>
+
+	<node number="13755" owner="import">
+		<handle file="images/13755.handle" />
+		<itype>jpeg</itype>
+		<title>MMBase Barbeque</title>
+		<description></description>
+	</node>
+
+	<node number="13757" owner="import">
+		<handle file="images/13757.handle" />
+		<itype>jpeg</itype>
+		<title>MMBase Barbeque</title>
+		<description>The most import task of the evening executed by Martijn Verver and Marcel Maatkamp</description>
+	</node>
+
+	<node number="13759" owner="import">
+		<handle file="images/13759.handle" />
+		<itype>jpeg</itype>
+		<title>MMBase Barbeque</title>
+		<description>A concentration of people related to Utwente, Arjen de Vries, Sjoerd van Tongeren, Rob Vermeulen, and Kay Hofmeester</description>
+	</node>
+
+	<node number="13767" owner="import">
+		<handle file="images/13767.handle" />
+		<itype>jpeg</itype>
+		<title>Pinkpop</title>
+		<description>Erwin and Reinier are using the editors to add new and update information.</description>
+	</node>
+
+	<node number="13769" owner="import">
+		<handle file="images/13769.handle" />
+		<itype>jpeg</itype>
+		<title>Pinkpop</title>
+		<description>Video signals are selected to broadcast on the internet.</description>
+	</node>
+
+	<node number="13771" owner="import">
+		<handle file="images/13771.handle" />
+		<itype>jpeg</itype>
+		<title>The Idea Machine</title>
+		<description>Kay Hofmeester is spreading the MMBase vision.</description>
+	</node>
+
+	<node number="13773" owner="import">
+		<handle file="images/13773.handle" />
+		<itype>jpeg</itype>
+		<title>The Idea Machine</title>
+		<description>Many Java developers were interested in MMBase.</description>
+	</node>
+
+	<node number="13779" owner="import">
+		<handle file="images/13779.handle" />
+		<itype>jpeg</itype>
+		<title>Pinkpop</title>
+		<description>Major critical factor, communication through the air.</description>
+	</node>
+
+	<node number="13781" owner="import">
+		<handle file="images/13781.handle" />
+		<itype>jpeg</itype>
+		<title>Pinkpop</title>
+		<description>People processing information to be put online.</description>
+	</node>
+
+	<node number="13791" owner="import">
+		<handle file="images/13791.handle" />
+		<itype>jpeg</itype>
+		<title>pinkpop 2000</title>
+		<description>Broadbox sessie met Junkie XL</description>
+	</node>
+
+	<node number="13793" owner="import">
+		<handle file="images/13793.handle" />
+		<itype>jpeg</itype>
+		<title>pinkpop 2000</title>
+		<description>Jerry makes a foto of Oasis</description>
+	</node>
+
+	<node number="13795" owner="import">
+		<handle file="images/13795.handle" />
+		<itype>jpeg</itype>
+		<title>Pinkpop 2000</title>
+		<description>Broadbox session with Caeser</description>
+	</node>
+
+	<node number="13797" owner="import">
+		<handle file="images/13797.handle" />
+		<itype>gif</itype>
+		<title>Pinkpop 2000</title>
+		<description>Global network structure</description>
+	</node>
+
+	<node number="13823" owner="import">
+		<handle file="images/13823.handle" />
+		<itype>gif</itype>
+		<title>vpro logo</title>
+		<description>VPRO</description>
+	</node>
+
+	<node number="13895" owner="import">
+		<handle file="images/13895.handle" />
+		<itype>jpeg</itype>
+		<title>Lowlands 2000</title>
+		<description>Lowlands 2000 flag</description>
+	</node>
+
+	<node number="13897" owner="import">
+		<handle file="images/13897.handle" />
+		<itype>jpeg</itype>
+		<title>Lowlands 2000</title>
+		<description>Enjoying the music ....</description>
+	</node>
+
+	<node number="13899" owner="import">
+		<handle file="images/13899.handle" />
+		<itype>jpeg</itype>
+		<title>Lowlands 2000</title>
+		<description>Lowlands Picture</description>
+	</node>
+
+	<node number="13905" owner="import">
+		<handle file="images/13905.handle" />
+		<itype>jpeg</itype>
+		<title>2e MMBase meeting</title>
+		<description>John Balder tells about TCP</description>
+	</node>
+
+	<node number="13907" owner="import">
+		<handle file="images/13907.handle" />
+		<itype>jpeg</itype>
+		<title>2e MMBase meeting</title>
+		<description>DirkJan Hoekstra is tellings about Communities</description>
+	</node>
+
+	<node number="13909" owner="import">
+		<handle file="images/13909.handle" />
+		<itype>jpeg</itype>
+		<title>2e MMBase meeting</title>
+		<description>Gerard van Enk is talking about the EO</description>
+	</node>
+
+	<node number="13911" owner="import">
+		<handle file="images/13911.handle" />
+		<itype>jpeg</itype>
+		<title>2e MMBase meeting</title>
+		<description>Daniel Ockeloen explains what Applications are</description>
+	</node>
+
+	<node number="13913" owner="import">
+		<handle file="images/13913.handle" />
+		<itype>jpeg</itype>
+		<title>2e MMBase meeting</title>
+		<description>Time for presentations, time for ...</description>
+	</node>
+
+	<node number="13915" owner="import">
+		<handle file="images/13915.handle" />
+		<itype>jpeg</itype>
+		<title>2e MMBase meeting</title>
+		<description>Proove of a serious conversation</description>
+	</node>
+
+	<node number="13917" owner="import">
+		<handle file="images/13917.handle" />
+		<itype>jpeg</itype>
+		<title>2e MMBase meeting</title>
+		<description></description>
+	</node>
+
+	<node number="13919" owner="import">
+		<handle file="images/13919.handle" />
+		<itype>jpeg</itype>
+		<title>2e MMBase meeting</title>
+		<description>Daniel is explaining Frans from AdviesOnline how to make big money.</description>
+	</node>
+
+	<node number="13921" owner="import">
+		<handle file="images/13921.handle" />
+		<itype>jpeg</itype>
+		<title>2e MMBase meeting</title>
+		<description>Johannes, Pierre, and Gerard</description>
+	</node>
+
+	<node number="13923" owner="import">
+		<handle file="images/13923.handle" />
+		<itype>jpeg</itype>
+		<title>2e MMBase meeting</title>
+		<description>Did Jaco like the evening?</description>
+	</node>
+
+	<node number="13925" owner="import">
+		<handle file="images/13925.handle" />
+		<itype>jpeg</itype>
+		<title>2e MMBase meeting]</title>
+		<description>DDS delegation</description>
+	</node>
+
+	<node number="13927" owner="import">
+		<handle file="images/13927.handle" />
+		<itype>jpeg</itype>
+		<title>2e MMBase meeting</title>
+		<description>Pierre is talking about the NOS</description>
+	</node>
+
+	<node number="13933" owner="import">
+		<handle file="images/13933.handle" />
+		<itype>jpeg</itype>
+		<title>logo 3mps</title>
+		<description>3MPS</description>
+	</node>
+
+	<node number="13958" owner="import">
+		<handle file="images/13958.handle" />
+		<itype>jpeg</itype>
+		<title>2e mmbase developers meetings</title>
+		<description>Eduard is talking about authorization</description>
+	</node>
+
+	<node number="13960" owner="import">
+		<handle file="images/13960.handle" />
+		<itype>jpeg</itype>
+		<title>2e developers meetings</title>
+		<description>Rob and Dirkjan are fighting with the Ibook *yikes*</description>
+	</node>
+
+	<node number="13962" owner="import">
+		<handle file="images/13962.handle" />
+		<itype>jpeg</itype>
+		<title>2e mmbase developers meeting</title>
+		<description>Maarten talked about editors that Q42 build.</description>
+	</node>
+
+	<node number="13964" owner="import">
+		<handle file="images/13964.handle" />
+		<itype>jpeg</itype>
+		<title>2e MMBase developers meeting</title>
+		<description>Probably the most interrestin part of the evening ;-)</description>
+	</node>
+
+	<node number="13966" owner="import">
+		<handle file="images/13966.handle" />
+		<itype>jpeg</itype>
+		<title>2e MMBase developers meeting</title>
+		<description>Drinking, eating, and networking. An intensive evening.</description>
+	</node>
+
+	<node number="13968" owner="import">
+		<handle file="images/13968.handle" />
+		<itype>jpeg</itype>
+		<title>2e MMBase developers meeting</title>
+		<description>Dirkjan is talking about Communities</description>
+	</node>
+
+	<node number="13970" owner="import">
+		<handle file="images/13970.handle" />
+		<itype>jpeg</itype>
+		<title>2e MMBase developers meeting</title>
+		<description>Daniel is enjoying his beer and snack</description>
+	</node>
+
+	<node number="13974" owner="import">
+		<handle file="images/13974.handle" />
+		<itype>gif</itype>
+		<title>Waag</title>
+		<description>Waag</description>
+	</node>
+
+	<node number="13976" owner="import">
+		<handle file="images/13976.handle" />
+		<itype>jpeg</itype>
+		<title>Michiel tells about Logging</title>
+		<description>Michiel tells about Logging</description>
+	</node>
+
+	<node number="13978" owner="import">
+		<handle file="images/13978.handle" />
+		<itype>jpeg</itype>
+		<title>Jaco tells about Taglibs</title>
+		<description>Jaco tells about Taglibs</description>
+	</node>
+
+	<node number="13980" owner="import">
+		<handle file="images/13980.handle" />
+		<itype>jpeg</itype>
+		<title>Pierre tells about relations</title>
+		<description>Pierre tells about relations</description>
+	</node>
+
+	<node number="13982" owner="import">
+		<handle file="images/13982.handle" />
+		<itype>jpeg</itype>
+		<title>Eduard tells about security</title>
+		<description>Eduard tells about security</description>
+	</node>
+
+	<node number="13984" owner="import">
+		<handle file="images/13984.handle" />
+		<itype>jpeg</itype>
+		<title>Daniel tells about MultiChanneling</title>
+		<description>Daniel tells about MultiChanneling</description>
+	</node>
+
+	<node number="13986" owner="import">
+		<handle file="images/13986.handle" />
+		<itype>jpeg</itype>
+		<title>Audience</title>
+		<description>Audience</description>
+	</node>
+
+	<node number="21442" owner="default">
+		<handle file="images/21442.handle" />
+		<itype>jpeg</itype>
+		<title>Screenshot MMBase site</title>
+		<description>Screenshot MMBase Developers site, this page in november 2003</description>
+	</node>
+
+	<node number="24142" owner="default">
+		<handle file="images/24142.handle" />
+		<itype>jpeg</itype>
+		<title>Gerard van Enk</title>
+		<description>MMBase Developers Meeting March 2004</description>
+	</node>
+
+	<node number="24144" owner="default">
+		<handle file="images/24144.handle" />
+		<itype>jpeg</itype>
+		<title>Michiel Meeuwissen</title>
+		<description>MMBase Developers Meeting March 2004</description>
+	</node>
+
+	<node number="24146" owner="default">
+		<handle file="images/24146.handle" />
+		<itype>jpeg</itype>
+		<title>Jo Lahaye</title>
+		<description>MMBase Developers Meeting March 2004</description>
+	</node>
+
+	<node number="24148" owner="default">
+		<handle file="images/24148.handle" />
+		<itype>jpeg</itype>
+		<title>Henk Hangyi</title>
+		<description>MMBase Developers Meeting March 2004</description>
+	</node>
+
+	<node number="24150" owner="default">
+		<handle file="images/24150.handle" />
+		<itype>jpeg</itype>
+		<title>Daniel Ockeloen</title>
+		<description>MMBase Developers Meeting March 2004</description>
+	</node>
+
+	<node number="24152" owner="default">
+		<handle file="images/24152.handle" />
+		<itype>jpeg</itype>
+		<title>Audience</title>
+		<description>MMBase Developers Meeting March 2004</description>
+	</node>
+
+	<node number="42534" owner="admin">
+		<handle file="images/42534.handle" />
+		<itype>gif</itype>
+		<title>Holland Open Software Platform</title>
+		<description>HOSP</description>
+	</node>
+
+	<node number="47246" owner="admin">
+		<handle file="images/47246.handle" />
+		<itype>jpeg</itype>
+		<title>waiting for the pizzas</title>
+		<description>waiting for the pizzas</description>
+	</node>
+
+	<node number="47262" owner="admin">
+		<handle file="images/47262.handle" />
+		<itype>jpeg</itype>
+		<title>Are you hungry?</title>
+		<description></description>
+	</node>
+
+	<node number="47265" owner="admin">
+		<handle file="images/47265.handle" />
+		<itype>jpeg</itype>
+		<title>Ernst explaining UML2MMBase</title>
+		<description></description>
+	</node>
+
+	<node number="47267" owner="admin">
+		<handle file="images/47267.handle" />
+		<itype>jpeg</itype>
+		<title>Nico explaining Maven</title>
+		<description></description>
+	</node>
+
+	<node number="47269" owner="admin">
+		<handle file="images/47269.handle" />
+		<itype>jpeg</itype>
+		<title>Michiel explaining Richtext</title>
+		<description></description>
+	</node>
+
+	<node number="47271" owner="admin">
+		<handle file="images/47271.handle" />
+		<itype>jpeg</itype>
+		<title>Everybody impressed</title>
+		<description></description>
+	</node>
+
+	<node number="47273" owner="admin">
+		<handle file="images/47273.handle" />
+		<itype>jpeg</itype>
+		<title>Time to celebrate</title>
+		<description></description>
+	</node>
+
+	<node number="50418" owner="default">
+		<handle file="images/50418.handle" />
+		<itype>jpeg</itype>
+		<title>JSR168 by Nico Klasens</title>
+		<description> Nico Klasens is giving a presentation on JSR 168</description>
+	</node>
+
+	<node number="50420" owner="default">
+		<handle file="images/50420.handle" />
+		<itype>jpeg</itype>
+		<title>Extended dev meeting</title>
+		<description>Having a beer I</description>
+	</node>
+
+	<node number="50422" owner="default">
+		<handle file="images/50422.handle" />
+		<itype>jpeg</itype>
+		<title>Extended dev meeting</title>
+		<description>Having a beer II</description>
+	</node>
+
+	<node number="50424" owner="default">
+		<handle file="images/50424.handle" />
+		<itype>jpeg</itype>
+		<title>André van Toly at dev meeting</title>
+		<description> </description>
+	</node>
+
+	<node number="50426" owner="default">
+		<handle file="images/50426.handle" />
+		<itype>jpeg</itype>
+		<title>Henk Hangyi at dev meeting</title>
+		<description> </description>
+	</node>
+
+	<node number="50807" owner="default">
+		<handle file="images/50807.handle" />
+		<itype>jpeg</itype>
+		<title>Meeting technical board 12/7/2006</title>
+		<description> </description>
+	</node>
+
+	<node number="50809" owner="default">
+		<handle file="images/50809.handle" />
+		<itype>jpeg</itype>
+		<title>Meeting technical board 12/7/2006</title>
+		<description> </description>
+	</node>
+
+	<node number="51556" owner="default">
+		<handle file="images/51556.handle" />
+		<itype>jpeg</itype>
+		<title>Developerscake</title>
+		<description>Kennisnet is sponsoring the MMCF coding with a whipped-cream cake!</description>
+	</node>
+
+	<node number="51570" owner="default">
+		<handle file="images/51570.handle" />
+		<itype>jpeg</itype>
+		<title>Half a cake</title>
+		<description>We've started, that should be clear by this picture.</description>
+	</node>
+
+	<node number="51575" owner="default">
+		<handle file="images/51575.handle" />
+		<itype>jpeg</itype>
+		<title>How to keep the spirit up at 00:30h ?</title>
+		<description> </description>
+	</node>
+
+	<node number="51580" owner="default">
+		<handle file="images/51580.handle" />
+		<itype>jpeg</itype>
+		<title>Niko, André, Johannes (standing), Michiel and Henk (sitting)</title>
+		<description>Breakthrough celebration</description>
+	</node>
+
+	<node number="51876" owner="default">
+		<handle file="images/51876.handle" />
+		<itype>jpeg</itype>
+		<title>Using components in CMS Container</title>
+		<description> </description>
+	</node>
+
+	<node number="51884" owner="default">
+		<handle file="images/51884.handle" />
+		<itype>jpeg</itype>
+		<title>Team at work!</title>
+		<description>The Dutch comitters were joined by two Chinese developers (left). From the left to the right: Leo, Ryan, Michiel, Johannes, Andre, Nico. Unfortunately Pierre had allready left at the time this picture was taken.</description>
+	</node>
+
+	<node number="52009" owner="default">
+		<handle file="images/52009.handle" />
+		<itype>jpeg</itype>
+		<title>Crontab component living happily in the CMS Container</title>
+		<description> </description>
+	</node>
+
+	<node number="53012" owner="default">
+		<handle file="images/53012.handle" />
+		<itype>jpeg</itype>
+		<title>MMCF team at work 25-01-2008</title>
+		<description></description>
+	</node>
+
+	<node number="53104" owner="default">
+		<handle file="images/53104.handle" />
+		<itype>jpeg</itype>
+		<title>Status mmcf 080222</title>
+		<description></description>
+	</node>
+
+	<node number="53486" owner="default">
+		<handle file="images/53486.handle" />
+		<itype>png</itype>
+		<title>New admin look in MMBase 1.9</title>
+		<description>One of the new administration pages which are completely rewritten using components,</description>
+	</node>
+
+	<node number="53493" owner="default">
+		<handle file="images/53493.handle" />
+		<itype>png</itype>
+		<title>This article featured at the top of a RSS component</title>
+		<description>The new 1.9 release features a component that displays RSS-feeds, in this case the newsfeed from www.mmbase.org.</description>
+	</node>
+
+	<node number="54283" owner="default">
+		<handle file="images/54283.handle" />
+		<itype>png</itype>
+		<title>MMBase localhost:8080/mmbase</title>
+		<description></description>
+	</node>
+
+</images>
