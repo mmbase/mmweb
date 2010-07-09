@@ -1,0 +1,72 @@
+<jsp:root
+    version="2.0"
+    xmlns:jsp="http://java.sun.com/JSP/Page"
+    xmlns:c="http://java.sun.com/jsp/jstl/core"
+    xmlns:x="http://java.sun.com/jsp/jstl/xml"
+    xmlns:os="http://www.opensymphony.com/oscache"
+    xmlns:mm="http://www.mmbase.org/mmbase-taglib-2.0"
+    xmlns:mmweb="urn:jsptagdir:/WEB-INF/tags/mmweb">
+  <mmweb:html styleClass="home">
+    <jsp:attribute name="title">Convert MMBase news</jsp:attribute>
+    <jsp:attribute name="head">
+    
+    </jsp:attribute>
+    <jsp:attribute name="body">
+      <div id="content">
+        <div>
+          <h2>Convert MMBase news</h2>
+
+
+<mm:import externid="commit">false</mm:import>
+<mm:cloud rank="administrator" method="http">
+  <mm:transaction commitonclose="$commit">
+  
+    <mm:import externid="offset">0</mm:import>
+    <mm:import externid="max">25</mm:import>
+    
+    <ol>
+      <mm:listnodescontainer type="news">
+        <mm:size id="total" write="false" />
+        <mm:maxnumber value="$max" />
+        <mm:offset value="$offset" />
+        <mm:listnodes>
+          <li>
+            
+            <mm:field name="number" /> - <mm:field name="title" />
+            <em> published: <mm:field name="date"><mm:time format="dd-MM-yyyy HH:mm" /></mm:field></em>
+
+            
+            <mm:import id="start" reset="true" />
+            <mm:relatednodescontainer type="mmevents" role="related" searchdirs="destination">
+              <mm:relatednodes>
+                <br />start: <mm:import id="start" reset="true"><mm:field name="start" /></mm:import> ${start}
+              </mm:relatednodes>
+            </mm:relatednodescontainer>
+            
+            <c:if test="${!empty start}">
+              <mm:setfield name="date">${start}</mm:setfield>
+            </c:if>
+            
+          </li>
+        </mm:listnodes>
+      </mm:listnodescontainer>
+    </ol>
+    
+    <mm:url id="pageurl" referids="commit?" absolute="true" write="false" />
+    <mmweb:pager total="${total}" offset="${offset}" max="${max}" baseurl="${pageurl}" />
+  
+  </mm:transaction>
+</mm:cloud>
+
+        </div>
+      </div>
+    
+      <div id="sidebar">
+        <div>
+          <h2>Sidebar</h2>
+        </div>
+      </div>
+  
+    </jsp:attribute>
+  </mmweb:html>
+</jsp:root>
