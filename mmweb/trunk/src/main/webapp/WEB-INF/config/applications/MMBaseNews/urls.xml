@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urls exportsource="mmbase://jeeves.mmbase.org/install/foundation" timestamp="20100709170657">
+	<node number="280" owner="admin">
+		<description>The website of the Nature restoration projects</description>
+		<url>http://www.natuurherstel.nl</url>
+		<name></name>
+	</node>
+
+	<node number="293" owner="admin">
+		<description>Stendersvroeg</description>
+		<url>http://stendersvroeg.vara.nl</url>
+		<name></name>
+	</node>
+
+	<node number="316" owner="admin">
+		<description>de website van de vpro</description>
+		<url>http://www.vpro.nl</url>
+		<name></name>
+	</node>
+
+	<node number="16284" owner="import">
+		<description>The Mozilla Public License</description>
+		<url>http://www.mozilla.org/MPL/MPL-1.0.html</url>
+		<name></name>
+	</node>
+
+	<node number="16286" owner="import">
+		<description>Vereniging Open Source Nederland</description>
+		<url>http://www.opensource.nl</url>
+		<name></name>
+	</node>
+
+	<node number="16296" owner="import">
+		<description>Subscribe to the user mailing list</description>
+		<url>mailto:users-request@mmbase.org?body=subscribe</url>
+		<name></name>
+	</node>
+
+	<node number="16298" owner="import">
+		<description>Unsubscribe from the users mailing list</description>
+		<url>mailto:users-request@mmbase.org?body=unsubscribe</url>
+		<name></name>
+	</node>
+
+	<node number="16300" owner="import">
+		<description>Subscribe to the developers mailing list</description>
+		<url>mailto:developers-request@mmbase.org?body=subscribe</url>
+		<name></name>
+	</node>
+
+	<node number="16302" owner="import">
+		<description>Unsubscribe from the developers mailing list</description>
+		<url>mailto:developers-request@mmbase.org?body=unsubscribe</url>
+		<name></name>
+	</node>
+
+	<node number="16304" owner="import">
+		<description>Subscribe to the announcement mailing list</description>
+		<url>mailto:announce-request@mmbase.org?body=subscribe</url>
+		<name></name>
+	</node>
+
+	<node number="16306" owner="import">
+		<description>Unsubscribe from the announcement mailing list</description>
+		<url>mailto:announce-request@mmbase.org?body=unsubscribe</url>
+		<name></name>
+	</node>
+
+	<node number="16308" owner="import">
+		<description>The Open Source Initiative</description>
+		<url>http://www.opensource.org</url>
+		<name></name>
+	</node>
+
+	<node number="16346" owner="import">
+		<description>Subscribe to the cvs mailing list</description>
+		<url>mailto:cvs-request@mmbase.org?body=subscribe</url>
+		<name></name>
+	</node>
+
+	<node number="16348" owner="import">
+		<description>Unsubscribe from the cvs mailing list</description>
+		<url>mailto:cvs-request@mmbase.org?body=unsubscribe</url>
+		<name></name>
+	</node>
+
+	<node number="16356" owner="import">
+		<description>Send an email to MMBase</description>
+		<url>mailto:info@mmbase.org</url>
+		<name></name>
+	</node>
+
+	<node number="16372" owner="import">
+		<description>Developers Archive</description>
+		<url>http://www.mmbase.org/da</url>
+		<name></name>
+	</node>
+
+	<node number="16378" owner="import">
+		<description>The users mailing list archive</description>
+		<url>http://www.mmbase.org/ua</url>
+		<name></name>
+	</node>
+
+	<node number="16380" owner="import">
+		<description>The announce mailing list achive</description>
+		<url>http://www.mmbase.org/aa</url>
+		<name></name>
+	</node>
+
+	<node number="16382" owner="import">
+		<description>University of Twente</description>
+		<url>http://www.utwente.nl</url>
+		<name></name>
+	</node>
+
+	<node number="16386" owner="import">
+		<description>The SNT maintains the network at the university campus.</description>
+		<url>http://snt.student.utwente.nl</url>
+		<name></name>
+	</node>
+
+	<node number="16388" owner="import">
+		<description>The Idea Machine</description>
+		<url>http://www.ideamachine.nl</url>
+		<name></name>
+	</node>
+
+	<node number="16396" owner="import">
+		<description>Mediamatic</description>
+		<url>http://www.mediamatic.nl</url>
+		<name></name>
+	</node>
+
+	<node number="16400" owner="import">
+		<description>MMBase community projects.</description>
+		<url>http://www.mmbase.org/projects</url>
+		<name></name>
+	</node>
+
+	<node number="16592" owner="import">
+		<description>Advanced Editors</description>
+		<url>http://www.q42.nl/editors.html</url>
+		<name></name>
+	</node>
+
+	<node number="16606" owner="import">
+		<description>Webballey</description>
+		<url>http://www.weballey.net/links/Programming/Databases/</url>
+		<name></name>
+	</node>
+
+	<node number="16608" owner="import">
+		<description>Dmoz</description>
+		<url>http://dmoz.org/Computers/Software/Internet/Site_Management/Content_Management/</url>
+		<name></name>
+	</node>
+
+	<node number="16610" owner="import">
+		<description>Clueful</description>
+		<url>http://www.clueful.com.au/cgi-bin/cmsdirectory/browse/Products:Free%20systems</url>
+		<name></name>
+	</node>
+
+	<node number="16612" owner="import">
+		<description>Google</description>
+		<url>http://directory.google.com/Top/Computers/Software/Internet/Site_Management/Content_Management/</url>
+		<name></name>
+	</node>
+
+	<node number="16614" owner="import">
+		<description>Sreevideos</description>
+		<url>http://www.sreevideos.com/java/development_tools.html</url>
+		<name></name>
+	</node>
+
+	<node number="16616" owner="import">
+		<description>IntranetJournal</description>
+		<url>http://www.intranetjournal.com/tools/cm/</url>
+		<name></name>
+	</node>
+
+	<node number="16618" owner="import">
+		<description>Leren</description>
+		<url>http://www.leren.nl/rubriek/computers_en_internet/software_ontwikkelen/oo/</url>
+		<name></name>
+	</node>
+
+	<node number="16620" owner="import">
+		<description>Pckurier</description>
+		<url>http://www.pckurier.pl/archiwum/artykuly/rzewuski_marek/2001_03_40/systemy.asp</url>
+		<name></name>
+	</node>
+
+	<node number="16622" owner="import">
+		<description>Hartman-Communicatie</description>
+		<url>http://www.hartman-communicatie.nl/Content/tools.htm</url>
+		<name></name>
+	</node>
+
+	<node number="16624" owner="import">
+		<description>Villamedia</description>
+		<url>http://www.villamedia.nl/derden/internet/welkesystemen.htm</url>
+		<name></name>
+	</node>
+
+	<node number="16638" owner="import">
+		<description>Servlets.com</description>
+		<url>http://www.servlets.com/tools/index.html</url>
+		<name></name>
+	</node>
+
+	<node number="16640" owner="import">
+		<description>Opensource.pagina.nl</description>
+		<url>http://opensource.pagina.nl/</url>
+		<name></name>
+	</node>
+
+	<node number="16642" owner="import">
+		<description>Intranetjournal.com</description>
+		<url>http://www.intranetjournal.com/tools/cm/</url>
+		<name></name>
+	</node>
+
+	<node number="16644" owner="import">
+		<description>MMBASE: edit/publish-systeem van de VPRO (dutch)</description>
+		<url>http://www.informatie.nl/artikelen/1999/02/MMBASEeditpublishsysteem_1.html</url>
+		<name></name>
+	</node>
+
+	<node number="16646" owner="import">
+		<description>Backflip.com</description>
+		<url>http://www.backflip.com/members/jimwalks/8604305/page=3/sort=0</url>
+		<name></name>
+	</node>
+
+	<node number="16650" owner="import">
+		<description>Wyona.org</description>
+		<url>http://www.wyona.org/relatedProjects.html</url>
+		<name></name>
+	</node>
+
+	<node number="16664" owner="import">
+		<description>MMEvent (2001)</description>
+		<url>http://www.mmbase.org/mmevent</url>
+		<name></name>
+	</node>
+
+	<node number="16680" owner="import">
+		<description>mmevent@mmbase.org</description>
+		<url>mailto:mmevent@mmbase.org</url>
+		<name></name>
+	</node>
+
+	<node number="16692" owner="import">
+		<description>Wizards Of OS 2</description>
+		<url>http://mikro.org/Events/OS/wos2/topics-e.html</url>
+		<name></name>
+	</node>
+
+	<node number="16750" owner="import">
+		<description>MMatch product overview</description>
+		<url>http://www.mmatch.nl/products</url>
+		<name>www.mmatch.nl/products</name>
+	</node>
+
+	<node number="16758" owner="import">
+		<description>Doing Business With MMBase</description>
+		<url>http://www.mmbase.org/download/DoingBusinessWithMMBase.pdf</url>
+		<name></name>
+	</node>
+
+	<node number="16782" owner="import">
+		<description>Email MMEvent2</description>
+		<url>mailto:mmevent2@mmbase.org</url>
+		<name></name>
+	</node>
+
+	<node number="16784" owner="import">
+		<description>Latest MMBase builds...</description>
+		<url>http://www.mmbase.org/download/builds/</url>
+		<name></name>
+	</node>
+
+	<node number="16790" owner="import">
+		<description>Download section</description>
+		<url>http://www.mmbase.org/download</url>
+		<name></name>
+	</node>
+
+	<node number="16798" owner="import">
+		<description>Results of research</description>
+		<url>http://www.nielsen-netratings.com/pr/pr_030311_global.pdf).</url>
+		<name></name>
+	</node>
+
+	<node number="16800" owner="import">
+		<description>http://www.nu.nl</description>
+		<url>http://www.nu.nl</url>
+		<name></name>
+	</node>
+
+	<node number="16806" owner="import">
+		<description>www.overheid.nl</description>
+		<url>http://www.overheid.nl</url>
+		<name></name>
+	</node>
+
+	<node number="16808" owner="import">
+		<description>www.advies.overheid.nl</description>
+		<url>http://www.advies.overheid.nl</url>
+		<name></name>
+	</node>
+
+	<node number="17310" owner="admin">
+		<description>The home page of Chris Herrebrugh</description>
+		<url>http://www.vpro.nl</url>
+		<name></name>
+	</node>
+
+	<node number="24161" owner="default">
+		<description>app2devtalk.ppt</description>
+		<url>http://www.submarine.nl/mmbase/talks/app2talk/app2devtalk.ppt</url>
+		<name>Powerpoint Application 2 presentation</name>
+	</node>
+
+	<node number="24163" owner="default">
+		<description>taglib features</description>
+		<url>http://mihxil.komputilo.org/mm/mmexamples/taglib/1.1/</url>
+		<name>Presentation Michiel</name>
+	</node>
+
+	<node number="24363" owner="default">
+		<description>SURFnet newsstory (Dutch)</description>
+		<url>http://nieuws.surfnet.nl/nieuws/diensten/jg03-04/39.html</url>
+		<name></name>
+	</node>
+
+	<node number="25043" owner="default">
+		<description>Foundation for a Free Information Infrastructure</description>
+		<url>http://www.ffii.org</url>
+		<name></name>
+	</node>
+
+	<node number="25246" owner="default">
+		<description>All common functions on any webshop are patented.</description>
+		<url>http://webshop.ffii.org</url>
+		<name></name>
+	</node>
+
+	<node number="32568" owner="admin">
+		<description></description>
+		<url>http://www.mmbase.org/contact</url>
+		<name>MMBase contact information</name>
+	</node>
+
+	<node number="35346" owner="admin">
+		<description></description>
+		<url>http://www.syntens.nl/oase</url>
+		<name>Syntens oase-project</name>
+	</node>
+
+	<node number="35347" owner="admin">
+		<description></description>
+		<url>http://www.magproductions.nl</url>
+		<name>MAG Productions</name>
+	</node>
+
+	<node number="42537" owner="admin">
+		<description>Holland Open Software Conference and Platform</description>
+		<url>http://www.hollandopen.nl</url>
+		<name>Holland Open</name>
+	</node>
+
+	<node number="44095" owner="admin">
+		<description>The minutes of both 'Shouting Matches' by Ruben Wendel de Joode were made available on the developers mailinglist. We apoligize for them being in dutch.</description>
+		<url>http://lists.mmbase.org/arc/developers/msg11735.html</url>
+		<name>The minutes of both MMBase Shouting Matches</name>
+	</node>
+
+	<node number="46957" owner="default">
+		<description>MMBase in the IBM Systems Journal, a highly respected international scientific magazine.</description>
+		<url>http://www.research.ibm.com/journal/sj44-2.html</url>
+		<name>IBM Systems Journal on &quot;Open Source Software&quot;</name>
+	</node>
+
+	<node number="47242" owner="admin">
+		<description>UML2MMBase a tool to generate MMBase builders and edit wizards from class diagrams.</description>
+		<url>http://uml2mmbase.finalist.com/</url>
+		<name>UML2MMBase</name>
+	</node>
+
+	<node number="47243" owner="admin">
+		<description>Maven a software project management tool</description>
+		<url>http://maven.apache.org</url>
+		<name>Maven</name>
+	</node>
+
+	<node number="47244" owner="admin">
+		<description>Richtext project</description>
+		<url>http://www.mmbase.org/?portal=199&amp;page=13330&amp;project=14812&amp;template=%2Fdevelopment%2Fprojects%2Fproject.jsp</url>
+		<name>Richtext project</name>
+	</node>
+
+	<node number="47245" owner="admin">
+		<description>Optimization project</description>
+		<url>http://www.mmbase.org/?portal=199&amp;page=13330&amp;project=14804&amp;template=%2Fdevelopment%2Fprojects%2Fproject.jsp</url>
+		<name>Optimization project</name>
+	</node>
+
+	<node number="47425" owner="default">
+		<description>The artikel as pulished in IBM Systems Journal: &quot;MMBase: An open-source content management system&quot;</description>
+		<url>http://www.research.ibm.com/journal/sj/442/becking.pdf</url>
+		<name>Download artikel</name>
+	</node>
+
+	<node number="47682" owner="default">
+		<description>Article &quot;Een onderzoek naar de continuiteit van de MMBase community&quot; by Ruben van Wendel de Joode [in Dutch]</description>
+		<url> http://www.mmbase.org/foundation/MMBase_onderzoeksrapport.pdf</url>
+		<name>Download article</name>
+	</node>
+
+	<node number="47822" owner="admin">
+		<description></description>
+		<url>index.jsp?portal=199&amp;page=13330&amp;project=47816&amp;template=%2Fdevelopment%2Fprojects%2Fproject.jsp</url>
+		<name>Query Cache Project</name>
+	</node>
+
+	<node number="47993" owner="admin">
+		<description>Complete build and several applications build upon 1.7.4</description>
+		<url>/download/releases/MMBase-1_7_4</url>
+		<name>MMBase 1.7.4</name>
+	</node>
+
+	<node number="48340" owner="admin">
+		<description>CultureBase of De Balie</description>
+		<url>http://www.debalie.nl/culturebase</url>
+		<name>CultureBase</name>
+	</node>
+
+	<node number="48459" owner="admin">
+		<description>Beta release of MMBase 1.8</description>
+		<url>http://www.mmbase.org/development/download/build_page.jsp?dir=head/MMBase-1.8.0.beta</url>
+		<name>MMBase 1.8.0 beta</name>
+	</node>
+
+	<node number="49981" owner="default">
+		<description>The first release candidate, contributions and community supported applications based upon this release.</description>
+		<url>/development/download/build_page.jsp?dir=head/MMBase-1.8.0.rc1</url>
+		<name>MMBase 1.8.0-rc1</name>
+	</node>
+
+	<node number="50094" owner="default">
+		<description>Overview of 1.8 and all its applications</description>
+		<url>http://www.mmbase.org/development/download/build_page.jsp?dir=head/MMBase-1.8.0.final</url>
+		<name>MMBase 1.8.0</name>
+	</node>
+
+	<node number="50098" owner="default">
+		<description>ZIP file containing a complete ready-to-go webapp with the MMBase distribution (aprox. 14Mb)</description>
+		<url>http://www.mmbase.org/development/download/head/MMBase-1.8.0.final/mmbase-1.8.0.20060509.zip</url>
+		<name>MMBase 1.8.0 distro</name>
+	</node>
+
+	<node number="50447" owner="default">
+		<description>On saturday June 17 some developers gathered to discuss the active projects. Since the meeting was only attended by committers, we decided to call it an MMBase Committers meeting. So the minutes of the meeting can be found on the mmc page.</description>
+		<url>http://www.mmbase.org/?portal=199&amp;page=25011&amp;docnr=50445</url>
+		<name>Minutes of the MMBase committers meeting of June 17, 2006</name>
+	</node>
+
+	<node number="50649" owner="default">
+		<description>Bugfix release of MMBase 1.7</description>
+		<url>http://www.mmbase.org/download/stable/MMBase-1_7_5/</url>
+		<name>MMBase 1.7.5</name>
+	</node>
+
+	<node number="50655" owner="default">
+		<description>Links to MMBase 1.8.1 and related applications</description>
+		<url>http://www.mmbase.org/development/download/build_page.jsp?dir=head/MMBase-1.8.1.final</url>
+		<name>MMBase 1.8.1</name>
+	</node>
+
+	<node number="50802" owner="default">
+		<description></description>
+		<url>http://www.mmbase.org/tb</url>
+		<name>minutes of the technical board</name>
+	</node>
+
+	<node number="51314" owner="default">
+		<description>More information about the MMBase Component Framework and its development</description>
+		<url>http://www.mmbase.org/mmcf</url>
+		<name>Projectpage MMBase Component Framework</name>
+	</node>
+
+	<node number="51349" owner="default">
+		<description>Component Framework project information.</description>
+		<url>http://www.mmbase.org/mmcf</url>
+		<name>Component Framework</name>
+	</node>
+
+	<node number="51398" owner="default">
+		<description>Download MMBase 1.8.2 and related applications</description>
+		<url>http://www.mmbase.org/development/download/build_page.jsp?dir=stable/MMBase-1_8_2</url>
+		<name>MMBase 1.8.2</name>
+	</node>
+
+	<node number="51596" owner="default">
+		<description>Documentation describing the MMBase component framework its configuration and the deployment of a 'Hello World!' example.</description>
+		<url>http://www.mmbase.org/mmdocs/backenddevelopers/components.html</url>
+		<name>Component Framework documentation</name>
+	</node>
+
+	<node number="51855" owner="default">
+		<description>This page contains the 1.8.3 release, its related applications, the source and documentation.</description>
+		<url>http://www.mmbase.org/development/download/build_page.jsp?dir=stable/MMBase-1_8_3</url>
+		<name>MMBase 1.8.3 and related applications</name>
+	</node>
+
+	<node number="51864" owner="default">
+		<description>Some background information about this piece of Dutch folklore for our foreign visitors.</description>
+		<url>http://en.wikipedia.org/wiki/Sinterklaas</url>
+		<name>Wikipedia entry about Sinterklaas</name>
+	</node>
+
+	<node number="51892" owner="default">
+		<description>EU funded Leonardo project</description>
+		<url>http://stratos2.net</url>
+		<name>Stratos2 project</name>
+	</node>
+
+	<node number="51898" owner="default">
+		<description>Dutch Leonardo website</description>
+		<url>http://www.leonardodavinci.nl/</url>
+		<name>Dutch Leonardo website</name>
+	</node>
+
+	<node number="52398" owner="default">
+		<description></description>
+		<url>http://www.toly.nl/projecten</url>
+		<name>André's webpage for my_editors</name>
+	</node>
+
+	<node number="52484" owner="default">
+		<description>CMS Container community website</description>
+		<url>http://www.cmscontainer.org</url>
+		<name></name>
+	</node>
+
+	<node number="52499" owner="default">
+		<description></description>
+		<url>http://www.mmbase.org/index.jsp?page=21479&amp;portal=202&amp;newsnr=47252&amp;o=30</url>
+		<name>Maven discussed (May 20, 2005)</name>
+	</node>
+
+	<node number="52501" owner="default">
+		<description></description>
+		<url>http://www.mmbase.org/mm</url>
+		<name>Digging into MMBase with Maven</name>
+	</node>
+
+	<node number="52502" owner="default">
+		<description></description>
+		<url>http://www.mmbase.org/mm/developer-activity-report.html</url>
+		<name>MMBase developer activity accoording to Maven</name>
+	</node>
+
+	<node number="52555" owner="default">
+		<description>Complete ready-to-go webapplication of MMBase (distribution, aprox. 14Mb)</description>
+		<url>http://www.mmbase.org/development/download/stable/MMBase-1_8_4/mmbase-1.8.4.20070514.zip</url>
+		<name>MMBase 1.8.4</name>
+	</node>
+
+	<node number="52562" owner="default">
+		<description>Overview in the bugtracker of the 54 issues were fixed in this version</description>
+		<url>http://www.mmbase.org/jira/secure/IssueNavigator.jspa?reset=true&amp;pid=10000&amp;fixfor=10140</url>
+		<name>Issues fixed in MMBase 1.8.4</name>
+	</node>
+
+	<node number="52785" owner="default">
+		<description></description>
+		<url>http://www.mmbase.org/principles</url>
+		<name>Architecture principles</name>
+	</node>
+
+	<node number="52904" owner="default">
+		<description>6 dec 2007 - Demo webapplication of MMBase 1.9 with the MMBase Component Framework. Put the directory 'mmbase19' in the webapp directory, restart your server and start browsing the webapp at http://localhost:8080/mmbase19/</description>
+		<url>http://www.mmbase.org/download/20071206mmbase19.zip</url>
+		<name>Demo MMCF webapplication</name>
+	</node>
+
+	<node number="52920" owner="default">
+		<description>MMBase 1.8.5 release notes</description>
+		<url>http://www.mmbase.org/development/download/stable/MMBase-1_8_5/release-notes.txt</url>
+		<name>MMBase 1.8.5 release notes</name>
+	</node>
+
+	<node number="52922" owner="default">
+		<description>Complete MMBase 1.8.5 webapplication</description>
+		<url>http://www.mmbase.org/development/download/stable/MMBase-1_8_5/mmbase-1.8.5.20071212.zip</url>
+		<name>MMBase 1.8.5 webapp</name>
+	</node>
+
+	<node number="52986" owner="default">
+		<description></description>
+		<url>http://www.mmbase.org/index.jsp?page=21339&amp;item=52978</url>
+		<name>Info on the Component Framework day January 25 2008</name>
+	</node>
+
+	<node number="53199" owner="default">
+		<description>This is an online installation of the 1.9 release. You are allowed to ruin everything.</description>
+		<url>http://mm.meeuw.org/demo</url>
+		<name>Online version of the 1.9 release</name>
+	</node>
+
+	<node number="53201" owner="default">
+		<description>WAR file of MMBase-1.9.0.beta</description>
+		<url>http://www.mmbase.org/development/download/builds/MMBase-1.9.0.beta/example-1.9.0-beta.war</url>
+		<name>MMBase 1.9 beta release</name>
+	</node>
+
+	<node number="53216" owner="default">
+		<description>Release notes of MMBase 1.8.6</description>
+		<url>http://www.mmbase.org/jira/secure/ReleaseNote.jspa?version=10156&amp;styleName=Html&amp;projectId=10000&amp;Create=Create</url>
+		<name>Release notes of MMBase 1.8.6</name>
+	</node>
+
+	<node number="53220" owner="default">
+		<description>MMBase 1.8.6 rc1 webapplication</description>
+		<url>http://www.mmbase.org/development/download/stable/MMBase-1_8_6_rc1/mmbase-1.8.6.20080426.zip</url>
+		<name>MMBase 1.8.6 rc1 webapplication</name>
+	</node>
+
+	<node number="53358" owner="default">
+		<description>MMBase 1.8.6 webapplication</description>
+		<url>http://www.mmbase.org/development/download/stable/MMBase-1_8_6_Final/mmbase-1.8.6.20080804.zip</url>
+		<name>MMBase 1.8.6 webapp</name>
+	</node>
+
+	<node number="53471" owner="default">
+		<description>MMBase 1.9.0 war - containing the example webapp, formerly known as the distro, of MMBase.</description>
+		<url>http://www.mmbase.org/development/download/head/MMBase-1.9.0.final/example-1.9.0.war</url>
+		<name>MMBase 1.9.0 example war</name>
+	</node>
+
+	<node number="53473" owner="default">
+		<description>MMBase 1.9.0 build - page listing all applications that were automatically build against this release.</description>
+		<url>http://www.mmbase.org/development/download/build_page.jsp?dir=head/MMBase-1.9.0.final</url>
+		<name>MMBase 1.9.0 builds</name>
+	</node>
+
+	<node number="53475" owner="default">
+		<description>General documentation about the MMBase Component Framework (MMCF, to be updated) outlining the basic functionality about how to implement it and (re)write your own applications as components.</description>
+		<url>http://www.mmbase.org/mm/documentation/backenddevelopers/components.html</url>
+		<name>MMBase Component Framework documentation</name>
+	</node>
+
+	<node number="53483" owner="default">
+		<description>MMBase 1.9.0 Release notes - containing no less then 126 bug fixes, features and other improvements.</description>
+		<url>http://www.mmbase.org/jira/secure/ReleaseNote.jspa?version=10119&amp;styleName=Html&amp;projectId=10000&amp;Create=Create</url>
+		<name>Release notes of MMBase 1.9.0</name>
+	</node>
+
+	<node number="53755" owner="default">
+		<description></description>
+		<url>https://scm.mmbase.org/</url>
+		<name>Subversion repository of MMBase</name>
+	</node>
+
+	<node number="53820" owner="default">
+		<description>Release notes of MMBase 1.9.1</description>
+		<url>http://www.mmbase.org/jira/secure/ReleaseNote.jspa?projectId=10000&amp;styleName=Html&amp;version=10170</url>
+		<name>Release notes of MMBase 1.9.1</name>
+	</node>
+
+	<node number="53822" owner="default">
+		<description>Example webapp of MMBase 1.9.1</description>
+		<url>http://www.mmbase.org/maven2/org/mmbase/example-webapp/1.9.1/</url>
+		<name>Example webapp of MMBase 1.9.1</name>
+	</node>
+
+	<node number="54062" owner="default">
+		<description>The example webapp and related files</description>
+		<url>http://www.mmbase.org/maven2/org/mmbase/example-webapp/1.9.2-rc2/</url>
+		<name>MMBase 1.9.2-rc2 example webapp</name>
+	</node>
+
+	<node number="54064" owner="default">
+		<description>MMBase 1.9.2-rc2 release notes</description>
+		<url>http://www.mmbase.org/jira/secure/ReleaseNote.jspa?projectId=10000&amp;styleName=Html&amp;version=10171</url>
+		<name>MMBase 1.9.2-rc2 release notes</name>
+	</node>
+
+	<node number="54141" owner="default">
+		<description>MMBase 1.9.2 example webapplication</description>
+		<url>http://www.mmbase.org/maven2/org/mmbase/example-webapp/1.9.2/example-webapp-1.9.2.war</url>
+		<name>MMBase 1.9.2 example WAR</name>
+	</node>
+
+	<node number="54145" owner="default">
+		<description>MMBase 1.8.7 release notes</description>
+		<url>http://www.mmbase.org/jira/secure/ReleaseNote.jspa?version=10160&amp;styleName=Html&amp;projectId=10000&amp;Create=Create</url>
+		<name>MMBase 1.8.7 release notes</name>
+	</node>
+
+	<node number="54147" owner="default">
+		<description>All MMBase 1.8.7 jar's and related applications</description>
+		<url>http://www.mmbase.org/development/download/stable/MMBase-1_8_7_Final/</url>
+		<name>All MMBase 1.8.7 jar's and related applications</name>
+	</node>
+
+	<node number="54149" owner="default">
+		<description>MMBase 1.9.2 jar, javadoc and sources</description>
+		<url>http://www.mmbase.org/maven2/org/mmbase/mmbase/1.9.2/</url>
+		<name>MMBase 1.9.2 jar, javadoc and sources</name>
+	</node>
+
+	<node number="54162" owner="default">
+		<description>Open media platform offering online access to audiovisual material for creative reuse</description>
+		<url>http://www.openimages.eu</url>
+		<name>Open Images</name>
+	</node>
+
+	<node number="54268" owner="default">
+		<description>MMBase 1.9.3 release notes</description>
+		<url>http://www.mmbase.org/jira/browse/MMB/fixforversion/10190</url>
+		<name>MMBase 1.9.3 release notes</name>
+	</node>
+
+	<node number="54289" owner="default">
+		<description>Overview of available downloads</description>
+		<url>http://www.mmbase.org/download</url>
+		<name>MMBase download</name>
+	</node>
+
+</urls>

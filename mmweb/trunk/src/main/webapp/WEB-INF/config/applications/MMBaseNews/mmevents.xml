@@ -1,0 +1,927 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mmevents exportsource="mmbase://jeeves.mmbase.org/install/foundation" timestamp="20100709170657">
+	<node number="13249" owner="admin">
+		<playtime>-1</playtime>
+		<stop>1063981593</stop>
+		<start>1068246008</start>
+		<name></name>
+	</node>
+
+	<node number="14910" owner="import">
+		<playtime>-1</playtime>
+		<stop>946672200</stop>
+		<start>946672200</start>
+		<name>Order 1</name>
+	</node>
+
+	<node number="14920" owner="import">
+		<playtime>-1</playtime>
+		<stop>1064129457</stop>
+		<start>954156292</start>
+		<name></name>
+	</node>
+
+	<node number="14922" owner="import">
+		<playtime>-1</playtime>
+		<stop>955626366</stop>
+		<start>955626362</start>
+		<name></name>
+	</node>
+
+	<node number="14924" owner="import">
+		<playtime>-1</playtime>
+		<stop>956135278</stop>
+		<start>956135273</start>
+		<name></name>
+	</node>
+
+	<node number="14928" owner="import">
+		<playtime>-1</playtime>
+		<stop>956650016</stop>
+		<start>956650013</start>
+		<name></name>
+	</node>
+
+	<node number="14932" owner="import">
+		<playtime>-1</playtime>
+		<stop>956900310</stop>
+		<start>957928108</start>
+		<name></name>
+	</node>
+
+	<node number="14938" owner="import">
+		<playtime>-1</playtime>
+		<stop>957958143</stop>
+		<start>957958141</start>
+		<name></name>
+	</node>
+
+	<node number="14940" owner="import">
+		<playtime>-1</playtime>
+		<stop>958134151</stop>
+		<start>958134149</start>
+		<name></name>
+	</node>
+
+	<node number="14944" owner="import">
+		<playtime>-1</playtime>
+		<stop>959261292</stop>
+		<start>959261290</start>
+		<name></name>
+	</node>
+
+	<node number="14946" owner="import">
+		<playtime>-1</playtime>
+		<stop>959927662</stop>
+		<start>959927660</start>
+		<name></name>
+	</node>
+
+	<node number="14948" owner="import">
+		<playtime>-1</playtime>
+		<stop>960982774</stop>
+		<start>960982772</start>
+		<name></name>
+	</node>
+
+	<node number="14950" owner="import">
+		<playtime>-1</playtime>
+		<stop>962019029</stop>
+		<start>962019027</start>
+		<name></name>
+	</node>
+
+	<node number="14952" owner="import">
+		<playtime>-1</playtime>
+		<stop>962019452</stop>
+		<start>962005046</start>
+		<name></name>
+	</node>
+
+	<node number="14960" owner="import">
+		<playtime>-1</playtime>
+		<stop>962268033</stop>
+		<start>962268031</start>
+		<name></name>
+	</node>
+
+	<node number="14970" owner="import">
+		<playtime>-1</playtime>
+		<stop>964610275</stop>
+		<start>964610273</start>
+		<name></name>
+	</node>
+
+	<node number="14972" owner="import">
+		<playtime>-1</playtime>
+		<stop>966842869</stop>
+		<start>966842868</start>
+		<name></name>
+	</node>
+
+	<node number="14974" owner="import">
+		<playtime>-1</playtime>
+		<stop>967097355</stop>
+		<start>967097354</start>
+		<name></name>
+	</node>
+
+	<node number="14982" owner="import">
+		<playtime>-1</playtime>
+		<stop>968315834</stop>
+		<start>968315830</start>
+		<name></name>
+	</node>
+
+	<node number="14984" owner="import">
+		<playtime>-1</playtime>
+		<stop>971177733</stop>
+		<start>971177726</start>
+		<name></name>
+	</node>
+
+	<node number="14986" owner="import">
+		<playtime>-1</playtime>
+		<stop>972638533</stop>
+		<start>972638531</start>
+		<name></name>
+	</node>
+
+	<node number="14992" owner="import">
+		<playtime>-1</playtime>
+		<stop>972974375</stop>
+		<start>972974373</start>
+		<name></name>
+	</node>
+
+	<node number="14998" owner="import">
+		<playtime>-1</playtime>
+		<stop>976278033</stop>
+		<start>976278028</start>
+		<name></name>
+	</node>
+
+	<node number="15160" owner="import">
+		<playtime>-1</playtime>
+		<stop>980943729</stop>
+		<start>980943720</start>
+		<name></name>
+	</node>
+
+	<node number="15180" owner="import">
+		<playtime>-1</playtime>
+		<stop>982317087</stop>
+		<start>982317082</start>
+		<name></name>
+	</node>
+
+	<node number="15226" owner="import">
+		<playtime>-1</playtime>
+		<stop>983960417</stop>
+		<start>983960415</start>
+		<name></name>
+	</node>
+
+	<node number="15232" owner="import">
+		<playtime>-1</playtime>
+		<stop>985777976</stop>
+		<start>985777969</start>
+		<name></name>
+	</node>
+
+	<node number="15236" owner="import">
+		<playtime>-1</playtime>
+		<stop>988903737</stop>
+		<start>988903725</start>
+		<name></name>
+	</node>
+
+	<node number="15238" owner="import">
+		<playtime>-1</playtime>
+		<stop>990786022</stop>
+		<start>990786019</start>
+		<name></name>
+	</node>
+
+	<node number="15240" owner="import">
+		<playtime>-1</playtime>
+		<stop>1064129519</stop>
+		<start>992855524</start>
+		<name></name>
+	</node>
+
+	<node number="15242" owner="import">
+		<playtime>-1</playtime>
+		<stop>994670524</stop>
+		<start>994670519</start>
+		<name></name>
+	</node>
+
+	<node number="15246" owner="import">
+		<playtime>-1</playtime>
+		<stop>996579622</stop>
+		<start>996579620</start>
+		<name></name>
+	</node>
+
+	<node number="15272" owner="import">
+		<playtime>-1</playtime>
+		<stop>1001077146</stop>
+		<start>1001077142</start>
+		<name></name>
+	</node>
+
+	<node number="15276" owner="import">
+		<playtime>-1</playtime>
+		<stop>1003744638</stop>
+		<start>1003744633</start>
+		<name></name>
+	</node>
+
+	<node number="15280" owner="import">
+		<playtime>-1</playtime>
+		<stop>1011181099</stop>
+		<start>1011181095</start>
+		<name></name>
+	</node>
+
+	<node number="15282" owner="import">
+		<playtime>-1</playtime>
+		<stop>1011198627</stop>
+		<start>1011803403</start>
+		<name></name>
+	</node>
+
+	<node number="15466" owner="import">
+		<playtime>-1</playtime>
+		<stop>1018511741</stop>
+		<start>1018511738</start>
+		<name></name>
+	</node>
+
+	<node number="15582" owner="import">
+		<playtime>-1</playtime>
+		<stop>1021448708</stop>
+		<start>1021448704</start>
+		<name></name>
+	</node>
+
+	<node number="15586" owner="import">
+		<playtime>-1</playtime>
+		<stop>1021468493</stop>
+		<start>1021727690</start>
+		<name></name>
+	</node>
+
+	<node number="15666" owner="import">
+		<playtime>-1</playtime>
+		<stop>1025003170</stop>
+		<start>1025003167</start>
+		<name></name>
+	</node>
+
+	<node number="15678" owner="import">
+		<playtime>-1</playtime>
+		<stop>1026376255</stop>
+		<start>1026721851</start>
+		<name></name>
+	</node>
+
+	<node number="15680" owner="import">
+		<playtime>-1</playtime>
+		<stop>1026377467</stop>
+		<start>1026377464</start>
+		<name></name>
+	</node>
+
+	<node number="15684" owner="import">
+		<playtime>-1</playtime>
+		<stop>1029915410</stop>
+		<start>1029915405</start>
+		<name></name>
+	</node>
+
+	<node number="15688" owner="import">
+		<playtime>-1</playtime>
+		<stop>1034587014</stop>
+		<start>1034587011</start>
+		<name></name>
+	</node>
+
+	<node number="15690" owner="import">
+		<playtime>-1</playtime>
+		<stop>1036426666</stop>
+		<start>1036426666</start>
+		<name>web in a box</name>
+	</node>
+
+	<node number="15696" owner="import">
+		<playtime>-1</playtime>
+		<stop>1040373409</stop>
+		<start>1040373407</start>
+		<name></name>
+	</node>
+
+	<node number="15700" owner="import">
+		<playtime>-1</playtime>
+		<stop>1043338298</stop>
+		<start>1043338298</start>
+		<name>bla</name>
+	</node>
+
+	<node number="15702" owner="import">
+		<playtime>-1</playtime>
+		<stop>1047737461</stop>
+		<start>1047737461</start>
+		<name></name>
+	</node>
+
+	<node number="15704" owner="import">
+		<playtime>-1</playtime>
+		<stop>1048507807</stop>
+		<start>1048507807</start>
+		<name>mmbase 1.6.2 release</name>
+	</node>
+
+	<node number="15706" owner="import">
+		<playtime>-1</playtime>
+		<stop>1048757041</stop>
+		<start>1049090400</start>
+		<name></name>
+	</node>
+
+	<node number="15710" owner="import">
+		<playtime>-1</playtime>
+		<stop>1049891146</stop>
+		<start>1049891142</start>
+		<name></name>
+	</node>
+
+	<node number="15716" owner="import">
+		<playtime>-1</playtime>
+		<stop>1052846526</stop>
+		<start>1052776842</start>
+		<name>mmevent 3</name>
+	</node>
+
+	<node number="15722" owner="import">
+		<playtime>-1</playtime>
+		<stop>1061982127</stop>
+		<start>1061982125</start>
+		<name>1.6.4</name>
+	</node>
+
+	<node number="18657" owner="admin">
+		<playtime>-1</playtime>
+		<stop>1064150815</stop>
+		<start>1064150815</start>
+		<name></name>
+	</node>
+
+	<node number="18868" owner="admin">
+		<playtime>-1</playtime>
+		<stop>1064162672</stop>
+		<start>1068246023</start>
+		<name></name>
+	</node>
+
+	<node number="20118" owner="admin">
+		<playtime>-1</playtime>
+		<stop>1068738987</stop>
+		<start>1068678018</start>
+		<name></name>
+	</node>
+
+	<node number="20121" owner="admin">
+		<playtime>-1</playtime>
+		<stop>1068740883</stop>
+		<start>1068678022</start>
+		<name></name>
+	</node>
+
+	<node number="21071" owner="default">
+		<playtime>-1</playtime>
+		<stop>1069149737</stop>
+		<start>1069110004</start>
+		<name></name>
+	</node>
+
+	<node number="21844" owner="default">
+		<playtime>-1</playtime>
+		<stop>1071759128</stop>
+		<start>1071702056</start>
+		<name></name>
+	</node>
+
+	<node number="21881" owner="default">
+		<playtime>-1</playtime>
+		<stop>1071830995</stop>
+		<start>1071830995</start>
+		<name>BugFixingDay</name>
+	</node>
+
+	<node number="22492" owner="default">
+		<playtime>-1</playtime>
+		<stop>1073898168</stop>
+		<start>1073862031</start>
+		<name></name>
+	</node>
+
+	<node number="22909" owner="default">
+		<playtime>-1</playtime>
+		<stop>1075243139</stop>
+		<start>1075158014</start>
+		<name></name>
+	</node>
+
+	<node number="23105" owner="default">
+		<playtime>-1</playtime>
+		<stop>1075893091</stop>
+		<start>1075849238</start>
+		<name></name>
+	</node>
+
+	<node number="23797" owner="default">
+		<playtime>-1</playtime>
+		<stop>1077283728</stop>
+		<start>1077231618</start>
+		<name></name>
+	</node>
+
+	<node number="24167" owner="default">
+		<playtime>-1</playtime>
+		<stop>1078483479</stop>
+		<start>1078483479</start>
+		<name>MMBase developers meeting March 2004</name>
+	</node>
+
+	<node number="24282" owner="default">
+		<playtime>-1</playtime>
+		<stop>1078838024</stop>
+		<start>1078786840</start>
+		<name></name>
+	</node>
+
+	<node number="24366" owner="default">
+		<playtime>-1</playtime>
+		<stop>1079006388</stop>
+		<start>1078959630</start>
+		<name></name>
+	</node>
+
+	<node number="24828" owner="default">
+		<playtime>-1</playtime>
+		<stop>1080604404</stop>
+		<start>1080597639</start>
+		<name>MMBase-1.7.0-rc3 released</name>
+	</node>
+
+	<node number="25001" owner="default">
+		<playtime>-1</playtime>
+		<stop>1081463764</stop>
+		<start>1081461647</start>
+		<name>MMBase-1.7.0 Release</name>
+	</node>
+
+	<node number="25049" owner="default">
+		<playtime>-1</playtime>
+		<stop>1081516740</stop>
+		<start>1081461607</start>
+		<name></name>
+	</node>
+
+	<node number="27067" owner="default">
+		<playtime>-1</playtime>
+		<stop>1087370491</stop>
+		<start>1087336820</start>
+		<name></name>
+	</node>
+
+	<node number="27319" owner="default">
+		<playtime>-1</playtime>
+		<stop>1088518492</stop>
+		<start>1088978447</start>
+		<name></name>
+	</node>
+
+	<node number="27364" owner="default">
+		<playtime>-1</playtime>
+		<stop>1088769879</stop>
+		<start>1088719232</start>
+		<name></name>
+	</node>
+
+	<node number="31554" owner="admin">
+		<playtime>-1</playtime>
+		<stop>1094204329</stop>
+		<start>1094204329</start>
+		<name>MMBase-1.7.1 Release</name>
+	</node>
+
+	<node number="32566" owner="admin">
+		<playtime>-1</playtime>
+		<stop>1094800271</stop>
+		<start>1094800271</start>
+		<name></name>
+	</node>
+
+	<node number="35350" owner="admin">
+		<playtime></playtime>
+		<stop>1097828086</stop>
+		<start>1097791233</start>
+		<name></name>
+	</node>
+
+	<node number="39934" owner="default">
+		<playtime>-1</playtime>
+		<stop>1103286778</stop>
+		<start>1103286778</start>
+		<name>MMBase-1.7.2 Release</name>
+	</node>
+
+	<node number="40662" owner="admin">
+		<playtime>-1</playtime>
+		<stop>1105106815</stop>
+		<start>1105106815</start>
+		<name>MMBase-1.7.3 Release</name>
+	</node>
+
+	<node number="42530" owner="admin">
+		<playtime></playtime>
+		<stop>1108738638</stop>
+		<start>1108681200</start>
+		<name></name>
+	</node>
+
+	<node number="44093" owner="admin">
+		<playtime></playtime>
+		<stop>1110371434</stop>
+		<start>1110322800</start>
+		<name></name>
+	</node>
+
+	<node number="46959" owner="default">
+		<playtime></playtime>
+		<stop>1114443123</stop>
+		<start>1114380000</start>
+		<name></name>
+	</node>
+
+	<node number="47251" owner="admin">
+		<playtime></playtime>
+		<stop>1116588055</stop>
+		<start>1116540000</start>
+		<name></name>
+	</node>
+
+	<node number="47664" owner="default">
+		<playtime></playtime>
+		<stop>1120486655</stop>
+		<start>1120428000</start>
+		<name></name>
+	</node>
+
+	<node number="47820" owner="admin">
+		<playtime>-1</playtime>
+		<stop>1124110092</stop>
+		<start>1124110092</start>
+		<name></name>
+	</node>
+
+	<node number="48000" owner="admin">
+		<playtime></playtime>
+		<stop>1127373151</stop>
+		<start>1127340000</start>
+		<name></name>
+	</node>
+
+	<node number="48342" owner="admin">
+		<playtime></playtime>
+		<stop>1133353073</stop>
+		<start>1133305200</start>
+		<name></name>
+	</node>
+
+	<node number="48429" owner="admin">
+		<playtime></playtime>
+		<stop>1135675518</stop>
+		<start>1105570800</start>
+		<name></name>
+	</node>
+
+	<node number="48455" owner="admin">
+		<playtime></playtime>
+		<stop>1136794869</stop>
+		<start>1136502000</start>
+		<name></name>
+	</node>
+
+	<node number="48536" owner="default">
+		<playtime></playtime>
+		<stop>1138013523</stop>
+		<start>1137970800</start>
+		<name></name>
+	</node>
+
+	<node number="49450" owner="default">
+		<playtime></playtime>
+		<stop>1143223540</stop>
+		<start>1143154800</start>
+		<name></name>
+	</node>
+
+	<node number="49653" owner="default">
+		<playtime></playtime>
+		<stop>1144138351</stop>
+		<start>1141686000</start>
+		<name></name>
+	</node>
+
+	<node number="49976" owner="default">
+		<playtime></playtime>
+		<stop>1146476655</stop>
+		<start>1146434400</start>
+		<name></name>
+	</node>
+
+	<node number="50089" owner="default">
+		<playtime></playtime>
+		<stop>1147159513</stop>
+		<start>1147125600</start>
+		<name></name>
+	</node>
+
+	<node number="50416" owner="default">
+		<playtime></playtime>
+		<stop>1150735115</stop>
+		<start>1150495200</start>
+		<name></name>
+	</node>
+
+	<node number="50517" owner="default">
+		<playtime></playtime>
+		<stop>1151397525</stop>
+		<start>1151359200</start>
+		<name></name>
+	</node>
+
+	<node number="50666" owner="default">
+		<playtime></playtime>
+		<stop>1153046313</stop>
+		<start>1153000800</start>
+		<name></name>
+	</node>
+
+	<node number="50806" owner="default">
+		<playtime></playtime>
+		<stop>1153155375</stop>
+		<start>1153087200</start>
+		<name></name>
+	</node>
+
+	<node number="51352" owner="default">
+		<playtime></playtime>
+		<stop>1159346484</stop>
+		<start>1159308000</start>
+		<name></name>
+	</node>
+
+	<node number="51408" owner="default">
+		<playtime></playtime>
+		<stop>1159949118</stop>
+		<start>1159912800</start>
+		<name></name>
+	</node>
+
+	<node number="51563" owner="default">
+		<playtime></playtime>
+		<stop>1160729911</stop>
+		<start>1160690400</start>
+		<name></name>
+	</node>
+
+	<node number="51725" owner="default">
+		<playtime></playtime>
+		<stop>1164191634</stop>
+		<start>1165100400</start>
+		<name></name>
+	</node>
+
+	<node number="51732" owner="default">
+		<playtime></playtime>
+		<stop>1164192060</stop>
+		<start>1165100400</start>
+		<name></name>
+	</node>
+
+	<node number="51742" owner="default">
+		<playtime></playtime>
+		<stop>1164192432</stop>
+		<start>1165100400</start>
+		<name></name>
+	</node>
+
+	<node number="51773" owner="default">
+		<playtime></playtime>
+		<stop>1164359907</stop>
+		<start>1164322800</start>
+		<name></name>
+	</node>
+
+	<node number="51863" owner="default">
+		<playtime></playtime>
+		<stop>1165401893</stop>
+		<start>1165359600</start>
+		<name></name>
+	</node>
+
+	<node number="51873" owner="default">
+		<playtime></playtime>
+		<stop>1165919896</stop>
+		<start>1165705200</start>
+		<name></name>
+	</node>
+
+	<node number="51890" owner="default">
+		<playtime></playtime>
+		<stop>1165941914</stop>
+		<start>1165878000</start>
+		<name></name>
+	</node>
+
+	<node number="51985" owner="default">
+		<playtime></playtime>
+		<stop>1169668277</stop>
+		<start>1169593200</start>
+		<name></name>
+	</node>
+
+	<node number="52002" owner="default">
+		<playtime></playtime>
+		<stop>1170837249</stop>
+		<start>1170975600</start>
+		<name></name>
+	</node>
+
+	<node number="52016" owner="default">
+		<playtime></playtime>
+		<stop>1171036796</stop>
+		<start>1170975600</start>
+		<name></name>
+	</node>
+
+	<node number="52395" owner="default">
+		<playtime></playtime>
+		<stop>1173454915</stop>
+		<start>1173394800</start>
+		<name></name>
+	</node>
+
+	<node number="52420" owner="default">
+		<playtime></playtime>
+		<stop>1173897690</stop>
+		<start>1173308400</start>
+		<name></name>
+	</node>
+
+	<node number="52482" owner="default">
+		<playtime></playtime>
+		<stop>1177192800</stop>
+		<start>1177452000</start>
+		<name></name>
+	</node>
+
+	<node number="52508" owner="default">
+		<playtime></playtime>
+		<stop>1178291854</stop>
+		<start>1178229600</start>
+		<name></name>
+	</node>
+
+	<node number="52568" owner="default">
+		<playtime></playtime>
+		<stop>1179260286</stop>
+		<start>1179093600</start>
+		<name></name>
+	</node>
+
+	<node number="52665" owner="default">
+		<playtime></playtime>
+		<stop>1183055382</stop>
+		<start>1182981600</start>
+		<name></name>
+	</node>
+
+	<node number="52786" owner="default">
+		<playtime></playtime>
+		<stop>1188991309</stop>
+		<start>1188943200</start>
+		<name></name>
+	</node>
+
+	<node number="52918" owner="default">
+		<playtime></playtime>
+		<stop>1197494716</stop>
+		<start>1197414000</start>
+		<name></name>
+	</node>
+
+	<node number="52983" owner="default">
+		<playtime></playtime>
+		<stop>1199975739</stop>
+		<start>1199142000</start>
+		<name></name>
+	</node>
+
+	<node number="53011" owner="default">
+		<playtime></playtime>
+		<stop>1201267472</stop>
+		<start>1201215600</start>
+		<name></name>
+	</node>
+
+	<node number="53109" owner="default">
+		<playtime></playtime>
+		<stop>1203700039</stop>
+		<start>1203634800</start>
+		<name></name>
+	</node>
+
+	<node number="53198" owner="default">
+		<playtime></playtime>
+		<stop>1209138659</stop>
+		<start>1209074400</start>
+		<name></name>
+	</node>
+
+	<node number="53230" owner="default">
+		<playtime></playtime>
+		<stop>1209368257</stop>
+		<start>1209160800</start>
+		<name></name>
+	</node>
+
+	<node number="53362" owner="default">
+		<playtime></playtime>
+		<stop>1217948756</stop>
+		<start>1217887200</start>
+		<name></name>
+	</node>
+
+	<node number="53481" owner="default">
+		<playtime></playtime>
+		<stop>1225791202</stop>
+		<start>1225753200</start>
+		<name></name>
+	</node>
+
+	<node number="53757" owner="default">
+		<playtime></playtime>
+		<stop>1240905942</stop>
+		<start>1240869600</start>
+		<name></name>
+	</node>
+
+	<node number="53830" owner="default">
+		<playtime></playtime>
+		<stop>1244097847</stop>
+		<start>1244066400</start>
+		<name></name>
+	</node>
+
+	<node number="53953" owner="default">
+		<playtime></playtime>
+		<stop>1252602681</stop>
+		<start>1252533600</start>
+		<name></name>
+	</node>
+
+	<node number="54006" owner="default">
+		<playtime></playtime>
+		<stop>1256547159</stop>
+		<start>1256511600</start>
+		<name></name>
+	</node>
+
+	<node number="54060" owner="default">
+		<playtime></playtime>
+		<stop>1259225734</stop>
+		<start>1259190000</start>
+		<name></name>
+	</node>
+
+	<node number="54156" owner="default">
+		<playtime></playtime>
+		<stop>1263291403</stop>
+		<start>1263250800</start>
+		<name></name>
+	</node>
+
+	<node number="54275" owner="default">
+		<playtime></playtime>
+		<stop>1271228769</stop>
+		<start>1271196000</start>
+		<name></name>
+	</node>
+
+</mmevents>
