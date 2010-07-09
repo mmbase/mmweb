@@ -7,7 +7,7 @@
   </requirements>
 
   <neededbuilderlist>
-    <builder maintainer="mmbase.org" version="1">category</builder>
+    <builder maintainer="mmbase.org" version="1">pools</builder>
     <builder maintainer="mmbase.org" version="1">news</builder>
     
     <builder maintainer="mmbase.org" version="1">urls</builder>
@@ -26,7 +26,7 @@
   </neededreldeflist>
 
   <allowedrelationlist>
-    <relation from="category" to="news"     type="posrel" />
+    <relation from="pools" to="news"     type="posrel" />
     
     <relation from="news"     to="urls"     type="posrel" />
     <relation from="news"     to="images"   type="posrel" />
@@ -36,7 +36,7 @@
   </allowedrelationlist>
 
   <datasourcelist>
-    <datasource builder="category" path="MMBaseNews/category.xml" />
+    <datasource builder="pools"    path="MMBaseNews/pools.xml" />
     <datasource builder="news"     path="MMBaseNews/news.xml" />
     <datasource builder="urls"     path="MMBaseNews/urls.xml" />
     <datasource builder="attachments"  path="MMBaseNews/attachments.xml" />
