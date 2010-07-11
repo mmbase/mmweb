@@ -21,7 +21,7 @@
     <dependency>
       <groupId>org.mmbase</groupId>
       <artifactId>base-webapp</artifactId>
-      <version>${mmbase.version}</version>
+      <version>1.9-servlet25-SNAPSHOT</version>
       <type>war</type>
     </dependency>
 
