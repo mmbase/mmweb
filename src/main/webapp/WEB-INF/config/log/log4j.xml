@@ -2,7 +2,7 @@
 <!DOCTYPE log4j:configuration SYSTEM "log4j.dtd"
    [
     <!ENTITY mmlevel  "org.mmbase.util.logging.log4j.Log4jLevel" >
-    <!ENTITY logdir   "/export/home/mmweb/log/" >
+    <!ENTITY logdir   "${catalina.base}/logs/" >
 ]>
 <log4j:configuration   debug="false" xmlns:log4j="http://jakarta.apache.org/log4j/" >
 
