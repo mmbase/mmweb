@@ -39,9 +39,8 @@
               <ul class="news nolist">
                 <mm:relatednodes>
                   <li>
-                    <mm:link referids="_node@n">
+                    <mm:link page="article" referids="_node@n">
                       <mm:frameworkparam name="component">mynews</mm:frameworkparam>
-                      <mm:frameworkparam name="block">article</mm:frameworkparam>
                       <a href="${_}"><mm:field name="title" escape="inline" /></a> 
                     </mm:link>
                     <mm:field name="date"><mm:time format="dd-MM-yyyy" /></mm:field> -
@@ -52,7 +51,7 @@
               </ul>
             </mm:relatednodescontainer>
           </mm:node>
-          
+
         </div>
       </div>
     
@@ -70,7 +69,7 @@
           <mm:content expires="120" escaper="none">
             <div class="tweets">
               <h4 class="twitter"><a href="http://twitter.com/mmbase">Follow us on twitter</a></h4>
-              <ul>
+              <ul class="nolist">
                 <os:cache key="tweet.feed.elfuego2" time="120">
                   <c:catch var="ex1">
                     <c:import var="url" url="http://twitter.com/statuses/user_timeline/mmbase.xml?callback=twitterCallback2&amp;count=3" />
