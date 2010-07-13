@@ -15,11 +15,13 @@
 
   <urlconverter class="org.mmbase.mynews.MyNewsUrlConverter">
     <description xml:lang="en">
-      The MMBase urlconverter handles about pretty URL's in /magazine.
+      The MMBase urlconverter handles about pretty URL's in the MyNews application.
     </description>
     <param name="directory">news</param>
-    <param name="useTitle">true</param>
+    <param name="useTitle">false</param>
     <param name="dateDepth">2</param>
+    <param name="mmweb">true</param>
+    <param name="renderJsp">/framework.jspx</param>
   </urlconverter>
 
 
