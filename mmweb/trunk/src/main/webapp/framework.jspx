@@ -1,0 +1,32 @@
+<jsp:root
+    version="2.0"
+    xmlns:jsp="http://java.sun.com/JSP/Page"
+    xmlns:c="http://java.sun.com/jsp/jstl/core"
+    xmlns:mm="http://www.mmbase.org/mmbase-taglib-2.0"
+    xmlns:mmweb="urn:jsptagdir:/WEB-INF/tags/mmweb">
+  
+  <mm:import externid="block" required="true" />
+  <mm:import externid="component">oip</mm:import>
+  
+  <mmweb:html styleClass="${block}">
+    <jsp:attribute name="head">
+      
+      <mm:component name="${component}" block="${block}" render="head" />
+      
+    </jsp:attribute>
+    <jsp:attribute name="body">
+      <div id="content">
+        <div>
+          
+          <mm:component name="${component}" block="${block}" />
+
+        </div>
+      </div>
+      <div id="sidebar">
+        <div>
+          Sidebar?
+        </div>
+      </div>
+    </jsp:attribute>
+  </mmweb:html>
+</jsp:root>
