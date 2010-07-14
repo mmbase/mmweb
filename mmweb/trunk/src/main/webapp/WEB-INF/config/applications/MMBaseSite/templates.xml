@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<templates exportsource="mmbase://jeeves.mmbase.org/install/foundation" timestamp="20100714204030">
+	<node number="13257" owner="admin">
+		<url>/mmbaseweb/templates/news.jsp</url>
+	</node>
+
+	<node number="13260" owner="admin">
+		<url>/development/bugtracker/mmbase.org.jsp</url>
+	</node>
+
+	<node number="13278" owner="admin">
+		<url>/development/projects/index.jsp</url>
+	</node>
+
+	<node number="13339" owner="admin">
+		<url>/mmbaseweb/templates/iframe.jsp</url>
+	</node>
+
+	<node number="13373" owner="admin">
+		<url>/development/article/article.jsp</url>
+	</node>
+
+	<node number="14130" owner="admin">
+		<url>/development/download/releases.jsp</url>
+	</node>
+
+	<node number="14906" owner="admin">
+		<url>/development/projects/closedprojects.jsp</url>
+	</node>
+
+	<node number="18627" owner="default">
+		<url>/development/search/search.jsp</url>
+	</node>
+
+	<node number="19685" owner="default">
+		<url>/mmbaseweb/templates/agenda.jsp</url>
+	</node>
+
+	<node number="21516" owner="default">
+		<url>/css/foundation.css</url>
+	</node>
+
+	<node number="21518" owner="default">
+		<url>/css/dev.css</url>
+	</node>
+
+	<node number="25013" owner="default">
+		<url>/includes/doc_index.jsp</url>
+	</node>
+
+	<node number="25457" owner="default">
+		<url>/development/kbase/mmwebtokbase.jsp</url>
+	</node>
+
+	<node number="38406" owner="default">
+		<url>/mmbaseweb/templates/homepage.jsp</url>
+	</node>
+
+	<node number="41176" owner="default">
+		<url>/development/packageview/index.jsp</url>
+	</node>
+
+	<node number="42552" owner="default">
+		<url>/development/download/index.jsp</url>
+	</node>
+
+	<node number="47016" owner="admin">
+		<url>/development/projects/applications.jsp</url>
+	</node>
+
+	<node number="49871" owner="default">
+		<url>/mmbaseweb/templates/links.jsp</url>
+	</node>
+
+	<node number="53133" owner="default">
+		<url>/mmbaseweb/templates/email.jsp</url>
+	</node>
+
+</templates>

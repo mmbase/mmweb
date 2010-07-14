@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<portals exportsource="mmbase://jeeves.mmbase.org/install/foundation" timestamp="20100714204030">
+	<node number="199" owner="anonymous" alias="backend_developers">
+		<name>Developers</name>
+	</node>
+
+	<node number="202" owner="anonymous" alias="home">
+		<name>MMBase</name>
+	</node>
+
+	<node number="205" owner="anonymous" alias="foundation">
+		<name>Foundation</name>
+	</node>
+
+</portals>

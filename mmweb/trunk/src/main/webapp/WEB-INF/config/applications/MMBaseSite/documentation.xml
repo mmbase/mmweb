@@ -1,0 +1,2666 @@
+<?xml version="1.0" encoding="utf-8"?>
+<documentation exportsource="mmbase://jeeves.mmbase.org/install/foundation" timestamp="20100714204030">
+	<node number="278" owner="admin">
+		<title>What is MMBase?</title>
+		<intro></intro>
+		<body>&lt;P &gt; MMBase is a &lt;STRONG&gt;relational object mapping tool to create state of the art web applications. If you are looking for a state of the art Enterprise Web Content Management System (CMS), please see: &lt;a href=&quot;http://www.cmscontainer.org&quot;&gt;CMScontainer&lt;/a&gt;&lt;/STRONG&gt;. MMBase and the CMScontainer (CMSc) can be used to manage information with only one necessary tool: a webbrowser.&amp;nbsp; MMBase makes it possible to manage information independent from time and place. &lt;STRONG&gt;Information can be created, stored, changed, manipulated and deleted with MMBase, without knowledge of&amp;nbsp;technology.&lt;/STRONG&gt; This of course only if you have the right authorisation to do so. &lt;STRONG&gt;MMbase and the CMSc separates content from lay-out and structure.&lt;/STRONG&gt; This means, for example, that&amp;nbsp;a piece of text can be used on different sites, mobile phones, flash movies, print, CD, in a different context and lay out. If the text itself would contain lay-out properties, it would be very difficult to accomplish this, if possible at all.
+&lt;P &gt; &lt;STRONG&gt;MMBase is an object-oriented system.&lt;/STRONG&gt; This means that information pages normally consists of several objects, for example: picture, text, location, audio, etcetera. Each of these objects can be re-used many times, on many different channels. Nevertheless, an object is stored only once in the database. So if the object changes, the changes will&amp;nbsp;immediately be visible on all devices. So, if the opening time of the library of your organisation changes, you don't have to check all websites where this information was once copied to. Most CMS are not object oriented, but document oriented. These systems are fine if you want to store documents 'as they are', but they are poor in avoiding redundancy of information. Just imagine the amount of documents that has to be checked if e.g. the postal adres of a large company changes.&amp;nbsp;  
+&lt;P &gt; But of course there are also disadvantages of object oriented systems that publish information dynamically.&amp;nbsp;One needs&amp;nbsp;knowledge about databases, application servers, Operating Systems, caching techniques, load balancing, etc.&amp;nbsp; Of course, organisations can rely on implementation and hosting partners in this respect, but for maintaining a small website (say &amp;lt;50 pages), MMBase is probably not the right system.  
+&lt;P &gt; &lt;STRONG&gt;MMbase is build in Java&lt;/STRONG&gt;, and uses &lt;STRONG&gt;open standards &lt;/STRONG&gt;for information exchange (XML) and storage.&amp;nbsp; Perhaps the most important characteristic of MMBase is that it is &lt;STRONG&gt;platform independent&lt;/STRONG&gt;. This means that the choice for an operating system is free (e.g. Linux, Unix, Windows), as is the choice for a database (e.g. Informix, DB2, MSSQL, MySQL, PostgreSQL, Oracle) or application server. MMBase will in future move towards the J2EE platform. &lt;/P&gt;
+&lt;P &gt; Thus the way MMBase maintains its information is very important, but another very import issue is that &lt;STRONG&gt;MMBase can communicate with a lot of hardware and software&lt;/STRONG&gt; that is frequently used for publishing information. e.g. CD players. If a song of a band has to be published, you can insert a CD into a CD player and use your editors to relate the track to the band, at which point the song will be published on your website. No saving of the CD, or converting of formats, or copying to a server is necessary. MMBase has automated these frequently recurring actions. Another example is a photo placed in a scanner. The editors can be used to tell MMBase which relations that image has, and you can give the image a title and a description.  &lt;/P&gt;</body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="488" owner="admin">
+		<title>Open Source and Open Standards.</title>
+		<intro></intro>
+		<body>&lt;P&gt;MMBase is Open Source Software (OSS) and distributed under the Mozilla Public License (MPL version&amp;nbsp;1.0). This means that the source code of MMBase is available to everyone. There is no license fee and applications build with MMBase can be distributed freely. However, applications or components build with MMBase don't necessarily have the same license. MPL also makes closed source commercial applications possible, so be aware of this when signing a contract with an implementation partner. &lt;/P&gt;
+&lt;P&gt;In a lot of companies Open Source Software is still regarded as a lesser, more dangerous choice. And of course, not all OSS is mature enough to use, but the same goes for a lot of commercial software. And the risks of OSS are&amp;nbsp; by far not as huge as the risks of closed source software, where users are mostly depending on one vendor.&amp;nbsp; And that's perhaps the most essential reason to chose OSS: there is no vendor and a user can change from softwarehouse when necessary. &lt;/P&gt;
+&lt;P&gt;The use of Open Standards is very important, whether you are using commercial closed source software or OSS, be sure that the system uses generally accepted standards for the storage and exchange of information. Not the system is of any importance, but the stored data. If the storage is system specific, it is difficult, if not impossible to switch to another -better- application. Especially European governments are setting up rules for the use of Open Standards.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Why did MMBase go Open Source&lt;/STRONG&gt;&lt;BR&gt;&lt;I&gt;Fast-changing technology&lt;/I&gt;:&lt;BR&gt;Technology is changing&amp;nbsp;quickly, and to keep up with all new technologies the Dutch&amp;nbsp;broadcaster VPRO who initialy developed MMBase, would have had&amp;nbsp;to expand its development&amp;nbsp;capacity. But where does that stop? At 10,&amp;nbsp;50, or 200?&lt;BR&gt;&amp;nbsp;&lt;BR&gt;&lt;I&gt;Two developers&amp;nbsp;make better software than one&lt;/I&gt;:&lt;BR&gt;By making MMBase Open Source, everyone can make MMBase better, add new technologies, and help with projects. At this moment dozens of developers are working on MMBase. That's a lot more that the four programmers it all&amp;nbsp;started with.&lt;BR&gt;&amp;nbsp;&lt;BR&gt;&lt;I&gt;Content&lt;/I&gt;:&lt;BR&gt;The broadcasters&amp;nbsp;are content-based organizations, so the software that is used to publish the information is not a goal in itself. You want good software to be able to publish your content in the way you want.&lt;BR&gt;&amp;nbsp;&lt;BR&gt;&lt;I&gt;Ideology&lt;/I&gt;:&lt;BR&gt;Last but not least: the VPRO is a public organization and wants everyone to profit from the systems they developed. &lt;/P&gt;
+&lt;P&gt;Open source doesn't just mean access to the source code. The distribution terms of open-source software must comply with the following criteria:&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;I&gt;1. Free&amp;nbsp;Redistribution&lt;/I&gt;&lt;BR&gt;The license may not restrict any party from selling or giving away the software as a component of an aggregate software distribution containing programs from several different sources. The license may not require a royalty or other fee for such sale.&lt;BR&gt;&lt;I&gt;2. Source Code&lt;/I&gt;&lt;BR&gt;&lt;BR&gt;The program must include source code, and must allow distribution in source code as well as compiled form. Where some form of a product is not distributed with source code, there must be a well-publicized means of obtaining the source code for no more than a reasonable reproduction cost -- preferably, downloading via the Internet without charge. The source code must be the preferred form in which a programmer would modify the program. Deliberately obfuscated source code is not allowed. Intermediate forms such as the output of a preprocessor or translator are not allowed. (rationale) &lt;BR&gt;&lt;I&gt;3. Derived Works&lt;BR&gt;&lt;/I&gt;The license must allow modifications and derived works, and must allow them to be distributed under the same terms as the license of the original software.&lt;BR&gt;&lt;I&gt;4. Integrity of the Author's Source Code&lt;/I&gt;&lt;BR&gt;The license may restrict source-code from being distributed in modified form only if the license allows the distribution of &quot;patch files&quot; with the source code for the purpose of modifying the program at build time. The license must explicitly permit distribution of software built from modified source code. The license may require derived works to carry a different name or version number from the original software. (rationale) &lt;BR&gt;&lt;I&gt;5. No Discrimination Against Persons or Groups&lt;BR&gt;&lt;/I&gt;The license must not discriminate against any person or group of persons. (rationale)&lt;BR&gt;&lt;I&gt;6. No Discrimination Against Fields of Endeavor&lt;BR&gt;&lt;/I&gt;The license must not restrict anyone from making use of the program in a specific field of endeavor. For example, it may not restrict the program from being used in a business, or from being used for genetic research.&lt;BR&gt;&lt;I&gt;7. Distribution of license&lt;BR&gt;&lt;/I&gt;The rights attached to the program must apply to all to whom the program is redistributed without the need for execution of an additional license by those parties&lt;BR&gt;&lt;I&gt;8. License Must Not Be Specific to a Product.&lt;BR&gt;&lt;/I&gt;The rights attached to the program must not depend on the program's being part of a particular software distribution. If the program is extracted from that distribution and used or distributed within the terms of the program's license, all parties to whom the program is redistributed should have the same rights as those that are granted in conjunction with the original software distribution&lt;BR&gt;&lt;I&gt;9. License Must Not Contaminate Other Software.&lt;BR&gt;&lt;/I&gt;The license must not place restrictions on other software that is distributed along with the licensed software. For example, the license must not insist that all other programs distributed on the same medium must be open-source software.&lt;/P&gt;
+&lt;P&gt;&lt;B&gt;3 Mozilla License 1.0 &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;1. Definitions. &lt;BR&gt;&amp;nbsp; &lt;BR&gt;1.1. ``Contributor'' means each entity that creates or contributes to the creation of Modifications. &lt;BR&gt;&amp;nbsp; &lt;BR&gt;1.2. ``Contributor Version'' means the combination of the Original Code, prior modifications used by a Contributor, and the Modifications made by that particular Contributor. &lt;BR&gt;&amp;nbsp; &lt;BR&gt;1.3. ``Covered Code'' means the Original Code or Modifications or the combination of the Original Code and Modifications, in each case including portions thereof. &lt;BR&gt;&amp;nbsp; &lt;BR&gt;1.4. ``Electronic Distribution Mechanism'' means a mechanism generally accepted in the software development community for the electronic transfer of data. &lt;BR&gt;&amp;nbsp; &lt;BR&gt;1.5. ``Executable'' means Covered Code in any form other than Source Code. &lt;BR&gt;&amp;nbsp; &lt;BR&gt;1.6. ``Initial Developer'' means the individual or entity identified as the Initial Developer in the Source Code notice required by Exhibit A. &lt;BR&gt;&amp;nbsp; &lt;BR&gt;1.7. ``Larger Work'' means a work which combines Covered Code or portions thereof with code not governed by the terms of this License. &lt;BR&gt;&amp;nbsp; &lt;BR&gt;1.8. ``License'' means this document. &lt;BR&gt;&amp;nbsp; &lt;BR&gt;1.9. ``Modifications'' means any addition to or deletion from the substance or structure of either the Original Code or any previous Modifications. When Covered Code is released as a series of files, a Modification is: &lt;BR&gt;&amp;nbsp; &lt;BR&gt;A. Any addition to or deletion from the contents of a file containing Original Code or previous Modifications. &lt;BR&gt;&amp;nbsp; &lt;BR&gt;B. Any new file that contains any part of the Original Code or previous Modifications. &lt;BR&gt;&amp;nbsp; &lt;BR&gt;1.10. ``Original Code'' means Source Code of computer software code which is described in the Source Code notice required by Exhibit A as Original Code, and which, at the time of its release under this License is not already Covered Code governed by this License. &lt;BR&gt;&amp;nbsp; &lt;BR&gt;1.11. ``Source Code'' means the preferred form of the Covered Code for making modifications to it, including all modules it contains, plus any associated interface definition files, scripts used to control compilation and installation of an Executable, or a list of source code differential comparisons against either the Original Code or another well known, available Covered Code of the Contributor's choice. The Source Code can be in a compressed or archival form, provided the appropriate decompression or de-archiving software is widely available for no charge. &lt;BR&gt;&amp;nbsp; &lt;BR&gt;1.12. ``You'' means an individual or a legal entity exercising rights under, and complying with all of the terms of, this License or a future version of this License issued under Section 6.1. For legal entities, ``You'' includes any entity which controls, is controlled by, or is under common control with You. For purposes of this definition, ``control'' means (a) the power, direct or indirect, to cause the direction or management of such entity, whether by contract or otherwise, or (b) ownership of fifty percent (50%) or more of the outstanding shares or beneficial ownership of such entity. &lt;BR&gt;&amp;nbsp; &lt;BR&gt;2. Source Code License. &lt;BR&gt;&amp;nbsp; &lt;BR&gt;2.1. The Initial Developer Grant. &lt;BR&gt;The Initial Developer hereby grants You a world-wide, royalty-free, non-exclusive license, subject to third party intellectual property claims: &lt;BR&gt;&amp;nbsp; &lt;BR&gt;(a) to use, reproduce, modify, display, perform, sublicense and distribute the Original Code (or portions thereof) with or without Modifications, or as part of a Larger Work; and &lt;BR&gt;&amp;nbsp; &lt;BR&gt;(b) under patents now or hereafter owned or controlled by Initial Developer, to make, have made, use and sell (``Utilize'') the Original Code (or portions thereof), but solely to the extent that any such patent is reasonably necessary to enable You to Utilize the Original Code (or portions thereof) and not to any greater extent that may be necessary to Utilize further Modifications or combinations. &lt;BR&gt;&amp;nbsp; &lt;BR&gt;2.2. Contributor Grant. &lt;BR&gt;Each Contributor hereby grants You a world-wide, royalty-free, non-exclusive license, subject to third party intellectual property claims: &lt;BR&gt;&amp;nbsp; &lt;BR&gt;(a) to use, reproduce, modify, display, perform, sublicense and distribute the Modifications created by such Contributor (or portions thereof) either on an unmodified basis, with other Modifications, as Covered Code or as part of a Larger Work; and &lt;BR&gt;&amp;nbsp; &lt;BR&gt;(b) under patents now or hereafter owned or controlled by Contributor, to Utilize the Contributor Version (or portions thereof), but solely to the extent that any such patent is reasonably necessary to enable You to Utilize the Contributor Version (or portions thereof), and not to any greater extent that may be necessary to Utilize further Modifications or combinations. &lt;BR&gt;&amp;nbsp; &lt;BR&gt;3. Distribution Obligations. &lt;BR&gt;&amp;nbsp; &lt;BR&gt;3.1. Application of License. &lt;BR&gt;The Modifications which You create or to which You contribute are governed by the terms of this License, including without limitation Section 2.2. The Source Code version of Covered Code may be distributed only under the terms of this License or a future version of this License released under Section 6.1, and You must include a copy of this License with every copy of the Source Code You distribute. You may not offer or impose any terms on any Source Code version that alters or restricts the applicable version of this License or the recipients' rights hereunder. However, You may include an additional document offering the additional rights described in Section 3.5. &lt;BR&gt;&amp;nbsp; &lt;BR&gt;3.2. Availability of Source Code. &lt;BR&gt;Any Modification which You create or to which You contribute must be made available in Source Code form under the terms of this License either on the same media as an Executable version or via an accepted Electronic Distribution Mechanism to anyone to whom you made an Executable version available; and if made available via Electronic Distribution Mechanism, must remain available for at least twelve (12) months after the date it initially became available, or at least six (6) months after a subsequent version of that particular Modification has been made available to such recipients. You are responsible for ensuring that the Source Code version remains available even if the Electronic Distribution Mechanism is maintained by a third party. &lt;BR&gt;&amp;nbsp; &lt;BR&gt;3.3. Description of Modifications. &lt;BR&gt;You must cause all Covered Code to which you contribute to contain a file documenting the changes You made to create that Covered Code and the date of any change. You must include a prominent statement that the Modification is derived, directly or indirectly, from Original Code provided by the Initial Developer and including the name of the Initial Developer in (a) the Source Code, and (b) in any notice in an Executable version or related documentation in which You describe the origin or ownership of the Covered Code. &lt;BR&gt;&amp;nbsp; &lt;BR&gt;3.4. Intellectual Property Matters &lt;BR&gt;&amp;nbsp; &lt;BR&gt;(a) Third Party Claims. &lt;BR&gt;If You have knowledge that a party claims an intellectual property right in particular functionality or code (or its utilization under this License), you must include a text file with the source code distribution titled ``LEGAL'' which describes the claim and the party making the claim in sufficient detail that a recipient will know whom to contact. If you obtain such knowledge after You make Your Modification available as described in Section 3.2, You shall promptly modify the LEGAL file in all copies You make available thereafter and shall take other steps (such as notifying appropriate mailing lists or newsgroups) reasonably calculated to inform those who received the Covered Code that new knowledge has been obtained. &lt;BR&gt;&amp;nbsp; &lt;BR&gt;(b) Contributor APIs. &lt;BR&gt;If Your Modification is an application programming interface and You own or control patents which are reasonably necessary to implement that API, you must also include this information in the LEGAL file. &lt;BR&gt;&amp;nbsp; &lt;BR&gt;3.5. Required Notices. &lt;BR&gt;You must duplicate the notice in Exhibit A in each file of the Source Code, and this License in any documentation for the Source Code, where You describe recipients' rights relating to Covered Code. If You created one or more Modification(s), You may add your name as a Contributor to the notice described in Exhibit A. If it is not possible to put such notice in a particular Source Code file due to its structure, then you must include such notice in a location (such as a relevant directory file) where a user would be likely to look for such a notice. You may choose to offer, and to charge a fee for, warranty, support, indemnity or liability obligations to one or more recipients of Covered Code. However, You may do so only on Your own behalf, and not on behalf of the Initial Developer or any Contributor. You must make it absolutely clear than any such warranty, support, indemnity or liability obligation is offered by You alone, and You hereby agree to indemnify the Initial Developer and every Contributor for any liability incurred by the Initial Developer or such Contributor as a result of warranty, support, indemnity or liability terms You offer. &lt;BR&gt;&amp;nbsp; &lt;BR&gt;3.6. Distribution of Executable Versions. &lt;BR&gt;You may distribute Covered Code in Executable form only if the requirements of Section 3.1-3.5 have been met for that Covered Code, and if You include a notice stating that the Source Code version of the Covered Code is available under the terms of this License, including a description of how and where You have fulfilled the obligations of Section 3.2. The notice must be conspicuously included in any notice in an Executable version, related documentation or collateral in which You describe recipients' rights relating to the Covered Code. You may distribute the Executable version of Covered Code under a license of Your choice, which may contain terms different from this License, provided that You are in compliance with the terms of this License and that the license for the Executable version does not attempt to limit or alter the recipient's rights in the Source Code version from the rights set forth in this License. If You distribute the Executable version under a different license You must make it absolutely clear that any terms which differ from this License are offered by You alone, not by the Initial Developer or any Contributor. You hereby agree to indemnify the Initial Developer and every Contributor for any liability incurred by the Initial Developer or such Contributor as a result of any such terms You offer. &lt;BR&gt;&amp;nbsp; &lt;BR&gt;3.7. Larger Works. &lt;BR&gt;You may create a Larger Work by combining Covered Code with other code not governed by the terms of this License and distribute the Larger Work as a single product. In such a case, You must make sure the requirements of this License are fulfilled for the Covered Code. &lt;BR&gt;&amp;nbsp; &lt;BR&gt;4. Inability to Comply Due to Statute or Regulation. &lt;BR&gt;&amp;nbsp; &lt;BR&gt;If it is impossible for You to comply with any of the terms of this License with respect to some or all of the Covered Code due to statute or regulation then You must: (a) comply with the terms of this License to the maximum extent possible; and (b) describe the limitations and the code they affect. Such description must be included in the LEGAL file described in Section 3.4 and must be included with all distributions of the Source Code. Except to the extent prohibited by statute or regulation, such description must be sufficiently detailed for a recipient of ordinary skill to be able to understand it. &lt;BR&gt;&amp;nbsp; &lt;BR&gt;5. Application of this License. &lt;BR&gt;&amp;nbsp; &lt;BR&gt;This License applies to code to which the Initial Developer has attached the notice in Exhibit A, and to related Covered Code. &lt;BR&gt;&amp;nbsp; &lt;BR&gt;6. Versions of the License. &lt;BR&gt;&amp;nbsp; &lt;BR&gt;6.1. New Versions. &lt;BR&gt;Netscape Communications Corporation (``Netscape'') may publish revised and/or new versions of the License from time to time. Each version will be given a distinguishing version number. &lt;BR&gt;&amp;nbsp; &lt;BR&gt;6.2. Effect of New Versions. &lt;BR&gt;Once Covered Code has been published under a particular version of the License, You may always continue to use it under the terms of that version. You may also choose to use such Covered Code under the terms of any subsequent version of the License published by Netscape. No one other than Netscape has the right to modify the terms applicable to Covered Code created under this License. &lt;BR&gt;&amp;nbsp; &lt;BR&gt;6.3. Derivative Works. &lt;BR&gt;If you create or use a modified version of this License (which you may only do in order to apply it to code which is not already Covered Code governed by this License), you must (a) rename Your license so that the phrases ``Mozilla'', ``MOZILLAPL'', ``MOZPL'', ``Netscape'', ``NPL'' or any confusingly similar phrase do not appear anywhere in your license and (b) otherwise make it clear that your version of the license contains terms which differ from the Mozilla Public License and Netscape Public License. (Filling in the name of the Initial Developer, Original Code or Contributor in the notice described in Exhibit A shall not of themselves be deemed to be modifications of this License.) &lt;BR&gt;&amp;nbsp; &lt;BR&gt;7. DISCLAIMER OF WARRANTY. &lt;BR&gt;&amp;nbsp; &lt;BR&gt;COVERED CODE IS PROVIDED UNDER THIS LICENSE ON AN ``AS IS'' BASIS, WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES THAT THE COVERED CODE IS FREE OF DEFECTS, MERCHANTABLE, FIT FOR A PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE COVERED CODE IS WITH YOU. SHOULD ANY COVERED CODE PROVE DEFECTIVE IN ANY RESPECT, YOU (NOT THE INITIAL DEVELOPER OR ANY OTHER CONTRIBUTOR) ASSUME THE COST OF ANY NECESSARY SERVICING, REPAIR OR CORRECTION. THIS DISCLAIMER OF WARRANTY CONSTITUTES AN ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY COVERED CODE IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER. &lt;BR&gt;&amp;nbsp; &lt;BR&gt;8. TERMINATION. &lt;BR&gt;&amp;nbsp; &lt;BR&gt;This License and the rights granted hereunder will terminate automatically if You fail to comply with terms herein and fail to cure such breach within 30 days of becoming aware of the breach. All sublicenses to the Covered Code which are properly granted shall survive any termination of this License. Provisions which, by their nature, must remain in effect beyond the termination of this License shall survive. &lt;BR&gt;&amp;nbsp; &lt;BR&gt;9. LIMITATION OF LIABILITY. &lt;BR&gt;&amp;nbsp; &lt;BR&gt;UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER TORT (INCLUDING NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE INITIAL DEVELOPER, ANY OTHER CONTRIBUTOR, OR ANY DISTRIBUTOR OF COVERED CODE, OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE LIABLE TO YOU OR ANY OTHER PERSON FOR ANY INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF ANY CHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL, WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER COMMERCIAL DAMAGES OR LOSSES, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE POSSIBILITY OF SUCH DAMAGES. THIS LIMITATION OF LIABILITY SHALL NOT APPLY TO LIABILITY FOR DEATH OR PERSONAL INJURY RESULTING FROM SUCH PARTY'S NEGLIGENCE TO THE EXTENT APPLICABLE LAW PROHIBITS SUCH LIMITATION. SOME JURISDICTIONS DO NOT &lt;BR&gt;ALLOW THE EXCLUSION OR LIMITATION OF INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO THAT EXCLUSION AND LIMITATION MAY NOT APPLY TO YOU. &lt;BR&gt;&amp;nbsp; &lt;BR&gt;10. U.S. GOVERNMENT END USERS. &lt;BR&gt;&amp;nbsp; &lt;BR&gt;The Covered Code is a ``commercial item,'' as that term is defined in 48 C.F.R. 2.101 (Oct. 1995), consisting of ``commercial computer software'' and ``commercial computer software documentation,'' as such terms are used in 48 C.F.R. 12.212 (Sept. 1995). Consistent with 48 C.F.R. 12.212 and 48 C.F.R. 227.7202-1 through 227.7202-4 (June 1995), all U.S. Government End Users acquire Covered Code with only those rights set forth herein. &lt;BR&gt;&amp;nbsp; &lt;BR&gt;11. MISCELLANEOUS. &lt;BR&gt;&amp;nbsp; &lt;BR&gt;This License represents the complete agreement concerning subject matter hereof. If any provision of this License is held to be unenforceable, such provision shall be reformed only to the extent necessary to make it enforceable. This License shall be governed by California law provisions (except to the extent applicable law, if any, provides otherwise), excluding its conflict-of-law provisions. With respect to disputes in which at least one party is a citizen of, or an entity chartered or registered to do business in, the United States of America: (a) unless otherwise agreed in writing, all disputes relating to this License (excepting any dispute relating to intellectual property rights) shall be subject to final and binding arbitration, with the losing party paying all costs of arbitration; (b) any arbitration relating to this Agreement shall be held in Santa Clara County, California, under the auspices of JAMS/EndDispute; and (c) any litigation relating to this Agreement shall be subject to the jurisdiction of the Federal Courts of the Northern District of California, with venue lying in Santa Clara County, California, with the losing party responsible for costs, including without limitation, court costs and reasonable attorneys fees and expenses. The application of the United Nations Convention on Contracts for the International Sale of Goods is expressly excluded. Any law or regulation which provides that the language of a contract shall be construed against the drafter shall not apply to this License. &lt;BR&gt;&amp;nbsp; &lt;BR&gt;12. RESPONSIBILITY FOR CLAIMS. &lt;BR&gt;&amp;nbsp; &lt;BR&gt;Except in cases where another Contributor has failed to comply with Section 3.4, You are responsible for damages arising, directly or indirectly, out of Your utilization of rights under this License, based on the number of copies of Covered Code you made available, the revenues you received from utilizing such rights, and other relevant factors. You agree to work with affected parties to distribute responsibility on an equitable basis. &lt;BR&gt;&amp;nbsp; &lt;BR&gt;EXHIBIT A. &lt;BR&gt;&amp;nbsp; &lt;BR&gt;``The contents of this file are subject to the Mozilla Public License Version 1.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at http://www.mozilla.org/MPL/ &lt;BR&gt;&amp;nbsp; &lt;BR&gt;Software distributed under the License is distributed on an &quot;AS IS&quot; basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License for the specific language governing rights and limitations under the License. &lt;BR&gt;&amp;nbsp; &lt;BR&gt;The Original Code is ______________________________________. &lt;BR&gt;&amp;nbsp; &lt;BR&gt;The Initial Developer of the Original Code is ________________________. Portions created by ______________________ are Copyright (C) ______ _______________________. All Rights Reserved. &lt;BR&gt;&amp;nbsp; &lt;BR&gt;Contributor(s): ______________________________________. &lt;/P&gt;</body>
+		<subtitle>MMBase is Open Source Software (OSS) and distributed under the Mozilla Public License (MPL).</subtitle>
+	</node>
+
+	<node number="489" owner="admin">
+		<title>Getting started with MMBase</title>
+		<intro></intro>
+		<body>&lt;P&gt;Organisations that want to start using MMBase will either have their own technical team or hire a service provider to build an application for them. To get MMBase running, it is necessary to have knowledge of setting up a server, installing an Operating System, a database and an application server.&amp;nbsp;To implement an application, it is necessary to have some knowledge of&amp;nbsp;MMBase, a Java-based system. Documentation about many aspects of MMBase can be found on this site. Information is available for the different fields of expertise, like administrators, developers, managers, etc. The architectural overview offers a quick understanding of the main issues.&amp;nbsp; &lt;/P&gt;
+&lt;P&gt;MMBase is platform independent, so all major Operating Systems kan be used (Linux, Unix, Windows), all major databases (Oracle, Informix, DB2, MSSQL, MYSQL, PostgreSQL) and several application servers. Most organisations choose to use MMBase in combination with techniques and knowledge already present in the organisation. &lt;/P&gt;
+&lt;P&gt;It is very hard to say something general about the hardware environment needed. How mission critical is the system&amp;nbsp;in the organisation, how many visitors are expected, are there many authors using the system, how many interaction facilities are used,&amp;nbsp;etcetera. In the near future, we will describe several best practices, to give starters some reference. &lt;/P&gt;
+&lt;P&gt;When looking for an implementation partner, make sure sufficient knowledge of Java development is present. Or perhaps even better, look for specific MMbase knowledge: professional MMBase-partners are just one click away. &lt;/P&gt;
+&lt;P&gt;If there is a (technical) team within the organisation, looking for support please feel&amp;nbsp;free to contact the MMBase Foundation. &lt;BR&gt;&lt;/P&gt;</body>
+		<subtitle>Do it yourself or hire an implementation partner.</subtitle>
+	</node>
+
+	<node number="492" owner="admin">
+		<title>MMBase Hosting Partners</title>
+		<intro></intro>
+		<body>&lt;P&gt;&lt;STRONG&gt;ASP4ALL&lt;/STRONG&gt;&lt;BR&gt;Postbus 58&lt;BR&gt;1270 AB Huizen&lt;BR&gt;&lt;BR&gt;T: +31 (0)35 5232626&lt;BR&gt;&lt;A href=&quot;http://www.asp4all.nl&quot;&gt;www.asp4all.nl&lt;/A&gt;&lt;br&gt;
+Contact: Arjan Ockhuizen&lt;BR&gt;&lt;A href=&quot;mailto:aockhuisen@asp4all.nl&quot;&gt;aockhuisen@asp4all.nl&lt;/A&gt;&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;IC&amp;S&lt;/STRONG&gt;&lt;BR&gt;Einsteinbaan 4a&lt;BR&gt;3439 NJ Utrecht&lt;BR&gt;&lt;BR&gt;T: +31 (0)30 6355730 &lt;BR&gt;&lt;A href=&quot;http://www.ic-s.nl&quot;&gt;www.ic-s.nl&lt;/A&gt;&lt;br&gt;
+Contact: Quintijn Knepper&lt;BR&gt;&lt;A href=&quot;mailto:info@ic-s.nl&quot;&gt;info@ic-s.nl&lt;/A&gt;&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;INTERNLNET&lt;BR&gt;&lt;/STRONG&gt;Postbus 7020&lt;BR&gt;6503 GM Nijmegen&lt;BR&gt;T: +31 (0)24 3653653&lt;BR&gt;&lt;A href=&quot;http://www.internlnet.nl&quot;&gt;www.internlnet.nl&lt;/A&gt;&lt;br&gt;
+Contact: Han Brouwers&lt;BR&gt;&lt;A href=&quot;mailto:han.brouwers@internl.net&quot;&gt;han.brouwers@internl.net&lt;/A&gt;&lt;/P&gt;</body>
+		<subtitle>These companies specialize in MMBase hosting</subtitle>
+	</node>
+
+	<node number="493" owner="admin">
+		<title>MMBase Implementation Partners</title>
+		<intro></intro>
+		<body>&lt;P&gt;&lt;STRONG&gt;FINALIST IT GROUP&lt;/STRONG&gt;&lt;BR&gt;POBox 1354&lt;BR&gt;3000 BJ Rotterdam&lt;BR&gt;T: +31 (0)10 2170800&lt;BR&gt;&lt;A href=&quot;http://www.finalist.com/&quot;&gt;www.finalist.com&lt;/A&gt;&lt;BR&gt;Contact: Hessel Rosbergen&lt;BR&gt;&lt;A href=&quot;mailto:hessel@finalist.com&quot;&gt;hessel@finalist.com&lt;/A&gt; &lt;/P&gt;
+
+&lt;P&gt;&lt;STRONG&gt;Proteon Development&lt;/STRONG&gt;&lt;BR&gt;Rotterdamseweg 183 c&lt;BR&gt;2629 HD Delft&lt;BR&gt;T: +31 (0)15-268 2557&lt;BR&gt;&lt;A href=&quot;http://www.proteon.nl/&quot;&gt;www.proteon.nl&lt;/A&gt;&lt;BR&gt;Contact: Lex van Sonderen, 06-4560 8868
+Hessel Rosbergen&lt;BR&gt;&lt;A href=&quot;mailto:lex.van.sonderen@proteon.nl&quot;&gt;lex.van.sonderen@proteon.nl&lt;/A&gt; &lt;/P&gt;
+
+&lt;P&gt;&lt;STRONG&gt;FUNC&lt;/STRONG&gt;&lt;BR&gt;Krugerstraat 3&lt;BR&gt;3531 AL Utrecht&lt;BR&gt;T: +31 (0)30 2109750&lt;BR&gt;&lt;A href=&quot;http://www.func.nl/&quot;&gt;www.func.nl&lt;/A&gt;&lt;BR&gt;Contact: Zoran Kovacevic&lt;BR&gt;&lt;A href=&quot;mailto:z.kovacevic@func.nl&quot;&gt;Z.Kovacevic@Func.nl&lt;/A&gt;&lt;/P&gt;
+
+&lt;P&gt;&lt;STRONG&gt;MAG productions&lt;/STRONG&gt;&lt;BR&gt;Pantheon 26&lt;BR&gt;7521 PR Enschede&lt;BR&gt;T: +31 (0)53 4342563&lt;BR&gt;&lt;A href=&quot;http://www.magproductions.nl/&quot;&gt;www.magproductions.nl&lt;/A&gt;&lt;BR&gt;Contact: Martijn Verhoeven&lt;BR&gt;&lt;A href=&quot;mailto:martijn.verhoeven@magproductions.nl&quot;&gt;martijn.verhoeven@magproductions.nl&lt;/A&gt; &lt;/P&gt;
+
+&lt;P&gt;&lt;STRONG&gt;DYNASOL&lt;/STRONG&gt;&lt;BR&gt;Buffelstraat 124 A&lt;BR&gt;3064 AD Rotterdam&lt;BR&gt;T: +31 (0)10 2849732&lt;BR&gt;&lt;A href=&quot;http://www.dynasol.nl/&quot;&gt;www.dynasol.nl&lt;/A&gt;&lt;BR&gt;Contact:Jaco de Groot&lt;BR&gt;&lt;A href=&quot;mailto:jaco@dynasol.nl&quot;&gt;jaco@dynasol.nl&lt;/A&gt; &lt;/P&gt;
+
+&lt;P&gt;&lt;STRONG&gt;IBM&lt;/STRONG&gt;&lt;BR&gt;Computerweg 8&lt;BR&gt;3821 AB Amsterdam&lt;BR&gt;T: +31 (0)20 5139684&lt;BR&gt;&lt;A href=&quot;http://www.ibm.nl/&quot;&gt;www.ibm.nl&lt;/A&gt;&lt;BR&gt;Contact: Alfred Kayser&lt;BR&gt;&lt;A href=&quot;mailto:alfredkayser@nl.ibm.com&quot;&gt;alfredkayser@nl.ibm.com&lt;/A&gt; &lt;/P&gt;
+
+&lt;P&gt;&lt;STRONG&gt;MMATCH&lt;/STRONG&gt;&lt;BR&gt;Hommelstraat 9A &lt;BR&gt;3061 VA Rotterdam&lt;BR&gt;T: +31 (0)6 29054903&lt;BR&gt;&lt;A href=&quot;http://www.mmatch.nl/&quot;&gt;www.mmatch.nl&lt;/A&gt;&lt;BR&gt;Conact: Henk Hangyi&lt;BR&gt;&lt;A href=&quot;mailto:hangyi@xs4all.nl&quot;&gt;hangyi@xs4all.nl&lt;/A&gt; &lt;/P&gt;
+
+&lt;P&gt;&lt;STRONG&gt;SUBMARINE&lt;/STRONG&gt;&lt;BR&gt;Rapenburgerstraat 109&lt;BR&gt;1011 VL Amsterdam &lt;BR&gt;T: +31 (0)20 3301226&lt;BR&gt;&lt;A href=&quot;http://www.submarine.nl/&quot;&gt;www.submarine.nl&lt;/A&gt;&lt;BR&gt;Contact: Bruno Felix&lt;BR&gt;&lt;A href=&quot;mailto:bruno@submarine.nl&quot;&gt;bruno@submarine.nl&lt;/A&gt; &lt;/P&gt;
+</body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="496" owner="admin">
+		<title>MMBase Partners</title>
+		<intro></intro>
+		<body>&lt;P&gt;&lt;STRONG&gt;GEMEENTE AMSTERDAM &lt;/STRONG&gt;&lt;A href=&quot;http://www.bia.amsterdam.nl/&quot;&gt;www.bia.amsterdam.nl&lt;/A&gt;&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;TELEAC NOT &lt;/STRONG&gt;&lt;A href=&quot;http://www.teleacnot.nl/&quot;&gt;www.teleacnot.nl&lt;/A&gt;&lt;/P&gt;
+
+&lt;P&gt;&lt;STRONG&gt;EVANGELISCHE OMROEP &lt;/STRONG&gt;&lt;A href=&quot;http://www.eo.nl/&quot;&gt;www.eo.nl&lt;/A&gt;&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;KENNISNET &lt;/STRONG&gt;&lt;A href=&quot;http://www.kennisnet.nl/&quot;&gt;www.kennisnet.nl&lt;/A&gt;&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;VPRO &lt;/STRONG&gt;&lt;A href=&quot;http://www.vpro.nl/&quot;&gt;www.vpro.nl&lt;/A&gt;
+&lt;P&gt;&lt;STRONG&gt;OVERHEID.NL&lt;/STRONG&gt;&lt;A href=&quot;http://www.overheid.nl/&quot;&gt;www.overheid.nl&lt;/A&gt;&lt;/P&gt; 
+&lt;P&gt;&lt;STRONG&gt;PUBLIEKE OMROEP&lt;/STRONG&gt;&lt;A href=&quot;http://www.omroep.nl/&quot;&gt;www.omroep.nl&lt;/A&gt;&lt;/P&gt;</body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="498" owner="admin">
+		<title>The MMBase Foundation</title>
+		<intro></intro>
+		<body>&lt;P&gt;The MMBase Foundation provides information on the usage of MMBase and attempts to guide the developments of MMBase. &lt;/P&gt;
+&lt;P&gt;The goal of the MMBase Foundation is facilitating the content management system MMBase for Open Source usage, along with its community, focusing on the stabilization, innovation and continuity of the software. 
+&lt;P&gt;The Foundation focuses on supporting and strengthening the MMBase community e.g.&amp;nbsp;by:&amp;nbsp;
+&lt;P&gt;-&amp;nbsp;&lt;U&gt;Coordination&lt;/U&gt;:&amp;nbsp;Coordination between technique and users, and the development of a long term vision in close collaboration&amp;nbsp;with the developers community. &lt;BR&gt;-&amp;nbsp;&lt;U&gt;Moderation&lt;/U&gt;: Mediation between supply and demand. &lt;BR&gt;-&amp;nbsp;&lt;U&gt;Knowledge transfer&lt;/U&gt;:&amp;nbsp;dissemination of knowledge,&amp;nbsp;presentations, organizing events and training. &lt;BR&gt;-&amp;nbsp;&lt;U&gt;Documentation&lt;/U&gt;: Helping with the creation of&amp;nbsp;documentation for the developers community, service providers and&amp;nbsp;users. &lt;BR&gt;-&amp;nbsp;&lt;U&gt;Marketing and promotion&lt;/U&gt;: to assure a healthy growth of the MMBase community. &lt;BR&gt;-&amp;nbsp;&lt;U&gt;Research and development:&lt;/U&gt; Stimulating &amp;nbsp;R&amp;amp;D projects.&lt;BR&gt;-&amp;nbsp;&lt;U&gt;Collaborative development:&lt;/U&gt; The Foundation organizes regular meetings with end-users and service providers to stimulate joined development efforts and/or joined assignments.&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;If you want&amp;nbsp;more information, you can contact the Foundation. You can reach the Foundation at +31 (0)35 6288088 (GMT +1 hour; Amsterdam / Paris time), or at any time by email:&amp;nbsp;&lt;A href=&quot;mailto:Jo@mmbase.org&quot;&gt;Jo@mmbase.org&lt;/A&gt;.&amp;nbsp;&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;A few dozen organizations and&amp;nbsp;service providers provide the MMBase Foundation with the necessary funding to fulfil these tasks, if you are interested in becoming a&amp;nbsp;partner, you can also contact the Foundation. &lt;/P&gt;</body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="505" owner="admin">
+		<title>What is Content Management?</title>
+		<intro></intro>
+		<body>&lt;P&gt;A Content Management System (CMS) helps you manage the content of your organisation and easily publish or use this content on different media: print, website, flashmovie, etc. A definition of content can be 'the whole of texts, images, movies,&amp;nbsp;and sound. &lt;/P&gt;
+&lt;P&gt;&quot;Content management&quot;&amp;nbsp;encloses the development, management (saving, enriching, archiving, and unlocking), presentation and distribution of content. A content management system&amp;nbsp;automates&amp;nbsp;some or all of these activities. The word CMS is mostly used for managing websites.&amp;nbsp; &lt;/P&gt;
+&lt;P&gt;A proper CMS is completely web based. The information is not first stored locally, but all changes are carried out directly on the server&amp;nbsp;and are immediately visible on the web. The only tool that&amp;nbsp;you need is a web browser. You can surf to a specific location (web address) and you can log on to a server (with a user name and password). When using a CMS no knowledge of HTML is necessary for creating, editing, and archiving information.&lt;/P&gt;
+&lt;P&gt;Basic principles of a professional content management system:&lt;/P&gt;
+&lt;P&gt;- Proper exchange of current data between persons and organizations: for this it is necessary that the construction of content object types, the metadata structure, is well thought through and web pages are built up live (dynamically). Advanced websites are database directed. &lt;BR&gt;- Medium neutral storage of information: independence of software programs.&lt;BR&gt;- Absolute division between design, content and functionality: changes in the design and functionality can be made without consequences for the content.&lt;BR&gt;- Redundancy of information&amp;nbsp;has to be avoided: with an object oriented CMS, information is never copied, but there is a reference to the source: the database (property) where is information is stored. Changes in source (the opening times of a library) will be carried out at the same time throughout the website.&lt;BR&gt;- One needs to think about the construction of the information structure thoroughly. &lt;/P&gt;</body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="599" owner="admin">
+		<title>Why use MMBase?</title>
+		<intro></intro>
+		<body>&lt;P&gt;MMBase is offers strong basic functionality and is scalable to your present and future needs. MMbase combines out of the box, easy to use, functionalities with the power of future adaptation to specific needs. MMBase is an ongoing project, supported by many large scale organisations. Money is almost solemnly spent on development instead of marketing and promotion.&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;- MMBase is Open Source. The source code is accessible and there is no license fee (Mozilla Public License).&lt;BR&gt;- MMBase uses Open Standards. This makes it easier to exchange information with other systems.&lt;BR&gt;- MMBase leaves (almost) all choices (objecttype definition, metadatamodel, etc) open.&lt;BR&gt;- MMBase is browser oriented. The only tool you need to update your site is a standard webbrowser. &lt;BR&gt;- MMBase offers the right balance between 'out of the box' functionalities, and the possibility to keep up with future needs and techniques.&lt;BR&gt;- MMBase is very scalable, and therefore it can be used by an (almost) unlimited number of users and visitors.&lt;/P&gt;
+&lt;P&gt;The focus is: offering high quality software and avoiding dependencies. If you choose MMBase you will never be dependent on one vendor that decides on fees and license agreements one-sidedly. There is also no obligation to use one specific operating system or database. MMBase is platform independent and supports al major operating systems and databases. Companies can make decisions based on cost aspects, the available expertise and standards within the company.&lt;/P&gt;
+&lt;P&gt;There can be many reasons to decide in favor or against the use of MMBase. If you want more information please contact the MMBase Foundation or ask us to fill out an RFI (request for information).  &lt;/P&gt;
+&lt;P&gt;Mail: &lt;A href=&quot;mailto:Jo@mmbase.org&quot;&gt;Jo@mmbase.org&lt;/A&gt; or call +31 (0)35 6288088 (office hours; gmt +1).&lt;/P&gt;</body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="601" owner="admin">
+		<title>The MMBase Open Source Project</title>
+		<intro></intro>
+		<body>&lt;P&gt;The MMBase developers are the core part of the MMBase project. Without these developers, in fact, there would be no MMBase project. The roles and responsibilities that people assume within the project are based on merit. Everyone can help regardless of what their role is. The developers community is very active. Every day information exchange takes place on the mailing list and the IRC (MMBase chat). The MMBase management Committee and the Committers do their best to manage all processes. &lt;/P&gt;
+&lt;P&gt;MMBase Management Committee. &lt;BR&gt;The MMBase Management Committee consists of 5&amp;nbsp;developers who have made major contributions to the project and have in depth knowledge of the system. The MMC coordinates the Open Source process,&amp;nbsp;the MMBase projects, the&amp;nbsp;code that is&amp;nbsp;added to the core. They make release plans and manage CVS. &lt;/P&gt;
+&lt;P&gt;Committers&lt;BR&gt;The MMC&amp;nbsp;is supported by a group of eleven committers who can also make immediate changes in the core of MMBase. A vote is taken on every important change in the core. The Committers are developers who have frequently added valuable code to MMBase. Committers are people who know very well how MMBase is constructed, and they also know what they can and may add to the CVS.&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;Developers&lt;BR&gt;The Developers are all those people who are involved in the MMBase process. Developers inform us about bugs and try to solve these bugs. All people seriously working on MMBase can obtain the status of developer. If a Developer frequently submits code that is valuable to MMBase, the status of the Developer could&amp;nbsp;be upgraded to Committer.&lt;/P&gt;
+&lt;P&gt;Please find more information on the developersportal.&lt;/P&gt;</body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="13402" owner="admin">
+		<title>(Anonymous) Subversion access</title>
+		<intro></intro>
+		<body>To access MMBase's Subversion repository anonymously you must of course have svn installed. 
+
+The URL is: https://scm.mmbase.org/
+
+This you can use on the command like so
+
+scv co https://scm.mmbase.org/mmbase/trunk
+
+If you want to check in, svn will request a name and password. It is your original CVS pserver account. Otherwise contact the dev-list, and we'll help you.
+
+The full commit history can be browsed at http://scm.mmbase.org/view/</body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="14252" owner="import">
+		<title>IMAGE Module</title>
+		<intro></intro>
+		<body>Images can be received form MMBase by placing the following tag in your template:
+&lt;IMG name=&quot;Blabla&quot; SRC=&quot;http://www.mmbase.org/img.db?objectnumber&gt;
+
+The first time the image is requested it will take a moment because the image has to be rendered to the format you're asking. The second time you request the image in will be received from a cache.
+
+Click on the image below and I'll guide you through a couple of possibilities.
+
+The location of your internet browser will point at http://www.mmbase.org/img.db?1045+s(600x600)
+
+This means that the image with objectnumber 1045 will be displayed (MMBase logo) and that the size of the image has to fit in a box of 600 by 600 pixels. 
+Images can be rendered in a lot of ways, I'll give you some commands. change the url whit the new commands and see what happens.
+
+The rendering commands mentioned below can be placed at the end of the following url: http://www.mmbase.org/img.db?1045
+  
+scaling with one value: +s(100)
+scaling with two values: +s(60x50)
+resize:+s(380!x10!) This will be the size of the image.
+
+format:+f(gif) The image will be displayed as gif, use e.g. jpeg if you don't want to display animated gifs.
+ 
+modulate +modulate(0,-100,0)
+The modulate command is always followed by 3 numbers between brackets. The numbers stand for brightness [-100,100], saturation [-100,100] and hue [-100, 100]. Here are a few examples; try your own combinations.
+
+border +bordercolor(000000) +border(3x20)&gt;
+
+part +part(0x0x150x150)
+This is the same as the crop filter. The first two numbers are coordinates for a beginning point (y,x), the other two for the end point.
+
+roll +roll(60x20)
+This is just like Photoshop's wrap filter. The first number indicates the horizontal value, the second gives the vertical value. 
+
+mirror: +flipx +flipy
+
+rotate: +r(90)
+
+some more: +wave(30) +swirl(200) +shear(30) +raise(20)</body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="14256" owner="import">
+		<title>MMChat: 2002/10/17</title>
+		<intro></intro>
+		<body>Present were: Daniel, Rob, Pierre, Gerard, Rico
+
+1) CVS Toegang / Freeze
+We will freeze CVS acccess for new projects until we have made a branche for a new MMBase (1.6) release. Until that time those projecst can use the &quot;speeltuin&quot; CVS module.
+
+2) MMBase 1.5.2/1.6
+Hat wil create a releaseplan for 1.6 this week, as well as a todo-list for the 1.5.2 release. After the releaseplan has been discussed and accepted (through a vote), the freeze will go in (possible date Friday 25/10/2002).
+
+In the future, we will be aiming for a new release every three months, with more frequently bugfix-releases.
+
+3) JDK 1.3
+The JDK on MMbase,org needs to be updated to 1.3. Rico takes action, assisted by Daniel.
+Indicated date for the upgrade is 25/10/2002
+
+4) Memory probleem
+We have memory problems on mmabse,org. Rico will add another swapdisk and see if there are other ways to periodically clean memory.
+
+5) CVS maintainance
+Michiel Meeuwissen has shown interest to maintain CVS. Rico will arrange access for him.
+
+6) IRC
+The #mmbase channel on IRC moved to slashnet.
+Slashnet provides better facilities to adminstrate channels. #mmbase and #mmchat are now owned by Pierre van Rooden (gomez).
+Johannes Verelst (Gullie) is successor for #mmbase, Rob Vermeulen (loeki) for #mmchat.
+#mmchat will become a restricted channel.
+Both channels will have access lists that determine who can be operator, and who cannot.
+
+7) Going International
+Rob Wil start sending emails to a number of sites, to draw developers to MMBase.
+
+8) MMBase Foundation
+The MMC had an introduction meeting with Jo Lahaye from the foundation. Jo has been busy to set up sponsoring, register the 'mmbase' name, and finding out who is using MMBase, and what they intent to particpate in the community.
+The MMC presented a list of what they hope the foundation can do for them.
+Next week we will have another meeting with Jo to discuss the community projects (current and anticipated) November 11th there will be another meeting, this time also with Rob, and possibly some additional users or sponsors.
+
+Next IRL MMC meeting:
+November 14th from 15 till 18, we will have a face-to-face MMC meeting, to discuss - among other things - the tasks and functioning of the MMC.
+</body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="14284" owner="import">
+		<title>MMChat: 2002/10/24</title>
+		<intro></intro>
+		<body>Present were: Daniel, Rob, Pierre, Gerard
+
+1) MMBase Foundation
+Daniel and Pierre had a meeting with Jo to explain the structure of MMBase and discuss the current projects. 11th of november there will be another meeting with the entire MMC and possibly some other people (sponsors and users).
+
+2) MMBase release
+Tomorrow (Fri 25/10/2002) Gerard will propose the final releaseplan and start the vote to accept it. We will also initiate a 'vote freeze', so no new hacks can be proposed untill after the branche. The freeze will go in after the vote for the releaseplan (Wen 30/10/2002).
+
+3) Community meeting
+We expect there will be a community meeting in january, arranged by the Foundation.
+It will involve active MMBase users and developers.
+One of the topics is how to improve MMbase together (both in reaping the benefits and contributing to the development).
+
+4) Query
+The Query project will receive cvs access after the branch is made.
+The project lasses will be stored in org.mmbase.storage.search
+
+5) Voting
+Daniel will start work on a tool for the MMBase site to keep track of voting and hacks.
+He'll start on it after the release has been made (current priority is bugfixing the release). </body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="14304" owner="import">
+		<title>MMChat: 2002/08/08</title>
+		<intro></intro>
+		<body>Present were: Rob, Gerard, Daniel
+On vacation: Rico, Pierre
+
+1) MMEvent II
+The organisator of MMEventII asked Daniel if the MMC would fill in a parallel session. The MMC wants to benefit MMEvent, but people are on vacation, and are going on vacation, so we don't know who can be present and help to organise it. Daniel will start with putting a program on paper for the duration of the parallel session that is targeted for a bit technical audience and is taking 2 hours.
+
+
+2) MMBase.org administrator
+Daniel has contact with Jacco, he wants to support MMBase with administrating the MMBase.org site. At this moment Jacco has to do this job as a volunteer. When the foundation is active we will try to arrange things better. 
+
+3) More points to discuss.
+MMC members are busy now. This because the summer is a busy period with festivals and other activities and people are going on vacation. The MMChat was short, but we try to discuss other points by email. These topics will be mentioned in the next minutes. The topics are:
+- Mail MX, for xxx@foudnation.mmbase.org
+- MMBase internationnal
+- MMC vision 6 months / 2 years
+- DB layer ideas
+</body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="14310" owner="import">
+		<title>MMChat: 2002/05/16</title>
+		<intro></intro>
+		<body>Present: Daniel, Gerard, pierre, Rob 
+
+1. Foundation 
+
+Jeroen Elfferich is done with his work. This leaves the foundation to be run by Martijn Verver, Dick Rijken, and Sjoerd. 
+Daniel has been asked to take place in the sollicitation Committee, as a representative of the MMC. The committe is to appoint a director for the Foundation. They will meet at may 22. 
+
+2. BBQ 
+Daniel will organise a MMBase barbeque. We aim at a meeting not solely aimed at developers, but for everyone involved with MMBase. There are ideas about organisating it at the VPRO. 
+
+3. Enquette 
+We will add a poll (a form) to the mmbase.org website. This will allow us to determine what people use for their MMBase sites (i.e. version of JDK, webserver, database, etc.). The new admin pages will contain an url to this form. It will also be 
+posted on the announce/user lists. 
+
+4. MMBase international 
+We want to take MMbase international. The suggestion is to post the link of the mmbase.org site on www.javalobby.com and www.freshmeat.com. (www.slashdot.org and 
+www.javasoft.com may follow later). 
+We will wait for the 1.5.1 update. Daniel will inform the Foundation of the action. 
+
+5. MMBase news op site/Announce list 
+The announce list doesn't work any more. 
+Rico (not present) should fix this. 
+
+6. Design/domains 
+Daniel will add the design, develop, and foundation subdomains. Henk Hangyi has received an account so he can set up the designers community. 
+
+7. T-shirts 
+Daniel will check for prices for print T-shirts with a MMBase logo. Maybe we could make a contest out of it? 
+</body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="14312" owner="import">
+		<title>MMChat: 2002/05/23</title>
+		<intro></intro>
+		<body>Present: Daniel, Gerard, Rob, Pierre 
+
+1. Foundation 
+Yesterday were the interviews for the job of director for the Foundation. Two kandidates are left. The Foundation needs to create a working plan for this new director describing his tasks for the first six months. 
+The MMC need to make clear their expectation of the director. We will work on this next week. 
+
+2. BBQ 
+Daniel is organizing this. The VPRO and Foundation support the idea. Daniel will cooperate with Henk Hangyi to also set up a user meeting in combination with the barbeque. 
+
+3. Enquette 
+Daniel will create a proposal and send it to the mmc list. 
+
+4. MMBase internationaal 
+We are waiting for 1.5.1, which will be finished before the end of the month. 
+Rob will make a proposal for placing MMBase on the international websites. 
+The proposal will first be sent to the mmc list, and then for final evaluation to the developers list. Daniel has informed the Foudnation, who were supportive for the way we plan to take MMBase worldwide. (Please are not going to inform big web sites now!!! )
+
+5. Administration MMBase.org 
+There are too many problems with the administration of the mmbase.org 
+machine. Rico has to indicate if he can spare enough time for administration, and 
+if he still desires to do so. Otherwise, we will send a sollicitation to the developers and annoucunce list for a new administrator, for which Rico can make the proposal. 
+Experience is desired with exim, majordomo, cvs, orion, apache,jdk ,knowledge of solaris, mysql, squid. 
+We hope to have the Foundation fund administration. Daniel will propose this. 
+We also want to make clear the ownership of the mmbase.org machine and the contract on hosting the site (i.e. ownership of the domain). 
+
+6. Design/domains 
+Daniel will arrange this. 
+
+7. T-shirts 
+Daniel will ask for prices.
+
+8. Apps2 project 
+Daniel has now time again to be the project leader of the application project. 
+
+9. Media project 
+This project will be started. It focusses on cleaning, and streamlining the code for playing media using MMBase. Rob wil be the project leader. Other memers include Gerard, Marcel, Daniel, and Michiel. 
+
+</body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="14324" owner="import">
+		<title>Submarine</title>
+		<intro></intro>
+		<body>Submarine is an independent studio producing convergence programming and formats. With expertise of both high quality content and technology, Submarine focuses on the creation of true new media formats that make use of the explosion of media channels and outlets. Where users seamlessly transform from couch potato to shopper, from traveller to visitor and from information gatherer to decisionmaker, Submarine produces formats for informational and entertainment programming using a variety of mediaplatforms from television and the internet to mobile devices. Submarine was founded in Jan 2000 by 3 people from VPRO-Digital so using MMBase within our project where possible was a natural fit. As a example we just finished a mmbase based project for the VPRO called 'Its the End of TV - As we know it' a combination of a tv program and a website that can be found at www.submarine.nl/endoftv. As a company we are available for consulting on mmbase based projects ranging from advice on how to design a mmbase datastructure to coproducing programs if they fit within our company. If you feel that Submarine can do something along these lines for you give us a call :
+
+
+http://www.submarine.nl
+Lijnbaansstraat 4
+1016 SV, Amsterdam
+31.20.3301226 phone
+31.20.4208449 fax
+</body>
+		<subtitle>Submarine is an independent studio producing convergence programming and formats. With expertise of both high quality content and technology, Submarine focuses on the creation of true new media formats that make use of the explosion of media channels and</subtitle>
+	</node>
+
+	<node number="14424" owner="import">
+		<title>MMBase</title>
+		<intro></intro>
+		<body>Of course, the MMBase site itself has been implemented in MMBase. To show that the information within MMBase can be easily reused, we still have the old MMBase site online (check the related URLs).
+
+The MMBase site runs on an Enterprise 450 machine provided by Sun Microsystems, the connection is provided by xs4all, and most of the information on the site is provided by the VPRO. 
+
+The MMBase site shows how to make a dynamic site that can easily be maintained. Almost everything is automated.
+</body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="14426" owner="import">
+		<title>Submarine Site</title>
+		<intro></intro>
+		<body>The &quot;End of TV&quot; documentary project allows visitors to both view as well as compose their own video program out of fragments from the TV show &quot;The End of TV&quot;. The site was created by MMBase pioneer Daniel Ockeloen, amongst others.</body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="14439" owner="import">
+		<title>When not to use MMBase</title>
+		<intro></intro>
+		<body>&lt;P&gt;If you want to setup or contain a small website with less than 50 pages and just a few updates a year, it's probably easier and cheaper to use a simple page editing&amp;nbsp;tool. &lt;/P&gt;
+&lt;P&gt;MMBase always requires (some) knowledge of setting up a server, database, application server, etc. Or you need an asp who can do this for you, like asp4all or internlnet (see: hostingpartners). &lt;/P&gt;
+&lt;P&gt;Of coures if you have already an MMBase intallation up and running, it's very easy to create a new small website. &lt;/P&gt;</body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="14459" owner="import">
+		<title>MMChat: 2002/01/31</title>
+		<intro></intro>
+		<body>Present:Daniel, Rico, Gerard, Pierre, and Rob
+ 
+Agenda:
+1) Rules for voting 
+2) MMBase foundation
+3) Developers meeting
+4) Distro/editwizard
+ 
+1) Rules for voting
+Pierre is going to review the existing rules and is going to make a clear and complete overview. This overview will be posted to the mmc list. When we have a solid (and up to date) set of rules they will be posted to the developers list and be put online on MMBase.org
+ 
+2) MMBase Foundation
+We have been reading some foundation documentation. Daniel updates us about the foundation. He mentioned that he had problems making clear what we expect from the foundation. He explained the misunderstandings, we as the MMC are 100% behind the standpoint of Daniel. 
+In short: The foundation has to facilitate MMBase. e.g. by providing clear information, helping with technical things such as mailinglists, webserver, and as a producer for e.g. events. The Foundation is not MMBase, it's only a organisation that supports the MMBase community.
+ 
+3) Developers Meeting
+Some people want to give a presentation at the meeting. Daniel is going to try to fix facilities for the presentations and will mail the developers list for information about this.
+ 
+4) Distro/editwizard
+The organisations involved in the edit wizard have approved to make the edit wizard open source. Gerard will announce this, but will wait untill the next wizard meeting is finished. Gerard will inform the developers about the wizard code.
+</body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="14493" owner="import">
+		<title>Q42</title>
+		<intro></intro>
+		<body>Q42 is a small agency that focuses on the creation of 'internet applications'.
+
+As organisations open up more of their services via the internet, more
+complex websites will appear that look and feel like true applications. Q42
+focuses on these complex websites from both the perspective of the user and
+the organisation, creating functional applications that have a good 'feel'
+and an underlying information architecture that enables evolution.
+
+The people working at Q42 come from interaction design and software
+engineering backgrounds but they see themselves as 'internet architects'. As
+such they conceptualize and develop internet applications, taking into account the strategic and organisational context. If this context exceeds Q42's in-house expertise, a partnership is created with a complementary professional organisation.
+
+Q42 is enthousiastic about internet technology and the development of meaningful advanced functionalities. Development is preferably done using standardized, modular, light-weight techniques such as XML and Java. MMBase and Q42's 'Single Page Interface' architecture (which enables applications on a single web page) are based on these techniques.
+
+The founders of Q42 have created internet solutions for organisations such as VNU, Canon, Het Parool, KPN, International Film Festival Rotterdam and Algemeen Dagblad. Q42 currently uses MMBase for the development of internet platforms for a well-known film festival and a popular music venue.
+
+Interested? Contact Maarten Handstede at:
+maarten@q42.nl  or +31 (0)6 50 68 61 26
+</body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="14569" owner="import">
+		<title>Finalist</title>
+		<intro></intro>
+		<body>Finalist IT Group specializes in Java development and consultancy. With 40 people in two locations (Rotterdam and Amsterdam) its probably the largest independant Java company in the Netherlands.
+Our clients range from the large finance organisations to media organisations like VPRO. 
+Finalist is currently involved in several MMBase projects.
+
+Bram
+tel. +31 (0)20 5962320
+email bram@finalist.com
+</body>
+		<subtitle>Java Specialists</subtitle>
+	</node>
+
+	<node number="14573" owner="import">
+		<title>MMChat: 2001/05/21</title>
+		<intro></intro>
+		<body>Present: Rico, Gerard, Daniel, Rob
+
+Main Topic: CVS HTML Project
+
+1) Where are we going to put the examples?
+In /MMExamples
+
+2) How are we going to organise the /MMExamples directory?
+The names of the examples will be found in the /MMExamples directory.
+e.g. /MMExamples/MyYahoo.
+In the directory of a specific example, there will be directories of the scripting languanges used.
+e.g. /MMExamples/MyYahoo/scan
+In the scan directory there will be the actual files.
+
+note: We rather want to see TAGLIB examples than JSP examples. This because taglibs are a nicer way to show things than JSP. But every scripting language is allowed.
+
+3) Different scripting implementations, do they have to be the same?
+Yes. All examples in /MMExamples/MyYahoo/type/files have to be the same, or at least almost the same.
+
+4) What are we going to do with the /MMDemo directory?
+All things in /MMDemo will be removed, the directory /MMDemo will be deleted.
+
+5) What are we going to do with the /list directory?
+Remove it. Rob, who has created the directory said that the wizard aren't working anymore. And that it's better to rebuild them.
+
+
+6) What are we going to do with the /dtd directory?
+Remove it. The dtd's belong in the /mmbase/config/dtd directory, not in the html branch.
+
+7) What are we going to do with /index.shtml
+/index.shtml will be replaced to somewhere in the /MMDocs directory. This to prevent that we overwrite an existing index.shtml file.
+
+8) What is the meaning of the directories we have now in the cvs html project?
+MMAdmin is for technical people.
+MMeditors is for people involved with information managing.
+MMdesign is for graphical designers, this directory will be created when needed.
+MMDocs is for MMBase documentation.
+WEB-INF is for WEB-INF example of different webservers.
+
+9) New editors or new admin tools, are we going to put them into /MMEditors versus /MMAdmin ?
+Yes.
+In the same way as examples are put into the /MMExamples directories.
+So the current editors have to be removed to /MMEditors/scan/files.
+
+10) Who can make examples, how can they come into cvs, is advertising allowed.
+When an example is made it has to be validated by a html validator like validator.w3.org.
+Than people can vote about placing the example into cvs.
+The example may contain branding/advertising but it has to be subordinate to the example.
+</body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="14575" owner="import">
+		<title>MMChat: 2001/05/28</title>
+		<intro></intro>
+		<body>Present: Rico, Gerard, Daniel
+
+Main Topic: Release Plan
+
+Next week release plan will be sent to the developers-list.
+
+A few days after the release plan a branch will be made. This will also be the feature-freeze. After this all bugfixes for the release will have to be made to the branche and to the cvs-HEAD.
+
+Daniel will sent a proposal for versionnumbering to the developers-list.
+
+Class org.mmbase.Version will be used for versionnumbering.
+
+Main targets for next release will be:
+- Stable MMCI
+- Stable relations
+- First implementation Taglibs
+- First implementation Security
+
+Distro and MMRunner will be released first week of August.
+
+Deadline for all projects is July 25. 
+
+
+
+</body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="14585" owner="import">
+		<title>MMChat: 2001/07/05</title>
+		<intro></intro>
+		<body>Present: Rico, Rob, Daniel
+
+Main Topic: Release Plan
+
+task for Daniel:
+Daniel is going to write an explanation about MMRunner and MMDistro. What are the differences between these distributions.
+Daniel is going to create a system for Version controlling.
+Both tasks are finished before the 9th of July.
+
+task for Rob:
+Rob is going to finish the releaseplan, and Rob is going to check with the projectleaders if they can finish their projects before the 25th.
+
+The MMC is going to plan the 26 and 27th of july for creating the distributions.
+
+
+
+
+</body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="14587" owner="import">
+		<title>MMChat: 2001/07/12</title>
+		<intro></intro>
+		<body>Present: Rico, Rob, Daniel, Gerard
+
+Topics:
+1) JSP editors
+2) Distribution
+3) Atmosphere
+4) Taglibs
+5) Versioning
+
+1) What about the JSP editor ?
+Before putting the  JSP editor pages in CVS we have to find out how we want to maintain 'projects in progress'. We want to delay this discussion untill the Augustus 2001 distribution is finished.
+
+2) What about the new distribution ?
+The only topic we remembered was about the DTD's. We think that making the use of DTD's is desirable. And as a default the XML validation with DTD's should be active.
+
+3) The Atmosphere within the community ?
+Some people disagree with how things are going within the MMC. We think that we have to communicate more about what the MMC is and what it does. After the distribution we are going to work at a document. The document will be proposed to the MMBase community.
+
+4) Taglibs
+Daniel mentioned that the Taglibs are probably not finished in the next distro.
+Some tags are too difficult, the MMC thinks that it is desirable that taglibs are simple to understand.
+
+5) Versioning
+With which number are we going to start? Daniel will ask this the community.
+We wanted to put versioning fast into CVS to be able to use it during the next distro. This was wrong, we are going to ask the community for votes.
+
+
+
+
+</body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="14594" owner="import">
+		<title>MMChat: 2001/07/26</title>
+		<intro></intro>
+		<body>Present: Rico, Rob, Daniel, Gerard
+
+Topics:
+1) TAGLIBS
+2) MMChat
+3) Release
+
+1) TAGLIBS 
+The TAGLIBS have to be part of the MMBase 1.4 distro.
+If the taglibs project is not finished (see guidelines MMBase projects) than the release will be called 0.8.
+If the taglib project is finished than the release number will be 1.0.
+Rob will contact Jaco de Groot about this proposal and the status of the project.
+
+2) MMChat
+The MMChat will have a duration of 1 hour. 
+
+3) Release
+The first Release Candidate will be called MMBase 1.4-rc1
+Gerard will make a CVS branch 26 july 2001 at 16:00.
+MMDevelop and MMRunner have to be generated by build.xml.
+Daniel is going to prepare this for MMRunner, Gerard will fix this for MMDevelop
+
+</body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="14602" owner="import">
+		<title>MMChat: 2001/08/20</title>
+		<intro></intro>
+		<body>Present: Rob, Daniel, Gerard
+
+Topics:
+1) Documentation (DocBook)
+2) Proposal Pierre (Transaction Manager)
+3) Correction in RC dates
+4) Proposal for new Member
+
+
+1) The central place for documentation is /mmdocs in the CVS module 'html'. All docs added for the MMBase1.4 release have to be HTML. After the release we can look to better documentation methods such as DocBook.
+
+2) What Pierre is going to do is an approvement for MMBase. Pierre has to be careful with adding things to the release branch. He can also specify the bug instead of fixing it in the new 1.4 release. We approve the starting of a Transaction Project.
+
+3) Gerard is going to make the RC3 release at the 27th of august instead of the 20th of august. The final release will be made at the 3th of September.
+
+4) Rob proposed Pierre as a new MMC member. The MMC agree that Pierre is a good candidate, but they want to create good guidelines first. After the release of MMBase1.4 we want to discuss the MMC guidelines with the committers. More information about this will follow.</body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="14628" owner="import">
+		<title>MMChat: 2002/01/10</title>
+		<intro></intro>
+		<body>Present: Daniel, Pierre, Rico, Gerard, Rob
+
+1) Pierre and MMC.
+
+- Gerard is going to sent the MMC docs to Pierre. These docs will be put at MMBase.org, in the guideline section.
+
+- The NOS gave Pierre permission to be MMC member and perform his activities during working time. Conclusion: Pierre is a new MMC memeber.
+
+2) The MMBase.org machine.
+
+XS4all, the place were the machine is located, is going to move the machine. Daniel and Rico will monitor this operation. Daniel will inform the MMC about this.
+
+3) Meeting with developers / mmevent
+
+- Daniel and Jeroen (netlinq) are going to organize the next developers meeting. This meeting will be held somewhere in the last week of januari or the first week of februari. Jeroen will probabaly inform the developers about the status of the MMBase foundation.
+
+- A new MMEvent is planned in March. At MMEvent the MMBase foundation will be launched.
+
+3) Distriubtion project.
+
+Gerard van Enk is the project leader of the distro project. Members are: Eduard and Jaco. This project will be placed at the MMBase.org site and Gerard will contact the developers with the status of the project.
+
+6) Foundation
+
+The MMC wants a status each two weeks of the people who are involved with creation the MMBase Foundation. 
+
+5) Projects.
+
+All currently 'active' projects are going to be mentioned on the MMBase.org site, in the section Developers -&gt; Projects.
+</body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="14630" owner="import">
+		<title>MMChat: 2002/01/17</title>
+		<intro></intro>
+		<body>Present: Daniel, Gerard, Pierre, Rico, Rob.
+  
+Agenda:
+1) MMBase.org machine
+2) SCAN
+3) Foundation
+4) Developers Meeting
+5) Projects
+ 
+1) MMBase.org machine
+MMBase.org was down for a very short time. XS4ALL called us before the machine was unplugged, and after they replugged it again. Conclusion, a successful operation.
+ 
+2) SCAN
+We put scan on the agenda to think about the future of scan and to come with a clear standpoint for scan. 
+- SCAN as it is now will not be developed further, if people want to make a new version or upgrade it it has to be on top of the MMCI. 
+- The way as it is now is deprecated. 
+- As long as SCAN belongs to the core of MMBase bugfixes for sCAN will be made. 
+- At the moment that there are GOOD alternatives for scan, scan can be made optional. This will probably be done by providing scan as an application. 
+- We prefer to make new things now with JSP/TAGLIBS.
+ 
+3) Foundation
+At Tuesday Daniel is going to speak with Jeroen (Jeroen Elfferich is involved in setting up the Foundation). daniel will give us more information at the next MMChat meeting.
+ 
+4) Developers Meeting
+Daniel is going to mail the developerslist with information about a new developers meeting. During the meeting we discussed the day and time and we ended up with. 5 February from 19:00 till 22:00. 
+ 
+5) Projects
+Gerard is going to restart the distro project. He will inform Monday the developers, and he will put a description on the MMBase.org web site.
+The Application Project is in the eyes of the MMC one of the most important developments for MMBase. The MMC is going to communicate more about applications, and try to explain why it is so important. A application project will be created on MMBase.org.
+ 
+</body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="14632" owner="import">
+		<title>MMChat: 2002/02/21</title>
+		<intro></intro>
+		<body>Present: Daniel, Rico, Gerard, Pierre, Rob
+
+CVS
+- Rico will make accounts for MMC en committers, to improve the working of CVS.
+- Rob is going to ask if inactive committers still want to be committer.
+
+Editwizards
+- Pierre will start this project. He will become the project leader untill an appropriate leader is found.
+- The project will be mentioned on MMBase.org.
+- The files can be checked-in in CVS.
+
+Richtext project
+- Can have CVS access.
+
+Stichting
+- MMC and the foundation are two separated things. The MMC will only give information to the foundation.
+
+MMBase.org
+- Rico will make accounts for committers and mmc. This improves CVS and committers and MMC have mmbase.org email accounts if they want.
+</body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="14636" owner="import">
+		<title>MMChat: 2002/03/07</title>
+		<intro></intro>
+		<body>1 MMBase Foundation
+The Foundation shall be registered at the Chamber of Commerce on the 12th of March. The name will be MMBase Foundation.
+Possibly more info will be available on monday (11 March).
+
+2 Bugtracker
+We like to encourage people to check in their bugs and in the MMBase bugtracker. Before fixing bugs, these should be added to the bugtracker. The bugtracker number can then be used as a reference in cvs. Pierre will ask for input on the developers list.
+
+3 Distro
+Because Gerad was ill the distro is delayed. We now aim to make a pre-release at 14 March, with a final release at 21 March.
+
+4 Performance project
+Gerard would like a project for improving performance in MMBase. This will possibly be in cooperation with the cleaning project (which already analyzes code).
+Daniel wil look into such a project and ask for input.
+
+5 CVS
+We want better control on CVS. Gerard and Pierre seem to be the only ones capable of tracking the many changes of the last period.
+We propose people to add, in cvs comments, what a check-in is for: a project, hack, or bug #.
+Guidelines for this will be proposed to the developerlist (see bugtracker).
+</body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="14638" owner="import">
+		<title>MMChat: 2002/03/14</title>
+		<intro></intro>
+		<body>1. MMBase Foundation
+The VPRO has to set up the Foundation (by registering it at the Chamber of Commerce). Unfortunately the VPRO board first has to give permission. Therefor, the registration has been delayed until the next board meeting. Rob shall send an email to the foundation mailingl list to ask for more 
+information, and an update for the comunity.
+
+- Distro
+Prerelease will be 14 march, next week (21 march) distro. Daniel will also make an update of MMRunner.
+
+- Cleaning project
+Votes for the cleaning project will be asked to the community per type (i.e. scoping) or set (i.e. remove the old caches) of adaptions.
+Pierre will make proposals to Rico, who will decide on a project level and then ask the vote in the list. This will speed up the project and prevent a barrage of votes for each change. Also, Pierre will make overviews of tagged code.
+
+- Performance project
+Daniel will head this project.
+The focus will be to provide test tools en cases to measure performance under various systems and configurations. These performance measurement tools will appear (for now) under org.mmbase.test.
+Daniel will see if Junit can be used for this. Fixing performance issues (changes in code) is not a focus of this project.
+A performance fix is a hack and should be dealt with separately.
+
+- Bugtracker
+Gerard will ask Kees Jongenburger (Framfab) if they are willing to maintain the bugtracker code. If he agrees, Rico will create an account for him so he can manage the code.
+
+- CVS
+The MMC should be more responsive to 'bad' changes in CVS, i.e. approach committors directly or - in extreme cases - rollback code.
+
+- accounts
+All commitors will get an account at mmbase.org. This means it will be asier to see who made a change, and committors can 
+connect to cvs using ssh.
+</body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="14640" owner="import">
+		<title>MMChat: 2002/03/21</title>
+		<intro></intro>
+		<body>Present were:
+Gerard, Rob, Daniel, Rico, Pierre.
+
+1. Voting
+Voting on the list is too chaotic. Sometimes calls are made for cases that belong under a project, and discussions often commences during voting (instead of before the vote).
+Also, the proliferation of votes means quite a lot of people do not vote at all.
+
+The MMC wants to propose that in thee future, calls are made through the MMC.
+If people want to call a vote, they send it to the MMC (mmc@mmbase,org), who judges the vote. This is an administrative task. The MMC does not judge the vote on its merits (they can't refuse a vote because they disagree). They will merely judge whether new functionality offered is part of a 
+project (which means the vote need not be called, but should be discussed with the project leader). They will also enforce a discussion before the voting commences (which can last approximately 3 days), so the final call will not become muddied by the discussion. This means calling a vote will take approximately a week.
+ 
+2. Distro
+Gerard has precious little time, so there hasn't been a prerelease yet. There are still some bugs that should be fixed. The aim is to have a prerelease by Monday. If this fails, Gerard wants to step down as release manager, and we will look for someone else to complete the release.
+
+Daniel would like to make releases based on daily builds. The problem is that you don't have a 'point' in CVS to fall back to, though you do have a snapshot of the source.
+The distro project should discuss this more thoroughly.
+ 
+3. Accounts
+Eduard Witteveen wil get an editor account to maintain the richfield project. We will also think about other editor accounts (possibly through the bugtracker), to allow committors to upload comments, documentation, etc.
+Finally, we will discuss making a CVS module available for people to commit their own personal stuff (separate from the MMBase module).
+ </body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="14644" owner="import">
+		<title>MMChat: 2002/04/11</title>
+		<intro></intro>
+		<body>Present: Gerard, Pierre, Rico, Rob
+
+0) Note
+The notes of last meeting got displaced.
+Most of the last meeting dealt with how to handle the foundation's use of the mmbase.org website. We have a preference for using subdomains(i.e. foudation.mmbase.org and developers.mmbase.org) behind a portal site (www.mmbase.org), which will allow support of other oganisations/initiatives should that be necessary.
+
+1) Distro
+Next week (april 15th) the final release of the distro 1.5 is scheduled to come out.
+As there are already a numebr of significant changes, we will start making a release plan for 1.6 (what will be included).
+The 1.6 release will probably be based on a nightly build.
+The editwizards are not included in MMBase 1.5. They will get their own release as soon as the project is finished. That release will consist of a separate jar, including the editwizard jar, the dove, and an encoding utility lass.
+The jar should be compatible with the 1.5 release.
+
+2) News
+Rob wants to spend a bit more attention to the announce list. He plans to make a message every month, giving information on the foundation, initiatives such as the taglib meeting, new releases, new sites, and new functionality such as the editwizards.
+Rob will add a link to the MMBase website homepage, which will allow people to send us announcements or the urls of new MMBase supported sites.
+Gerard would also like to have a regular email to the developers, to give an overview of important happenings, discussions, and cvs-updates
+
+3) Accounts
+Rico will create MMBase accounts for commitors next week (april 15th).
+
+4) Status Projects
+There is little progress in the Applications 2 project. Rob will attempt to get it started. Friday 12th there will be a 
+discussion on IRC regarding the project.
+
+Kees Jongenburger showed interest to maintain the bugtracker, but has not committed himself yet. Gerard will check again.
+
+Jacco has informed us that the Taglibs project can be set to 'finished'. We still await response concerning the state of the xml importer project.
+
+Next monday (april 15th) will be a Transactions 2 meeting, which will 
+discuss a new storage/database layer for MMBase.
+
+Pierre will send an email to the developers list to ask for suggestions for 'MMCI 2'.
+Once we have a list of desired features we may start a MMCI 2 project.
+
+5) Rules
+Daniel still needs to send a proposal to the list to diminish voting and give more responsibility to approved projects.
+Pierre wil send the rules to Rob, who will put them online.</body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="14657" owner="import">
+		<title>MMChat: 2002/04/18</title>
+		<intro></intro>
+		<body>Present: Gerard van Enk, Rico Jansen, Daniel Ockeloen, Pierre van Rooden, Rob vermeulen
+
+1) mmbase.org:
+There are a number of problems with the current MMBase setup on the site. Rob plans to install a newer version fo orion, and the MMBase 1,5 release once it is out.
+Hopefully this will solve the problems.
+
+Rico made accounts for the MMBase committors, so tehy can now use cvs using ssh.
+
+We have to look for a designer to help create a new look for the site. A number of designers will meet at the upcomign taglib meeting (april 23).
+
+2) bugtracker
+Kees Jongenburhg ha sindicated he will attempt to maintain the bugtracker in his free time.
+
+3) Applications 2
+The project code will initially be checked in in the cvs playground (module 'speeltuin').
+Rob will lead the project until Daniel has more time again (in may).
+
+4) MMCI 1.1
+Pierre will start the MMCI 1.1 project.
+This will be the '1.1' version. It will lay a foundation (define the interface) for the core api (type MMCI 2), but implementation will for the moment be limited to the bridge. A fast 'core' implementation (a
+direct map on the MMObject lasses with no security) may follow later.
+
+5) Developers meeting
+Daniel will set up a new meeting. Proposed date is may 30.
+
+6) Distro project
+The download page of mmbase.org will be adapted to show a link to the latest build.
+If possible, the mmrunner for 1.5 will be replaced with a war file.
+
+7) Foundation
+We have not received any news from the foundation. Daniel will ask Martijn Verve for more info. Rob will ask questions on the foundation mail list.
+</body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="14659" owner="import">
+		<title>MMChat: 2002/05/02</title>
+		<intro></intro>
+		<body>- Distro
+Almost done, will come out this week. Support for Jetty and Tomcat 4.1 will appear in MMBase 1.6 Gerard and Rob will put the distro online. Rob will adapt the download page to separate it in three columns:
+source, binaries, and nightly nuild.
+MMRunner will disappear. After the release the distro project team will meet again to discuss how to deal with upcoming releases.
+
+- Foundation
+No new info. Rob will send another request for information on progress.
+
+- MMBase site
+Daniel will create four subdomains at mmbase.org: applications, design, development, and foundation. 'Design' will contain Henk Hangyi's idea for the template forge. Estimate is they will be within a week. We have to find a developer to work with henk and a designer to build the template forge. Will be done by users mail for the moment.
+
+- Projects
+Pierre will create an MMCI2 project page
+
+Next meeting will be wednesday 8 may.
+
+</body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="14665" owner="import">
+		<title>MMChat: 2002/05/30</title>
+		<intro></intro>
+		<body>Present: Rob, Pierre, Gerard, Rico (partly)
+
+Agenda:
+1. MMBase internationaal
+Rob will write a new (more technical) proposal to post to the international java development sites. The 1.5.1 release wil be finished once we receive the latest 
+(cache-related) bugfix. If the release is put online (possibly next week) we will start sending out the emails.
+
+2. Beheer MMBase.org
+Rico indicates he does not have enough time to maintain MMBase.org. We will send an enquery for an administrator to the developers list. If needed we can split the administration tasks (i.e. mail and cvs).
+And possibly separate web-administrators for the design, foundation, and development subdomains. Rico will write the enquery.
+
+3. Database project
+This project will deal with the Restructuring of the database layer.
+Goal is to better isolate the database-dependent code, but also create a 
+structure which will allow people to use advanced database technologies should they choose to (i.e. full text search).
+Rob van Maris is project leader.
+
+4. Various
+Daniel is not present, which means a number of items form previous chats could not be handled. 
+
+</body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="14669" owner="import">
+		<title>MMChat: 2002/05/20</title>
+		<intro></intro>
+		<body>Present: Daniel, Gerard, Pierre, Rico, Rob
+
+1 Foundation
+No further information.
+We still expect that an MMEvent will be organized in september.
+
+2 BBQ
+Daniel will send inquiries to see if enough people can attend a BBQ in the beginning of july (otherwise it will become august).
+The BBQ will be combined with a user and developer meeting. More info forthcoming.
+
+3 MMBase poll
+We plan to include a link to an online poll in the 1.5.1. distribution.
+Work in progress (Daniel will build the poll, Gerard will include the link)
+
+4 MMBase 1.5.1
+A patch for the cache bug has been posted.
+A 1.5.1 test version should be ready end of this week (23/6/2002), so people can test whether the bug is solved. If the patch is wel received, the final version will be put online around 30/6/2002.
+
+5 international release
+Will proceed after 1.5.1 has been released.
+We will make a list of websites were we want to post a link to mmbase.org
+
+6 Logos at www.mmbase.org
+Rob is going to update the logos/ organisations at mmbase.org to reflect the current supporting companies. The new list will include EO, Finalist, Framfab, Gem. Amsterdam, Ilse, MMatch, Nos, Sun, Utwente, VPRO, and Xs4all, and more.
+
+7 Administration MMBase.org
+Daniel found someone who is willing to administrate the mmbase.org machine.
+We may divide adminsitration in seperate tasks. Rico will coordinate the new adminstrator(s).
+</body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="14673" owner="import">
+		<title>MMChat: 2002/05/27</title>
+		<intro></intro>
+		<body>Present: Rob, Gerard, Pierre
+
+1 Events
+There will be a users/designers meeting on the 4th of july, but without the planned barbeque. A MMBAse barbeque will be held no sooner than august. Rob will ask whether the foundation is planning an MMEvent2.
+
+2 MMBase poll
+Rob will create a questionaire (enquete) at http://www.mmbase.org/enquete. Data in the questionaire include: Web site url, MMBase version, OS type, Server type and JDK version. Gerard will include it in the 1.5.1 release
+
+3 MMBase 1.5.1
+Will come out end of this week (18-6-2002)
+
+4 international release
+We'll go 'public' with an international after the initial reactions on the 1.5.1 release. Next week we will compile a list of sites to contact. We will ask the Foundation to write a dutch press announcement.
+
+5 SCAN
+SCAN will continue to be supported in 1.5 and 1.6. In 1 .5, only the war-version of the install will not contain SCAN (in which case you have to add it manually if you use the war to install MMBase). We will have to discuss if in the 1.6 release SCAN will be set off by default.
+
+6 Administration MMBase.org
+Rico didn't provide us with information about this.
+
+7 Application project
+There is not happening much in this project.
+If Daniel has no time, we will need to find a projectleader that can pull the project.
+In that case, we will set the project on inactive.
+
+General:
+We need to set deadlines when discussing activities in a MMC meeting. Certain things now just don't happen, which reflects badly on the MMC.
+</body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="14677" owner="import">
+		<title>MMChat: 2002/07/11</title>
+		<intro></intro>
+		<body>11/07/2002
+Present: Rob, Daniel, Pierre, Rico, Gerard
+
+1 Events
+Jeroen Elfferink is working on an MMEvent on 12 september. We are also still planning a barbeque. A sugegstion is to have this following the MMEvent.
+
+2 MMBase poll
+Rob made the poll, and Gerard put a link in the distribution.
+
+3 international release
+We have collected a few sites that have our interest:
+&lt;http://www.javalobby.org&gt;
+&lt;http://www.onjava.com&gt;
+&lt;http://www.theserverside.com&gt;
+Daniel also has an address of an opensource contact group. He has proposed to contact these sites to get them interested personally
+before we mail them.
+
+4 MMC
+We are having an internal mmc discusstion about mmc problems. Most MMC people are to occupied with practical problems (caused by the delay of the foundation). This causes that things in the MMBase community start to look chaotic. The MMC needs time to redefine its purpose, and the methods of working.
+
+5 Documentation project
+We didn't have time to handle this topic. This topic will be handled by email.</body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="14679" owner="import">
+		<title>MMChat: 2002/07/18</title>
+		<intro></intro>
+		<body>Present: Gerard, Rob, Pierre, Daniel, Rico
+
+1) Monthly project updates
+
+The project leaders are requested to send a project update (3/5 lines) before each end of the month. This enables the MMC to monitor the projects better, and the MMC can easily update the community with information about the projects. The MMC will discuss the status of the projects the first MMChat of each month. Rob will post an overview to the announce/developers mailinglist.
+
+
+2) Project maintainer
+
+The MMC has been brainstorming about the possibility that a project leader can maintain hacks that 'belong' to that project, even when the project is closed. This enables little feature changes to be incorporated in the project without restarting the project.
+
+3) SMALL versus LARGE hacks.
+
+It's clear we need to make it easer to add small changes if no project backing is available but make it harder for big hacks, a split is needed is the consensus next meeting we will review a first draft.
+
+4) MMBase foundation document.
+
+The MMC members will read the MMBase foundation documentation. Comments are send to Rob. He will communicate this with the foundation.
+
+6) MMBase international
+
+Daniel will contact some of the smaller j2ee/serverside/cms website on if they are open for some mmbase exposure.
+</body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="14685" owner="import">
+		<title>MMChat: 2002/09/05</title>
+		<intro></intro>
+		<body>Present were: Daniel, Rob, Pierre, Rico
+
+1) MMEvent
+Gerard van Enk, Daniel Ockeloen, Rob Vermeulen, Michiel Meeuwissen, and Pierre van Rooden will be speakers (mostly in the 'technology' track).
+Each talk will be approcimately 15 minutes (with 5 minutes for questions).
+Internet access is probably not available, most presentations will be made in powerpoint. Event main language is dutch.
+The tech track will be videotaped to be shown on the MMEvent web site.
+
+2) Maintenance MMBase.org
+After the face to face meeting (see below) we will determine next steps.
+
+3) Going international
+No progress yet. Daniel will report more next week.
+
+4) MMBase 1.5.2
+Has not yet been released.
+Next week we will discuss whether to release 1.5.2. or push through to 1.6 (and possibly set up a release plan)
+
+5) MMC
+MMC will meet for a more in-depth (face-to-face) meeting. During this we evaluate our tasks and goals for the future. Date to be set through email. </body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="14687" owner="import">
+		<title>MMChat: 2002/09/25</title>
+		<intro></intro>
+		<body>Present were: Daniel, Rob, Pierre, Gerard
+
+1) mmbase.com
+The MMC feels that the mmbase.com domain belongs best with the mmbase group.
+They wil advise the foundation to contact alternet to discuss the possession of the domain name.
+We also feel the foundation should properly register these domain names, to avoid future problems.
+Some attention may also be warranted to MMBase as a 'brand' name.
+
+2) info mail
+Mail to info@mmbase.org should be forwarded to info@foundation.mmbase.org
+To enable this, first the foundation.mmbase.org email addresses need to work (currently they don't) Rico should change this.
+
+3) java 1.3
+Pierre will send a vote to the devlist to move MMBase 1.6 to java 1.3.
+This means support for java 1.2 will be dropped after MMBase verison 1.6
+
+4) bugtracker
+The bugtracker (now in jsp) seems to be working again - the last bugs will probably be fixed in oktober.
+Daniel will indicate the state of the bugtracker, and communicate this to the community.
+
+5) MMC wishes for foundation
+MMC will make a wish list for the foundation, which we will sent to Jo Delahey.
+We also need to set up a meeting with Jo (preferably in oktober)
+
+6) Going international
+No news. Daniel will contact the international java sites after 1 oktober.
+We expect the foundation will eventually arrange for international marketing.
+
+7) MMBase 1.5.2
+Gerard will post a releaseplan for 1.5.2, including a few bugs that still need fixing.
+In the meantime we will also start working on the 1.6 release plan (a draft is ready)
+</body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="14689" owner="import">
+		<title>MMChat: 2002/10/31</title>
+		<intro></intro>
+		<body>Present were: Daniel, Rico, Pierre, Gerard
+
+
+1)MMBase Release 1.6
+The freeze has gone in on 30/10/2002.
+Releaseteam consists of Gerard van Enk (relese manager), Daniel Ockeloen, Michiel Meeuwissen, and Pierre van Rooden.
+The team will have a meeting on 7/11/2002 to discuss the form of the distro and distribution of tasks.
+
+2) Ex committers
+We are concidering to resign Arjen de Vries, Case Roole,  Dirk-Jan Hoekstra and Olivier Van Acker as committer from MMBase.
+While they have made considerable contributions, they are no longer active in the community.
+Since we wish to be fair to them and to the MMBase users, we will ask them to resign, so they will no longer be approached for changes they have no responsibility for.
+</body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="14691" owner="import">
+		<title>MMChat: 2002/11/07</title>
+		<intro></intro>
+		<body>Present were: Rico, Rob, Pierre, Daniel, Gerard.
+
+1) MMC face to face meeting.
+This meetings is arranged for thursday the 14th of november, from 15:00 till 18:00. During the meeting the MMC will evaluate itself and rethink there vision and goals.
+
+2) MMBase 1.6 distro.
+There are no show stopping problems.
+The VPRO/VARA informed us that they want to add a new interface for the editwizards. This issue will be discussed by the release team, this friday.
+
+3) WIAB
+There are some discussions going on, about the license used for WIAB. The MMC will discuss this topic monday with the foundation.
+  
+4) Meeting, MMC with Foundation
+Monday the 11th at 14:00 the MMC will have a meeting with the foundation. this meeting will give the MMC information about the plans of the foundation.
+
+5) Ex committers
+We have to reinsert some rules in the guidelines that are lost. It's about committers that are inactive for a long period, they can loose there committers status. Pierre will adapt the rules, Rob will change the status of the committers in ex committers.
+
+6) Andre and my_editors.
+We are going to propose committers status for Andre. In that way he can put his my_editors contribution in CVS.
+</body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="14693" owner="import">
+		<title>MMChat: 2002/11/21</title>
+		<intro></intro>
+		<body>Present were: Daniel, Rico, Pierre, Rob
+
+1) license
+Jo Lahaye has made the MMbase license a topic for a future meeting in january.
+We currently feel no need to discuss changing the (MPL) license for MMBase, but there is room to discuss licenses in use by 3rd parties.
+It should be clear that strating a change in the MMBase license is foremost a discussion for the developers.
+Rob wil email Jo for clarficaton on the intention of the meeting.
+
+2) 1.6 distro
+The CVS has been branched and the release candidate version 1 for MMBase 1.6 is avalailable at
+http:www.mmbase.org/releases/
+Rob will make a link on the download page at mmbase.org
+
+3) jdk
+JDK 1.3.1 has been installed on mmbase.org
+
+4) meeting december
+A developer meeting is to be held on thursday 12th December.
+We have proposed a number of project to Henk that will be of interest to developers, for use in the dev meeting.
+We expect Henk to contact speakers for the various projects.
+
+5) meeting jan.
+There will be a community meeting on thursday 16th January.
+One of the topics will be the license of MMBase (see above)
+</body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="14695" owner="import">
+		<title>MMChat: 2002/12/05</title>
+		<intro></intro>
+		<body>Gerard, Rico, Pierre, Rob
+
+1) distro
+The Release Candidate 3 will be planned for 12th december (the day of the devmeeting).
+The main reason for the RC3 is to check the release notes. The actual release is planned for 19th of december.
+Most bugs are now fixed.
+A number of obscure bugs (Resin taglib problems and querying inheritend
+builders) will be fixed in a 1.6.1 patch release.
+
+2) MMBase site
+We are discussing how the 'portal' site at mmabseorg should look like.
+We want to keep it small, and redirect people as quickly as possible to the correct subsite .
+Things we want to inlude on the portal page are the MMbase logo, the
+latest news, release info, documentation links, and a description of the underlaying
+three sites. Rob will ask the foundatino to start a workgroup with a designer/developer/manager to discuss the three subportals (design, development, foundation portal).
+
+3) Style project
+Pierre is working on a different gui interface for the admin pages, which more closely match the documentation tyle.
+This will not be included to the 1.6 release but be added to CVS Head for evaluation.
+This may result in a tyle project to better the tyles of the various html pages generated with MMBase. </body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="14701" owner="import">
+		<title>MMChat: 2003/01/23</title>
+		<intro></intro>
+		<body>Present were:
+Gerard, Rico, Pierre, Daniel, and Rob
+
+Topics:
+1) License document.
+2) Developers meeting.
+3) Last foundation meeting.
+4) MMBase web sites.
+
+__________________
+
+1) License document.
+Gerard will write a license document that provides information about our the MMBase license and how 3rd party licenses can be used on top of that. And which licenses people should use and why. Gerard will show this document before the next MMChat meeting.
+
+2) Developers meeting.
+Daniel is going to write a proposal for a developers meeting to the developers list. The meeting will be like before, only developers, technical talks, and a little contribution for the drinks/foot will be asked.
+
+3) Last foundation meeting.
+Meetings should have more space to discuss things, instead of only talks. And the MMC should explain why we are choosing for certain strategies (e.g. in regard to the license discussions).
+
+4) MMBase web sites.
+Pierre will ask Jo (foundation) about the status of a MMBase web site work group. 
+</body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="14705" owner="import">
+		<title>MMChat: 2003/02/06</title>
+		<intro></intro>
+		<body>Present were: Gerard, Pierre, Rob, Rico, Daniel
+
+The agenda:
+- Status on the developers meeting.
+- Jo Lahaye send a proposol for the new MMBase portal, we have to review this and give a reaction.
+- How should we add MMBase (none core) projects to the MMBase repository.
+- Who is going to make the document about what is MMBase core / external parts.
+- Reviewing the license document.
+
+
+1) Status Developers Meeting.
+Yet, no actions are taken. Daniel will arrange the develemers meeting to be held. When date, time, and location are known he will communicate this to the developers list (expected next week).
+
+2) MMBase Portal
+We received a proposal from Jo concerning te MMBase portal page. We have been brainstorming about possibilities for the portal. The MMC will discuss this topic further by email and sent next week a reaction to Jo Lahaye, Rob will manage this. 
+Some weeks ago we asked Jo to start a web project group, Rob will ask Jo about the status.
+
+3) Media project
+The code for the media project will be put in a seperate cvs module (media).
+Before implementing this we will select a package for the media project's java lasses.
+Options are org.mmbase.applications.media, org.mmbase.exc.media, or org.mmbasex.media
+We will make a call on the list to vote for the right package.
+
+Left topics will be discusses by email if possible, otherwise they will appear on the agenda of next week.</body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="14709" owner="import">
+		<title>MMChat: 2003/02/13</title>
+		<intro></intro>
+		<body>Present were: Daniel, Rico, Gerard, and Rob
+
+Agenda:
+1) Document about what is MMBase core,  MMBase applications, and external applications.
+2) Status of the license document.
+3) Status of dev meeting.
+4) Planning an appointment with the foundation.
+
+Minutes:
+1) Document about what is MMBase core,  MMBase applications, and external applications.
+We discovered that there is a lot of confusion when we speak about this topic. We need to define areas with certain words. Rico is going to adapt a drawing to make the areas more clear. Gerard is going to describe these areas in a document. This document will be release next MMC meeting. After this release the community/foundation can give their input.
+
+2) Status of license document
+Gerard is working on this document but needs more time. The document has some cross links with the document mentioned as the first topic.
+
+3) Development meeting
+Daniel will email the devlist today with information about the developers meeting. Daniel will come up with some dates (somewhere around the 13 of march). The meeting will be from 15:00-18:00. And the agenda will contain 2 project presentations (each are 30 minutes, 2 discussions (each are 30 minutes), and 1 hour to socialize. We are going to try to organize 4 meetings each year.
+
+4) Appointment with the foundation
+The MMC will try to arrange this appointment at february the 20th, 11:00-12:00, at the vpro.</body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="14715" owner="import">
+		<title>MMChat: 2003/03/06</title>
+		<intro></intro>
+		<body>Present were: Gerard, Pierre, Rob, Daniel
+
+1) developers meeting.
+The meeting will be held 17 march at Finalist (Amsterdam). Daniel will send an summarise to the developers list. It is not known how many people will attend.
+
+2) MMBase portal
+No news yet. A meetings will be scheduled somewhere next week (7-14 march).
+
+3) MMBase 1.6.2
+Gerard wants to wait for the cvs changes next friday 7 march) before creating a new release. The new patch is planned to be released friday 14 march.
+
+4) Roadmap Project
+Daniel is interested to lead a project to create a roadmap for MMBase.
+The roadmap will determine the long-term plans for MMBase development.
+
+5) MMBase application layers document
+Gerard is working on a document describing how to work with new software for MMBase.
+The document describes several layers, varying from core software to 3rd
+party tools. He expects it to be finsihed soon. </body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="14719" owner="import">
+		<title>MMChat: 2003/04/03</title>
+		<intro></intro>
+		<body>Present were: Gerard, Pierre, Rob, Daniel, Rico.
+
+1) votes
+People feel that there are too many votes going on. Most committers have no time to react on all votes. We are therefor looking for a way to limit the need of voting, and to
+provide better rules for when it is needed.
+
+One suggestion is to craete 'maintainer groups', which maintain certain parts of the code. This code but supported by a project group. The project leader can decide whether small changes (which are now often proposed as hacks) that fall in that area, can be added. This means thats small changes can be added quickly. larger changes can
+be discussed by the maintenance group.
+Changes that are too large or that affect more groups may lead to a vote. In those cases, the period for voting will likely need to be lengthened (so the 3-day window will be enlarged), and pre-vote discussion will be
+mandatory. Voting may then also be made mandatory.
+
+Maintenance groups that we might concider are core, storage, application, media, bridge, security and templates. The idea will be posted to the developer list for discussion. 
+
+
+2) bugnummmers in cvs
+Pierre will send a mail to the developer list requesting committers to provide more sensible messages when committiong changes (and not just bugnumbers). </body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="14740" owner="import">
+		<title>MMChat: 2003/06/26</title>
+		<intro></intro>
+		<body>Present were: Rob, Gerard, Rico, Daniel, Pierre
+
+Agenda:
+1) Status document about MMBase applications.
+2) How to get consistent names within MMBase.
+3) Licensie issue.
+4) MMBase developers meeting this summer.
+5) Status MMC document
+6) Structure speeltuin CVS module
+
+1) Status document about MMBase applications.
+Gerard will process the input he has received, and will update the document. The document will be placed in CVS, in this way the community can see what is going on.
+
+2) How to get consistent names within MMBase.
+At this moment people often use their own terminoligy to refer to specific things. We want to support the creation of the glossary file. Daniel is going to arrange a meeting with project leaders to talk about terminoligy, this information can be processed in the glossary.
+
+3) Licensie issue.
+Gerard informed us that there is still source code in MMBase with strange licenses. Gerard will investigate this further can he will come up with a solution how to solve this problem. Classes that are involved are: StringObject, and MD5 lass.
+
+4) MMBase developers meeting this summer.
+The idea is to organise a developers meeting this summer. This meeting can be used to look back to what we did the last 3 years. Further communication about this will be done by email.
+
+5) Status MMC document
+The MMC document is ready to publish, Rob will put it in cvs.
+
+6) Structure speeltuin CVS module
+At this stage it's to early to talk about the speeltuin structure. Gerard document discusses some changes to this structure, after we made decisions about this we can brainstorm agani about the structure. </body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="14742" owner="import">
+		<title>MMChat: 2003/07/10</title>
+		<intro></intro>
+		<body>Present were: Rob, Pierre, Daniel, Rico.
+Absent: Gerard (vacation)
+
+1) Mailinglist rules
+We want to create a welcome message for the mailinglist that explains the rules of conduct.
+A message with some basic rules have been sent earlier this week. Rob will see what needs to be configured in major domo to sent a welcome message, and look for a draft (possibly generic) text that can be sent.
+
+2) Meeting Foundation and MMC
+We are trying to set a meeting with the Foundation.
+The foundation has been operative now for 16 months and we want an evaluation of its activities. We also want information about current/future plans.
+Proposed dates are 25th july, 28th july, 1st august.
+
+3) Projects
+General: we need more documentation and communication concerning projects and their progress. We should continue the monthly project update mail.
+
+Multilanguage: project has not started yet, nor is data available. Rob will ask Nico to kick off the project.
+
+Applications 2: Daniel will set his documents on line and update the apps2 project page, and will set up a new meeting.
+
+Cleaning: the goals for the project need be re-evaluated, as it is now used as an excuse to make major updates in the core. Rico will set new goals and planning. Project is frozen until further notice. Planned changes in code are suspended, though updates in code conventions, javadocs, and tagging of code can proceed. This will be notified by Rico on the devlist.
+
+Editwizards: documentation needs more work. Most coding seems to have settled down, though a few issues remain.
+
+Storage: the first meeting has taken place, and a new draft for a Storage interface has been set up
+
+Richtext: We have asked Michiel Meeuwissen to arrange with eduard Witteveen to take over the leadership of the project, so that it can continue.
+
+
+4 MMBase.org machine
+We are currently using a Sun machine hosted by Xs4all, but this is not a formal agreement. Daniel will formalise this and will ensure that supporing companies get the acknowledgement they deserve.
+
+5 Releases
+Gerard is on vacation, so no news on release for this week. We hope to see a releaseplan when he comes back.
+</body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="14744" owner="import">
+		<title>MMChat: 2003/07/16</title>
+		<intro></intro>
+		<body>Present: Rob, Daniel, Rico, Pierre
+Not present: Gerard (vacation).
+
+Incomming text for the meeting.
+- Keesj Jongenburger sent an email
+
+Agenda
+- Discussing the letter. Rob wil write a reply.
+
+</body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="14757" owner="import">
+		<title>MMChat: 2003/09/04</title>
+		<intro></intro>
+		<body>Present: Daniel, Gerard, Pierre, Rico, Rob
+
+1) patents
+We have set up a protest page regarding to the upcoming European Patent law. We will keep the page up to 22 september, which is the date when Europe will decide on the law.
+Daniel (mmc) and the foundation are going to rally people against this law, which will otherwise have a major negative impact on open source products.
+
+2) MMC/Foundation
+The foundation made a document in regard to the relation between the Foundation and the Developers community. We have some doubts about this document. Rob will communicate these doubts and questions in regard to the intentions back to the foundation.
+
+3) Registration MMBase code
+The foundation wants to register the MMBase source code at the Tax agency in effort to ensure that MMBase code is safeguarded against future claims (such as patents).
+While this seems a good plan, we need to know how this impacts on copyrights (which we do not wish to relinquish to the foundation). 
+
+4) Announce message 'Kennisnet'
+The foundation has an announcement about Kennisnet. Rob will sent this message to the mailing list. 
+
+5) MMWeekend
+The MMWeekend (to set up the developers portal of mmbase.org) will be held the 20-21 of september. Currently the team exists of approximately 12 people. Plans are already being made how to create the site during that weekend.
+
+6) Distro project meeting
+Daniel will set up a distro project meeting around 15 september. This will discuss CVS setup, how to include applications and documentation in the (1.7) MMBase distro, and a discussion on naming.
+
+7) project status
+We made another overview of current projects and their status. A quick breakdown results in the following:
+
+MUltilanguage: will be closed (nothing forthcoming)
+Storage : in test phase
+Query : in test phase
+Taglib/MMCI : now implementing Query functionality
+Transactions : obsolete, will be closed.
+Editwizards: finished
+Richtext: frozen
+Distro: open, meeting this month
+Cleaning: frozen till MMBase 1.8 </body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="14760" owner="import">
+		<title>MMChat: 2003/09/11</title>
+		<intro></intro>
+		<body>Present: Daniel, Gerard, Pierre
+
+1) JDK 1.4
+The JDK version 1.4 is not yet installed at mmbase.org. Daniel will arrange with Rico that JDK 1.4 will be installed.
+
+2) Patents
+Daniel will post a message to developers, users, and announce lists. The message will be supportive to the foundation's lobby against the patent laws.
+
+3) Bridge discussion
+The MMC agrees that we will have to define a view on Core2, and how this will be developed. Particulary, we will need to examine the relation between core and bridge: what kind of extensions should be developed under the core, and what under the bridge?
+What will the core need to be able to do?
+We will discuss this and set up a document to describe this process.
+
+4) Fieldtype project
+Started. The project wil deal with new Field types, how to add enumeration types to the MMBase core, and how to extend functionality (such as range checking) based on field types. Michiel Meeuwissen will be project leader.
+
+5) Distro meeting
+A first meeting will be held on monday 15th, 17:00. This will be rather an informal meeting to exchange points of views. A more serious meeting will be held on a later date. </body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="25019" owner="default">
+		<title>MMChat: 2004/04/08</title>
+		<intro></intro>
+		<body>Present: Gerard, Daniel, Pierre, Rob, Rico
+
+1) Application page on mmbase.org
+We need a page on the mmbase.org web site where we can place applications (created by users) for download.
+Daniel will make the page and maintain applications, as part of the applications II project.
+
+2) vision and roadmap
+The MMC and Foundation are starting meetings to create a long term vision and possibly a roadmap for the development of MMbase. Gerard, Rob, and Pierre represent the MMC. The Foundation is represented by Jo and Dick. The first meeting was monday 5 April. We are expecting a document of Jo with the initial results of that meeting.
+
+4) MMC Elections
+The elections are in progress. Tuesday an announcement message will be sent out with the results of the elections. We anticipate that, with the new members, the weekly chat sessions will become difficult, since some candidates may not have access to IRC. We will shift to monthly face-to-face meetings.
+
+5) Machine
+We still do not have a new machine. Negotiations seem to have gone haywire.
+The current mmbase.org machine is having some serious problems. Daniel is willing to spend time on this. He will make a proposal for an agreement on his role for the MMC to obtain the resources to perform the job.
+
+6) Communication
+Rob desires a more frequent use of the announce list, i.e. to annoucne the 4-year anniversary of MMbase or the new releases, and other news. When we have a new MMC we will select an announce editor. The editor will select and create announce messages, and propose them to the MMC. After confirmation these can then be sent to the announce list.
+
+7) Release
+The new realease (1.7) will come out today, thursday 8 April 2004 
+
+</body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="25031" owner="default">
+		<title>MMChat: 2004/01/22</title>
+		<intro></intro>
+		<body>Present:
+Rob Vermeulen
+Daniel Ockeloen
+Rico Jansen
+Gerard van Enk
+Pierre van Rooden
+
+Topics:
+1: Acquire date for foundation/mmc meeting
+2: MMC elections
+3: MMBase 1.7 release update
+4: Moving MMBase.org machine
+5: Application document
+
+-----------------------------------------------
+
+1: Acquire date for foundation/mmc meeting
+We will propose to have this meeting thursday 19th of february at 16:00,
+location VPRO. We will ask the foundation board to join the meeting.
+
+2: MMC elections
+In april 2004 we want to start MMC elections. More information about the
+actual election will follow soon.
+
+3: MMBase 1.7 release update
+Gerard will release the RC1 this week.
+
+4: Moving MMBase.org machine
+Daniel will arrange the process of moving the machines. The delivery of
+the new MMBase.org machines is somewhat delayed.
+
+5: Application document
+We didn't get much response on the application document sent to the
+developers list. Gerard and Daniel will consult the foundation and
+external organization for more input on this document.
+
+MMC, Rob Vermeulen </body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="25033" owner="default">
+		<title>MMChat: 2003/12/18</title>
+		<intro></intro>
+		<body>Present: Rob, Daniel, Pierre
+
+1) bugday
+
+Rob will organize a 'bugfix day' on monday the 29th of december.
+People can flock to the VPRO or work at home, and join the group later
+for a drink or dinner.
+The exact setup of the day depends on how many people (and who) react
+and are willing to come to Hilversum.
+Ron wills end a final annoucnement.
+
+2) committers en (niet) voten
+Pierre will query a number of silent committers whether they are still
+interested in MMBase.
+
+3) machines
+Daniel plans to set up new machines for the MMBase site and CVS in the
+3rd week of january.
+The Foundation arranged for a supplier. We send a specification list and
+are hoping to receive confirmation before that time.
+If no answers are forthcoming in time we will consider some backup plans
+to make sure CVS stays available.
+
+4) releaseplan en testers
+After the release we will be closing most of the projects.
+Projects to be closed are Taglib2, MMCI1.2, Storage, Richtext, and
+Documentation.
+Projects that remain open need to supply an update every two months on
+their progress to maintain status.
+
+Pierre asked Jo to supply contacts with people or companies that are
+willing to testrun the 1.7 release candidate, as there is a lot of new
+code to be tested.
+We hope to receive a list before the 1st release candidate (23-12-2003).
+</body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="25035" owner="default">
+		<title>MMChat: 2003/11/27</title>
+		<intro></intro>
+		<body>Present were:
+- Rob Vemeulen
+- Rico Jansen
+- Daniel Ockeloen
+- Gerard van Enk
+
+Issues:
+1) MMBase machine
+Things in regard to the current machine, on which MMBase is running, and
+the hosting location are going to change.
+28 november at 13:00 we will discuss what would be an appropriate
+configuration.
+
+2) System administrator
+Also during the meeting of 28 november we have to discuss how the new
+hardware/software is going to be maintained.
+
+3) MMBase 1.7 Release
+Gerard will update the release plan, and he will ask for a vote. If the
+vote succeeds he will freeze MMBase next week. Somewhere around the 12th
+of January 2004 MMBase 1.7 will be released. </body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="25037" owner="default">
+		<title>MMChat: 2003/11/06</title>
+		<intro></intro>
+		<body>Present: Daniel, Gerard, Pierre, Rico
+
+1) Releseplan
+Geard is working on it. We expect the releaseplan to be finished on
+monday. We can then evaluate any potential problems (such as unfinished
+projects)
+
+2) Multilangual Project
+Nico has restarted the Multilangual project.
+There will be a 1.6.x /1.7 download.
+A better implementation will be expected in the 1.8 release, or will be
+developed as a seperate application or plugin (useable for 1.6,x and up).
+
+3) Fields project
+The Fields project gets CVS access. It will only add a few hooks needed
+for other applications (including Multilangual Project) in the 1.7 branche.
+It should be finished in 1.8.
+
+4) Informal Foundation Meeting
+14 NOV there will be an informal meeting for MMBase Foundation members.
+The meeting will follow a more formal meeting of Foundation participants.
+The MMC has been invited for the informal part and will make sure to
+have a representation. </body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="25039" owner="default">
+		<title>MMChat: 2003/10/30</title>
+		<intro></intro>
+		<body>Present: Gerard, Rico, pierre
+
+Releaseplan:
+Gerard has a few days to work on the plan.
+The first version is expected next week.
+
+Chat:
+The EO/Finalist chat has been offered to the community.
+We need to determine if we should make this a project or if it can be
+added as a hack, and whether it should be part of the core or a 3rd
+party application. In the latter case we need to determine where to
+store it, and how people can access it (i.e.on a applications.mmbase.org
+subsite).
+
+MMBase.org:
+We wait for Rob before we settle on a date on which to finish the new
+MMBase developers site. </body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="25243" owner="default">
+		<title>MMChat: 2004/04/16</title>
+		<intro></intro>
+		<body>Present were:
+Pierre van Rooden
+Rico Jansen
+Rob Van Maris
+Rob Vermeulen
+
+Agenda:
+1) Welcome / update Rob van Maris as new MMC member
+2) Dates for MMC, and MMC/foundation meetings.
+3) Discuss email Daniel Ockeloen
+4) Hardware for MMBase.org
+5) Bugtracker
+6) Release plan 1.8
+7) Adjusting rules committers
+8) MMBase vision
+
+
+1) Welcome / update as new MMC member
+We updated Rob van Maris with recent issues.
+Pierre will sent Rob van Maris some MMC related documents.
+
+2) Dates for MMC, and MMC/foundation meetings.
+We agreed that the MMC is going to have 1 face2face meeting every month.
+This meeting will be the 3th thursday of the month, from 16:00-18:00
+The foundation and MMC will also have 1 meeting every month,
+we will propose to have these meetings the 4th thursday of the month, also from 16:00-18:00
+
+3) Discuss email Daniel Ockeloen
+Daniel send the MMC an email with:
+- proposal for application page at mmbase.org
+We agreed that this page is a nice start to put all MMBase applications online.
+Rob Vermeulen will help Daniel with putting the pages online.
+Rob Van Maris will help Daniel with getting an up to date overview of applications.
+
+4) Hardware for MMBase.org
+The hardware on which mmbase.org is running (and which facilitates: cvs, mailing lists, etc.) is becomming old. A disk is giving errors.
+We are already waiting some time for a new machine, but it's getting more urgent.
+Rob Vermeulen is going to coordinate this process.
+Rico Jansen will write a 'Request for Hardware'
+
+5) Alternative Bugtracker
+Rob Van Maris noticed that our bug tracker still lacks a lot of functionality.
+He suggested to use a system that is already existing such as : Bugzilla
+We have to give it more thought. Changing to an existing system, and maintaining sucha a system will cost time. Updating our bug tracker to a better one will also cost time.
+
+6) Release plan 1.8
+We quickly want to provide a release plan for MMBase 1.8. Pierre will coordinate this process which will exists of the following steps:
+a) The MMC will make an initial proposal
+Some suggestions that we already had were:
+- Dividing core and applications more.
+- Re-enginering pieces of MMBase.
+- Cleaning project
+- Performance project (monitoring/performance adjustments)
+b) Pierre will organize a meeting to discuss the proposal
+c) A Final proposal will be made
+
+7) Adjusting rules committers
+We discussed two issues in regard to this topic:
+a) How to redefine the committer rules in regard to the MMBase core / applications. i.e. Are we going to have committers for certain applications or will we continue to have committers like we have them now.
+b) How can we stimulate people to participate in the development of
+MMBase.
+
+a) We didn't have a clear answer on this topic, we suggested to discuss this topic at the upcoming developers meeting.
+b) By creating a release plan with well defined projects we will stimulate new developers to participate in these projects.
+We are going to invite new developers at developers meetings more actively.
+We are going to talk with organizations that are working with MMBase, we want to stimulate developers working at organisation to work more closely with the 'core' developers.
+
+8) MMBase vision
+The 29th of April from 14:00-16:00 we will talk about the MMBase vision.
+
+</body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="26340" owner="default">
+		<title>MMChat: 2004/05/13</title>
+		<intro></intro>
+		<body>Present:
+Pierre van Rooden
+Rico Jansen
+Rob Vermeulen
+Rob van Maris (minutes)
+
+Agenda
+
+1) Foundation issues
+2) Releaseplan 1.8, releaseplan 1.7.1
+3) Developers meeting evaluation
+4) Actions previous meeting
+
+1) Foundation issues
+Relations with the foundation were discussed. Next meeting with Jo Lahaye is scheduled.
+
+2) Releaseplan 1.8, releaseplan 1.7.1
+Michiel Meeuwissen has stepped in as releasemanager for 1.7 patch releases, temporarily replacing Gerard van Enk. Rob vM will check if things have been transferred correctly.
+While we aim at patch updates at a reasonable frequency, the releasemanager is responsable for planning these releases.
+
+Pierre has written a first draft for the releaseplan 1.8. It was sent to the dev mailinglist, and has been discussed there and at the recent dev meeting. Based on the response, Pierre will update the plan and send it around for further review.
+Regarding the items listed int the releaseplan under Improvements: these will each become project proposals - in search of a projectleader and participants. 
+These projects will include a preliminary inception phase, investigating the paths available to implement the desired functionality. As a result feasability, impact and potential risks can be judged, based on which a project is given the go-ahead or cancelled.
+
+3) Developers meeting evaluation
+We're not satisfied with the course of events surrounding last dev meeting. In particular the decision to cancel it resulted in a display of miscommunication and organizational chaos. 
+Lessons learned for next time:
+- If the meeting must be cancelled, this must be done well in advance (at least a couple of days ahead).
+- It is important that people who want to attend register in advance, so a reasonable estimate can be made of how many people to expect.
+
+Kennisnet says they're happy to host our next meeting. We'll respond to their invitation for next meeting.
+
+4) Actions previous meeting
+- (3) Rob vM will create an overview of external MMBase applications.
+- (5) A decision regarding Bugzilla vs. Bugtracker will be made after an inquiry into installation/adminstration issues of Bugzilla. Gerard vE can possibly provide us with firsthand experience.
+- (8) Our talk about the MMBase vision, originally scheduled for 29/4 has been rescheduled for 19/5 16:00-18:00.</body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="27176" owner="default">
+		<title>MMChat: 2004/06/17</title>
+		<intro></intro>
+		<body>Present were:
+Rico Jansen
+Rob Vermeulen
+Gerard van Enk
+Rob van Maris
+Pierre van Rooden
+
+Topics:
+1) New mailing list
+2) update Hardware
+3) object web
+4) Release 1.7.1 / 1.8
+5) Documents
+
+
+1) New mailing list
+We are going to create a new mailing list community@mmbase.org. This list is meant for project leaders, project managers, organisation that are using MMBase and want to discuss/start projects. For organisations to announce news in regard to MMBase, to discuss things such as how to donate software to MMBase.
+
+2) Hardware
+We are still waiting for some hardware parts to be delivered.
+
+3) Object web
+The foundation is collaborating with Object web. We are not sure what the intentions are, and we want the foundation to inform the MMC before starting collaborations with ObjectWeb or other organisations. In the end the foundation only is not MMBase.
+
+4) Release 1.7.1 / 1.8
+Gerard is going to talk with Michiel about creating a MMBase 1.7.1 release
+Pierre is going to review the release notes for MMBase 1.8, and he will make it final.
+
+5) Documents
+Gerard is going to review the Application document that he has been writing some time ago.
+Rob &amp; Rob are going to write a document about how the community should deal with internal / external software.
+Pierre is going to write a technical Vision document.
+
+
+</body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="27836" owner="default">
+		<title>MMChat: 2004/07/15</title>
+		<intro></intro>
+		<body>MMC Meeting 15-7-2004
+
+present: Rico Jansen, Gerard van Enk, Pierre van Rooden, Rob Vermeulen, Rob van Maris (minutes)
+
+Agenda:
+1) Field Types project
+2) Hosting issues
+3) Communication issues
+4) Status of documents
+5) Other
+
+1 - Field Types project
+The projectmanager (PM) of the Field Types project, Michiel Meeuwissen, has requested CVS access for the project. In order to get CVS access a clear projectproposal has to be delivered.
+There was some discussion about what exactly constitutes a projectproposal. Rob vM will create a short list of guidelines to set a standard for our policy.
+
+2 - Hosting issues
+The new hardware has arrived. Rico will create a migrationplan. Shortterm focus will be on migration, upgrading options will be considered after that. 
+Daniel has found someone who can assist in migrating the system, Rico will contact him.
+
+3 - Communication issues
+Despite doubts raised by Jo Lahaye, we keep to our plan of launching a community mailinglist (scheduled for september).
+
+4 - Status of documents
+- White paper on community, packages, collaboration: In progress, will be finished next week (Rob &amp; Rob).
+- Applications document: will be updated (Gerard).
+- Technical vision document: has been delayed (Pierre).
+- MMBase history document: nearly finished (Ruben van Wendel de Joode), we'll get to read the final version for review.
+
+5 - Other
+* Release 1.7.1: Gerard will release a candidate next week.
+</body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="31335" owner="admin">
+		<title>MMChat: 2004/08/26</title>
+		<intro></intro>
+		<body>Minutes 26 August, 2004
+
+Present were:
+Pierre van Rooden,
+Rob Vermeulen
+
+Issues:
+1) New servers and maintenance
+2) Email Michiel: about cvs access field types project
+3) Email Kees: about setting up a maven repository
+4) Email Eduard: about changes to the storage layer
+5) Status of documents
+6) Update release 1.7.1
+7) launching community@mmbase.org mailing list
+
+1) New servers and maintenance
+We will ask Rico to update us by email.
+
+2) Email Michiel
+To clarify what is needed to start a project and gain CVS access the MMC has created a document.
+This document will be sent to Daniel Ockeloen and Michiel Meeuwissen that asked for CVS access for their projects.
+
+3) Email Kees
+Kees wants to set-up a maven repository for MMBase.
+We like this idea but we keep in mind that such a thing needs maintenance.
+But if Kees accepts to maintain the repository we encourage the repository.
+He should contact Michiel to see how the nightly builds and his repository can be build together.
+
+4) Email Eduard
+Eduard informed us about some issues in regard to the storage layer. We understand the issues he pointed out, and some things could indeed be made better. We referred Eduard to discuss these storage layer related issues at the developers list. In this way a project can be started if enough people want to improve the storage layer, or hacks can be made if he can improve pieces of the storage layer. The project leader of the storage project is willing to help although available time is a problem.
+
+5) Status of documents
+Rob van Maris and Rob Vermeulen created a Community white paper, this document is in the review phase and will be added to the site soon.
+Gerard van Enk is updating a document about Packages.
+Pierre van Rooden will write the technical vision.
+
+6) Update release 1.7.1
+We will ask Gerard to update us by email.
+
+7) launching community@mmbase.org mailing list
+In september we will launch this list. We agreed to start the list in Dutch.
+If more international parties are going to join we could create a second list, or change the language.
+</body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="33155" owner="admin">
+		<title>MMChat: 2004/09/16</title>
+		<intro></intro>
+		<body>Minutes 16 September, 2004
+
+Present were:
+Pierre van Rooden,
+Rob Vermeulen
+Rob van Maris
+Rico Jansen
+Gerard van Enk
+
+Issues:
+1) CVS access for package project
+2) CVS access for field type project
+3) multicast
+4) MMC Documentation 
+5) Community list
+6) MMBase 1.8, optimizing project
+7) Maintenance MMBase.org
+8) Free software bazaar
+
+1) CVS access for package project
+Daniel Ockeloen, project leader of the package project has been granted CVS access to place the package source in an MMBase application. The theme manager should be placed in the same mmbase application as the package software. It is up to the project leader to decide if the function code should be placed in the MMBase core or in the mmbase application itself. Rob Vermeulen will inform Daniel Ockeloen.
+
+2) CVS access for field type project
+Michiel Meeuwissen, project leader of the field types project has been granted CVS access. Pierre van Rooden will inform Michiel.
+
+3) multicast
+some organisations seem to have some problems related to multicast communication. The MMC has been asked how this problem could be handled. The opinion of the MMC is that this is a problem of some organisations and not an MMBase problem until it is clear that the problem is within MMBase. There were already some discussions about this on the developers list and solutions are already suggested.
+It seemed that the foundation communicated this issue as a MMBase problem, and asked organisation to join efforts to solve this. We share the opinion that the foundation could beter first refer itself to the MMC before mobilizing organisations with to solve problems. In this case the MMC can inform the foundation if the problem is organization related or really an MMBase problem.
+
+
+4) MMC Documentation 
+This still is work in progress. There are already some documents finished, these documents are placed in CVS.
+
+
+5) Community list
+Already 36 organisations subscribed themselves on the community list. We will soon post some messages to this list. The foundation could not provide us with the contact information of its partners. But fortunately the foundation itself will inform these partner next week.
+
+6) MMBase 1.8, optimizing project
+Rob van Maris announced during the developers meeting that he would like to manage this project if he would have sufficient time. This is unfortunately not the case and we will have to find a project manager for this project. Rob will address the developers list for a new project manager, later on he will address the community list. Pierre will make a list of all tasks that have to be done within the project.
+
+
+7) Maintenance MMBase.org
+Next monday / thursday (20/21 sept.) Rico will install the new MMBase machines. Rob Vermeulen will start helping Rico with coordination of the maintenance of the applications that will run on these machine. We already heard that community members are willing to help with this. Rob will coordinate this in such a way we will have maintainers for all application running on the mmbase machines.
+
+8) Free software bazaar
+Gerard van Enk and Daniel Ockeloen are going to present MMBase at the Free software bazaar.
+
+</body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="36318" owner="default">
+		<title>MMChat: 2004/10/21</title>
+		<intro></intro>
+		<body>MMC Meeting 21-10-2004
+
+present: Rico Jansen, Pierre van Rooden,Rob van Maris (minutes)
+
+Agenda:
+1) New servers
+2) Release 1.8
+3) Developers meeting november 4th.
+4) MAG MMBase
+5) Roles &amp; tasks of Foundation vs. MMC.
+
+1 - New servers
+Basic installation is completed on both machines. In the coming weeks the appications will have to be migrated to the new platform. 
+Pierre will contact first8 about adminstrating the webserver.
+
+2 - Release 1.8
+Step 1 and 2 of the optimalization project are more or less finished. Preparation for step 3 is underway. A performance subproject has started to accomodate the steps later on dealing with performance tests/benchamarks.
+
+The feasability of releasing 1.8 before the end of this year is uncertain, especially given the need for thorough testing.
+
+What is the current status of the Functions framework, what needs to be done? Ask the developers (RobvM).
+
+These projects need to be finished/closed before the release:
+- fieldtypes
+- distro (seems finished) (Gerard)
+- Taglib 2 (Pierre contacts Michiel)
+
+3 - Developers meeting november 4th.
+A programme has been made. Invitation will be sent (RobvM).
+
+4 - MAG MMBase. 
+The name &quot;MAG MMBase&quot; is confusing, and not aceptable. Something more neutral like &quot;MAG for MMBase&quot; would be. Jo will be contacted to take action (RobvM).
+
+5) Roles &amp; tasks of Foundation vs. MMC.
+Jo has suggested to discuss the partition of roles and tasks between MMC and Foundation. First opportinity for this will be the upcoming MMC/Foundation meeting at october 28th.
+</body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="50445" owner="default">
+		<title>MMChat: 2006/06/17</title>
+		<intro></intro>
+		<body>Present were:
+
+André van Toly
+Daniel Ockeloen
+Johannes Verelst
+Michiel Meeuwissen
+Nico Klasens
+Pierre van Rooden
+Henk Hangyi
+
+We discussed the active projects.
+
+CMS Container (Nico)
+•	Nico gave a presentation on the portlets standard JSR-168, which will be implemented in the CMS Container. We discussed the pres and cons of the standard.
+•	In the next meeting JSR-170 will be presented (Nico). A first evaluation shows that MMBase has already much in common with this standard.
+
+Components (Johannes &amp; André)
+•	A new date for the project meeting has to be scheduled. Aim of the meeting is to discuss and agree upon the project plan.
+•	We decided to have Components as the focal point for 1.9 release.
+
+Datatypes (Michiel)
+•	Plans for the projects are to add javascript validation to the data-types. In this way checks which are now carried out server side, can be done client side in the future. In the long run it might be possible to use the approach to implement a next version of the editwizards.
+
+Cleaning (Pierre)
+•	The present MMBase version contains about 6000 warnings. About 100 of them are on deprecated code. The idea is to use this as study material for new MMBase developers. A proposal for a coaching project will be written (Henk).
+•	Next to that the JDBC module of the database layer needs to be cleaned (Pierre).
+•	The MMBase system has to be reviewed to see if all parts still suit the aim for which they were originally introduced. An example of this is the bridge, which now contains more functionality than only being an interface for plugging in the different templating languages. In the last releases some initiatives were already carried out to improve the way the code is structured. A day will be organized to specify further improvements on the structure of MMBase, and place them in the bigger picture of future plans for MMBase. Once this is settled some changes which will make MMBase easier to understand can be implemented soon. A document will be written to clarify the issues which are candidates for improvement (Nico).
+
+New projects
+•	Performance project is seen as a good candidate for a new project for the 1.10 release. As a first step towards this, benchmarks will be implemented in the 1.9 release.
+
+Next meeting: a new date will be proposed (Henk)
+</body>
+		<subtitle>Minutes of the MMBase Committers meeting, Saturday June 17, 2006</subtitle>
+	</node>
+
+	<node number="50531" owner="default">
+		<title>Technical Board: 2006/01/11</title>
+		<intro></intro>
+		<body>First meeting technical board MMBase community.
+Location: Hilversum, Netherlands.
+
+Introduction
+In the year 2005 a lot of people and organizations participated in the debate on the future of MMBase. There were -and are- many different views on the road ahead. In the autumn of 2005 this led to the conclusion that if we want to move ahead, we need a board that represents the whole community: developers, users and technical partners. At the annual meeting of the MMBase Foundation (December 2005) a concrete proposal to install a board was discussed and approved. The developers proposed two candidates, as did the users and technical partners. These persons ‘represent’ their colleagues. The Foundation acts as host and guides the process. 
+
+The members of the technical board are (on behalf of):  
+-developers: Michiel Meeuwissen and Daniel Ockeloen.
+-users: Ronald Vendelmans (Amsterdam), Nadia Poulou (Kennisnet)
+-service providers: Jean-Luc van Hulst (Finalist ), Henk Hangyi (MMatch).
+-foundation: Jo Lahaye. 
+
+Kickoff meeting 11-01-2006.
+
+First, the members of this board introduced themselves and gave their opinion on MMBase at this moment. We wanted to find out if there is a shared vision on the current status of MMBase and to get a first idea of the road ahead. 
+
+The participants agreed on several subjects: 
+1. For many (commercial, positioning) reasons we need to present MMBase as a “product”, a content management system.
+2. Any action taken, must not restrict MMBase; the current flexibility should remain in tact. 
+3. We must not forget to stretch out the ‘unique’ selling points of MMBase.
+4. It is necessary to explain what standards MMBase embraces (or not), and why (for example: soap, JSR 168, JSR 170, etc.) 
+5. We do need a framework, a clear(er) architecture, preferably based on these standards
+
+Second, the board discussed many organizational subjects and little or none “in depth”. 
+
+1. Decisions. The board will try to take decisions by “consensus”.  If consensus can’t be established at any time in future, we will then decide how to handle that concrete situation
+2. Minutes of our meetings will be short and focus on the (dis-) agreements, decisions made, work in progress. The minutes will be distributed among the board members for comments before they are published. The time for comments is no more then a few days. 
+3. The current members will stay in this board for (in principal) a year. 
+4. We will try to keep the meetings of the board as efficient as possible. In time, we think the board can meet every 6 weeks or every two months. For the first period of 2006, we think a higher frequency is necessary to make enough progress. The following five dates and times are set for the first period of 2006, all starting at 15.00 hours:
+February 8, March 8, April 5, May 10, June 7.
+
+Third, we agreed to start work on two subjects: 
+1. Architecture and standards. This after all is the main assignment of the board. Idea is to discuss relevant standards, sign up an architecture and framework for future components and (more) modular development. Daniel Ockeloen will be the main editor of this subject. Input is very welcome (Daniel@xs4all.nl). We will discuss the outcome of this effort during a meeting with everyone who is interested; probably February 15. 
+2. Release management. Jean Luc will write a proposal regarding the improvement of the release management, bug fixing and documentation. Input on this subject can be sent tot Jean-Luc (jl@finalist.com)
+
+In regard to the 1.8. release, the board agreed to test at least one MMBase application in their organization before the meeting of February 8.
+
+Jo Lahaye,
+18-01-2006.</body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="50532" owner="default">
+		<title>Technical Board: 2006/03/06</title>
+		<intro></intro>
+		<body>(for English translation see below)
+
+Verslag derde vergadering technisch comité MMBase.
+
+Vergadering gehouden te Hilversum,. Stichting MMBase.
+
+Aanwezig: alle leden:
+Nadia Poulou (Kennisnet)
+Ronald Vendelmans (Amsterdam)
+Jean-Luc van Hulst (Finalist)
+Henk Hangyi (Mmatch)
+Daniel Ockeloen (MMCoder)
+Michiel Meeuwissen (PO)
+Jo Lahaye (stichting).
+
+Er zijn geen opmerkingen over het vorige verslag. Jo zal dat op enige punten aanpassen en publiceren. Omdat bijna alle onderliggende stukken Nederlandstalig zijn, is het niet eenvoudig de notulen in het Engels te houden, maar er zal gepoogd worden in elk geval op de website e.e.a. kort te beschrijven. 
+
+1. Releasebeleid. 
+Naar aanleiding van de vorige vergadering wordt Jean-Luc verzocht zijn stuk enigermate te herschrijven, zodat wat duidelijker is welke taken een releasemanager op zich behoort te nemen. Jo zal het voorstel aan zijn bestuur voorleggen, maar geeft aan dat dit in lijn met de prioriteitstelling is. Bovendien heeft een dergelijke functie twee jaar lang in de begroting gestaan. Deze is er uit gehaald om dat er in die jaren geen consensus over kon worden bereikt. 
+
+2. Michiel geeft aan dat om 1.8 te kunnen releasen er vooral nog een groot aantal bugs gefixed behoort te worden. Er wordt afgesproken een bugfixing day te organiseren en dit op de developersmeeting voor te leggen. Daar wordt afgesproken dat deze dag op vrijdag 24 maart in Rotterdam op kantoor van Finalist georganiseerd wordt. Jo zal contact opnemen met het management van de Publieke Omroep om te vragen of het mogelijk is Michiel aansluitend een tweetal dagen vrij te stellen om de release ook daadwerkelijk af te ronden.
+
+Gepoogd wordt om dit moment tevens aan te grijpen om Jira als bugtracker te installeren. Jean-Luc zoekt uit wat hiertoe de condities zijn. Een dump van de database en de contactgevens van Justin zullen naar Nico gestuurd worden (actie Henk).
+
+3. In de tweede vergadering van het technisch comite is uitvoerig gediscussieerd over de vraag hoe te komen tot een architectuur. Het plan bestond om eerst uitgangspunten te formuleren en een soort ‘mission statement’, maar de aanwezigen denken dat de systematiek zoals die door Nadia Poulou van Kennisnet wordt gepresenteerd, waarschijnlijk sneller en makkelijker tot een compleet architectuurplaatje leidt. Deze systematiek laat zich in a nutshell als volgt beschrijven.
+Er zijn drie architectuurniveaus te onderscheiden:
+1. organisatie
+2. applicaties/services
+3. technisch
+Bovendien geldt voor ieder ‘onderwerp’ dat van belang is voor de architectuur dat het op geuniformeerde wijze beschreven behoort te worden (bijvoorbeeld: licentie, platformonafhankelijk, coding standard, documentation standard, etc.).
+De leden van het technisch comité maken per omgaande een start met het beschrijven van de principes, conform het sjabloon dat daartoe is opgesteld. Dit geheel leidt tot een set van documenten, die tezamen het architectuurmodel representeren. Afspraak is dat we hier al voor de volgende vergadering een eind mee proberen te komen. Nadia biedt bij deze notulen de presentatie en het daarin opgenomen tijdschema aan. 
+
+Deze ‘principes’ worden niet in beton gegoten. Ieder principe heeft een eigenaar. Principes kunnen bediscussieerd worden. Gezocht wordt nog naar een goede systematiek om dit te faciliteren (wiki, sharepoint, anders).  
+
+4.   Communicatie.
+Voor de volgende vergadering zal Jo een communicatieplan opstellen. Als we het schema aanhouden zoals dat door Nadia voor de inhoudelijke bijdragen is opgesteld, dan lijkt het zinvol om bijvoorbeeld in mei de developersmeeting een wat uitgebreider karakter te geven en daarbij ook de gebruikers en dienstverleners uit te nodigen. Er is dan wel een en ander te melden. 
+
+5. Karma en Didactor-systematiek.
+Dit is uitvoerig besproken op de developers meeting en de vorige keer in het technisch overleg. In de komende periode moet een aantal kleine en gerichte sessies met belangrijke stakeholders leiden tot meer concrete voorstellen. Belangrijkste doel is om invulling te geven aan een modulaire component gebaseerde ontwikkeling en het bereiken van synergie tussen beide belangrijke ontwikkelingen. En uiteraard om ervoor te zorgen dat beide ontwikkelingen daadwerkelijk geïmplementeerd kunnen worden. In een latere fase zal brede afstemming plaatsvinden.
+
+Jo Lahaye,
+7 maart 2006.
+
+-----
+(English translation, with thanks to worldlingo.com)
+Report third meeting technical committee MMBase.
+Meeting held at the MMBase Foundation, Hilversum
+
+Present: all members:
+Nadia Poulou (KennisNet)
+Ronald Vendelmans (Amsterdam)
+Jean-Luc of Hulst (Finalist)
+Henk Hangyi (MMatch)
+Daniel Ockeloen (MMCoder)
+Michiel Meeuwissen (PO)
+Jo Lahaye (Foundation).
+
+There are no comments concerning the previous report. Jo will adapt that on some points and publish. Because almost all underlying pieces are Dutch-speaking, it is not simply keep the minutes in English, but there will be attempted anyway on the Internet site e.e.a. to describe.
+
+1. Releasemanagement. 
+As a result of the previous meeting Jean-Luc are requested its piece rewrite enigermate, so that what is more clear which tasks releasemanager in itself belong take. Jo will present proposal it to its governing board, but indicates that this is in line with the definition of priorities. Moreover such a function has stood for two years in the budget. These have been obtained from for that in those years no consensus could be reached. 
+
+2. Michiel indicate that 1.8 to be able release there especially still large numbers of bugs of gefixed belong become. There bugfixing it is agreed organise on the developersmeeting day and this to present. There it is agreed that this day on Friday 24 March in Rotterdam on office of finalist is organised. Jo will get in touch with the management of the public broadcasting to if ask it is possible Michiel a connecting pair put days free to wind up the release also effectively.
+Is attempted to seize this moment tevens to install Jira as bugtracker. Jean-Luc zoekt from what for that purpose the conditions is. A dump of the database and the contactgevens of Justin will be sent to Nico (action Henk).
+
+3. At the second meeting of the technical committee the question how to reach an architecture  has been exhaustively discussed. The plan existed to formulate mission statement firstly main points and a type, but the people present think that the system is presented such as those by Nadia Poulou of Kennisnet it is presented, probably faster and more easily to a complete architecture blade leads. This system can be described in a nutshell as follows.
+
+There are three distinguish architecture levels:
+1. organisation
+
+2. applicationsservices
+
+3. technically
+moreover applies to every `subject that is important for architecture that it belongs become on geuniformeerde manner described (for example: licentie, platformonafhankelijk, coding standard, documentation standard, etc.).
+The members of the technical committee make by handling a start with describing the principles, in accordance with stencil key set that has been established to this end. This whole leads up to a set of documents, that together represent the architecture model. Appointment is that we already for the next meeting an end to try come. Nadia offer at these minutes the presentation and in this the taken timetable. 
+These `principles are not poured in concrete. Every principle has an owner. Principles can be discussed. Strained becomes still to a good system this (facilitate wiki, sharepoint, differently).  
+
+4.   Communication.
+For the next meeting Jo will draw up a communication plan. If we apprehend the diagram such as that by Nadia for the substantive contributions have been established, then it seems significant for example in May the developersmeeting to what vaster character to give and thereby also the users and service providers to invite. There is or and communicate an other one. 
+
+5. Karma and didactor system.
+This has been exhaustively discussed on the developers meeting and the previous time in the technical consultation. In the coming period a number must small and specific sessions with important stakeholders lead to more concrete proposals. Most important aim is to interpretation to a modular component based give development and reaching synergy between both important developments. And of course to ensure that both developments can be implemented effectively. At a later stage broad harmonisation will take place.
+
+Jo Lahaye,
+7 March 2006.</body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="50533" owner="default">
+		<title>Technical Board: 2006/05/10</title>
+		<intro></intro>
+		<body>(for English translation see below)
+
+Verslag vijfde vergadering technisch comité MMBase.
+
+Vergadering gehouden te Hilversum,. Stichting MMBase, 10 mei.
+
+Aanwezig: 
+Nadia Poulou (Kennisnet)
+Ronald Vendelmans (Amsterdam)
+Henk Hangyi (Mmatch)
+Daniel Ockeloen (MMCoder)
+Michiel Meeuwissen (PO)
+Jo Lahaye (stichting).
+
+Afwezig mk:
+Jean-Luc van Hulst (Finalist)
+
+In deze vergadering is gesproken over: 
+
+1. Releasebeleid. 
+Naar aanleiding van het rondgezonden stuk worden enkele detail-opmerkingen gemaakt. Het is duidelijk dat het stuk nog herschreven dient te worden, in die zin dat duidelijk wordt dat het hier een vacature betreft. Afgesproken wordt dat de vacatures worden ingediend bij de Stichting en dat vervolgens in het technisch comite wordt bezien wie wordt uitgenodigd voor een gesprek. Daar vindt in principe ook de aanstelling plaats. Jo geeft aan dat dit in principe tot de competentie van de directeur behoort, maar dat er wel een uitspraak van het bestuur van de Stichting hoort te zijn over deze aanstelling als zodanig. Het voorstel ligt voor, maar er is bij het opstellen van deze notulen nog geen reactie. 
+
+2. Release 1.8.
+Er zijn felicitaties aan de developers voor release 1.8, in het bijzonder aan het adres van Michiel. Na een lange tijd is er dan eindelijk een nieuwe release met veel nieuwe features. Op mmbase.org is er een uitgebreid overzicht en er zal een persbericht worden verzonden. 
+
+3. Workshop.
+Omdat de eindgebruikers en dienstverleners al sinds vorig jaar niet meer geinformeerd zijn over de voortgang, wordt zoals eerder gecommuniceerd op 29 mei een bijeenkomst georganiseerd die er als volgt uitziet:
+
+a. Michiel Meeuwissen geen een korte impressie van release 1.8.
+b. Architectuur MMBase. Arjan van Krimpen geeft een overzicht van de uitgangspunten en &quot;principes&quot;
+c. Framework voor modulaire componentenontwikkeling MMBase (Johannes Verelst en Nico Klasens)
+d. CMS-container: MMBase in combinatie met een professionele portal omgeving, JSR 168 (Jean Luc van Hulst).
+
+4. Architectuur. 
+Ook in deze vergadering is stil gestaan bij de architectuur. Er wordt een aantal opmerkingen gemaakt naar aanleiding van het overzicht dat door Nadia is aangeleverd. Inhoudelijk is in elk geval het multitier-verhaal van Jo waarschijnlijk niet compleet/goed. Dit zou door een developer/architect specifieker voor MMBase beschreven dienen te worden. 
+
+Daniel geeft aan een principle-tracker gemaakt te hebben en demonstreert later hoe deze werkt. Het ziet er goed verzorgd en functioneel uit. Opgemerkt wordt wel dat de architectuur-inleiding als geschreven door Nadia ergens een plek moet krijgen om de “principles” een kader te geven. En Jo denkt dat er behalve een plek op de site ook een pdf (of word/odt formaat) nodig ie met een inleiding over MMBase; of een verwijzing naar de website voor meer inleidende informatie. 
+
+Behalve de eerdere indeling: 
+1. organisatie
+2. applicaties/services
+3. technisch
+wordt voorgesteld om ook aan te geven of het van belang is voor de core, het framework of componenten (of alle drie)
+
+Opgemerkt wordt dat je met de huidige principles nog niet bent waar je wilt zijn. Er moet ook een beschrijving komen die uitlegt hoe je kunt deelnemen aan het project. Jo zegt hier naar te willen kijken, maar vraagt of iemand hem de documenten wil sturen die nu bij de distributie worden verstrekt. Hij zal dan ook zien of de procedures die op de website staan nog (wel) geldig zijn, gelet op de ontwikkelingen en de rol van het technisch comité.  
+
+5. Communicatie.
+Voorgesteld wordt om de communicatie zo mogelijk nog strakker vorm te geven en in elk geval iedere keer notulen te maken, ook als er niet zoveel te melden is. Jo geeft aan daarvoor te zullen zorgen. Focus ligt nu eerst op 29 mei. 
+
+6. Karma en Didactor-systematiek.
+Het voorstel van Johannes Nico is op 22 mei verspreid en wordt met deze notulen ook aan het technisch comité ter beschikking gesteld. Uiteraard wordt meedenken op prijs gesteld. 
+ 
+Jo Lahaye,
+22 mei 2006
+----
+(English translation, with thanks to worldlingo.com)
+
+Report fifth meeting technical committee MMBase.
+Meeting held at the MMBase Foundation, Hilversum.
+
+Present: 
+Nadia Poulou (KennisNet)
+Ronald Vendelmans (Amsterdam)
+Henk Hangyi (MMatch)
+Daniel Ockeloen (MMCoder)
+Michiel Meeuwissen (PO)
+Jo Lahaye (MMBase Foundation).
+
+Absent with notice:
+Jean-Luc of Hulst (finalist)
+
+At this meeting the following items have been discussed:
+
+1. Releasemanagement.
+As a result of the distributed document some detail observations are made. It clear that the piece has been still rewritten must become, in the sense that clear becomes that it concerns here a job opportunity. It is agreed that the applications are submitted to the foundation and that subsequently  the technical committee considers who is invited for a conversation. There in principle also the appointment takes place. Jo indicates that this in principle to the competentie of the director belongs, but that there a pronouncement of the governing board of the foundation hears be concerning this appointment as such. The proposal precedes, but there is at the drawing up of these minutes response still no.
+
+2. Release 1.8.
+There its felicitaties to the developers for release 1.8, in particular to the address of Michiel. After for a long time there are then at last new release with much new features. On mmbase.org are there a vast overview and a press bulletin will be sent there.
+ 
+3. Workshop.
+Because the end-users and service providers have been no longer informed already since previous year concerning the progress, like it is rather communicated on 29 May a meeting organised which looks forward to there as follows:
+a. Michiel Meeuwissen presented a short impression of release 1.8.
+b. Architecture MMBase. Arjan van Krimpen gave an overview of the main points and principles
+c. Framework for modular component development MMBase (Johannes Verelst and Nico Klasens)
+d. CMS-container: MMBase in combination with professional portal surroundings, JSR 168 (Jean Luc van Hulst).
+
+4. Architecture. 
+Also at this meeting the new MMBase architecture project has been discussed. A number of observations is made as a result of the overview which has been supplied by Nadia. Substantive anyway multitier-verhaal of Jo are not probably completewell. This by developer/architect for MMBase described more specifically must become. 
+
+Daniel give to principle-tracker to have made and demonstrate later how these work. It sees well looked after and functionally. It is noticed, however, that the architecture introduction must receive as written Nadia somewhere a spot to give a framework to the principles. And Jo think that there except a spot on the site also pdf become (orodt format) necessary ie with an introduction concerning MMBase; or a reference to the Internet site for further introducing information. 
+Except the earlier classification: 
+1. organisation
+2. applicationsservices
+3. technically
+is presented also indicate if it is important for the core, the framework or components (or all three)
+are noticed that you are not yet with the current principles true you want be. There also a description come which, must explains how you can take part in the project. Jo say here to want look at, but asks if someone him wants the documents which at the distribution are now supplied send. He will see thus if the procedures which stand be on the Internet site still (, however,) valid, having regard to the developments and the role of the technical committee.  
+
+5. Communication.
+Is presented to form the communication possibly still more tightly and anyway every time minutes to make, also if there so much to communicate is not. Jo give to for that will look. Focus lies now firstly on 29 May. 
+
+6. Karma and didactor system.
+The proposal of Johannes Nico has been spread on 22 May and with these minutes to the technical committee is also made available. Of course to think with is appreciated. 
+ 
+Jo Lahaye,
+22 May 2006
+</body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="50800" owner="default">
+		<title>Technical Board: 2006/07/12</title>
+		<intro></intro>
+		<body>Minutes sixth meeting Technical Committee MMBase.
+July 12, 2006
+
+Location: MMBase Foundation Hilversum.
+
+Present, all members: 
+Nadia Poulou (Kennisnet)
+Ronald Vendelmans (Amsterdam)
+Henk Hangyi (MMatch)
+Jean-Luc van Hulst (Finalist)
+Daniel Ockeloen (MMCoder)
+Michiel Meeuwissen (PO)
+Jo Lahaye (Foundation).
+
+Agenda.
+
+Welcome. This was the last meeting this summer. It was a short meeting, with a roundup of all the issues of interest at this moment.  
+
+1. Releasemanager. 
+There is –so far- one person who applied for the job. We will talk to all serious candidates –if possible- on September 14. This date is also set for  the next meeting of the Technical Committee. Henk Hangyi, Michiel Meeuwissen and Jo Lahaye will talk to the candidates. Please reserve from 13.00 till 18.00 hours in de agenda. The foundation will on august 5/6 send a new mail to the user and developerslist to draw renewed attention to this job opportunity. Some people might have missed the announcement due to holidays. 
+
+In this meeting we talked –at different moment- about the tasks of the release manager. 
+
+2. MMBase Framework. Andre worked on a project plan and time planning. However, this is not a mature document yet. Tasks were appointed to the members of the project. Jo will ask Andre/Johannes to give an update on the planning.
+
+3. The CMS container is now added as a contribution. Finalist is the  maintainer of this jsr 168 compliant “engine”. New functionalities will in the (near) future be added. 
+
+Question is: how to create a build that is running smoothly. What to use, CVS, Maven? Henk and Daniel promise to look into this and come up with some solutions and make sure that this information is made available to all of us.
+
+4. Release 1.8.; releases in general. Michiel is going to release 1.8.1. on Friday. There are several problems with 1.8.0 that have to be solved quickly. Everyone agrees that in future the release manager should really help out on this. Examples given of issues: test case failed, release notes, overview of changes, etc. Michiel states that a lot of things aren’t that bad as it possibly looks for the outside world, but more support is needed. 
+
+5. Documentation, architecture, principles. We conclude that a lot is already there, but it is often hard to find and sometimes the links to the PDF’s (and docbook) are broken. This should be better controlled and maintained. Jo and the releasemanager have a task here. The principles and architecture should be online. Andre van Toly will be on holiday shortly. He will be asked to make sure the tool Daniel build is going online. However, this might take too long, so if someone else is willing to help, we will gladly except.
+
+6. Jira. The Foundation has applied for a free license, however there is still no reply. Jo will look into this again. If it takes too long before they reply, he will ask assistance of Jean Luc. At this moment all data of the current MMBase bugtracker is or can be migrated to Jira. This means that we can soon start using Jira, that offers more functionalities. 
+
+7 Procedures. Jo was wondering if the procedures concerning contributions, applications and the “voting” is still the best way to handle the issues concerning the development of MMBase. And what is the relation between those rules and the role of the technical committee. Most attendees point out that they think that for the moment the existing regulations work fine, and that it is best not to change things until necessary. 
+
+8. Agenda for the rest of the year. 
+Meetings of the technical committee on:
+-September 14: 16.00 hours (for some of us 13.00 hours: releasemanager)
+-November 9:  16.00 hours
+-December 14: 12.00 hours. Combination with the annual meeting of the Foundation. Small MMBase symposium. 
+
+No developers meetings planned yet. They can be combined with the meetings of the technical committee. Location: default is MMBase Foundation. The annual meeting is probably on another location. 
+
+Jo Lahaye,
+July 17, 2006</body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="51655" owner="default">
+		<title>Technical Board: 2006/10/18</title>
+		<intro></intro>
+		<body>Minutes meeting Technical Board October 18 (2006).
+
+Present: Jean Luc van Hulst, Ronald Vendelmans, Michiel Meeuwissen, Jo Lahaye.
+Absent: Nadia Poulou, Henk Hangyi.
+
+Discussed where the following subjects.
+
+1. Bug tracker, Migration to Jira
+2. Framework 
+3. Portal (CMS container) 
+4. Release management
+5. Release manager 
+6. Principles.
+
+1.	From a technical point of view, there is no reason not to change to Jira. It is possible to migrate the information in the current bug tracker to Jira and The Foundation received a license for the free use of Jira on behalf of the MMBase community. Finalist will contact the maintainers of mmbase.org to make the migration permanent on short notice.
+2.	The framework development weekend was very successful. For more information see the mmbase website. Although there is still work to be done,  the concept works an everyone can try to make “components”. Doing so, will probably help to make the framework more mature and stable. So we hope a lot of organizations are going to rethink the way they use MMBase functionalities. 
+3.	The development of the 1.0 release of the CMS container (JSR 168-compliant portal functionality) is coming close. The city of Nijmegen will be the first to fully use this functionality. Deployment is likely in one of the following weeks.
+4.	The board thinks that it is a great idea to call the next release of MMBase “2.0”, as the framework and CMS-container substantially extend the possibilities of the use of MMBase. Even though the changes in the core of MMBase might not be that big between 1.8.2 and the next release, the effects of the framework and cms container will be huge. And hopefully there are already a number of components available at the release date (we think February 2007 is realistic).
+5.	There still is no progress in finding a release manager. 
+6.	Principles. There was a principle tracker build, but the functionality is still not in use. Jo will check out how to publish and discuss the principles on short notice. That could be using the principle tracker, or publishing the principles as a textfile.
+
+
+</body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="51770" owner="default">
+		<title>Technical board: 2006/11/16</title>
+		<intro></intro>
+		<body>Minutes meeting Technical Board November 16 (2006).
+
+Present: Ronald Vendelmans, Nadia Poulou, Henk Hangyi, Michiel Meeuwissen, Jo Lahaye.
+Absent: Jean Luc van Hulst.
+
+Discussed where the following subjects.
+
+1.	Developers meetings
+2.	Annual Meeting of the Foundation, December 14 
+3.	Bug tracker, Migration to Jira
+4.	Framework 
+5.	Portal (CMS container) 
+6.	Release management
+7.	Release manager 
+8.	Principles
+9.	XS4ALL – domain names
+10.     Vacancies
+
+1.	There have not been many developer meetings lately. The committee members think it’s a good idea to place ‘events and meetings’ default on the agenda. It is understandable that everyone was (is) focused on the Framework and CMS-container, but there are other issues that could and should be addressed, for example release 2.0. and some of the projects that are underway. 
+2.	The annual meeting of the Foundation will be held on December 14 at the VPRO. The members of the Technical Committee are asked to be there in time (say 13.00 hours) to have a short meeting before the presentations start at 14.15 or 14.30. Feel free to invite colleagues, clients and organizations or people that might find this meeting of interest. For the details on the program, please visit the website. 
+3.	MMBase will start to use Jira as bug tracking software soon. The Foundation, as representative of the MMBase community is given a license to use Jira for free. The information in the current bug tracker will be transferred to Jira in the coming week. Finalist will take the lead in this process. 
+4.	The framework development weekend was so successful, that it was suggested to organize a second one. Of course, we will check if the main architects/developers are available. It would be great to take this project another step further in the coming month. After a few checks, the “weekend” of  8-9 December is chosen. Let’s hope we will get enough support for this second two day event, so please invite developers to join us. The results will of course be presented at the annual meeting. 
+5.	The development of the 1.0 release of the CMS container (JSR 168-compliant portal functionality) will see it’s first major release at December 14. The committee welcomes this great news. Henk Hangyi will organize a meeting for developers so they can learn how to use this new technology. The committee also discusses the future development of the CMS-container. Because Jean Luc is absent, the issue will be addressed in a later meeting.
+6.	The board saw the discussion the developers mailing list on the name convention of release 2.0. Most people seem to agree that MMBase with the cms-container and framework could be called release 2.0. 
+7.	Release manager. No progress on the issue. Finalist states that it is necessary to have one, they might look for a solution within their company. 
+8.	Principles. We’ve worked on several principles for some time now. So, we should bring them online now. Michiel will have a look at the principle tracker. If this functionality proves to be useful we will implement it, if not we will present the principles in .odt and .doc format on mmbase.org.
+9.	Jo will ask Daniel who to contact at XS4ALL, to make a formal agreement on the hosting and the domain names. First, there will be a check at the Benelux Merkenbureau: MMBase should be registered there on behalf of the Foundation.
+10.	Since Nadia will leave for Greece in the beginning of next year and Henk will join Finalist in 2007, three new members will have to be appointed to the technical committee. Jo will contact the members of the Foundation. Michiel will contact the MMC.
+
+Jo Lahaye, November 2006
+</body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="52348" owner="default">
+		<title>Technical Board: 2007/01/09</title>
+		<intro></intro>
+		<body>Minutes Technical Board (TB) 2007, January 9.
+
+Present: Ronald Vendelmans, Nadia Poulou, Henk Hangyi, Michiel Meeuwissen, Jo Lahaye, Martijn Verhoeven, Arjan van Krimpen, Rob de Bruin.
+
+Absent: Johannes Verelst.
+
+Discussed where the following subjects.
+
+1.	Changes in the Technical Board, goodbye to Nadia and Jean-Luc, hello to Arjan, Martijn and Johannes (although absent) 
+2.	Developersmeetings 
+3.	Jira
+4.	Release manager
+5.	Components: framework – CMS Container
+6.	Principles
+7.	Documentation
+8.	Website
+9.	Champagne
+
+1.	TB members. This “New Years” meeting we say goodbye to some members and we greet some newcomers. Henk Hangyi will from now on represent Finalist IT Group (we thank Jean-Luc who is leaving the Board) and Martijn Verhoeven (Mag Productions) will be the second representative on behalf of the service providers. Johannes Verelst will take the position Daniel Ockeloen left behind; he and Michiel Meeuwissen (soon to move to Dynasol) from now on represent the developers. Nadia Poulou is leaving us, as she is returning to her homeland. We thank Nadia for all the work done and wish her lots of success in Greece. Her position will be taken by another representative from Kennisnet: Arjan van Krimpen. Rob de Bruin will be his backup. This means, the Technical board is complete again. The agenda for the rest of the year (2007) is set at this first meeting: 
+March 8, 1600 hours
+May 10, 1600 hours
+June 28, 1600 hours
+September 13, 1600 hours 
+November 8, 1600 hours
+December 20, 1600 hours
+
+2.	Developers meetings. In November 2006 the TB concluded that there hadn’t  been many developers meetings lately and that there were (are) a number of issues to be addressed before the next releases. Henk takes the lead in organizing the next developers meeting on short notice. After some discussion we conclude that it might be a good idea to organize future developers meetings on the same day as the TB comes together (once every two months). That brings some regularity in the meetings and some of us attend both. If there is no other location communicated, the meetings will be held at the MMBase Foundation. 
+
+Action: organize meetings (Henk)
+
+3.	Jira is implemented. The Foundation is granted a community license. There are several issues that still need to be addressed. For more information, please see the minutes of the developers meeting that was held on the 24th of January 2007. 
+
+4.	Release manager. Henk Hangyi will the next 6 months make quarter for the future release manager. Might well be that after this period an employee of another service provider will take over this task. Henk will describe the activities and tasks of the release-manager, so the persons holding this position in future will have a clear idea of the necessary requirements and tasks to fulfill.
+
+5.	Components. The members of the Technical Board stretch out (again) the importance of developing a crystal clear view on components. MMBase-style components should –preferably-  be able to run as a portlet (CMS-container) as well as in the MMBase-framework architecture. Of course, in some cases organizations will turn to existing portlets that comply to the JSR 168 standard, instead of developing a new one or choosing the mmbase-component. There is nothing wrong with choice, as long as there is a clear understanding of the options and the consequences of those choices. So apart from a technical solution for the components architecture, there is a need for good documentation to make this transparent. 
+
+Action: documentation on components vs. portlets (Henk)
+
+6.	Principles. To implement the principles-tracker and its content, MMBase.org itself has to be upgraded to 1.8.x. André will be asked to look in to this. If the site is upgraded to 1.8 the implementation of the principle tracker can be done on short notice.
+
+Action: resolve bugs (Michiel)
+
+7.	Documentation. 
+
+Action: write / revise documentation concerning multicast and transactions (Rob, Michiel)
+
+8.         Website. The website should be migrated to 1.8.
+
+Action: ask André for help (Michiel)
+
+9.	Champagne. The TB hopes that 2007 will be a successful year for all of us; a good enough reason to open a bottle.  
+
+Jo Lahaye, January 2007
+</body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="52408" owner="default">
+		<title>Technical Board: 2007/03/08</title>
+		<intro></intro>
+		<body>Next meeting: May 10.  
+
+Present:Henk Hangyi, Michiel Meeuwissen, Arjan van Krimpen, Johannes Verelst, Jo Lahaye.
+
+Absent: Ronald Vendelmans, Martijn Verhoeven, Rob de Bruin.   
+
+Discussed where the following subjects.
+1. Releasemanager. 
+2. Developersmeetings 
+3. Jira
+4. Components: framework – CMS Container
+5. Principles
+6. Documentation
+7. Courses
+8. Email addresses 
+
+1. Releasemanager. Someone applied for the job of releasemanager. This position could be vacant after Henk Hangyi finishes his work in summertime. Jo will talk to the candidate and explain the current situation to him.  
+
+2. Developersmeeting(s). The developers meetings will be planned on the same day as the meetings of the Technical Board. So the next one will be held on May 10. Henk is responsible for the agenda.
+
+3. Jira is implemented, and there is some enthusiasm arising. One of the main advantages is, that’s it is more clear now to our (world) audience what the roadmap looks like. Michiel thinks suggest to also add the major projects to Jira. Now it might look as if just small bugs are registed and major developments have to be found elsewhere. Some applications which are now components may be promoted to projects if we plan to carry out major changes to them.
+Action: all, especially Michiel. 
+
+4. Components Framework-CMS Container. In the past there has been discussion on how to develop components. In the meetings of the TB the issue was discussed several times and to most of us, it was clear that the ideal situation would be if every component can be used in combination with the MMBase CMS Container and the Framework. Henk says that a survey will start at Finalist to see how this situation can be achieved, and what the “costs”are. The principle of blueprinting (in MMBase called tree and leave part; or the inheritance of templating) will also be part of the survey.
+Action: Henk. 
+
+5. Principles. It took a long time before the principles were implemented, because before the principle application could be deployed the MMBase site had to run on release 1.8.x. It took Michiel and Andre quite some time to upgrade the site. During the meeting the principles were brought online! The members of the Technical Board agreed to read all principles this week and test the application. Jo will write an news-article on Friday 16th, so please read and check the information. On the bottom of every principle we will add an email address for comments.
+Action: all, Jo especially. 
+
+6. Documentation. Rob offered to review and/or (re-)write some documentation concerning multicast and transactions. Michiel offered to help, but so far, no steps were taken. For this moment we decide to keep the issue on the agenda.
+Action: Rob and Michiel.  
+
+7 Courses. We all agree that the first steps on the MMBase road are still steep. There are several ways to pave the path to an easy setup and a quick install of some basic functionality. And we also need better training materials. So everyone is asked to send existing materials to Jo, who will collect, make an overview and before May 8 come up with a suggestion on how to proceed.
+Action: all, Jo especially.
+
+8. Email addresses. The number of mailing lists and its effectiveness is being discussed. We conclude: there are too many, and several people on the list(s) should be removed as they have no involvement (anymore) with the MMBase community. Michiel and Jo will make an overview of the lists and contact Rico/Justin to see how this situation can be improved.
+Action: Michiel and Jo
+
+Jo Lahaye
+March 12, 2007
+</body>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="52691" owner="default">
+		<title>Technical Board: 2007/06/28</title>
+		<intro></intro>
+		<body>Meeting Technical Committee MMBase,
+Hilversum, June 28
+Present: Henk Hangyi, Martijn Verhoeven, Michiel Meeuwissen,, Johannes Verelst, Ronald Vendelmans, Jo Lahaye.
+Absent: Arjan van Krimpen, Rob de Bruin. 
+
+Agenda: 
+-July 6: MM Component Framework day at the EO, 10.00 hours.
+-August 10-11: MM Component Framework weekend, at the Foundation, from 10.00 hours.
+-September 13, Technical Committee, 16.00 hours, Foundation.
+-September 13, Developersmeeting, 17.45, Foundation (+pizza)
+-November 8, Technical Committee, 16.00 hours, Foundation.
+-November 8, developersmeeting, 17.45 (+pizza)  
+
+-November 29: MMEvent (date not set yet), Convergence through collaboration 13.00-19.00
+ 
+Discussed were the following subjects.
+1. Architecture – principles. 
+2. Component Framework – release 1.9
+3. MMBase CMS Container.
+4. Email-lists
+5. Courses
+6. Foundation. 
+
+1. Architecture principles
+All members of the TC are asked once again to check the present release of the architecture principles and mail their suggestions to Jo within a week!. Kennisnet already sent some remarks and suggestions for additional principles. After the input is collected, the principles will be corrected and Jo will write a short news article to announce the principles as a new feature and ask for input. Action: all. 
+
+2. MMBase Component Framework project (MMCF)
+The MMCF is still ongoing. During the meeting of the TC, developers were contacted to make new appointments for working days. Decided was on July 6 (at the EO) and August 10+11 (weekend at the Foundation). The present status: the concept is working. To make sure the framework is usable in many different situations and to avoid difficult upgrades between release 1.9 and –for example- 1.9.1., it is necessary to test the framework in multiple projects. It would be great if organisations would help to suggest (small) projects and let their developers work on these projects during the MMCF days (July 6, August 10-11). It is essential to make sure the MMCF project moves ahead and to make sure there is convergence in the development. The Foundation will try to involve more parties, especially Kennisnet. Martijn Verhoeven is also asked if MAG is willing to connect to this development. 
+
+3. MMBase CMS-container
+Henk Hangyi gives an update on the development of the MMBase CMS-container. There are now seven users. Last week we organized a MMBase CMS container day in Almere. Henk showed the roadmap and the meetings for the rest of this year. The presentation will be distributed or put on a website. There are already a lot of modules and portlets developed for the container. As discussed many times before, these modules should also be available within the MMCF; and the other way round. In the March meeting Henk announced a research at Finalist concerning two way use of MMBase modules and the “tree and leave” systematic  (inheritance). Now he thinks that making the Container modules compatible could be part of the MMCF project. It is suggested to make the “webform” an example project, to show that a container module/portlet can operate in the framework and the “webmail” of didactor to show that a component can word as a portlet. 
+
+4. Mailinglists
+A few mailinglists ceased to exist, like for example announce and community. Maybe we need to do some more cleaning up, als only users and developers are being used. Perhaps a few more mailing lists can be removed (mmc / committers / documentation) as  they are not used (anymore).
+
+5. Courses
+Johannes and André sent some materials to set up courses. Although this information is not yet combined and there is not yet a specific course available for webmasters, application developers, managers or editors, we’ve put “training” online. Meanwhile, the foundation has given a number of management trainings. Concerning the other training modules Andre and Jo agreed on putting time and effort in creating the course(s) according to the questions/wishes of the interested company/people. 
+
+6. Foundation 
+The position of the foundation is discussed. The committee will work with the Foundation to create awareness of the role and importance of the foundation. We will work on a letter and a meeting in November. Action: Ronald &amp; Jo.
+
+7. Hosting MMBase.org
+There are some questions concerning the hosting of MMBase. Henk will contact the service provider. 
+
+Issues remaining from the TC meeting in March: 
+-Michiel thinks suggest to also add the major projects to Jira. Now it might look as if just small bugs are registed and major developments have to be found elsewhere. Some applications which are now components may be promoted to projects if we plan to carry out major changes to them.
+Action: all, especially Michiel. Status: pending
+
+-Documentation. Rob offered to review and/or (re-)write some documentation concerning multicast and transactions. Michiel offered to help, but so far, no steps were taken. For this moment we decide to keep the issue on the agenda.
+Action: Rob and Michiel. Status: pending
+
+Jo Lahaye
+</body>
+		<subtitle></subtitle>
+	</node>
+
+</documentation>
