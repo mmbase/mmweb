@@ -1,0 +1,855 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urls exportsource="mmbase://jeeves.mmbase.org/install/foundation" timestamp="20100714204030">
+	<node number="280" owner="admin">
+		<description>The website of the Nature restoration projects</description>
+		<url>http://www.natuurherstel.nl</url>
+		<name></name>
+	</node>
+
+	<node number="366" owner="admin">
+		<description>Rubicon</description>
+		<url>http://www.rubicongroup.biz</url>
+		<name></name>
+	</node>
+
+	<node number="372" owner="admin">
+		<description>E-id! Internet Strategies</description>
+		<url>http://www.e-id.nl</url>
+		<name></name>
+	</node>
+
+	<node number="382" owner="admin">
+		<description>Q42</description>
+		<url>http://www.q42.nl</url>
+		<name></name>
+	</node>
+
+	<node number="383" owner="admin">
+		<description>Orangehill</description>
+		<url>http://www.orangehill.nl</url>
+		<name></name>
+	</node>
+
+	<node number="384" owner="admin">
+		<description>Open Universiteit Nederland</description>
+		<url>http://www.ou.nl/english</url>
+		<name>Open Universiteit Nederland</name>
+	</node>
+
+	<node number="404" owner="admin">
+		<description>homepage</description>
+		<url>http://www.erikvisser.net</url>
+		<name></name>
+	</node>
+
+	<node number="409" owner="admin">
+		<description>IBM</description>
+		<url>http://www.ibm.nl</url>
+		<name></name>
+	</node>
+
+	<node number="412" owner="admin">
+		<description>The Mediator Group</description>
+		<url>http://www.mediatorgroup.com</url>
+		<name></name>
+	</node>
+
+	<node number="435" owner="admin">
+		<description>InterNLnet</description>
+		<url>http://www.internlnet.nl</url>
+		<name></name>
+	</node>
+
+	<node number="642" owner="admin">
+		<description>Submarine</description>
+		<url>http://www.submarine.nl</url>
+		<name></name>
+	</node>
+
+	<node number="650" owner="admin">
+		<description>Website van het ROC van Amsterdam</description>
+		<url>http://www.rocva.nl</url>
+		<name></name>
+	</node>
+
+	<node number="651" owner="admin">
+		<description>Website van TeleacNOT</description>
+		<url>http://www.teleacnot.nl</url>
+		<name></name>
+	</node>
+
+	<node number="652" owner="admin">
+		<description>Evangelische Omroep</description>
+		<url>http://www.eo.nl</url>
+		<name></name>
+	</node>
+
+	<node number="653" owner="admin">
+		<description>Kennisnet/Ict op school</description>
+		<url>http://www.kennisnetictopschool.nl/</url>
+		<name>Kennisnet/Ict op school</name>
+	</node>
+
+	<node number="654" owner="admin">
+		<description>Vara</description>
+		<url>http://www.vara.nl</url>
+		<name></name>
+	</node>
+
+	<node number="734" owner="admin">
+		<description>Overheid</description>
+		<url>http://www.overheid.nl</url>
+		<name></name>
+	</node>
+
+	<node number="740" owner="admin">
+		<description>Quantiq</description>
+		<url>http://www.quantiq.com</url>
+		<name></name>
+	</node>
+
+	<node number="16330" owner="import">
+		<description>The End Of TV Video site</description>
+		<url>http://www.submarine.nl/endoftv</url>
+		<name></name>
+	</node>
+
+	<node number="16798" owner="import">
+		<description>Results of research</description>
+		<url>http://www.nielsen-netratings.com/pr/pr_030311_global.pdf).</url>
+		<name></name>
+	</node>
+
+	<node number="16800" owner="import">
+		<description>http://www.nu.nl</description>
+		<url>http://www.nu.nl</url>
+		<name></name>
+	</node>
+
+	<node number="18629" owner="admin">
+		<description></description>
+		<url>/development/api/1.4/overview-summary.html</url>
+		<name>MMBase ApiDocs 1.4</name>
+	</node>
+
+	<node number="18633" owner="admin">
+		<description></description>
+		<url>/development/api/1.5/overview-summary.html</url>
+		<name>MMBase ApiDocs 1.5</name>
+	</node>
+
+	<node number="18635" owner="admin">
+		<description></description>
+		<url>/development/api/1.6/overview-summary.html</url>
+		<name>MMBase ApiDocs 1.6</name>
+	</node>
+
+	<node number="18671" owner="admin">
+		<description></description>
+		<url>/mmdocs/</url>
+		<name>Overview</name>
+	</node>
+
+	<node number="18984" owner="admin">
+		<description></description>
+		<url>/mmdocs/mmbase.org/mmcmissionstatement.pdf</url>
+		<name>MMC Mission Statement</name>
+	</node>
+
+	<node number="21146" owner="default">
+		<description></description>
+		<url>http://lists.mmbase.org/arc/developers/threads.html</url>
+		<name>Mailarchive Developers</name>
+	</node>
+
+	<node number="21318" owner="default">
+		<description></description>
+		<url>/development/api/1.7/overview-summary.html</url>
+		<name>MMBase ApiDocs 1.7</name>
+	</node>
+
+	<node number="21346" owner="default">
+		<description></description>
+		<url>http://lists.mmbase.org/arc/users/</url>
+		<name>Users mailarchive</name>
+	</node>
+
+	<node number="21348" owner="default">
+		<description></description>
+		<url>http://lists.mmbase.org/arc/announce/</url>
+		<name>Announce mailarchive</name>
+	</node>
+
+	<node number="21453" owner="default">
+		<description>De website van Parkstad, Amsterdam</description>
+		<url>http://www.parkstadamsterdam.nl</url>
+		<name></name>
+	</node>
+
+	<node number="21849" owner="admin">
+		<description></description>
+		<url>http://www.4en5mei.nl/</url>
+		<name></name>
+	</node>
+
+	<node number="21893" owner="default">
+		<description>The Natuurmonumenten webshop</description>
+		<url>http://www.natuurmonumenten.nl/winkel</url>
+		<name></name>
+	</node>
+
+	<node number="21919" owner="default">
+		<description>Check it out!</description>
+		<url>http://www.cultuurnet.be</url>
+		<name></name>
+	</node>
+
+	<node number="22667" owner="default">
+		<description>EO TV portal</description>
+		<url>http://www.eo.nl/tv</url>
+		<name></name>
+	</node>
+
+	<node number="23190" owner="default">
+		<description>Website gemeente Leeuwarden</description>
+		<url>http://www.leeuwarden.nl</url>
+		<name></name>
+	</node>
+
+	<node number="23261" owner="default">
+		<description>website Emerce</description>
+		<url>http://www.emerce.nl</url>
+		<name>website Emerce</name>
+	</node>
+
+	<node number="24243" owner="default">
+		<description>ROC Zeeland</description>
+		<url>http://www.roczeeland.nl</url>
+		<name></name>
+	</node>
+
+	<node number="25981" owner="default">
+		<description></description>
+		<url>http://www.mmbase.org/development/packageview/index.jsp</url>
+		<name>Packageview MMBase Packages</name>
+	</node>
+
+	<node number="26483" owner="default">
+		<description>Website Egem</description>
+		<url>http://www.egem.nl</url>
+		<name></name>
+	</node>
+
+	<node number="26755" owner="default">
+		<description>Register here for the Event</description>
+		<url>http://www.mmbase.org/subscribemmevent4</url>
+		<name></name>
+	</node>
+
+	<node number="27379" owner="default">
+		<description></description>
+		<url>download/mmevent/Arjen.rm</url>
+		<name>Wiab RealVideo 40Mb</name>
+	</node>
+
+	<node number="27381" owner="default">
+		<description></description>
+		<url>/download/mmevent/WebInABox.ppt</url>
+		<name>Wiab powerpoint</name>
+	</node>
+
+	<node number="27385" owner="default">
+		<description></description>
+		<url>download/mmevent/Dick.rm</url>
+		<name>About MMBase RealVideo 38Mb</name>
+	</node>
+
+	<node number="27389" owner="default">
+		<description></description>
+		<url>/download/mmevent/Erwin.rm</url>
+		<name>Editorial people RealVideo 56Mb</name>
+	</node>
+
+	<node number="27393" owner="default">
+		<description>Technical RealVideo 72Mb</description>
+		<url>download/mmevent/Daniel.rm</url>
+		<name>Technical RealVideo 72Mb</name>
+	</node>
+
+	<node number="27401" owner="default">
+		<description></description>
+		<url>download/mmevent/Rob.rm</url>
+		<name>Lowlands RealVideo 21Mb</name>
+	</node>
+
+	<node number="27405" owner="default">
+		<description></description>
+		<url>download/mmevent/Jeroen.rm</url>
+		<name>Jeroen RealVideo 86Mb</name>
+	</node>
+
+	<node number="27409" owner="default">
+		<description></description>
+		<url>download/mmevent/Sanne.rm</url>
+		<name>Sanne RealVideo 26Mb</name>
+	</node>
+
+	<node number="27413" owner="default">
+		<description></description>
+		<url>download/mmevent/Martijn.rm</url>
+		<name>Martijn RealVideo 29Mb</name>
+	</node>
+
+	<node number="27417" owner="default">
+		<description></description>
+		<url>download/mmevent/Kars.rm</url>
+		<name>Kars RealVideo 23Mb</name>
+	</node>
+
+	<node number="27421" owner="default">
+		<description></description>
+		<url>download/mmevent/Gilion.rm</url>
+		<name>Gilion RealVideo 46Mb</name>
+	</node>
+
+	<node number="27425" owner="default">
+		<description></description>
+		<url>download/mmevent/Jeanluc.rm</url>
+		<name>Jeanluc RealVideo 28Mb</name>
+	</node>
+
+	<node number="27679" owner="default">
+		<description></description>
+		<url>http://www.mmbase.org/download/dvd/MMBaseInstallation.mp4</url>
+		<name>MMBase Installation QuickTime 161Mb</name>
+	</node>
+
+	<node number="27700" owner="default">
+		<description></description>
+		<url>http://www.neoucom.edu/DEPTS/ATS/mp4help.htm</url>
+		<name>Help with the Mpeg-4 Video Format (MP4)</name>
+	</node>
+
+	<node number="27730" owner="default">
+		<description></description>
+		<url>http://www.mmbase.org/download/dvd/MMBaseCloud.mp4</url>
+		<name>MMBase Cloud Quicktime 241Mb</name>
+	</node>
+
+	<node number="35361" owner="admin">
+		<description>Website van de Gemeente Hilversum</description>
+		<url>http://www.hilversum.nl</url>
+		<name>Gemeente Hilversum</name>
+	</node>
+
+	<node number="38776" owner="admin">
+		<description>Website of Vodafone Netherlands</description>
+		<url>http://www.vodafone.nl</url>
+		<name>Vodafone Netherlands</name>
+	</node>
+
+	<node number="40748" owner="default">
+		<description></description>
+		<url>/development/api/1.8/overview-summary.html</url>
+		<name>MMBase ApiDocs 1.8</name>
+	</node>
+
+	<node number="41861" owner="default">
+		<description></description>
+		<url>http://lists.mmbase.org/arc/community/</url>
+		<name>Community mail archive</name>
+	</node>
+
+	<node number="41863" owner="default">
+		<description></description>
+		<url>http://lists.mmbase.org/arc/cvs/</url>
+		<name>SCM mail archive</name>
+	</node>
+
+	<node number="42509" owner="admin">
+		<description>Surfnet</description>
+		<url>http://www.surfnet.nl</url>
+		<name>Surfnet</name>
+	</node>
+
+	<node number="42517" owner="admin">
+		<description>studentents starting page</description>
+		<url>http://www.student.nl</url>
+		<name>student.nl</name>
+	</node>
+
+	<node number="42521" owner="admin">
+		<description>city of Doetinchem</description>
+		<url>http://gemeente.doetinchem.nl</url>
+		<name>Doetinchem</name>
+	</node>
+
+	<node number="46182" owner="admin">
+		<description></description>
+		<url>http://lists.mmbase.org/arc/committers/</url>
+		<name>Communittors mail archive</name>
+	</node>
+
+	<node number="47532" owner="default">
+		<description>Great international event on Open Source Software</description>
+		<url>http://www.hollandopen.nl</url>
+		<name>Holland Open Software Conference 2005</name>
+	</node>
+
+	<node number="47940" owner="default">
+		<description>Site voor professionals, ontwikkeld door Finalist</description>
+		<url>http://design.nl</url>
+		<name>design</name>
+	</node>
+
+	<node number="47941" owner="default">
+		<description>Homepage finalist.</description>
+		<url>http://www.finalist.com</url>
+		<name>Finalist</name>
+	</node>
+
+	<node number="47948" owner="default">
+		<description>Payment service provider</description>
+		<url>http://www.tripledeal.com</url>
+		<name>Tripledeal</name>
+	</node>
+
+	<node number="47949" owner="default">
+		<description>Payment service provider</description>
+		<url>http://www.first8.nl</url>
+		<name>First8</name>
+	</node>
+
+	<node number="49732" owner="default">
+		<description>Muziek website</description>
+		<url>http://www.3voor12.nl</url>
+		<name>3 voor 12</name>
+	</node>
+
+	<node number="49733" owner="default">
+		<description></description>
+		<url>http://www.4en5mei.nl</url>
+		<name>Nationaal Comité 4 en 5 mei</name>
+	</node>
+
+	<node number="49735" owner="default">
+		<description></description>
+		<url>http://www.advies.overheid.nl/index.jsp</url>
+		<name>Advies Overheid.nl</name>
+	</node>
+
+	<node number="49737" owner="default">
+		<description></description>
+		<url>http://www.anderetijden.nl</url>
+		<name>Andere Tijden</name>
+	</node>
+
+	<node number="49740" owner="default">
+		<description></description>
+		<url>http://www.bevrijdingsfestivals.nl</url>
+		<name>Bevrijdingsfestivals</name>
+	</node>
+
+	<node number="49745" owner="default">
+		<description></description>
+		<url>http://www.carp.nl</url>
+		<name>Carp</name>
+	</node>
+
+	<node number="49750" owner="default">
+		<description></description>
+		<url>http://www.cultuurnet.be</url>
+		<name>Cultuurnet Vlaanderen</name>
+	</node>
+
+	<node number="49753" owner="default">
+		<description></description>
+		<url>http://www.debalie.nl</url>
+		<name>De Balie</name>
+	</node>
+
+	<node number="49756" owner="default">
+		<description></description>
+		<url>http://www.didactor.nl</url>
+		<name>Didactor</name>
+	</node>
+
+	<node number="49757" owner="default">
+		<description>Culturele kindersite</description>
+		<url>http://www.draj.nl</url>
+		<name>Draj</name>
+	</node>
+
+	<node number="49762" owner="default">
+		<description></description>
+		<url>http://www.emerce.nl</url>
+		<name>Emerce</name>
+	</node>
+
+	<node number="49764" owner="default">
+		<description></description>
+		<url>http://www.eo.nl</url>
+		<name>Evangelische Omroep</name>
+	</node>
+
+	<node number="49766" owner="default">
+		<description></description>
+		<url>http://www.erim.nl</url>
+		<name>Erasmus Research Institute of Management (ERIM)</name>
+	</node>
+
+	<node number="49769" owner="default">
+		<description></description>
+		<url>http://www.flevofestival.nl</url>
+		<name>Flevofestival</name>
+	</node>
+
+	<node number="49772" owner="default">
+		<description></description>
+		<url>http://www.gpi.amsterdam.nl</url>
+		<name>Gemeentelijk Pedologisch Instituut Amsterdam</name>
+	</node>
+
+	<node number="49773" owner="default">
+		<description></description>
+		<url>http://www.ikon.nl</url>
+		<name>IKON</name>
+	</node>
+
+	<node number="49775" owner="default">
+		<description></description>
+		<url>http://www.interactive.tv</url>
+		<name>Interactive.tv</name>
+	</node>
+
+	<node number="49778" owner="default">
+		<description>EO Jongerendag</description>
+		<url>http://www.jongerendag.nl</url>
+		<name>Jongerendag</name>
+	</node>
+
+	<node number="49780" owner="default">
+		<description></description>
+		<url>http://www.juize.fm</url>
+		<name>Juize FM</name>
+	</node>
+
+	<node number="49781" owner="default">
+		<description></description>
+		<url>http://www.kennisnet.nl</url>
+		<name>Kennisnet</name>
+	</node>
+
+	<node number="49783" owner="default">
+		<description></description>
+		<url>http://www.kenniswijk.nl</url>
+		<name>Kenniswijk</name>
+	</node>
+
+	<node number="49785" owner="default">
+		<description></description>
+		<url>http://www.keuzevakkengids.nl</url>
+		<name>Keuzevakkengids.nl</name>
+	</node>
+
+	<node number="49790" owner="default">
+		<description></description>
+		<url>http://www.leeuwarden.nl</url>
+		<name>Leeuwarden.nl</name>
+	</node>
+
+	<node number="49792" owner="default">
+		<description></description>
+		<url>http://www.lowlands.nl</url>
+		<name>Lowlands</name>
+	</node>
+
+	<node number="49796" owner="default">
+		<description></description>
+		<url>http://www.natuurherstel.nl</url>
+		<name>Natuurherstelprojecten in Nederland</name>
+	</node>
+
+	<node number="49797" owner="default">
+		<description></description>
+		<url>http://www.natuurmonumenten.nl</url>
+		<name>Natuurmonumenten</name>
+	</node>
+
+	<node number="49799" owner="default">
+		<description></description>
+		<url>http://www.noorderlicht.vpro.nl</url>
+		<name>Noorderlicht</name>
+	</node>
+
+	<node number="49801" owner="default">
+		<description>Neerlands best bezochte nieuwssite</description>
+		<url>http://www.nu.nl</url>
+		<name>NU.nl</name>
+	</node>
+
+	<node number="49804" owner="default">
+		<description></description>
+		<url>http://www.oorlogsmonumenten.nl</url>
+		<name>Oorlogsmonumenten</name>
+	</node>
+
+	<node number="49805" owner="default">
+		<description></description>
+		<url>http://www.oservaringen.nl</url>
+		<name>OS ervaringen</name>
+	</node>
+
+	<node number="49808" owner="default">
+		<description></description>
+		<url>http://www.ososs.nl</url>
+		<name>OSOSS</name>
+	</node>
+
+	<node number="49810" owner="default">
+		<description></description>
+		<url>http://www.overheid.nl</url>
+		<name>Overheid.nl</name>
+	</node>
+
+	<node number="49811" owner="default">
+		<description></description>
+		<url>http://www.parkstadamsterdam.nl</url>
+		<name>Park Stad Amsterdam</name>
+	</node>
+
+	<node number="49814" owner="default">
+		<description></description>
+		<url>http://www.pinkpop.nl</url>
+		<name>Pinkpop</name>
+	</node>
+
+	<node number="49815" owner="default">
+		<description></description>
+		<url>http://www.radio538.nl</url>
+		<name>Radio 538</name>
+	</node>
+
+	<node number="49817" owner="default">
+		<description></description>
+		<url>http://www.radiobergeijk.nl</url>
+		<name>Radio Bergeijk</name>
+	</node>
+
+	<node number="49820" owner="default">
+		<description></description>
+		<url>http://www.regering.nl</url>
+		<name>Regering.nl</name>
+	</node>
+
+	<node number="49823" owner="default">
+		<description></description>
+		<url>http://www.roi-opl.nl</url>
+		<name>ROI Opleiding, Coaching &amp;amp; Advies</name>
+	</node>
+
+	<node number="49825" owner="default">
+		<description></description>
+		<url>http://www.toly.nl</url>
+		<name>André van Toly, d+g design</name>
+	</node>
+
+	<node number="49827" owner="default">
+		<description></description>
+		<url>http://www.ronduit.nl</url>
+		<name>Ronduit</name>
+	</node>
+
+	<node number="49832" owner="default">
+		<description></description>
+		<url>http://www.snob.nl</url>
+		<name>SNOB</name>
+	</node>
+
+	<node number="49834" owner="default">
+		<description></description>
+		<url>http://www.spion.nl</url>
+		<name>Spion</name>
+	</node>
+
+	<node number="49835" owner="default">
+		<description></description>
+		<url>http://www.spreekbuis.nl</url>
+		<name>Spreekbuis</name>
+	</node>
+
+	<node number="49840" owner="default">
+		<description></description>
+		<url>http://www.submarine.nl</url>
+		<name>Submarine</name>
+	</node>
+
+	<node number="49842" owner="default">
+		<description></description>
+		<url>http://www.surfnet.nl</url>
+		<name>SURFnet</name>
+	</node>
+
+	<node number="49844" owner="default">
+		<description></description>
+		<url>http://www.teleacnot.nl</url>
+		<name>Teleac NOT</name>
+	</node>
+
+	<node number="49845" owner="default">
+		<description></description>
+		<url>http://www.schooltv.nl</url>
+		<name>Schooltv</name>
+	</node>
+
+	<node number="49851" owner="default">
+		<description></description>
+		<url>http://www.villa-achterwerk.nl</url>
+		<name>Villa Achterwerk</name>
+	</node>
+
+	<node number="49853" owner="default">
+		<description></description>
+		<url>http://www.vpro.nl</url>
+		<name>VPRO</name>
+	</node>
+
+	<node number="49858" owner="default">
+		<description></description>
+		<url>http://www.ynet.com/</url>
+		<name>YNet</name>
+	</node>
+
+	<node number="49859" owner="default">
+		<description>Website van het Holland Open Software Platform</description>
+		<url>http://www.hollandopen.nl</url>
+		<name>Holland Open</name>
+	</node>
+
+	<node number="49861" owner="default">
+		<description></description>
+		<url>http://www.npbsales.com/npbsales/</url>
+		<name>NPB Sales</name>
+	</node>
+
+	<node number="49864" owner="default">
+		<description></description>
+		<url>http://www.knmi.nl</url>
+		<name>KNMI</name>
+	</node>
+
+	<node number="49867" owner="default">
+		<description>Poppodium</description>
+		<url>http://www.melkweg.nl</url>
+		<name>De Melkweg</name>
+	</node>
+
+	<node number="49869" owner="default">
+		<description></description>
+		<url>http://www.student.nl</url>
+		<name>Student.nl</name>
+	</node>
+
+	<node number="50142" owner="default">
+		<description>Oasen, waterleidingbedrijf voor een deel van Zuid-Holland</description>
+		<url>http://www.oasen.nl</url>
+		<name>Oasen</name>
+	</node>
+
+	<node number="51348" owner="default">
+		<description>De gemeente Almere gebruikt net als verschillende andere gemeenten en organisaties MMBase als CMS en portal technologie.</description>
+		<url>http://www.almere.nl</url>
+		<name>Gemeente Almere</name>
+	</node>
+
+	<node number="51687" owner="default">
+		<description>Een online community voor iedereen die lol heeft in koken. Je kunt zelf een eigen blog aanmaken en je avonturen en recepten delen.</description>
+		<url>http://www.keukenhelden.nl</url>
+		<name>Keukenhelden</name>
+	</node>
+
+	<node number="51749" owner="default">
+		<description>Overheid.nl</description>
+		<url>http://www.overheid.nl</url>
+		<name>Overheid.nl</name>
+	</node>
+
+	<node number="51756" owner="default">
+		<description>De nieuwe site van Overheid.nl is op 9 november 2006 opgeleverd en gebouwd met MMBase. IC&amp;S uit Utrecht is verantwoordelijk voor de implementatie en het ontwerp is van Cinnamon uit Leeuwarden..</description>
+		<url>http://www.overheid.nl</url>
+		<name>Overheid.nl</name>
+	</node>
+
+	<node number="51766" owner="default">
+		<description>Een online kennismaking met het christelijk geloof. Een interactieve zoektocht.</description>
+		<url>http://www.waaromjezus.nl</url>
+		<name>Waarom Jezus?</name>
+	</node>
+
+	<node number="51768" owner="default">
+		<description>The new MMBase site of Nijmegen was deployed in november 2006</description>
+		<url>http://www.nijmegen.nl</url>
+		<name>Gemeente Nijmegen</name>
+	</node>
+
+	<node number="51805" owner="default">
+		<description></description>
+		<url>http://www.mmbase.org/jira</url>
+		<name>jira</name>
+	</node>
+
+	<node number="52415" owner="default">
+		<description>The new website of the regional broadcasting company L1.</description>
+		<url>http://www.l1.nl</url>
+		<name>L1</name>
+	</node>
+
+	<node number="52542" owner="default">
+		<description></description>
+		<url>/principles/index.jsp</url>
+		<name>Principle Tracker</name>
+	</node>
+
+	<node number="52547" owner="default">
+		<description></description>
+		<url>/mm</url>
+		<name>Maven site</name>
+	</node>
+
+	<node number="52599" owner="default">
+		<description>Campagne van Natuurmonumenten.</description>
+		<url>http://www.nederlandopenengroen.nl</url>
+		<name>Nederland open en groen</name>
+	</node>
+
+	<node number="52618" owner="default">
+		<description></description>
+		<url>http://lists.mmbase.org/arc/cmscontainer/threads.html</url>
+		<name>Mailarchive CMS Container</name>
+	</node>
+
+	<node number="52638" owner="default">
+		<description></description>
+		<url>http://www.nom.nl</url>
+		<name>NOM Investerings- en Ontwikkelingsmaatschappij voor Noord-Nederland</name>
+	</node>
+
+	<node number="52878" owner="default">
+		<description>Nieuwe website van het Nederlands Architectuur Instituut gebouwd met MMBase.</description>
+		<url>http://www.nai.nl/toolbar/nieuws/detail_nieuws/_rp_left1_elementId/1_161344/_pid/left1</url>
+		<name>NAI Nederlands ArchitectuurInstituut</name>
+	</node>
+
+	<node number="54016" owner="admin">
+		<description></description>
+		<url>http://www.mmbase.org/api/</url>
+		<name>Latest MMBase apidoc</name>
+	</node>
+
+	<node number="54078" owner="default">
+		<description>Vernieuwend initiatief Beeld en Geluid om video-content te tonen, te delen en te bewerken.</description>
+		<url>http://www.openbeelden.nl</url>
+		<name>Open Beelden</name>
+	</node>
+
+</urls>

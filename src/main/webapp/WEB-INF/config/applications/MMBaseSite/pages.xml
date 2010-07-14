@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pages exportsource="mmbase://jeeves.mmbase.org/install/foundation" timestamp="20100714204030">
+	<node number="166" owner="admin" alias="page_homepage">
+		<title>Homepage</title>
+		<description>MMBaseWeb</description>
+	</node>
+
+	<node number="177" owner="default" alias="download">
+		<title>Download</title>
+		<description>MMBaseWeb</description>
+	</node>
+
+	<node number="191" owner="default" alias="page_developershome">
+		<title>Developers Home</title>
+		<description>BackendDevelopers</description>
+	</node>
+
+	<node number="193" owner="default" alias="page_foundationhome">
+		<title>Foundation Home</title>
+		<description>Foundation</description>
+	</node>
+
+	<node number="516" owner="admin">
+		<title>Agenda</title>
+		<description>Foundation</description>
+	</node>
+
+	<node number="519" owner="admin">
+		<title>Jobs</title>
+		<description>Foundation</description>
+	</node>
+
+	<node number="521" owner="admin">
+		<title>Dutch page</title>
+		<description>Foundation</description>
+	</node>
+
+	<node number="536" owner="default">
+		<title>About</title>
+		<description>BackendDevelopers</description>
+	</node>
+
+	<node number="537" owner="default">
+		<title>License</title>
+		<description>BackendDevelopers</description>
+	</node>
+
+	<node number="545" owner="default">
+		<title>Guidelines</title>
+		<description>BackendDevelopers</description>
+	</node>
+
+	<node number="546" owner="default">
+		<title>Roadmap - bugs</title>
+		<description>BackendDevelopers</description>
+	</node>
+
+	<node number="547" owner="admin">
+		<title>Overview</title>
+		<description>BackendDevelopers</description>
+	</node>
+
+	<node number="548" owner="admin">
+		<title>Apidocs</title>
+		<description>BackendDevelopers</description>
+	</node>
+
+	<node number="549" owner="default">
+		<title>Documentation</title>
+		<description>BackendDevelopers</description>
+	</node>
+
+	<node number="556" owner="default">
+		<title>Projects</title>
+		<description>BackendDevelopers</description>
+	</node>
+
+	<node number="558" owner="admin" alias="page_developersmail">
+		<title>Developers Mail</title>
+		<description>BackendDevelopers</description>
+	</node>
+
+	<node number="560" owner="admin" alias="page_cvs">
+		<title>Subversion Repository</title>
+		<description>BackendDevelopers</description>
+	</node>
+
+	<node number="561" owner="admin">
+		<title>News</title>
+		<description>BackendDevelopers</description>
+	</node>
+
+	<node number="570" owner="admin">
+		<title>Agenda</title>
+		<description>BackendDevelopers</description>
+	</node>
+
+	<node number="571" owner="default">
+		<title>People</title>
+		<description>BackendDevelopers</description>
+	</node>
+
+	<node number="574" owner="default">
+		<title>Organization</title>
+		<description>BackendDevelopers</description>
+	</node>
+
+	<node number="582" owner="admin">
+		<title>Presentations</title>
+		<description>BackendDevelopers</description>
+	</node>
+
+	<node number="13316" owner="admin" alias="page_releases">
+		<title>Releases</title>
+		<description>BackendDevelopers</description>
+	</node>
+
+	<node number="13332" owner="admin">
+		<title>Archived projects</title>
+		<description>BackendDevelopers</description>
+	</node>
+
+	<node number="17427" owner="admin">
+		<title>1.4</title>
+		<description>BackendDevelopers</description>
+	</node>
+
+	<node number="17432" owner="admin">
+		<title>1.5</title>
+		<description>BackendDevelopers</description>
+	</node>
+
+	<node number="17438" owner="admin">
+		<title>1.6</title>
+		<description>BackendDevelopers</description>
+	</node>
+
+	<node number="18625" owner="admin" alias="page_search">
+		<title>Search</title>
+		<description>BackendDevelopers</description>
+	</node>
+
+	<node number="18884" owner="admin" alias="mmbase_news">
+		<title>Contact</title>
+		<description>MMBaseWeb</description>
+	</node>
+
+	<node number="19473" owner="default">
+		<title>Partnerships</title>
+		<description>Foundation</description>
+	</node>
+
+	<node number="19503" owner="default">
+		<title>Promotion Products</title>
+		<description>Foundation</description>
+	</node>
+
+	<node number="19507" owner="default">
+		<title>Activities</title>
+		<description>Foundation</description>
+	</node>
+
+	<node number="19638" owner="default">
+		<title>Packages</title>
+		<description>MMBaseWeb</description>
+	</node>
+
+	<node number="19662" owner="default">
+		<title>Foundation</title>
+		<description>Foundation</description>
+	</node>
+
+	<node number="20131" owner="default">
+		<title>About</title>
+		<description>Foundation</description>
+	</node>
+
+	<node number="20137" owner="default">
+		<title>History</title>
+		<description>Foundation</description>
+	</node>
+
+	<node number="20141" owner="default">
+		<title>MMBase in a nutshell</title>
+		<description>Foundation</description>
+	</node>
+
+	<node number="21059" owner="default">
+		<title>MMBase brochure</title>
+		<description></description>
+	</node>
+
+	<node number="21316" owner="default">
+		<title>1.7</title>
+		<description>BackendDevelopers</description>
+	</node>
+
+	<node number="21335" owner="default" alias="page_announcemail">
+		<title>Announce Mail</title>
+		<description>MMBaseWeb</description>
+	</node>
+
+	<node number="21337" owner="default" alias="page_usersmail">
+		<title>Users Mail</title>
+		<description>MMBaseWeb</description>
+	</node>
+
+	<node number="21339" owner="default" alias="page_agenda">
+		<title>Agenda</title>
+		<description>MMBaseWeb</description>
+	</node>
+
+	<node number="21341" owner="default">
+		<title>News</title>
+		<description>MMBaseWeb</description>
+	</node>
+
+	<node number="21405" owner="default">
+		<title>MMBase Pen</title>
+		<description>Foundation</description>
+	</node>
+
+	<node number="21431" owner="default">
+		<title>MMBase stand</title>
+		<description></description>
+	</node>
+
+	<node number="21461" owner="default">
+		<title>MMok</title>
+		<description></description>
+	</node>
+
+	<node number="21479" owner="default">
+		<title>News</title>
+		<description></description>
+	</node>
+
+	<node number="21625" owner="default">
+		<title>MMBeamer</title>
+		<description></description>
+	</node>
+
+	<node number="21649" owner="default">
+		<title>404 Page Not Found</title>
+		<description></description>
+	</node>
+
+	<node number="21788" owner="default">
+		<title>Contracts</title>
+		<description></description>
+	</node>
+
+	<node number="21857" owner="default">
+		<title>MMBase hardboards</title>
+		<description></description>
+	</node>
+
+	<node number="23538" owner="admin">
+		<title>Knowledge base</title>
+		<description>Developers</description>
+	</node>
+
+	<node number="25011" owner="default">
+		<title>MMC</title>
+		<description></description>
+	</node>
+
+	<node number="25163" owner="default">
+		<title>Request for Hardware</title>
+		<description></description>
+	</node>
+
+	<node number="25168" owner="default">
+		<title>Participants</title>
+		<description></description>
+	</node>
+
+	<node number="25171" owner="default">
+		<title>MMEVENT</title>
+		<description>Information</description>
+	</node>
+
+	<node number="25175" owner="default">
+		<title>Route</title>
+		<description></description>
+	</node>
+
+	<node number="25176" owner="default">
+		<title>Register</title>
+		<description></description>
+	</node>
+
+	<node number="25177" owner="default">
+		<title>Information</title>
+		<description></description>
+	</node>
+
+	<node number="25888" owner="default" alias="page_mmbasewebsites">
+		<title>Websites in MMBase</title>
+		<description>Foundation</description>
+	</node>
+
+	<node number="25980" owner="default">
+		<title>Packages</title>
+		<description>Packages</description>
+	</node>
+
+	<node number="26254" owner="default">
+		<title>Program</title>
+		<description>Program of the MMEvent4</description>
+	</node>
+
+	<node number="27076" owner="default">
+		<title>Download presentations</title>
+		<description></description>
+	</node>
+
+	<node number="27082" owner="default">
+		<title>Report of the fourth MMEvent</title>
+		<description></description>
+	</node>
+
+	<node number="27226" owner="default">
+		<title>Brochure</title>
+		<description></description>
+	</node>
+
+	<node number="27492" owner="default">
+		<title>Partner contracts</title>
+		<description></description>
+	</node>
+
+	<node number="27502" owner="default">
+		<title>MMBase annual report [in dutch]</title>
+		<description></description>
+	</node>
+
+	<node number="40749" owner="admin">
+		<title>1.8</title>
+		<description></description>
+	</node>
+
+	<node number="41151" owner="default">
+		<title>Mailinglists</title>
+		<description></description>
+	</node>
+
+	<node number="41855" owner="default" alias="page_communitymail">
+		<title>Community Mail</title>
+		<description></description>
+	</node>
+
+	<node number="41857" owner="default" alias="page_cvsmail">
+		<title>SCM Mail</title>
+		<description></description>
+	</node>
+
+	<node number="46178" owner="default" alias="page_committorsmail">
+		<title>Committers Mail</title>
+		<description></description>
+	</node>
+
+	<node number="47013" owner="admin">
+		<title>Applications</title>
+		<description>applications</description>
+	</node>
+
+	<node number="47447" owner="default">
+		<title>How to become a partner?</title>
+		<description></description>
+	</node>
+
+	<node number="47459" owner="default">
+		<title>Activities</title>
+		<description></description>
+	</node>
+
+	<node number="47478" owner="default">
+		<title>Why should you become a partner?</title>
+		<description></description>
+	</node>
+
+	<node number="47509" owner="default">
+		<title>Holland Open Software Conference</title>
+		<description></description>
+	</node>
+
+	<node number="48685" owner="default">
+		<title>E-mail form</title>
+		<description>jo.lahaye@mmbase.org</description>
+	</node>
+
+	<node number="50534" owner="default">
+		<title>Technical Board</title>
+		<description>Minutes</description>
+	</node>
+
+	<node number="50538" owner="default">
+		<title>Meetings</title>
+		<description>Developers</description>
+	</node>
+
+	<node number="51936" owner="default">
+		<title>Training</title>
+		<description></description>
+	</node>
+
+	<node number="52537" owner="default">
+		<title>Architecture</title>
+		<description></description>
+	</node>
+
+	<node number="52544" owner="default">
+		<title>Maven-site</title>
+		<description></description>
+	</node>
+
+	<node number="52612" owner="default">
+		<title>CMS Container Mail</title>
+		<description></description>
+	</node>
+
+	<node number="54014" owner="admin">
+		<title>latest apidoc</title>
+		<description>latest</description>
+	</node>
+
+</pages>

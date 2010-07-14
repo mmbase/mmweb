@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE application PUBLIC "-//MMBase//DTD application config 1.1//EN" "http://www.mmbase.org/dtd/application_1_1.dtd">
+<application name="MMBaseSite" maintainer="mmbase.org" version="1" auto-deploy="false">
+  <requirements>
+    <requires name="Resources" maintainer="mmbase.org" />
+  </requirements>
+
+  <neededbuilderlist>
+    <builder maintainer="mmbase.org" version="1">portals</builder>
+    <builder maintainer="mmbase.org" version="1">pages</builder>
+    <builder maintainer="mmbase.org" version="1">templates</builder>
+    
+    <builder maintainer="mmbase.org" version="1">urls</builder>
+    <builder maintainer="mmbase.org" version="1">attachments</builder>
+    <builder maintainer="mmbase.org" version="1">images</builder>
+    
+    <builder maintainer="mmbase.org" version="1">articles</builder>
+    <builder maintainer="mmbase.org" version="1">documentation</builder>
+    <builder maintainer="mmbase.org" version="1">news</builder>
+
+    <builder maintainer="mmbase.org" version="1">posrel</builder>
+    <builder maintainer="mmbase.org" version="1">insrel</builder>
+    
+  </neededbuilderlist>
+
+  <neededreldeflist>
+    <reldef source="related" target="related" direction="bidirectional" guisourcename="Related" guitargetname="Related" builder="insrel" />
+    <reldef source="posrel"  target="posrel" direction="bidirectional" guisourcename="Posrel" guitargetname="Posrel" builder="posrel" />
+    <reldef source="readmore" target="readmore" direction="bidirectional" guisourcename="Readmore" guitargetname="Readmore" builder="insrel" />
+  </neededreldeflist>
+
+  <allowedrelationlist>
+    <relation from="portals" to="portals" type="posrel" />
+    
+    <relation from="portals" to="pages" type="posrel" />
+    <relation from="pages"   to="pages" type="posrel" />
+    <relation from="pages"   to="pages" type="readmore" /><!-- change to posrel -->
+    
+    <relation from="pages"   to="templates"      type="posrel" />
+    
+    <relation from="pages"   to="articles"       type="readmore" /><!-- change to posrel -->
+    
+    <relation from="pages"   to="articles"       type="posrel" />    
+    <relation from="pages"   to="documentation"  type="posrel" /><!-- change in articles -->
+    <relation from="pages"   to="news"           type="posrel" /><!-- change or delete ? -->
+
+    <relation from="articles" to="images" type="posrel" />
+    <relation from="articles" to="urls" type="posrel" />
+    <relation from="articles" to="attachments" type="posrel" />
+
+    <relation from="documentation" to="images" type="posrel" />
+    <relation from="documentation" to="urls" type="posrel" />
+    <relation from="documentation" to="attachments" type="posrel" />
+    
+    <relation from="news" to="images" type="posrel" />
+    <relation from="news" to="urls" type="posrel" />
+    <relation from="news" to="attachments" type="posrel" />
+
+  </allowedrelationlist>
+
+  <datasourcelist>
+    <datasource builder="portals"     path="MMBaseSite/portals.xml" />
+    <datasource builder="pages"       path="MMBaseSite/pages.xml" />
+    <datasource builder="templates"   path="MMBaseSite/templates.xml" />
+    
+    <datasource builder="urls"        path="MMBaseSite/urls.xml" />
+    <datasource builder="attachments" path="MMBaseSite/attachments.xml" />
+    <datasource builder="images"      path="MMBaseSite/images.xml" />
+    
+    <datasource builder="articles"      path="MMBaseSite/articles.xml" />
+    <datasource builder="documentation" path="MMBaseSite/documentation.xml" />
+    <datasource builder="news"          path="MMBaseSite/news.xml" />
+  </datasourcelist>
+
+  <relationsourcelist>
+    <relationsource builder="insrel" path="MMBaseSite/insrel.xml" />
+    <relationsource builder="posrel" path="MMBaseSite/posrel.xml" />
+  </relationsourcelist>
+
+  <contextsourcelist>
+    <contextsource path="MMBaseSite/backup.xml" type="depth" goal="backup"/>
+  </contextsourcelist>
+
+  <description>
+    <![CDATA[MMBaseSite contains the main content of mmbase.org. It requires Resources.]]>
+  </description>
+
+  <install-notice>
+    <![CDATA[The MMBaseSite application is installed.]]>
+  </install-notice>
+</application>
