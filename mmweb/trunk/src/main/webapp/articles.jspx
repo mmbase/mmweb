@@ -1,0 +1,108 @@
+<jsp:root
+    version="2.0"
+    xmlns:jsp="http://java.sun.com/JSP/Page"
+    xmlns:c="http://java.sun.com/jsp/jstl/core"
+    xmlns:x="http://java.sun.com/jsp/jstl/xml"
+    xmlns:os="http://www.opensymphony.com/oscache"
+    xmlns:mm="http://www.mmbase.org/mmbase-taglib-2.0"
+    xmlns:mmweb="urn:jsptagdir:/WEB-INF/tags/mmweb">
+  <mmweb:html styleClass="articles">
+    <jsp:attribute name="head">
+    
+    </jsp:attribute>
+    <jsp:attribute name="body">
+      <mm:import id="page" externid="n" />
+      <mm:node referid="page">
+        <div id="content">
+          <div>
+            <mm:relatednodescontainer type="articles" role="posrel" searchdirs="destination">
+              <mm:sortorder field="posrel.pos" direction="DOWN" />
+              <mm:maxnumber value="1" />
+              <mm:relatednodes>
+                <h2><mm:field name="title" id="pagetitle" /></h2>
+                <mm:field name="intro" escape="paragraph(intro),links" />
+                <!-- images -->
+                <mm:relatednodescontainer type="images" role="posrel" searchdirs="destination">
+                  <mm:relatednodes>
+                    <div class="images">
+                      <mm:image width="240" mode="img" />
+                      <mm:field name="title"><mm:isnotempty><mm:write /></mm:isnotempty></mm:field>
+                    </div>
+                  </mm:relatednodes>
+                </mm:relatednodescontainer>
+                
+                <mm:relatednodescontainer type="urls" role="posrel" searchdirs="destination">
+                  <mm:size id="nr_urls" write="false" />
+                </mm:relatednodescontainer>
+                <c:if test="${nr_urls gt 0}">
+                  <div class="related">
+                    <mm:relatednodescontainer type="urls" role="posrel" searchdirs="destination">
+                      <mm:sortorder field="posrel.pos" direction="UP" />
+                      <ul class="urls">
+                        <mm:relatednodes>
+                          <li>
+                            <a title="${_node.description}" href="${_node.url}"><mm:field name="name" /></a>
+                          </li>
+                        </mm:relatednodes>
+                      </ul>
+                    </mm:relatednodescontainer>
+                    <ul class="attachments">
+                      <li><a href="#">Dit is een attachments</a></li>
+                    </ul>
+                  </div>
+                </c:if>
+
+                <mm:field name="body" escape="paragraph,links" />
+              
+              </mm:relatednodes>
+            </mm:relatednodescontainer>
+  
+            <mm:relatednodescontainer type="articles" role="posrel" searchdirs="destination">
+              <mm:sortorder field="posrel.pos" direction="DOWN" />
+              <mm:offset value="1" />
+              <mm:relatednodes>
+                <h2><mm:field name="title" /></h2>
+                <mm:field name="intro" escape="paragraph(intro),links" />
+                <mm:field name="body" escape="paragraph,links" />
+              </mm:relatednodes>
+            </mm:relatednodescontainer>
+          </div>
+        </div>
+      
+        <div id="sidebar">
+          <div>
+            page: ${page}
+            <mm:nodefunction name="parent" referids="_node@node" set="mmsite">
+              <mm:import id="parent" reset="true"><mm:field name="number" /></mm:import>
+            </mm:nodefunction>
+            parent: ${parent}
+           <mm:nodefunction name="root" referids="_node@node" set="mmsite">
+              <mm:import id="root" reset="true"><mm:field name="number" /></mm:import>
+           </mm:nodefunction>
+            root: ${root}
+           <mm:nodelistfunction name="crumbs" referids="_node@node" set="mmsite">
+             crumbs: ${_node.number}
+           </mm:nodelistfunction>
+          
+            <mm:relatednodescontainer type="pages" role="posrel" searchdirs="destination">
+              <h4>Read more</h4>
+              <ul class="nolist">
+              <mm:relatednodes>
+                <li>
+                  <mm:link page="page" referids="_node@n">
+                    <mm:frameworkparam name="component">mmsite</mm:frameworkparam>
+                    <a href="${_}"><mm:field name="title" /></a>
+                  </mm:link>
+                </li>
+              </mm:relatednodes>
+              </ul>
+            </mm:relatednodescontainer>
+            
+  
+          </div>
+        </div>
+      </mm:node>
+    </jsp:attribute>
+    <jsp:attribute name="title">${pagetitle}</jsp:attribute>
+  </mmweb:html>
+</jsp:root>

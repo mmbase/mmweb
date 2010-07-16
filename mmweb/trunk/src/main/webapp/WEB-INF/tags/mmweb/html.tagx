@@ -46,7 +46,6 @@
             <c:choose>
               <c:when test="${empty title and !empty page}">
                 <mm:node referid="page">
-                  <mm:hasfield name="username"><mm:field name="username" /></mm:hasfield>
                   <mm:hasfield name="title"><mm:field name="title" /></mm:hasfield>
                 </mm:node>
               </c:when>
@@ -64,46 +63,112 @@
             </c:otherwise>
           </c:choose>
         </mmweb:head>
-
         <body class="${styleClass}">
-          <div id="head">
-            <div id="head-inner">
-              <h1>
-                <a href="${mm:link('/')}"><img src="${mm:link('/html/style/images/mmbase-logo-sm.png')}" width="48" height="64" alt="MMBase" /></a>
-              </h1>
-              <div id="menu">
-                <ol>
-                  <li><a href="#">About</a></li>
-                  <li><a href="#">Download</a></li>
-                  <li><a href="#">Documentation</a></li>
-                  <li><a href="#">Bugs</a></li>
-                  <li><a href="#">Contact</a></li>
-                </ol>
-              </div>  
-            </div>
-          </div>          
-          <div id="wrap">
-            <div id="wrap-inner">
-              <div id="submenu"><jsp:text> <!-- empty --> </jsp:text></div>
-              
-              <jsp:invoke fragment="body" />
-              
-            </div>
-            
-            <div id="footer">
-              <div id="footer-inner">
-                <ul>
-                  <li><a href="${mm:link('')}">Home</a></li>
-                  <li><a href="sitemap.html">Sitemap</a></li>
-                  <li><a href="#">About</a></li>
-                  <li><a href="#">Docs</a></li>
-                  <li><a href="#">Bugs</a></li>
-                </ul>
-                <p>This website is made and maintained by the MMBase community. Send comments to webmaster@mmbase.org.</p>
+            <div id="head">
+              <div id="head-inner">
+                <h1>
+                  <a href="${mm:link('/')}"><img src="${mm:link('/html/style/images/mmbase-logo-sm.png')}" width="48" height="64" alt="MMBase" /></a>
+                </h1>
+                <div id="menu">
+
+                  <mm:node number="page_homepage">
+                    <mm:relatednodescontainer type="pages" role="posrel" searchdirs="destination">
+                      <mm:constraint field="posrel.pos" value="1" value2="10" operator="BETWEEN" />
+                      <mm:sortorder field="posrel.pos" direction="UP" />
+                      <mm:import externid="n" vartype="integer" />
+                      <ol>
+                        <mm:relatednodes>
+                          <li class="${n eq _node.number ? 'selected ' :''}">
+                            <mm:link page="page" referids="_node@n">
+                              <mm:frameworkparam name="component">mmsite</mm:frameworkparam>
+                              <a href="${_}"><mm:field name="title" /></a>
+                            </mm:link> p: ${page}
+                          </li>
+                        </mm:relatednodes>
+                      </ol>
+                    </mm:relatednodescontainer>
+                  </mm:node>
+                  <!-- 
+                  <ol>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Download</a></li>
+                    <li><a href="#">Documentation</a></li>
+                    <li><a href="#">Bugs</a></li>
+                    <li><a href="#">Contact</a></li>
+                  </ol> -->
+                </div>  
               </div>
-            </div><!-- /#footer -->
-            
-          </div>
+            </div>          
+            <div id="wrap">
+              <div id="wrap-inner">
+
+                <div id="submenu">
+                  <mm:node referid="page" notfound="skip">
+                    <mm:hasfield name="path">
+                      <mm:nodefunction name="root" referids="_node@node" set="mmsite">
+                        <mm:relatednodescontainer type="pages" role="posrel" searchdirs="destination">
+                          <mm:sortorder field="posrel.pos" direction="UP" />
+                          <mm:size>
+                            <mm:isgreaterthan value="0">
+                              <ol>
+                                <mm:relatednodes>
+                                  <li class="${page eq _node.number ? 'selected ' :''}">
+                                    <mm:link page="page" referids="_node@n">
+                                      <mm:frameworkparam name="component">mmsite</mm:frameworkparam>
+                                      <a href="${_}"><mm:field name="title" /></a>
+                                    </mm:link>
+                                  </li>
+                                </mm:relatednodes>
+                              </ol>
+                            </mm:isgreaterthan>
+                          </mm:size>
+                        </mm:relatednodescontainer>
+                      </mm:nodefunction>
+                    </mm:hasfield>
+                    <mm:hasfield name="path" inverse="true">
+                      <!-- assume (for now) we're in the contact section -->
+                      <mm:node number="page_contact">
+                        <mm:relatednodescontainer type="pages" role="posrel" searchdirs="destination">
+                          <mm:sortorder field="posrel.pos" direction="UP" />
+                          <mm:size>
+                            <mm:isgreaterthan value="0">
+                              <ol>
+                                <mm:relatednodes>
+                                  <li class="${page eq _node.number ? 'selected ' :''}">
+                                    <mm:link page="page" referids="_node@n">
+                                      <mm:frameworkparam name="component">mmsite</mm:frameworkparam>
+                                      <a href="${_}"><mm:field name="title" /></a>
+                                    </mm:link>
+                                  </li>
+                                </mm:relatednodes>
+                              </ol>
+                            </mm:isgreaterthan>
+                          </mm:size>
+                        </mm:relatednodescontainer>                      
+                      </mm:node>
+                    </mm:hasfield>
+                  </mm:node>
+                  <jsp:text> <!-- empty --> </jsp:text>
+                </div>
+
+                <jsp:invoke fragment="body" />
+                
+              </div>
+              
+              <div id="footer">
+                <div id="footer-inner">
+                  <ul>
+                    <li><a href="${mm:link('')}">Home</a></li>
+                    <li><a href="sitemap.html">Sitemap</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Docs</a></li>
+                    <li><a href="#">Bugs</a></li>
+                  </ul>
+                  <p>This website is made and maintained by the MMBase community. Send comments to webmaster@mmbase.org.</p>
+                </div>
+              </div><!-- /#footer -->
+              
+            </div>
         </body>
       
       </html>
