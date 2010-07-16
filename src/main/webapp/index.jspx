@@ -12,8 +12,22 @@
     
     </jsp:attribute>
     <jsp:attribute name="body">
+      <mm:import id="page" externid="n">page_homepage</mm:import>
       <div id="content">
         <div>
+        
+          <mm:node referid="page" notfound="skip">
+            <mm:relatednodescontainer type="articles" role="posrel" searchdirs="destination">
+              <mm:maxnumber value="1" />
+              <mm:sortorder field="posrel.pos" direction="DOWN" />
+              <mm:relatednodes>
+                <h2><mm:field name="title" /></h2>
+                <mm:field name="intro" escape="paragraph,links" />
+              </mm:relatednodes>
+            </mm:relatednodescontainer>
+          </mm:node>
+        
+<!-- 
           <h2>MMBase</h2>
 
           <p>
@@ -29,6 +43,7 @@
           different databases. Some of the users can be found below (latest sites
           build...). 
           </p>
+ -->
 
           <mm:component name="mynews" block="list" />
 

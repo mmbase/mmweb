@@ -14,6 +14,10 @@
     <jsp:attribute name="body">
       <div id="content">
         <div>
+          <p>
+            <a href="convert.jspx">news</a>
+            <a href="convert2.jspx">site</a>
+          </p>
           <h2>Convert MMBase news</h2>
 
 
