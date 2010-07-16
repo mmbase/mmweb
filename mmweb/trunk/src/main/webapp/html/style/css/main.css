@@ -110,10 +110,9 @@ body
 
 #menu ol li.selected a
 {
-/*
-background-color: #efefef;
+	background-color: #efefef;
 	color: #00425a;
-*/
+	border-bottom: 4px solid #efefef;
 }
 
 #submenu
