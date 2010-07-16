@@ -6,7 +6,11 @@
     xmlns:mmweb="urn:jsptagdir:/WEB-INF/tags/mmweb">
   
   <mm:import externid="block" required="true" />
-  <mm:import externid="component">oip</mm:import>
+  <mm:import externid="component">mmweb</mm:import>
+  
+  <c:if test="${block eq 'news'}">
+    <mm:import id="page" reset="true">409</mm:import>
+  </c:if>
   
   <mmweb:html styleClass="${block}">
     <jsp:attribute name="head">
@@ -17,7 +21,7 @@
     <jsp:attribute name="body">
       <div id="content">
         <div>
-          
+          page: ${page}
           <mm:component name="${component}" block="${block}" />
 
         </div>
