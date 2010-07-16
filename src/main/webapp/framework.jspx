@@ -9,7 +9,7 @@
   <mm:import externid="component">mmweb</mm:import>
   
   <c:if test="${block eq 'news'}">
-    <mm:import id="page" reset="true">409</mm:import>
+    <mm:import id="page" reset="true">page_homepage</mm:import>
   </c:if>
   
   <mmweb:html styleClass="${block}">
