@@ -12,6 +12,17 @@
     This is the BasicFramework, change my settings in 'config/framework.xml'.
   </description>
 
+  <urlconverter class="org.mmbase.mmsite.SiteUrlConverter">
+    <description xml:lang="en">
+      The urlconverter that belongs to MMSite. It handles all urls in contrary to the 'normal'
+      way to design urlconverters which should be for a specified directory like f.e. 'mmbase'.
+    </description>
+    <param name="directory">/</param>
+    <param name="excludedPaths">news,mmbase,editors,style,inc,html</param>
+    <param name="useExtension">false</param>
+    <param name="extension">html</param>
+    <!-- <param name="locales">en,nl</param> -->
+  </urlconverter>
 
   <urlconverter class="org.mmbase.mynews.MyNewsUrlConverter">
     <description xml:lang="en">
