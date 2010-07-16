@@ -36,7 +36,7 @@
     <relation from="pages"   to="pages" type="posrel" />
     <relation from="pages"   to="pages" type="readmore" /><!-- change to posrel -->
     
-    <relation from="pages"   to="templates"      type="posrel" />
+    <relation from="pages"   to="templates"      type="related" />
     
     <relation from="pages"   to="articles"       type="readmore" /><!-- change to posrel -->
     
