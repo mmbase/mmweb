@@ -16,26 +16,42 @@
         <div id="content">
           <div>
             <mm:relatednodescontainer type="articles" role="posrel" searchdirs="destination">
-              <mm:sortorder field="posrel.pos" direction="DOWN" />
+              <mm:sortorder field="posrel.pos" direction="UP" />
               <mm:maxnumber value="1" />
               <mm:relatednodes>
+                
                 <h2><mm:field name="title" id="pagetitle" /></h2>
-                <mm:field name="intro" escape="paragraph(intro),links" />
+                <mm:field name="subtitle"><mm:isnotempty><h3><mm:write /></h3></mm:isnotempty></mm:field>
+                <p class="intro">
+                  <mm:field name="online"><mm:isnotempty><mm:time format=":LONG" /></mm:isnotempty></mm:field>
+                  <mm:field name="intro"><mm:isnotempty><mm:write escape="links" /></mm:isnotempty></mm:field>
+                </p>
+                
                 <!-- images -->
                 <mm:relatednodescontainer type="images" role="posrel" searchdirs="destination">
+                  <mm:sortorder field="posrel.pos" direction="UP" />
                   <mm:relatednodes>
                     <div class="images">
-                      <mm:image width="240" mode="img" />
+                      <mm:import id="lightbox_image" reset="true"><mm:image template="s(600)" /></mm:import>
+                      <a class="lightbox" title="${_node.title}" href="${lightbox_image}">
+                        <mm:image template="s(240)" mode="img" />
+                      </a>
                       <mm:field name="title"><mm:isnotempty><mm:write /></mm:isnotempty></mm:field>
                     </div>
                   </mm:relatednodes>
                 </mm:relatednodescontainer>
                 
+                <!-- urls and files -->
                 <mm:relatednodescontainer type="urls" role="posrel" searchdirs="destination">
                   <mm:size id="nr_urls" write="false" />
                 </mm:relatednodescontainer>
-                <c:if test="${nr_urls gt 0}">
+                <mm:relatednodescontainer type="attachments" role="posrel" searchdirs="destination">
+                  <mm:size id="nr_files" write="false" />
+                </mm:relatednodescontainer>
+                
+                <c:if test="${nr_urls gt 0 or nr_files gt 0}">
                   <div class="related">
+                    
                     <mm:relatednodescontainer type="urls" role="posrel" searchdirs="destination">
                       <mm:sortorder field="posrel.pos" direction="UP" />
                       <ul class="urls">
@@ -46,9 +62,19 @@
                         </mm:relatednodes>
                       </ul>
                     </mm:relatednodescontainer>
-                    <ul class="attachments">
-                      <li><a href="#">Dit is een attachments</a></li>
-                    </ul>
+
+                    <mm:relatednodescontainer type="attachments" role="posrel" searchdirs="destination">
+                      <mm:sortorder field="posrel.pos" direction="UP" />
+                      <ul class="attachments">
+                        <mm:relatednodes>
+                          <li>
+                            <mm:attachment><a title="${_node.description}" href="${_}"><mm:field name="title" /></a></mm:attachment>
+                            (<mm:field name="mimetype" />, <mm:field name="size" escape="filesize" />)
+                          </li>
+                        </mm:relatednodes>
+                      </ul>
+                    </mm:relatednodescontainer>
+
                   </div>
                 </c:if>
 
