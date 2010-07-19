@@ -22,10 +22,13 @@
       <title>
         <c:if test="${! empty title}">${title} - </c:if> MMBase
       </title>
-      <link href="${mm:link('/html/style/css/main.css')}" rel="stylesheet" type="text/css" />
       <link href="${mm:link('/favicon.ico')}" rel="shortcut icon" />
       <jsp:include page="/mmbase/jquery/jquery.jspx" />
-      <script src="${mm:link('/html/style/js/main.js')}" type="text/javascript"><jsp:text> </jsp:text></script>
+      
+      <link href="${mm:link('/scripts/jquery.lightbox-0.5.css')}" rel="stylesheet" type="text/css" />
+      <script type="text/javascript" src="${mm:link('/scripts/jquery.lightbox-0.5.pack.js')}"><jsp:text> </jsp:text></script>
+      <script src="${mm:link('/scripts/main.js.jsp')}" type="text/javascript"><jsp:text> </jsp:text></script>
+      <link href="${mm:link('/html/style/css/main.css')}" rel="stylesheet" type="text/css" />
       
       <jsp:doBody />
       
