@@ -6,7 +6,7 @@
     xsi:schemaLocation="http://www.mmbase.org/xmlns/framework
                         http://www.mmbase.org/xmlns/framework.xsd">
   <!--
-      version: $Id: framework.xml 35123 2009-05-12 21:20:03Z michiel $
+      version: $Id$
   -->
   <description xml:lang="en">
     This is the BasicFramework, change my settings in 'config/framework.xml'.
