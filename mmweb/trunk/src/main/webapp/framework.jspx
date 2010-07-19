@@ -8,8 +8,8 @@
   <mm:import externid="block" required="true" />
   <mm:import externid="component">mmweb</mm:import>
   
-  <c:if test="${block eq 'news'}">
-    <mm:import id="page" reset="true">page_homepage</mm:import>
+  <c:if test="${component eq 'mynews'}">
+    <mm:import id="page" reset="true">page_news</mm:import>
   </c:if>
   
   <mmweb:html styleClass="${block}">
@@ -21,14 +21,25 @@
     <jsp:attribute name="body">
       <div id="content">
         <div>
-          page: ${page}
-          <mm:component name="${component}" block="${block}" />
+          <c:choose>
+            <c:when test="${component eq 'mynews' and block eq 'list'}">
+              <mm:component name="mynews" block="list">
+                <mm:param name="max">10</mm:param>
+              </mm:component>
+            </c:when>
+            <c:otherwise>
+              <mm:component name="${component}" block="${block}" />
+            </c:otherwise>
+          </c:choose>
 
         </div>
       </div>
       <div id="sidebar">
         <div>
           Sidebar?
+          
+          page: ${page}
+
         </div>
       </div>
     </jsp:attribute>
