@@ -70,19 +70,23 @@
                   <a href="${mm:link('/')}"><img src="${mm:link('/html/style/images/mmbase-logo-sm.png')}" width="48" height="64" alt="MMBase" /></a>
                 </h1>
                 <div id="menu">
-
-                  <mm:node number="page_homepage">
+                  <!-- mm:present referid="page">
+                    <mm:nodefunction name="root" referids="page@node" set="mmsite">
+                      <mm:import id="roott" reset="true"><mm:field name="number" /></mm:import>
+                    </mm:nodefunction>
+                  </mm:present -->
+                  <mm:node number="pool_mmbase">
                     <mm:relatednodescontainer type="pages" role="posrel" searchdirs="destination">
                       <mm:constraint field="posrel.pos" value="1" value2="10" operator="BETWEEN" />
                       <mm:sortorder field="posrel.pos" direction="UP" />
                       <mm:import externid="n" vartype="integer" />
                       <ol>
                         <mm:relatednodes>
-                          <li class="${n eq _node.number ? 'selected ' :''}">
+                          <li class="${n eq _node.number or roott eq _node.number ? 'selected ' :''}">
                             <mm:link page="page" referids="_node@n">
                               <mm:frameworkparam name="component">mmsite</mm:frameworkparam>
                               <a href="${_}"><mm:field name="title" /></a>
-                            </mm:link> p: ${page}
+                            </mm:link>
                           </li>
                         </mm:relatednodes>
                       </ol>
