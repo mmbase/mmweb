@@ -53,11 +53,7 @@ body
 #head-inner
 {
 	height: 68px;
-	/*
-    background-image: url(images/header1.png);
-	background-repeat: no-repeat;
-	background-position: 0 bottom;
-*/
+	background: #00425a;
 	padding-top: 8px;
 }
 
@@ -99,20 +95,21 @@ body
 	font-size: 11pt;
 	font-weight: bold;
 	margin-left: 2px;
-	padding: 2px 10px 2px 10px;
+	padding: 2px 10px 0 10px;
 }
 
 #menu ol li a:hover
 {
 	background-color: #efefef;
 	color: #00425a;
+	border-bottom: 7px solid #efefef;
 }
 
 #menu ol li.selected a
 {
 	background-color: #efefef;
 	color: #00425a;
-	border-bottom: 4px solid #efefef;
+	border-bottom: 7px solid #efefef;
 }
 
 #submenu
@@ -377,10 +374,12 @@ div.images
 	text-align: right;
 }
 
-div.images > img
+div.images > img,
+div.images > a > img
 {
 	display: block;
 	padding: 2px;
+	border: 1px solid #ccc;
 }
 
 div.related
@@ -415,4 +414,13 @@ img.right
 {
 	float: right;
 	margin: 8px 0 8px 8px;
+}
+
+#lightbox-image-details-caption {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 10pt;
+}
+#lightbox-image-details-currentNumber {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 9pt;
 }
