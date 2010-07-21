@@ -1,0 +1,64 @@
+<jsp:root
+    version="2.0"
+    xmlns:c="http://java.sun.com/jsp/jstl/core"
+    xmlns:fmt="http://java.sun.com/jsp/jstl/fmt"
+    xmlns:jsp="http://java.sun.com/JSP/Page"
+    xmlns:mm="http://www.mmbase.org/mmbase-taglib-2.0"
+    >
+  
+  <jsp:directive.attribute name="page" required="true"
+                           description="Current page" />
+  <jsp:directive.attribute name="pparent" 
+                           description="Different parent page to use (parent is a reserved attribute/keyword?, points to SimpleTagSupport.getParent())" />
+  <jsp:directive.attribute name="selected"
+                           description="Pages node - normally parent page - that should be selected" />
+  
+
+      <div id="submenu">
+        <mm:node number="$page" notfound="skip">
+          <mm:hasfield name="path">
+            
+            <!-- resolve alias -->
+            <mm:import id="page" reset="true"><mm:field name="number" /></mm:import> 
+          
+            <c:if test="${empty pparent}">
+              <mm:nodefunction name="root" referids="_node@node" set="mmsite">
+                <mm:import id="pparent" reset="true"><mm:field name="number" /></mm:import>
+              </mm:nodefunction>
+            </c:if>
+            
+            <c:if test="${!empty selected}">
+              <!-- resolve alias -->
+              <mm:node number="$selected">
+                <mm:import id="selected" reset="true"><mm:field name="number" /></mm:import>
+              </mm:node>
+            </c:if>
+            
+            <mm:node number="$pparent">
+              <mm:relatednodescontainer type="pages" role="posrel" searchdirs="destination">
+                <mm:sortorder field="posrel.pos" direction="UP" />
+                <mm:size>
+                  <mm:isgreaterthan value="0">
+                    <ol>
+                      <mm:relatednodes>
+                        <li class="${page eq _node.number or selected eq _node.number ? 'selected ' :''}">
+                          <mm:link page="page" referids="_node@n">
+                            <mm:frameworkparam name="component">mmsite</mm:frameworkparam>
+                            <a href="${_}"><mm:field name="title" /></a>
+                          </mm:link>
+                        </li>
+                      </mm:relatednodes>
+                    </ol>
+                  </mm:isgreaterthan>
+                </mm:size>
+              </mm:relatednodescontainer>
+            </mm:node>
+          
+          </mm:hasfield>
+        </mm:node>
+        
+        <jsp:text> <!-- empty --> </jsp:text>        
+        
+      </div>
+
+</jsp:root>
