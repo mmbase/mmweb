@@ -30,20 +30,6 @@
                   <mm:field name="intro"><mm:isnotempty><mm:write escape="links" /></mm:isnotempty></mm:field>
                 </p>
                 
-                <!-- images -->
-                <mm:relatednodescontainer type="images" role="posrel" searchdirs="destination">
-                  <mm:sortorder field="posrel.pos" direction="UP" />
-                  <mm:relatednodes>
-                    <div class="images">
-                      <mm:import id="lightbox_image" reset="true"><mm:image template="s(600)" /></mm:import>
-                      <a class="lightbox" title="${_node.title}" href="${lightbox_image}">
-                        <mm:image template="s(240)" mode="img" />
-                      </a>
-                      <mm:field name="title"><mm:isnotempty><mm:write /></mm:isnotempty></mm:field>
-                    </div>
-                  </mm:relatednodes>
-                </mm:relatednodescontainer>
-                
                 <!-- urls and files -->
                 <mm:relatednodescontainer type="urls" role="posrel" searchdirs="destination">
                   <mm:size id="nr_urls" write="false" />
@@ -80,7 +66,21 @@
 
                   </div>
                 </c:if>
-
+                
+                <!-- images -->
+                <mm:relatednodescontainer type="images" role="posrel" searchdirs="destination">
+                  <mm:sortorder field="posrel.pos" direction="UP" />
+                  <mm:relatednodes>
+                    <div class="images">
+                      <mm:import id="lightbox_image" reset="true"><mm:image template="s(600)" /></mm:import>
+                      <a class="lightbox" title="${_node.title}" href="${lightbox_image}">
+                        <mm:image template="s(240)" mode="img" />
+                      </a>
+                      <mm:field name="title"><mm:isnotempty><mm:write /></mm:isnotempty></mm:field>
+                    </div>
+                  </mm:relatednodes>
+                </mm:relatednodescontainer>
+                
                 <mm:field name="body" escape="paragraph,links" />
               
               </mm:relatednodes>
