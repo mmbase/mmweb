@@ -12,6 +12,7 @@
     
     </jsp:attribute>
     <jsp:attribute name="body">
+      <mmweb:submenu page="${page}" />
       <div id="content">
         <div>
           <h2>Contact</h2>

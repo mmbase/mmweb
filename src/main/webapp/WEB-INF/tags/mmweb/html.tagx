@@ -39,13 +39,13 @@
           xml:lang="en"
           xmlns="http://www.w3.org/1999/xhtml">
 
-        <mm:import id="page" externid="n" />
+        <mm:import id="page" externid="n">page_homepage</mm:import>
 
         <mmweb:head>
           <jsp:attribute name="title">
             <c:choose>
               <c:when test="${empty title and !empty page}">
-                <mm:node referid="page">
+                <mm:node number="$page">
                   <mm:hasfield name="title"><mm:field name="title" /></mm:hasfield>
                 </mm:node>
               </c:when>
@@ -57,12 +57,26 @@
               <jsp:invoke fragment="head" />
             </c:when>
             <c:otherwise>
-              <mm:node referid="page">
+              <mm:node number="$page">
                 <jsp:invoke fragment="head" />
               </mm:node>
             </c:otherwise>
           </c:choose>
         </mmweb:head>
+
+        <mm:node number="$page">
+          <mm:nodeinfo type="type" write="false">
+            <c:if test="${_ ne 'pages'}">
+              <mm:import id="page" reset="true">page_homepage</mm:import>
+            </c:if>
+          </mm:nodeinfo>
+        </mm:node>
+        <mm:node number="$page">
+          <mm:nodefunction name="root" referids="_node@node" set="mmsite">
+            <mm:field name="number" id="root" write="false" />
+          </mm:nodefunction>
+        </mm:node>
+
         <body class="${styleClass}">
             <div id="head">
               <div id="head-inner">
@@ -70,11 +84,6 @@
                   <a href="${mm:link('/')}"><img src="${mm:link('/html/style/images/mmbase-logo-sm.png')}" width="48" height="64" alt="MMBase" /></a>
                 </h1>
                 <div id="menu">
-                  <!-- mm:present referid="page">
-                    <mm:nodefunction name="root" referids="page@node" set="mmsite">
-                      <mm:import id="roott" reset="true"><mm:field name="number" /></mm:import>
-                    </mm:nodefunction>
-                  </mm:present -->
                   <mm:node number="pool_mmbase">
                     <mm:relatednodescontainer type="pages" role="posrel" searchdirs="destination">
                       <mm:constraint field="posrel.pos" value="1" value2="10" operator="BETWEEN" />
@@ -82,7 +91,7 @@
                       <mm:import externid="n" vartype="integer" />
                       <ol>
                         <mm:relatednodes>
-                          <li class="${n eq _node.number or roott eq _node.number ? 'selected ' :''}">
+                          <li class="${n eq _node.number or root eq _node.number ? 'selected ' :''}">
                             <mm:link page="page" referids="_node@n">
                               <mm:frameworkparam name="component">mmsite</mm:frameworkparam>
                               <a href="${_}"><mm:field name="title" /></a>
@@ -105,58 +114,7 @@
             </div>          
             <div id="wrap">
               <div id="wrap-inner">
-
-                <div id="submenu">
-                  <mm:node referid="page" notfound="skip">
-                    <mm:hasfield name="path">
-                      <mm:nodefunction name="root" referids="_node@node" set="mmsite">
-                        <mm:relatednodescontainer type="pages" role="posrel" searchdirs="destination">
-                          <mm:sortorder field="posrel.pos" direction="UP" />
-                          <mm:size>
-                            <mm:isgreaterthan value="0">
-                              <ol>
-                                <mm:relatednodes>
-                                  <li class="${page eq _node.number ? 'selected ' :''}">
-                                    <mm:link page="page" referids="_node@n">
-                                      <mm:frameworkparam name="component">mmsite</mm:frameworkparam>
-                                      <a href="${_}"><mm:field name="title" /></a>
-                                    </mm:link>
-                                  </li>
-                                </mm:relatednodes>
-                              </ol>
-                            </mm:isgreaterthan>
-                          </mm:size>
-                        </mm:relatednodescontainer>
-                      </mm:nodefunction>
-                    </mm:hasfield>
-                    <mm:hasfield name="path" inverse="true">
-                      <!-- assume (for now) we're in the contact section -->
-                      <mm:node number="page_contact">
-                        <mm:relatednodescontainer type="pages" role="posrel" searchdirs="destination">
-                          <mm:sortorder field="posrel.pos" direction="UP" />
-                          <mm:size>
-                            <mm:isgreaterthan value="0">
-                              <ol>
-                                <mm:relatednodes>
-                                  <li class="${page eq _node.number ? 'selected ' :''}">
-                                    <mm:link page="page" referids="_node@n">
-                                      <mm:frameworkparam name="component">mmsite</mm:frameworkparam>
-                                      <a href="${_}"><mm:field name="title" /></a>
-                                    </mm:link>
-                                  </li>
-                                </mm:relatednodes>
-                              </ol>
-                            </mm:isgreaterthan>
-                          </mm:size>
-                        </mm:relatednodescontainer>                      
-                      </mm:node>
-                    </mm:hasfield>
-                  </mm:node>
-                  <jsp:text> <!-- empty --> </jsp:text>
-                </div>
-
                 <jsp:invoke fragment="body" />
-                
               </div>
               
               <div id="footer">

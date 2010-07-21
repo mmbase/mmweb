@@ -12,6 +12,9 @@
     </jsp:attribute>
     <jsp:attribute name="body">
       <mm:import id="page" externid="n" />
+      
+      <mmweb:submenu page="${page}" />
+      
       <mm:node referid="page">
         <div id="content">
           <div>
