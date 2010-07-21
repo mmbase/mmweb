@@ -13,6 +13,8 @@
     </jsp:attribute>
     <jsp:attribute name="body">
       <mm:import id="page" externid="n">page_homepage</mm:import>
+      <div id="submenu"><jsp:text> <!-- empty --> </jsp:text></div>
+      
       <div id="content">
         <div>
         
@@ -50,7 +52,7 @@
             <h3 class="news"><a href="${_}">News</a></h3>
           </mm:link>
           <mm:component name="mynews" block="list">
-            <mm:param name="max">5</mm:param>
+            <mm:param name="max">3</mm:param>
             <mm:param name="more">true</mm:param>
           </mm:component>
         </div>

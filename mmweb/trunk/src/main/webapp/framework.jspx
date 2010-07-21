@@ -5,27 +5,54 @@
     xmlns:mm="http://www.mmbase.org/mmbase-taglib-2.0"
     xmlns:mmweb="urn:jsptagdir:/WEB-INF/tags/mmweb">
   
+  <mm:import id="page" externid="n">page_homepage</mm:import>
   <mm:import externid="block" required="true" />
   <mm:import externid="component">mmweb</mm:import>
   
-  <c:if test="${component eq 'mynews'}">
-    <mm:import id="page" reset="true">page_news</mm:import>
-  </c:if>
+  <c:choose>
+    <c:when test="${component eq 'mynews' and block eq 'list'}">
+      <c:set var="title" value="News" />
+    </c:when>
+    <c:otherwise>
+      <!-- expand later -->
+    </c:otherwise>
+  </c:choose>
   
-  <mmweb:html styleClass="${block}">
+  <mmweb:html styleClass="${block}" title="${title}">
     <jsp:attribute name="head">
       
       <mm:component name="${component}" block="${block}" render="head" />
       
     </jsp:attribute>
     <jsp:attribute name="body">
+      
+      <c:choose>
+        <c:when test="${component eq 'mynews'}">
+          <mmweb:submenu page="page_news" pparent="page_homepage" />
+        </c:when>
+        <c:otherwise>
+          <mmweb:submenu page="${page}" />
+        </c:otherwise>
+      </c:choose>
+      
       <div id="content">
         <div>
+          
           <c:choose>
             <c:when test="${component eq 'mynews' and block eq 'list'}">
+            
+              <mm:import externid="offset"></mm:import>
+              <mm:import externid="max">3</mm:import>
+            
               <mm:component name="mynews" block="list">
-                <mm:param name="max">10</mm:param>
+                <mm:param name="max">${max}</mm:param>
+                <mm:param name="offset">${offset}</mm:param>
               </mm:component>
+
+              <mm:import externid="mynews.total" id="total" from="request" />
+              <mm:url id="pageurl" absolute="true" write="false" />
+              <mmweb:pager total="${total}" offset="${offset}" max="${max}" baseurl="${pageurl}" />
+    
             </c:when>
             <c:otherwise>
               <mm:component name="${component}" block="${block}" />
@@ -36,9 +63,21 @@
       </div>
       <div id="sidebar">
         <div>
-          Sidebar?
           
           page: ${page}
+          n: ${n}
+
+          <c:choose>
+            <c:when test="${component eq 'mynews' and block eq 'news'}">
+              <h3>Latest news</h3>
+              <mm:component name="mynews" block="list">
+                <mm:param name="max">3</mm:param>
+              </mm:component>
+            </c:when>
+            <c:otherwise>
+             <p>Eh, nix</p>
+            </c:otherwise>
+          </c:choose>
 
         </div>
       </div>
