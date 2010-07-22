@@ -1,363 +1,516 @@
 <?xml version="1.0" encoding="utf-8"?>
-<images exportsource="mmbase://jeeves.mmbase.org/install/foundation" timestamp="20100714204030">
-	<node number="281" owner="admin">
-		<handle file="images/281.handle" />
+<images exportsource="mmbase://zilver.toly.net/null/foundation" timestamp="20100722140849">
+	<node number="887" owner="admin">
+		<handle file="images/887.handle" />
+		<width>1130</width>
 		<itype>jpeg</itype>
 		<title>The nature restoration projects</title>
+		<filesize>145297</filesize>
+		<height>731</height>
 		<description></description>
+		<filename></filename>
 	</node>
 
-	<node number="311" owner="admin">
-		<handle file="images/311.handle" />
+	<node number="889" owner="admin">
+		<handle file="images/889.handle" />
+		<width>484</width>
 		<itype>gif</itype>
 		<title>MMatch</title>
+		<filesize>9963</filesize>
+		<height>138</height>
 		<description>Hommelstraat 9a&lt;br&gt;
 3061 VA Rotterdam&lt;br&gt;
 Tel:00 31 (0)6 29054903&lt;br&gt;
 Contact:&lt;br&gt;
 Henk Hangyi&lt;br&gt;
-hangyi@xs4all.nl&lt;br&gt;
-</description>
+hangyi@xs4all.nl&lt;br&gt;</description>
+		<filename></filename>
 	</node>
 
-	<node number="363" owner="admin">
-		<handle file="images/363.handle" />
+	<node number="891" owner="admin">
+		<handle file="images/891.handle" />
+		<width>648</width>
 		<itype>jpeg</itype>
 		<title>Rubicon</title>
+		<filesize>11345</filesize>
+		<height>354</height>
 		<description>Postbus 169&lt;br&gt;
 4130 ED Vianen&lt;br&gt;
 tel: 0031 (0)347 358800&lt;br&gt;
 Contact:&lt;br&gt;
 Siep van de Dijk&lt;br&gt;
-s.vandedijk@rubicongroup.biz&lt;br&gt;
-</description>
+s.vandedijk@rubicongroup.biz&lt;br&gt;</description>
+		<filename></filename>
 	</node>
 
-	<node number="370" owner="admin">
-		<handle file="images/370.handle" />
+	<node number="893" owner="admin">
+		<handle file="images/893.handle" />
+		<width>100</width>
 		<itype>jpg</itype>
 		<title>E-id! Internet Strategies</title>
+		<filesize>15054</filesize>
+		<height>50</height>
 		<description>Postbus 1204&lt;br&gt;
 3600 BE Maarssen&lt;br&gt;
 tel: 0031 (0)346 285861&lt;br&gt;
 Contact:&lt;br&gt;
 Rogier Schaaf&lt;br&gt;
 rschaaf@e-id.nl&lt;br&gt;</description>
+		<filename></filename>
 	</node>
 
-	<node number="375" owner="admin">
-		<handle file="images/375.handle" />
+	<node number="895" owner="admin">
+		<handle file="images/895.handle" />
+		<width>161</width>
 		<itype>jpeg</itype>
 		<title>Q42</title>
+		<filesize>6055</filesize>
+		<height>248</height>
 		<description>Papestraat 25&lt;br&gt;
 2413 AV Den Haag&lt;br&gt;
 tel: 0031 (0)6 54270596&lt;br&gt;
 Contact:&lt;br&gt;
 Kars Veling&lt;br&gt; 
 Kars@Q42.nl&lt;br&gt;</description>
+		<filename></filename>
 	</node>
 
-	<node number="377" owner="admin">
-		<handle file="images/377.handle" />
+	<node number="897" owner="admin">
+		<handle file="images/897.handle" />
+		<width>964</width>
 		<itype>jpeg</itype>
 		<title>Orangehill</title>
+		<filesize>38297</filesize>
+		<height>304</height>
 		<description>Postbus 10182&lt;br&gt;
 1001 ED Amsterdam&lt;br&gt;
 tel: 0031 (0)20 4227330&lt;br&gt;
 Contact:&lt;br&gt;
 Vincent Somers&lt;br&gt;
 Vincent@orangehill.nl&lt;br&gt;</description>
+		<filename></filename>
 	</node>
 
-	<node number="379" owner="admin">
-		<handle file="images/379.handle" />
+	<node number="899" owner="admin">
+		<handle file="images/899.handle" />
+		<width>300</width>
 		<itype>jpg</itype>
 		<title>Framfab</title>
+		<filesize>19678</filesize>
+		<height>62</height>
 		<description>Gerard Brandtstraat 26-28&lt;br&gt;
 1054 JK Amsterdam&lt;br&gt;
 tel: 0031 (0)20 4082235&lt;br&gt;
 Contact:&lt;br&gt;
 Rob Peters&lt;br&gt;
-rob.peters@framfab.nl&lt;br&gt;
-</description>
+rob.peters@framfab.nl&lt;br&gt;</description>
+		<filename></filename>
 	</node>
 
-	<node number="396" owner="admin">
-		<handle file="images/396.handle" />
+	<node number="901" owner="admin">
+		<handle file="images/901.handle" />
+		<width>648</width>
 		<itype>jpeg</itype>
 		<title>Submarine</title>
+		<filesize>30822</filesize>
+		<height>96</height>
 		<description>Rapenburgerstraat 109&lt;br&gt;
 1011 VL Amsterdam&lt;br&gt;
 tel: 0031 (0)20 3301226&lt;br&gt;
 Contact:&lt;br&gt;
 Bruno Felix&lt;br&gt;
 bruno@submarine.nl&lt;br&gt;</description>
+		<filename></filename>
 	</node>
 
-	<node number="401" owner="admin">
-		<handle file="images/401.handle" />
+	<node number="903" owner="admin">
+		<handle file="images/903.handle" />
+		<width>180</width>
 		<itype>jpeg</itype>
 		<title>Finalist IT Group</title>
+		<filesize>9268</filesize>
+		<height>129</height>
 		<description>POBox 1354&lt;br&gt;
 3000 BJ Rotterdam&lt;br&gt;
 tel: 0031 (0)10 2170800&lt;br&gt;
 Contact:&lt;br&gt;
 Bram Cool&lt;br&gt;
 Bram.cool@finalist.com&lt;br&gt;</description>
+		<filename></filename>
 	</node>
 
-	<node number="405" owner="admin">
-		<handle file="images/405.handle" />
+	<node number="905" owner="admin">
+		<handle file="images/905.handle" />
+		<width>153</width>
 		<itype>jpeg</itype>
 		<title>Dynasol</title>
+		<filesize>4202</filesize>
+		<height>54</height>
 		<description>Buffelstraat 124 A&lt;br&gt;
 3064 AD Rotterdam&lt;br&gt;
 tel: 0031 (0)10 2849732&lt;br&gt;
 Contact:&lt;br&gt;
 Jaco de Groot&lt;br&gt;
 Jaco@dynasol.nl&lt;br&gt;</description>
+		<filename></filename>
 	</node>
 
-	<node number="407" owner="admin">
-		<handle file="images/407.handle" />
+	<node number="907" owner="admin">
+		<handle file="images/907.handle" />
+		<width>225</width>
 		<itype>jpg</itype>
 		<title>IBM</title>
+		<filesize>20458</filesize>
+		<height>85</height>
 		<description>Compterweg 8 &lt;br&gt;
 3821 AB Amsterdam &lt;br&gt;
 tel: 0031 (0)20 5139684&lt;br&gt;
 Contact:&lt;br&gt;
 Alfred Kayser&lt;br&gt;
 alfredkayster@nl.ibm.com&lt;br&gt;</description>
+		<filename></filename>
 	</node>
 
-	<node number="410" owner="admin">
-		<handle file="images/410.handle" />
+	<node number="909" owner="admin">
+		<handle file="images/909.handle" />
+		<width>258</width>
 		<itype>jpg</itype>
 		<title>The Mediator Group</title>
+		<filesize>124990</filesize>
+		<height>161</height>
 		<description>Postbus 59295&lt;br&gt;
 1040 KG Amsterdam&lt;br&gt;
 tel: 0031 (0)20 6821802&lt;br&gt;
 Contact:&lt;br&gt;
 Joost Becking&lt;br&gt;
 joost@mediatorgroup.com &lt;br&gt;</description>
+		<filename></filename>
 	</node>
 
-	<node number="432" owner="admin">
-		<handle file="images/432.handle" />
+	<node number="911" owner="admin">
+		<handle file="images/911.handle" />
+		<width>287</width>
 		<itype>jpeg</itype>
 		<title>InterNLnet</title>
+		<filesize>6483</filesize>
+		<height>83</height>
 		<description>POBox 7020&lt;br&gt;
 6503 GM Nijmegen&lt;br&gt;
 tel: 0031 (0)23 3653653&lt;br&gt;
 Contact:&lt;br&gt;
 Han Brouwers&lt;br&gt;
 Han.brouwers@internl.net&lt;br&gt;</description>
+		<filename></filename>
 	</node>
 
-	<node number="459" owner="admin">
-		<handle file="images/459.handle" />
+	<node number="913" owner="admin">
+		<handle file="images/913.handle" />
+		<width>281</width>
 		<itype>jpeg</itype>
 		<title>ROC van Amsterdam</title>
+		<filesize>12520</filesize>
+		<height>204</height>
 		<description></description>
+		<filename></filename>
 	</node>
 
-	<node number="461" owner="admin">
-		<handle file="images/461.handle" />
+	<node number="915" owner="admin">
+		<handle file="images/915.handle" />
+		<width>2362</width>
 		<itype>jpeg</itype>
 		<title>Teleac NOT</title>
+		<filesize>180240</filesize>
+		<height>1015</height>
 		<description></description>
+		<filename></filename>
 	</node>
 
-	<node number="468" owner="admin">
-		<handle file="images/468.handle" />
+	<node number="917" owner="admin">
+		<handle file="images/917.handle" />
+		<width>467</width>
 		<itype>jpeg</itype>
 		<title>Evangelische Omroep</title>
+		<filesize>26975</filesize>
+		<height>591</height>
 		<description></description>
+		<filename></filename>
 	</node>
 
-	<node number="470" owner="admin">
-		<handle file="images/470.handle" />
+	<node number="919" owner="admin">
+		<handle file="images/919.handle" />
+		<width>2362</width>
 		<itype>jpeg</itype>
 		<title>Kennisnet/Ict op school</title>
+		<filesize>344862</filesize>
+		<height>850</height>
 		<description></description>
+		<filename></filename>
 	</node>
 
-	<node number="472" owner="admin">
-		<handle file="images/472.handle" />
+	<node number="921" owner="admin">
+		<handle file="images/921.handle" />
+		<width>719</width>
 		<itype>jpeg</itype>
 		<title>Vara</title>
+		<filesize>16494</filesize>
+		<height>576</height>
 		<description></description>
+		<filename></filename>
 	</node>
 
-	<node number="486" owner="admin">
-		<handle file="images/486.handle" />
+	<node number="923" owner="admin">
+		<handle file="images/923.handle" />
+		<width>1262</width>
 		<itype>jpeg</itype>
 		<title>Gemeente Amsterdam</title>
+		<filesize>46900</filesize>
+		<height>401</height>
 		<description></description>
+		<filename></filename>
 	</node>
 
-	<node number="696" owner="admin">
-		<handle file="images/696.handle" />
+	<node number="925" owner="admin">
+		<handle file="images/925.handle" />
+		<width>2502</width>
 		<itype>jpeg</itype>
 		<title>Quantiq</title>
+		<filesize>352020</filesize>
+		<height>1225</height>
 		<description>E: info@quantiq.com&lt;br&gt; 
 T: +31 (0)35-6257211 &lt;br&gt;
-F: +31 (0)35-6257256&lt;br&gt;
-</description>
+F: +31 (0)35-6257256&lt;br&gt;</description>
+		<filename></filename>
 	</node>
 
-	<node number="699" owner="admin">
-		<handle file="images/699.handle" />
+	<node number="927" owner="admin">
+		<handle file="images/927.handle" />
+		<width>282</width>
 		<itype>gif</itype>
 		<title>Overheid</title>
+		<filesize>3133</filesize>
+		<height>102</height>
 		<description></description>
+		<filename></filename>
 	</node>
 
-	<node number="13817" owner="import">
-		<handle file="images/13817.handle" />
+	<node number="929" owner="import">
+		<handle file="images/929.handle" />
+		<width>395</width>
 		<itype>gif</itype>
 		<title>submarine</title>
+		<filesize>1735</filesize>
+		<height>64</height>
 		<description>logo submarine</description>
+		<filename></filename>
 	</node>
 
-	<node number="13901" owner="import">
-		<handle file="images/13901.handle" />
+	<node number="931" owner="import">
+		<handle file="images/931.handle" />
+		<width>450</width>
 		<itype>gif</itype>
 		<title>MMBase</title>
+		<filesize>8360</filesize>
+		<height>600</height>
 		<description></description>
+		<filename></filename>
 	</node>
 
-	<node number="14046" owner="import">
-		<handle file="images/14046.handle" />
+	<node number="933" owner="import">
+		<handle file="images/933.handle" />
+		<width>65</width>
 		<itype>gif</itype>
 		<title>logo Q42</title>
+		<filesize>1047</filesize>
+		<height>100</height>
 		<description>logo Q42</description>
+		<filename></filename>
 	</node>
 
-	<node number="14048" owner="import">
-		<handle file="images/14048.handle" />
+	<node number="935" owner="import">
+		<handle file="images/935.handle" />
+		<width>173</width>
 		<itype>gif</itype>
 		<title>logo Finalist</title>
+		<filesize>5021</filesize>
+		<height>113</height>
 		<description>logo Finalist</description>
+		<filename></filename>
 	</node>
 
-	<node number="18845" owner="default">
-		<handle file="images/18845.handle" />
+	<node number="937" owner="default">
+		<handle file="images/937.handle" />
+		<width>2</width>
 		<itype>jpeg</itype>
 		<title>keyboard left</title>
+		<filesize>4725</filesize>
+		<height>55</height>
 		<description></description>
+		<filename></filename>
 	</node>
 
-	<node number="18848" owner="default">
-		<handle file="images/18848.handle" />
+	<node number="939" owner="default">
+		<handle file="images/939.handle" />
+		<width>826</width>
 		<itype>jpeg</itype>
 		<title>grey 2</title>
+		<filesize>16365</filesize>
+		<height>55</height>
 		<description></description>
+		<filename></filename>
 	</node>
 
-	<node number="18851" owner="default">
-		<handle file="images/18851.handle" />
+	<node number="941" owner="default">
+		<handle file="images/941.handle" />
+		<width>2</width>
 		<itype>jpeg</itype>
 		<title>keyboard right</title>
+		<filesize>4746</filesize>
+		<height>55</height>
 		<description></description>
+		<filename></filename>
 	</node>
 
-	<node number="21032" owner="default">
-		<handle file="images/21032.handle" />
+	<node number="943" owner="default">
+		<handle file="images/943.handle" />
+		<width>2</width>
 		<itype>gif</itype>
 		<title>Building left</title>
+		<filesize>878</filesize>
+		<height>55</height>
 		<description></description>
+		<filename></filename>
 	</node>
 
-	<node number="21035" owner="default">
-		<handle file="images/21035.handle" />
+	<node number="945" owner="default">
+		<handle file="images/945.handle" />
+		<width>826</width>
 		<itype>gif</itype>
 		<title>Building middle</title>
+		<filesize>17010</filesize>
+		<height>55</height>
 		<description></description>
+		<filename></filename>
 	</node>
 
-	<node number="21038" owner="default">
-		<handle file="images/21038.handle" />
+	<node number="947" owner="default">
+		<handle file="images/947.handle" />
+		<width>2</width>
 		<itype>gif</itype>
 		<title>Building right</title>
+		<filesize>881</filesize>
+		<height>55</height>
 		<description></description>
+		<filename></filename>
 	</node>
 
-	<node number="21399" owner="default">
-		<handle file="images/21399.handle" />
-		<itype>jpeg</itype>
-		<title>MMBase pennen</title>
-		<description></description>
-	</node>
-
-	<node number="21406" owner="default">
-		<handle file="images/21406.handle" />
+	<node number="951" owner="default">
+		<handle file="images/951.handle" />
+		<width>960</width>
 		<itype>jpeg</itype>
 		<title>MMok</title>
+		<filesize>55003</filesize>
+		<height>1280</height>
 		<description></description>
+		<filename></filename>
 	</node>
 
-	<node number="21433" owner="default">
-		<handle file="images/21433.handle" />
+	<node number="953" owner="default">
+		<handle file="images/953.handle" />
+		<width>778</width>
 		<itype>jpeg</itype>
 		<title>MMBase stand</title>
+		<filesize>115500</filesize>
+		<height>1012</height>
 		<description></description>
+		<filename></filename>
 	</node>
 
-	<node number="21442" owner="default">
-		<handle file="images/21442.handle" />
+	<node number="955" owner="default">
+		<handle file="images/955.handle" />
+		<width>867</width>
 		<itype>jpeg</itype>
 		<title>Screenshot MMBase site</title>
+		<filesize>287583</filesize>
+		<height>725</height>
 		<description>Screenshot MMBase Developers site, this page in november 2003</description>
+		<filename></filename>
 	</node>
 
-	<node number="21852" owner="default">
-		<handle file="images/21852.handle" />
+	<node number="957" owner="default">
+		<handle file="images/957.handle" />
+		<width>568</width>
 		<itype>jpeg</itype>
 		<title>MMBase boards</title>
+		<filesize>55072</filesize>
+		<height>757</height>
 		<description></description>
+		<filename></filename>
 	</node>
 
-	<node number="29686" owner="admin">
-		<handle file="images/29686.handle" />
+	<node number="959" owner="admin">
+		<handle file="images/959.handle" />
+		<width>916</width>
 		<itype>jpeg</itype>
 		<title>NIMBAS who-is-who</title>
+		<filesize>60710</filesize>
+		<height>580</height>
 		<description></description>
+		<filename></filename>
 	</node>
 
-	<node number="45072" owner="default">
-		<handle file="images/45072.handle" />
+	<node number="961" owner="default">
+		<handle file="images/961.handle" />
+		<width>826</width>
 		<itype>jpeg</itype>
 		<title>Developers header</title>
+		<filesize>21107</filesize>
+		<height>55</height>
 		<description>Header image for the developers portal</description>
+		<filename></filename>
 	</node>
 
-	<node number="45075" owner="default">
-		<handle file="images/45075.handle" />
+	<node number="963" owner="default">
+		<handle file="images/963.handle" />
+		<width>826</width>
 		<itype>gif</itype>
 		<title>Foundation header</title>
+		<filesize>17010</filesize>
+		<height>55</height>
 		<description>Header image for the foundation portal</description>
+		<filename></filename>
 	</node>
 
-	<node number="50545" owner="default">
-		<handle file="images/50545.handle" />
+	<node number="965" owner="default">
+		<handle file="images/965.handle" />
+		<width>1270</width>
 		<itype>gif</itype>
 		<title>MMBase Community 2006</title>
-		<description> </description>
+		<filesize>46256</filesize>
+		<height>852</height>
+		<description></description>
+		<filename></filename>
 	</node>
 
-	<node number="53060" owner="default">
-		<handle file="images/53060.handle" />
+	<node number="967" owner="default">
+		<handle file="images/967.handle" />
+		<width>826</width>
 		<itype>gif</itype>
 		<title>Portal</title>
+		<filesize>17010</filesize>
+		<height>55</height>
 		<description></description>
+		<filename></filename>
 	</node>
 
-	<node number="53064" owner="default">
-		<handle file="images/53064.handle" />
+	<node number="969" owner="default">
+		<handle file="images/969.handle" />
+		<width>2</width>
 		<itype>gif</itype>
 		<title>Repeat portal</title>
+		<filesize>881</filesize>
+		<height>55</height>
 		<description></description>
+		<filename></filename>
 	</node>
 
 </images>

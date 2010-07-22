@@ -1,428 +1,539 @@
 <?xml version="1.0" encoding="utf-8"?>
-<pages exportsource="mmbase://jeeves.mmbase.org/install/foundation" timestamp="20100714204030">
-	<node number="166" owner="admin" alias="page_homepage">
+<pages exportsource="mmbase://zilver.toly.net/null/foundation" timestamp="20100722140849">
+	<node number="345" owner="admin" alias="page_homepage">
+		<template>2507</template>
 		<title>Homepage</title>
+		<expires></expires>
 		<description>MMBaseWeb</description>
+		<path>/</path>
 	</node>
 
-	<node number="177" owner="default" alias="download">
+	<node number="348" owner="default" alias="download">
+		<template>2509</template>
 		<title>Download</title>
+		<expires></expires>
 		<description>MMBaseWeb</description>
+		<path>/download</path>
 	</node>
 
-	<node number="191" owner="default" alias="page_developershome">
+	<node number="351" owner="default" alias="page_developershome">
+		<template></template>
 		<title>Developers Home</title>
+		<expires></expires>
 		<description>BackendDevelopers</description>
+		<path></path>
 	</node>
 
-	<node number="193" owner="default" alias="page_foundationhome">
+	<node number="354" owner="default" alias="page_foundationhome">
+		<template></template>
 		<title>Foundation Home</title>
+		<expires></expires>
 		<description>Foundation</description>
+		<path></path>
 	</node>
 
-	<node number="516" owner="admin">
-		<title>Agenda</title>
-		<description>Foundation</description>
-	</node>
-
-	<node number="519" owner="admin">
-		<title>Jobs</title>
-		<description>Foundation</description>
-	</node>
-
-	<node number="521" owner="admin">
-		<title>Dutch page</title>
-		<description>Foundation</description>
-	</node>
-
-	<node number="536" owner="default">
+	<node number="363" owner="default">
+		<template></template>
 		<title>About</title>
+		<expires></expires>
 		<description>BackendDevelopers</description>
+		<path></path>
 	</node>
 
-	<node number="537" owner="default">
+	<node number="365" owner="default">
+		<template></template>
 		<title>License</title>
+		<expires></expires>
 		<description>BackendDevelopers</description>
+		<path></path>
 	</node>
 
-	<node number="545" owner="default">
+	<node number="367" owner="default">
+		<template></template>
 		<title>Guidelines</title>
+		<expires></expires>
 		<description>BackendDevelopers</description>
+		<path></path>
 	</node>
 
-	<node number="546" owner="default">
-		<title>Roadmap - bugs</title>
+	<node number="369" owner="default">
+		<template>2508</template>
+		<title>Bugs</title>
+		<expires></expires>
 		<description>BackendDevelopers</description>
+		<path>/bugs</path>
 	</node>
 
-	<node number="547" owner="admin">
+	<node number="371" owner="admin">
+		<template></template>
 		<title>Overview</title>
+		<expires></expires>
 		<description>BackendDevelopers</description>
+		<path></path>
 	</node>
 
-	<node number="548" owner="admin">
+	<node number="373" owner="admin">
+		<template></template>
 		<title>Apidocs</title>
+		<expires></expires>
 		<description>BackendDevelopers</description>
+		<path></path>
 	</node>
 
-	<node number="549" owner="default">
+	<node number="375" owner="default">
+		<template>2584</template>
 		<title>Documentation</title>
+		<expires></expires>
 		<description>BackendDevelopers</description>
+		<path>/mmdocs</path>
 	</node>
 
-	<node number="556" owner="default">
+	<node number="377" owner="default">
+		<template></template>
 		<title>Projects</title>
+		<expires></expires>
 		<description>BackendDevelopers</description>
+		<path></path>
 	</node>
 
-	<node number="558" owner="admin" alias="page_developersmail">
+	<node number="379" owner="admin" alias="page_developersmail">
+		<template></template>
 		<title>Developers Mail</title>
+		<expires></expires>
 		<description>BackendDevelopers</description>
+		<path></path>
 	</node>
 
-	<node number="560" owner="admin" alias="page_cvs">
+	<node number="382" owner="admin" alias="page_cvs">
+		<template></template>
 		<title>Subversion Repository</title>
+		<expires></expires>
 		<description>BackendDevelopers</description>
+		<path></path>
 	</node>
 
-	<node number="561" owner="admin">
-		<title>News</title>
-		<description>BackendDevelopers</description>
-	</node>
-
-	<node number="570" owner="admin">
-		<title>Agenda</title>
-		<description>BackendDevelopers</description>
-	</node>
-
-	<node number="571" owner="default">
+	<node number="389" owner="default">
+		<template></template>
 		<title>People</title>
+		<expires></expires>
 		<description>BackendDevelopers</description>
+		<path></path>
 	</node>
 
-	<node number="574" owner="default">
+	<node number="391" owner="default">
+		<template></template>
 		<title>Organization</title>
+		<expires></expires>
 		<description>BackendDevelopers</description>
+		<path></path>
 	</node>
 
-	<node number="582" owner="admin">
+	<node number="393" owner="admin">
+		<template></template>
 		<title>Presentations</title>
+		<expires></expires>
 		<description>BackendDevelopers</description>
+		<path></path>
 	</node>
 
-	<node number="13316" owner="admin" alias="page_releases">
+	<node number="395" owner="admin" alias="page_releases">
+		<template></template>
 		<title>Releases</title>
+		<expires></expires>
 		<description>BackendDevelopers</description>
+		<path></path>
 	</node>
 
-	<node number="13332" owner="admin">
+	<node number="398" owner="admin">
+		<template></template>
 		<title>Archived projects</title>
+		<expires></expires>
 		<description>BackendDevelopers</description>
+		<path></path>
 	</node>
 
-	<node number="17427" owner="admin">
+	<node number="400" owner="admin">
+		<template></template>
 		<title>1.4</title>
+		<expires></expires>
 		<description>BackendDevelopers</description>
+		<path></path>
 	</node>
 
-	<node number="17432" owner="admin">
+	<node number="402" owner="admin">
+		<template></template>
 		<title>1.5</title>
+		<expires></expires>
 		<description>BackendDevelopers</description>
+		<path></path>
 	</node>
 
-	<node number="17438" owner="admin">
+	<node number="404" owner="admin">
+		<template></template>
 		<title>1.6</title>
+		<expires></expires>
 		<description>BackendDevelopers</description>
+		<path></path>
 	</node>
 
-	<node number="18625" owner="admin" alias="page_search">
+	<node number="406" owner="admin" alias="page_search">
+		<template></template>
 		<title>Search</title>
+		<expires></expires>
 		<description>BackendDevelopers</description>
+		<path></path>
 	</node>
 
-	<node number="18884" owner="admin" alias="mmbase_news">
+	<node number="409" owner="admin" alias="page_contact">
+		<template>2508</template>
 		<title>Contact</title>
+		<expires>120</expires>
 		<description>MMBaseWeb</description>
+		<path>/contact</path>
 	</node>
 
-	<node number="19473" owner="default">
+	<node number="412" owner="default">
+		<template></template>
 		<title>Partnerships</title>
+		<expires></expires>
 		<description>Foundation</description>
+		<path></path>
 	</node>
 
-	<node number="19503" owner="default">
-		<title>Promotion Products</title>
-		<description>Foundation</description>
-	</node>
-
-	<node number="19507" owner="default">
+	<node number="416" owner="default">
+		<template></template>
 		<title>Activities</title>
+		<expires></expires>
 		<description>Foundation</description>
+		<path></path>
 	</node>
 
-	<node number="19638" owner="default">
-		<title>Packages</title>
-		<description>MMBaseWeb</description>
-	</node>
-
-	<node number="19662" owner="default">
-		<title>Foundation</title>
-		<description>Foundation</description>
-	</node>
-
-	<node number="20131" owner="default">
+	<node number="420" owner="default">
+		<template>2509</template>
 		<title>About</title>
-		<description>Foundation</description>
+		<expires></expires>
+		<description>About MMBase</description>
+		<path>/about</path>
 	</node>
 
-	<node number="20137" owner="default">
+	<node number="422" owner="default">
+		<template>2509</template>
+		<title>MMBase Foundation</title>
+		<expires></expires>
+		<description>Foundation</description>
+		<path>/about/foundation</path>
+	</node>
+
+	<node number="424" owner="default">
+		<template>2509</template>
 		<title>History</title>
+		<expires></expires>
 		<description>Foundation</description>
+		<path>/about/history</path>
 	</node>
 
-	<node number="20141" owner="default">
+	<node number="426" owner="default">
+		<template>2509</template>
 		<title>MMBase in a nutshell</title>
+		<expires></expires>
 		<description>Foundation</description>
+		<path>/about/mmbase_in_a_nutshell</path>
 	</node>
 
-	<node number="21059" owner="default">
-		<title>MMBase brochure</title>
-		<description></description>
-	</node>
-
-	<node number="21316" owner="default">
+	<node number="430" owner="default">
+		<template></template>
 		<title>1.7</title>
+		<expires></expires>
 		<description>BackendDevelopers</description>
+		<path></path>
 	</node>
 
-	<node number="21335" owner="default" alias="page_announcemail">
+	<node number="432" owner="default" alias="page_announcemail">
+		<template></template>
 		<title>Announce Mail</title>
+		<expires></expires>
 		<description>MMBaseWeb</description>
+		<path></path>
 	</node>
 
-	<node number="21337" owner="default" alias="page_usersmail">
+	<node number="435" owner="default" alias="page_usersmail">
+		<template></template>
 		<title>Users Mail</title>
+		<expires></expires>
 		<description>MMBaseWeb</description>
+		<path></path>
 	</node>
 
-	<node number="21339" owner="default" alias="page_agenda">
+	<node number="438" owner="default" alias="page_agenda">
+		<template></template>
 		<title>Agenda</title>
+		<expires></expires>
 		<description>MMBaseWeb</description>
+		<path></path>
 	</node>
 
-	<node number="21341" owner="default">
+	<node number="441" owner="default" alias="page_news">
+		<template>2509</template>
 		<title>News</title>
+		<expires>120</expires>
 		<description>MMBaseWeb</description>
+		<path>/news</path>
 	</node>
 
-	<node number="21405" owner="default">
-		<title>MMBase Pen</title>
-		<description>Foundation</description>
-	</node>
-
-	<node number="21431" owner="default">
+	<node number="445" owner="default">
+		<template></template>
 		<title>MMBase stand</title>
+		<expires></expires>
 		<description></description>
+		<path></path>
 	</node>
 
-	<node number="21461" owner="default">
+	<node number="447" owner="default">
+		<template></template>
 		<title>MMok</title>
+		<expires></expires>
 		<description></description>
+		<path></path>
 	</node>
 
-	<node number="21479" owner="default">
-		<title>News</title>
-		<description></description>
-	</node>
-
-	<node number="21625" owner="default">
+	<node number="451" owner="default">
+		<template></template>
 		<title>MMBeamer</title>
+		<expires></expires>
 		<description></description>
+		<path></path>
 	</node>
 
-	<node number="21649" owner="default">
-		<title>404 Page Not Found</title>
-		<description></description>
-	</node>
-
-	<node number="21788" owner="default">
+	<node number="455" owner="default">
+		<template></template>
 		<title>Contracts</title>
+		<expires></expires>
 		<description></description>
+		<path></path>
 	</node>
 
-	<node number="21857" owner="default">
+	<node number="457" owner="default">
+		<template></template>
 		<title>MMBase hardboards</title>
+		<expires></expires>
 		<description></description>
+		<path></path>
 	</node>
 
-	<node number="23538" owner="admin">
+	<node number="459" owner="admin">
+		<template></template>
 		<title>Knowledge base</title>
+		<expires></expires>
 		<description>Developers</description>
+		<path></path>
 	</node>
 
-	<node number="25011" owner="default">
+	<node number="461" owner="default">
+		<template></template>
 		<title>MMC</title>
+		<expires></expires>
 		<description></description>
+		<path></path>
 	</node>
 
-	<node number="25163" owner="default">
-		<title>Request for Hardware</title>
-		<description></description>
-	</node>
-
-	<node number="25168" owner="default">
-		<title>Participants</title>
-		<description></description>
-	</node>
-
-	<node number="25171" owner="default">
+	<node number="467" owner="default">
+		<template></template>
 		<title>MMEVENT</title>
+		<expires></expires>
 		<description>Information</description>
+		<path></path>
 	</node>
 
-	<node number="25175" owner="default">
-		<title>Route</title>
-		<description></description>
-	</node>
-
-	<node number="25176" owner="default">
-		<title>Register</title>
-		<description></description>
-	</node>
-
-	<node number="25177" owner="default">
-		<title>Information</title>
-		<description></description>
-	</node>
-
-	<node number="25888" owner="default" alias="page_mmbasewebsites">
+	<node number="475" owner="default" alias="page_mmbasewebsites">
+		<template></template>
 		<title>Websites in MMBase</title>
+		<expires></expires>
 		<description>Foundation</description>
+		<path></path>
 	</node>
 
-	<node number="25980" owner="default">
+	<node number="478" owner="default">
+		<template></template>
 		<title>Packages</title>
+		<expires></expires>
 		<description>Packages</description>
+		<path></path>
 	</node>
 
-	<node number="26254" owner="default">
+	<node number="480" owner="default">
+		<template></template>
 		<title>Program</title>
+		<expires></expires>
 		<description>Program of the MMEvent4</description>
+		<path></path>
 	</node>
 
-	<node number="27076" owner="default">
+	<node number="482" owner="default">
+		<template></template>
 		<title>Download presentations</title>
+		<expires></expires>
 		<description></description>
+		<path></path>
 	</node>
 
-	<node number="27082" owner="default">
+	<node number="484" owner="default">
+		<template></template>
 		<title>Report of the fourth MMEvent</title>
+		<expires></expires>
 		<description></description>
+		<path></path>
 	</node>
 
-	<node number="27226" owner="default">
-		<title>Brochure</title>
-		<description></description>
-	</node>
-
-	<node number="27492" owner="default">
+	<node number="488" owner="default">
+		<template></template>
 		<title>Partner contracts</title>
+		<expires></expires>
 		<description></description>
+		<path></path>
 	</node>
 
-	<node number="27502" owner="default">
-		<title>MMBase annual report [in dutch]</title>
-		<description></description>
-	</node>
-
-	<node number="40749" owner="admin">
+	<node number="492" owner="admin">
+		<template></template>
 		<title>1.8</title>
+		<expires></expires>
 		<description></description>
+		<path></path>
 	</node>
 
-	<node number="41151" owner="default">
+	<node number="494" owner="default">
+		<template></template>
 		<title>Mailinglists</title>
+		<expires></expires>
 		<description></description>
+		<path></path>
 	</node>
 
-	<node number="41855" owner="default" alias="page_communitymail">
+	<node number="496" owner="default" alias="page_communitymail">
+		<template></template>
 		<title>Community Mail</title>
+		<expires></expires>
 		<description></description>
+		<path></path>
 	</node>
 
-	<node number="41857" owner="default" alias="page_cvsmail">
+	<node number="499" owner="default" alias="page_cvsmail">
+		<template></template>
 		<title>SCM Mail</title>
+		<expires></expires>
 		<description></description>
+		<path></path>
 	</node>
 
-	<node number="46178" owner="default" alias="page_committorsmail">
+	<node number="502" owner="default" alias="page_committorsmail">
+		<template></template>
 		<title>Committers Mail</title>
+		<expires></expires>
 		<description></description>
+		<path></path>
 	</node>
 
-	<node number="47013" owner="admin">
+	<node number="505" owner="admin">
+		<template></template>
 		<title>Applications</title>
+		<expires></expires>
 		<description>applications</description>
+		<path></path>
 	</node>
 
-	<node number="47447" owner="default">
+	<node number="507" owner="default">
+		<template></template>
 		<title>How to become a partner?</title>
+		<expires></expires>
 		<description></description>
+		<path></path>
 	</node>
 
-	<node number="47459" owner="default">
+	<node number="509" owner="default">
+		<template>2509</template>
 		<title>Activities</title>
+		<expires></expires>
 		<description></description>
+		<path>/about/activities</path>
 	</node>
 
-	<node number="47478" owner="default">
+	<node number="511" owner="default">
+		<template></template>
 		<title>Why should you become a partner?</title>
+		<expires></expires>
 		<description></description>
+		<path></path>
 	</node>
 
-	<node number="47509" owner="default">
+	<node number="513" owner="default">
+		<template></template>
 		<title>Holland Open Software Conference</title>
+		<expires></expires>
 		<description></description>
+		<path></path>
 	</node>
 
-	<node number="48685" owner="default">
+	<node number="515" owner="default">
+		<template></template>
 		<title>E-mail form</title>
+		<expires></expires>
 		<description>jo.lahaye@mmbase.org</description>
+		<path></path>
 	</node>
 
-	<node number="50534" owner="default">
+	<node number="517" owner="default">
+		<template></template>
 		<title>Technical Board</title>
+		<expires></expires>
 		<description>Minutes</description>
+		<path></path>
 	</node>
 
-	<node number="50538" owner="default">
+	<node number="519" owner="default">
+		<template></template>
 		<title>Meetings</title>
+		<expires></expires>
 		<description>Developers</description>
+		<path></path>
 	</node>
 
-	<node number="51936" owner="default">
-		<title>Training</title>
-		<description></description>
-	</node>
-
-	<node number="52537" owner="default">
+	<node number="523" owner="default">
+		<template></template>
 		<title>Architecture</title>
+		<expires></expires>
 		<description></description>
+		<path></path>
 	</node>
 
-	<node number="52544" owner="default">
+	<node number="525" owner="default">
+		<template>2509</template>
 		<title>Maven-site</title>
+		<expires></expires>
 		<description></description>
+		<path>/download/maven</path>
 	</node>
 
-	<node number="52612" owner="default">
+	<node number="527" owner="default">
+		<template></template>
 		<title>CMS Container Mail</title>
+		<expires></expires>
 		<description></description>
+		<path></path>
 	</node>
 
-	<node number="54014" owner="admin">
+	<node number="529" owner="admin">
+		<template></template>
 		<title>latest apidoc</title>
+		<expires></expires>
 		<description>latest</description>
+		<path></path>
+	</node>
+
+	<node number="2592" owner="default">
+		<template>2590</template>
+		<title>Sitemap</title>
+		<expires>120</expires>
+		<description></description>
+		<path>/sitemap</path>
 	</node>
 
 </pages>

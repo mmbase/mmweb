@@ -1,25 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<news exportsource="mmbase://jeeves.mmbase.org/install/foundation" timestamp="20100714204030">
-	<node number="284" owner="admin">
-		<title>Natuurherstelprojecten</title>
-		<intro></intro>
+<news exportsource="mmbase://zilver.toly.net/null/foundation" timestamp="20100722140849">
+	<node number="1299" owner="admin">
 		<body>The dutch organisation for nature conservation, Natuurmonumenten, is carrying out a number of projects to restore nature on different locations in the Netherlands. For these projects a website has been build by &lt;A href=&quot;http://www.mmatch.nl/&quot;&gt;&lt;U&gt;&lt;FONT color=#800080&gt;MMatch&lt;/FONT&gt;&lt;/U&gt;&lt;/A&gt;.</body>
+		<date>1279138371</date>
+		<intro></intro>
+		<title>Natuurherstelprojecten</title>
 		<subtitle></subtitle>
 	</node>
 
-	<node number="13321" owner="admin">
-		<title>New developers site deployed</title>
-		<intro>Although we're still working on a lot of features and pages, we've decided to present the new site.</intro>
+	<node number="1301" owner="admin">
 		<body>In november 2003 a lot of people, especially developers will be working on the site. This may cause some inconvenience now and then, thank you in advance for your understanding.
 The new site has been built under supervision of Rob Vermeulen in cooperation with a lot of developers and the Foundation.</body>
+		<date>1279138371</date>
+		<intro>Although we're still working on a lot of features and pages, we've decided to present the new site.</intro>
+		<title>New developers site deployed</title>
 		<subtitle></subtitle>
 	</node>
 
-	<node number="13532" owner="import">
-		<title>Best viewed news site</title>
-		<intro>In February 2003 the MMBase site www.nu.nl was the best visited news site in the Netherlands. According to figures recently released by Nielsen//NetRatings, www.nu.nl welcomed 455.000 unique visitors that month.
-
-</intro>
+	<node number="1303" owner="import">
 		<body>In February 2003 the MMBase site www.nu.nl was the best visited news site in the Netherlands. According to figures recently released by Nielsen//NetRatings, www.nu.nl welcomed 455.000 unique visitors that month.
 
 The Dutch news site webwereld added to these statistics that in this month the major Dutch newspaper Telegraaf was firm on a second place with 416.000 visitors, followed by NOS Teletekst with 232.000 visitors.
@@ -29,42 +27,44 @@ The news site in the US that drew the largest audience was MSNBC (www.MSNBC.com)
 The hosting provider IC&amp;S takes care of the trafic and MMBase hosting of nu.nl. 
 
 Anyhow, we are proud that the largest Dutch news site is part of the MMBase family.</body>
+		<date>1279138371</date>
+		<intro>In February 2003 the MMBase site www.nu.nl was the best visited news site in the Netherlands. According to figures recently released by Nielsen//NetRatings, www.nu.nl welcomed 455.000 unique visitors that month.</intro>
+		<title>Best viewed news site</title>
 		<subtitle></subtitle>
 	</node>
 
-	<node number="13544" owner="import">
-		<title>MMBase 1.6.5 is released</title>
-		<intro>MMBase 1.6.5 is released, shortly after the 1.6.4 release. This is because MMBase-1.6.4 contains a wrong class wich may result in rather confusing output of some queries. </intro>
+	<node number="1305" owner="import">
 		<body>MMBase 1.6.5 is released, shortly after the 1.6.4 release. This is because MMBase-1.6.4 contains a wrong class wich may result in rather confusing output of some queries. Check out the releasenotes for more information. 
 
 Please update your mmbase.jar if you're already using MMBase-1.6.4.</body>
+		<date>1279138371</date>
+		<intro>MMBase 1.6.5 is released, shortly after the 1.6.4 release. This is because MMBase-1.6.4 contains a wrong class wich may result in rather confusing output of some queries.</intro>
+		<title>MMBase 1.6.5 is released</title>
 		<subtitle>MMBase 1.6.5 is released</subtitle>
 	</node>
 
-	<node number="18515" owner="admin">
-		<title>Appeal from MMBase to European MPs: say NO to patents</title>
-		<intro>We have made a last appeal on all Dutch MPs  to say no to software patents. </intro>
+	<node number="1307" owner="admin">
 		<body>In this weeks meeting in Brussels the European Parliament will make a decision on the regulations concerning (software) patents. The MMBase Foundation argued strongly against any regulations on the use of software, other than acknowledging the -now used- copyrights. Over 250.000 Europeans signed a petition against the proposed regulations. In the Netherlands the issue wrongfully never made to the front page, although liberal democrats held a firm pledge last week in favour of open standards and open source.
 Open source sure isn’t the only development that will suffer from any patents, but for sure it will suffer the most. OSS-communities never claimed any inventions: they want to share them with the whole world. The effect on Open Standards will even be harsher, everyone will try and claim any standard that is widely used.
 
-Let's hope all European MP's read what Objectweb.org stated on their website: &quot;Warning against software patents! Software patents are a serious matter - and we lived decades without them. We warn  the European Parliament that no decision should be taken in a hurry or under the pressure of some lobbies. Better think twice before taking the risk of undermining our whole software industry.&quot;
-</body>
+Let's hope all European MP's read what Objectweb.org stated on their website: &quot;Warning against software patents! Software patents are a serious matter - and we lived decades without them. We warn  the European Parliament that no decision should be taken in a hurry or under the pressure of some lobbies. Better think twice before taking the risk of undermining our whole software industry.&quot;</body>
+		<date>1279138371</date>
+		<intro>We have made a last appeal on all Dutch MPs  to say no to software patents.</intro>
+		<title>Appeal from MMBase to European MPs: say NO to patents</title>
 		<subtitle>Patents on software will have great negative impact on innovation</subtitle>
 	</node>
 
-	<node number="20115" owner="admin">
-		<title>Leeuwarden chooses MMBase</title>
-		<intro>Leeuwarden, the capital of the Dutch province Friesland, has chosen MMBase for their new corporate websites. </intro>
+	<node number="1309" owner="admin">
 		<body>The capital of the Dutch Province Friesland, Leeuwarden, has chosen MMBase to build their new corporate websites. Leeuwarden is the second city to do so, Amsterdam already started using this Open Source web content management system in 2001.
 
-Leeuwarden made a choice for MMBase, because robust CMS features are combined with multi channel communication. The northern Dutch city hopes that the new website will combine an enhanced maintenance environment with more interactivity. In the future the functionality of the site will grow to a transaction oriented environment. Deployment of the site (www.leeuwarden.nl) is planned in January 2004. The other open source products used by Leeuwarden for their new dynamic web environment are Linux, Tomcat and MySQL. The cities of Amsterdam and Leeuwarden will work together with The MMBase Foundation on future development. MMBase partner Finalist IT Group and The Missing Link Company are, respectively, responsible for the implementation and design. 
-</body>
+Leeuwarden made a choice for MMBase, because robust CMS features are combined with multi channel communication. The northern Dutch city hopes that the new website will combine an enhanced maintenance environment with more interactivity. In the future the functionality of the site will grow to a transaction oriented environment. Deployment of the site (www.leeuwarden.nl) is planned in January 2004. The other open source products used by Leeuwarden for their new dynamic web environment are Linux, Tomcat and MySQL. The cities of Amsterdam and Leeuwarden will work together with The MMBase Foundation on future development. MMBase partner Finalist IT Group and The Missing Link Company are, respectively, responsible for the implementation and design.</body>
+		<date>1279138371</date>
+		<intro>Leeuwarden, the capital of the Dutch province Friesland, has chosen MMBase for their new corporate websites.</intro>
+		<title>Leeuwarden chooses MMBase</title>
 		<subtitle></subtitle>
 	</node>
 
-	<node number="20122" owner="admin">
-		<title>Didactor seminar: the evolution in E-learning</title>
-		<intro>On the 5th of November 2003 the seminar &quot;E-learning; the evolution in learning&quot; was held at a wonderfull location at&amp;nbsp;the&amp;nbsp;TU-Delft. </intro>
+	<node number="1311" owner="admin">
 		<body>On the 5th of November 2003 the seminar &quot;E-learning; the evolution in learning&quot; took place. More than 80 visitors attended the Event, and&amp;nbsp;were engaged in an interactive program on e-learning. They learned about what Didactor can do for organizations, and how it can be used.
 
 The opening of the day was done by Jo Lahaye, the CEO of the MMBase Foundation. He started with a short explanation of the Dutch Open Source Content Management initiative MMBase. More and more organizations use MMBase successfully. Didactor was build with MMBase. The first presenter of the day was Arko van Brakel, partner of The Mediator Group. The appearance of interactive media is the next revolution after the industrial revolution, according to Van Brakel. Knowledge and information still play an important role in our society. The youth of 2003, the Nintendo generation, are handling information very differently from adults. They are used to working with computers and use them in all aspects of their lives. Because of that, within the educational field, more and more use is made of Internet technology. The use of electronic learning in education and business is therefore an irreversible process. The next speaker was Jolanda van Goor, an E-learning consultant. She discussed the characteristics of E-learning, like the student centered approach, and cooperative learning. She also explained the conditions for successful use of E-learning. She mentioned things like broadly based acceptance within an organization, the quality of the teaching material, and the possibility of blended learning. She closed her presentation by demonstrating the Didactor Software (for a demo, go to www.didactor.nl and click on demo). 
@@ -72,109 +72,119 @@ The opening of the day was done by Jo Lahaye, the CEO of the MMBase Foundation. 
 After that there were a number of real live showcases of institutions that work with Didactor. Richard Post of the Evangelische Omroep (EO) presented the history of deployment of their online course ‘Wa@rom Jezus’ (Why Jezus). After experimenting with different systems, they have now successfully implemented Didactor. The course is offered as a blended concept. The course is supported by a so called ‘e-coach’, who assists the students when they have questions. With this E-learning environment the EO can reach target markets that are otherwise hard to reach. After every course the results are evaluated intensively. The conclusion for the EO is that E-learning makes an important contribution towards realizing their goals. 
 
 The last presentation of the day was by Heleen Riper of the Trimbos Instituut. The Trimbos Instituut is applying E-learning to renew ways to provide care. At this point they are working on a Didactor course for depressed elderly. By ways of an online course the elderly are able to work towards improving their situation anonymously. The course will be tested soon, at the Kenniswijk in Eindhoven. After a summarization of the chairman, the meeting ended and while enjoying drinks and snacks, there where still long talks about Didactor and it’s possibilities to improve the educational program.</body>
+		<date>1279138371</date>
+		<intro>On the 5th of November 2003 the seminar &quot;E-learning; the evolution in learning&quot; was held at a wonderfull location at&amp;nbsp;the&amp;nbsp;TU-Delft.</intro>
+		<title>Didactor seminar: the evolution in E-learning</title>
 		<subtitle></subtitle>
 	</node>
 
-	<node number="21070" owner="default">
-		<title>OSOSS donates the DataMatrix to the Foundation</title>
-		<intro>The application can be downloaded from this website. </intro>
+	<node number="1313" owner="default">
 		<body>In the OSOSS newsletter Jo Lahaye, the CEO of the MMBase Foundation, wrote in his column that OSOSS would soon enrich the MMBase community with a tool to quickly create and add tables and lists in MMBase. This moment has arrived and the so-called DataMatrix, developed in collaboration, by OSOSS order, has been given to the MMBase community.
 
 The thought behind the donation is simple; join the principle of open source software. You solve a question or problem with software, you share the solution with the rest of the world and invite people to think along with you, and continue development together.
 
 For the development of the website www.ososs.nl, OSOSS used the content management system MMBase. OSOSS wanted to use tables for the creation of conveniently arranged lists of open source products, open source distributors en open standards. They joint forces with two other programs of the Foundation ICTU, namely ELO and Advies Overheid.nl, and bundled development wishes, money, and knowledge. Together with Hartman Communication BV (for communication in computerization) and the technical Internet company Q42 (focused on the design and the construction of user-friendly interfaces and Internet applications) the DataMatrix was build. By donating the DataMatrix to the MMBase community, the tool can be used by everybody to create dataoverviews, and of course the development can be continued by other parties. For examples of the application, please visit the OSOSS website www.ososs.nl. 
 
-The DataMatrix can be downloaded from the MMBase website, in the section ‘packages’. You will also find an installation and user manual. </body>
+The DataMatrix can be downloaded from the MMBase website, in the section ‘packages’. You will also find an installation and user manual.</body>
+		<date>1279138371</date>
+		<intro>The application can be downloaded from this website.</intro>
+		<title>OSOSS donates the DataMatrix to the Foundation</title>
 		<subtitle></subtitle>
 	</node>
 
-	<node number="21455" owner="default">
-		<title>Parkstad</title>
-		<intro></intro>
+	<node number="1315" owner="default">
 		<body>ParkStad is de omvangrijke stedelijke vernieuwingsoperatie in de Westelijke Tuinsteden van Amsterdam, uitgevoerd door overheid, woningcorporaties en andere (markt)partijen. Deze site is onderdeel van het Informatiecentrum ParkStad Amsterdam.    
 
-De gehele site is gebouwd in MMBase en uitgevoerd door Finalist IT Group. </body>
+De gehele site is gebouwd in MMBase en uitgevoerd door Finalist IT Group.</body>
+		<date>1279138371</date>
+		<intro></intro>
+		<title>Parkstad</title>
 		<subtitle></subtitle>
 	</node>
 
-	<node number="21848" owner="admin">
-		<title>4 en 5 mei</title>
-		<intro></intro>
+	<node number="1317" owner="admin">
 		<body>Dit is de volledig op MMBase gebouwde site voor de stichting 4 en 5 mei.</body>
+		<date>1279138371</date>
+		<intro></intro>
+		<title>4 en 5 mei</title>
 		<subtitle></subtitle>
 	</node>
 
-	<node number="21895" owner="default">
-		<title>A webshop for Natuurmonumenten</title>
-		<intro></intro>
+	<node number="1319" owner="default">
 		<body>&lt;A href=&quot;http://www.mmatch.nl&quot;&gt;MMatch&lt;/A&gt; implemented a&amp;nbsp;webshop for Natuurmonumenten on the bases of MMBase. The webshop contains a shopping cart, integrated search, the possibility to add detail information and discounts to products.</body>
+		<date>1279138371</date>
+		<intro></intro>
+		<title>A webshop for Natuurmonumenten</title>
 		<subtitle></subtitle>
 	</node>
 
-	<node number="21900" owner="default">
-		<title>Muziekcentrum Frits Philips in Eindhoven</title>
-		<intro></intro>
+	<node number="1321" owner="default">
 		<body>For Muziekcentrum Frits Philips in Eindhoven a website has been implemented in MMBase. The website&amp;nbsp;contains a shopping cart, the integration with the ticketoffice of the Muziekcentrum&amp;nbsp;(based on ShowSoft) and integrated search. Where necessary the editors themselves can create subsites. For a view of the website and one of the subsites use the following links: &lt;A href=&quot;http://www.muziekcentrum.nl/&quot; target=_blank&gt;Muziekcentrum Frits Philips&lt;/A&gt;, &lt;A href=&quot;http://www.trompinternational.nl/&quot; target=_blank&gt;Tromp International Music Competition&lt;/A&gt;. The implementation has been carried out by &lt;A href=&quot;http://www.mmatch.nl&quot;&gt;MMatch&lt;/A&gt;&lt;BR&gt;</body>
+		<date>1279138371</date>
+		<intro></intro>
+		<title>Muziekcentrum Frits Philips in Eindhoven</title>
 		<subtitle></subtitle>
 	</node>
 
-	<node number="21921" owner="default">
-		<title>Cultuurnet</title>
-		<intro></intro>
+	<node number="1323" owner="default">
 		<body>&lt;FONT face=Arial size=2&gt;Cultuurnet.be went live on December 20, 2003. It is a &quot;Kennisweb&quot; for communication professionals in the cultural sector. Cultuurnet itself is an organisation that is part of the Flemish government.&lt;/FONT&gt;</body>
+		<date>1279138371</date>
+		<intro></intro>
+		<title>Cultuurnet</title>
 		<subtitle></subtitle>
 	</node>
 
-	<node number="22670" owner="default">
-		<title>The EO radio and TV programsites</title>
-		<intro></intro>
+	<node number="1325" owner="default">
 		<body>The EO radio- and TV-program sites are the forerunners of the soon renewed website of the EO. In the new setup, more allience is sought with their programs, magazines and other activities. Every program will get its own page on EO.nl, in which the atmosphere of the program is expressed. 
 &lt;P&gt;All running radio and TV programs are online, aswell as a radio and TV portal, with the complete programmlist of the EO on television and radio. At this point sites for magazines, acitivties and theme’s are being developed. In the course of the second quartar of 2004 the homepage, the navigation and the portalstructure is renewed. 
 &lt;P&gt;The new websites are completely built in MMBase functionalities. 
 &lt;P&gt;The URL’s of the radio &amp; TV portal and a number of programsites. 
 &lt;P&gt;&lt;A href=&quot;http://www.eo.nl/tv&quot;&gt;www.eo.nl/tv&lt;/A&gt; &lt;BR&gt;&lt;A href=&quot;http://www.eo.nl/radio&quot;&gt;www.eo.nl/radio&lt;/A&gt;&lt;BR&gt;&lt;A href=&quot;http://www.eo.nl/hetelfdeuur&quot;&gt;www.eo.nl/hetelfdeuur&lt;/A&gt;&lt;BR&gt;&lt;A href=&quot;http://www.eo.nl/hennyzoektgod&quot;&gt;www.eo.nl/hennyzoektgod&lt;/A&gt;&lt;BR&gt;&lt;A href=&quot;http://www.eo.nl/deochtenden&quot;&gt;www.eo.nl/deochtenden&lt;/A&gt;&lt;BR&gt;&lt;A href=&quot;http://www.eo.nl/degoudengreep&quot;&gt;www.eo.nl/degoudengreep&lt;/A&gt;&lt;BR&gt;&lt;/P&gt;</body>
+		<date>1279138371</date>
+		<intro></intro>
+		<title>The EO radio and TV programsites</title>
 		<subtitle>The EO radio- and TV-program sites are the forerunners of the soon renewed website of the EO.</subtitle>
 	</node>
 
-	<node number="23193" owner="default">
-		<title>Gemeente Leeuwarden</title>
-		<intro></intro>
+	<node number="1327" owner="default">
 		<body>To make their website http://www.leeuwarden.nl more interactive and prepare it for the future extention of their digital services, the municipalty of Leeuwarden needed to improve their hosting environment and technical infrastructure. With their choise for MMBase in a Linux/Apache/Tomcat/ Mysql setting, the conditions for this quality improvement have been created
 
 With the new CMS for www.leeuwarden.nl, several subsites can be created, using the same content. The different parts of the CMS, like the workflow, authorization, one-click-editing, and new editors were based on previously developed components. 
 
-The entire project was build and implemented in eight weeks. </body>
+The entire project was build and implemented in eight weeks.</body>
+		<date>1279138371</date>
+		<intro></intro>
+		<title>Gemeente Leeuwarden</title>
 		<subtitle>www.leeuwarden.nl</subtitle>
 	</node>
 
-	<node number="23259" owner="default">
-		<title>Emerce</title>
-		<intro>The Emerce website is made with the content management system MMBase.</intro>
+	<node number="1329" owner="default">
 		<body></body>
+		<date>1279138371</date>
+		<intro>The Emerce website is made with the content management system MMBase.</intro>
+		<title>Emerce</title>
 		<subtitle></subtitle>
 	</node>
 
-	<node number="24245" owner="default">
-		<title>ROC Zeeland</title>
-		<intro></intro>
+	<node number="1331" owner="default">
 		<body>&lt;P&gt;The ROC Zeeland, a medium size Dutch educational institute,&amp;nbsp;recently deployed it's new&amp;nbsp;website. The site was build with MMBase.&amp;nbsp;The ROC made a well motivated&amp;nbsp;choice for open source software&amp;nbsp;and the usxe of open standards.&amp;nbsp;In their press release they pointed to the initiative of the government to stimulate this (&lt;A href=&quot;http://www.ososs.nl&quot;&gt;ososs&lt;/A&gt;).&amp;nbsp;The next target is offering electronic services to their 8000&amp;nbsp;participants en hundreds of employees. &lt;/P&gt;</body>
+		<date>1279138371</date>
+		<intro></intro>
+		<title>ROC Zeeland</title>
 		<subtitle>New site ROC Zeeland is user oriented</subtitle>
 	</node>
 
-	<node number="26487" owner="default">
-		<title>EGEM</title>
-		<intro>The ict target of the government for 2007 says that if there is an open source alternative, the preference should go to open source software. With this in mind, EGEM developed it's website in MMBase. Within this project, there was also a special application developed, for the structured description of projects. </intro>
+	<node number="1333" owner="default">
 		<body>The project application has been developed for Egem as a re-usable MMBase component on their special request. In this application members can access all information about all (Dutch municipality) projects after a login and they can communicatie with each other about all projects. This specific application offers many special functionalities: exchange of documents, project related forums, storage of emailadresses, search functionalities, etc. So, work can be done online and EGEM can stay involved as a generator in projects that would otherwise be hard to follow. &lt;p&gt;
 
-EGEM will offer this project application to the MMBase community and the functionality is therefore (in a few weeks, we keep you posted) available for all municipalties in the Netherlands. And of course everyone else who is looking for a project collaboration tool.
-
-</body>
+EGEM will offer this project application to the MMBase community and the functionality is therefore (in a few weeks, we keep you posted) available for all municipalties in the Netherlands. And of course everyone else who is looking for a project collaboration tool.</body>
+		<date>1279138371</date>
+		<intro>The ict target of the government for 2007 says that if there is an open source alternative, the preference should go to open source software. With this in mind, EGEM developed it's website in MMBase. Within this project, there was also a special application developed, for the structured description of projects.</intro>
+		<title>EGEM</title>
 		<subtitle>EGEM website in Open Source</subtitle>
 	</node>
 
-	<node number="27066" owner="default">
-		<title>Successful fourth Event</title>
-		<intro>On june 9, some 100 attendees enjoyed a day full of presentations and debate at the TU Delft.</intro>
+	<node number="1335" owner="default">
 		<body>(For more information, and the presentations held on the Event, please go to the Foundation site (www.mmbase.org/foundation) and look for MMEvent in the navigation). 
 
 The MMBase community of users, developers, and implementators, and interested companies that visited the Event, did not only see how MMBase is currently used within governmental and educational institutes and businesses. Also a number of prominent companies like Philips Medical Systems shared their experiences with the use of open source and MMBase and the related policy questions. 
@@ -268,75 +278,83 @@ Wim de Bie (famous Dutch TV personality, VPRO) is the general editor of a weblog
  
 Bieslog: http://bieslog.vpro.nl
  
-For more information, please contact the Foundation, jo@mmbase.org , 035 6288088.
-</body>
+For more information, please contact the Foundation, jo@mmbase.org , 035 6288088.</body>
+		<date>1279138371</date>
+		<intro>On june 9, some 100 attendees enjoyed a day full of presentations and debate at the TU Delft.</intro>
+		<title>Successful fourth Event</title>
 		<subtitle>Hundred people visited fourth annual Event.</subtitle>
 	</node>
 
-	<node number="29689" owner="admin">
-		<title>NIMBAS Graduate School of Management</title>
-		<intro></intro>
+	<node number="1337" owner="admin">
 		<body>For &lt;a href=&quot;http://www.nimbas.com&quot; target=&quot;_blank&quot;&gt;NIMBAS (www.nimbas.com)&lt;/a&gt;, one of the leading business schools, a website has been implemented in MMBase. Next to the standard functionality like news, calendar, clickable image maps, email forms, etc., the NIMBAS website contains a closed user group. The closed user group consist of 15000 members and is imported from a Microsoft Access database on a daily base. Members of the user group can use the who-is-who page with photos to search for alumni and current students and are kept up to date with html-newsletters.&lt;br&gt;&lt;br&gt;
 The implementation has been carried out by &lt;A href=&quot;http://www.mmatch.nl&quot;&gt;MMatch&lt;/A&gt;, much of the functionality of the NIMBAS website can also been downloaded from &lt;A href=&quot;http://www.mmatch.nl/download&quot;&gt;http://www.mmatch.nl/download&lt;/A&gt;.</body>
+		<date>1279138371</date>
+		<intro></intro>
+		<title>NIMBAS Graduate School of Management</title>
 		<subtitle></subtitle>
 	</node>
 
-	<node number="35365" owner="admin">
+	<node number="1339" owner="admin">
+		<body>The Dutch &quot;media&quot; city Hilversum deployed its new MMBase-site in October 2004. The site is based on the application that is developed and maintained by our capital city Amsterdam, which is called Web in a Box. Hilversum is called the Media city, because most Dutch broadcasting organizations are located here, for exampel on the &quot;Mediapark&quot;. The broadcasting organization VPRO that initially developed MMBase is also located here.</body>
+		<date>1279138371</date>
+		<intro></intro>
 		<title>Hilversum</title>
-		<intro></intro>
-		<body>The Dutch &quot;media&quot; city Hilversum deployed its new MMBase-site in October 2004. The site is based on the application that is developed and maintained by our capital city Amsterdam, which is called Web in a Box. Hilversum is called the Media city, because most Dutch broadcasting organizations are located here, for exampel on the &quot;Mediapark&quot;. The broadcasting organization VPRO that initially developed MMBase is also located here. 
-</body>
 		<subtitle></subtitle>
 	</node>
 
-	<node number="38778" owner="admin">
+	<node number="1341" owner="admin">
+		<body>The Dutch Vodafone website is now powered by MMBase. The Dutch department of this world leader in mobile communications, decided to stop the development of it's proprietary system and choose for the flexibilty and more sophisticated technology of MMBase. The change was presented as a technology breakout and perhaps more local (countries) Vodafone departments will follow.</body>
+		<date>1279138371</date>
+		<intro></intro>
 		<title>Vodafone</title>
-		<intro></intro>
-		<body>The Dutch Vodafone website is now powered by MMBase. The Dutch department of this world leader in mobile communications, decided to stop the development of it's proprietary system and choose for the flexibilty and more sophisticated technology of MMBase. The change was presented as a technology breakout and perhaps more local (countries) Vodafone departments will follow.  </body>
 		<subtitle></subtitle>
 	</node>
 
-	<node number="42511" owner="admin">
-		<title>Surfnet</title>
+	<node number="1343" owner="admin">
+		<body>Surfnet is now using MMBase for several portals. As we understood the users are very satisfied with the application. Surfnet decided to use LeoCMS (Leeuwarden) as the basic for their Conten Management system. Like Leeuwarden, Surfnet is also willing to make their application open source.</body>
+		<date>1279138371</date>
 		<intro>Surfnetportals on MMBase</intro>
-		<body>Surfnet is now using MMBase for several portals. As we understood the users are very satisfied with the application. Surfnet decided to use LeoCMS (Leeuwarden) as the basic for their Conten Management system. Like Leeuwarden, Surfnet is also willing to make their application open source.
-</body>
+		<title>Surfnet</title>
 		<subtitle></subtitle>
 	</node>
 
-	<node number="42515" owner="admin">
-		<title>Student.nl</title>
+	<node number="1345" owner="admin">
+		<body>This startingportal for students, offers many hyperlinks to relevant websites. The content is maintained by a MMBase-style content management system.</body>
+		<date>1279138371</date>
 		<intro>Starting point for students in the Netherlands.</intro>
-		<body>This startingportal for students, offers many hyperlinks to relevant websites. The content is maintained by a MMBase-style content management system.
-</body>
+		<title>Student.nl</title>
 		<subtitle>Students starting page</subtitle>
 	</node>
 
-	<node number="42525" owner="admin">
-		<title>Doetinchem</title>
+	<node number="1347" owner="admin">
+		<body>The city of Doetinchem decided to build their website with the Amsterdam style MMBase CMS: Web in a Box.</body>
+		<date>1279138371</date>
 		<intro>Doetichem on WIAB</intro>
-		<body>The city of Doetinchem decided to build their website with the Amsterdam style MMBase CMS: Web in a Box. </body>
+		<title>Doetinchem</title>
 		<subtitle></subtitle>
 	</node>
 
-	<node number="47946" owner="default">
-		<title>Design.nl</title>
-		<intro>design.nl is a portal for professionals in the design field, as well as Dutch and foreign students and visitors. This portal was build by Finalist. </intro>
+	<node number="1349" owner="default">
 		<body></body>
+		<date>1279138371</date>
+		<intro>design.nl is a portal for professionals in the design field, as well as Dutch and foreign students and visitors. This portal was build by Finalist.</intro>
+		<title>Design.nl</title>
 		<subtitle>site for professionals</subtitle>
 	</node>
 
-	<node number="47952" owner="default">
-		<title>Tripledeal</title>
-		<intro>Global multi channel payment processing. Payment service provider based in the Netherlands. The site was build by First8, using only open source building blocks -like MMBase- for secure financial transactions.</intro>
+	<node number="1351" owner="default">
 		<body></body>
+		<date>1279138371</date>
+		<intro>Global multi channel payment processing. Payment service provider based in the Netherlands. The site was build by First8, using only open source building blocks -like MMBase- for secure financial transactions.</intro>
+		<title>Tripledeal</title>
 		<subtitle>Global multi channel payment processing</subtitle>
 	</node>
 
-	<node number="51752" owner="default">
-		<title>overheid.nl</title>
-		<intro>Op 9 november 2006 is de nieuwe www.overheid.nl opgeleverd op basis van MMBase. De site is gebouwd door IC&amp;S uit Utrecht en het ontwerp is van Cinnamon uit Leeuwarden.</intro>
+	<node number="1353" owner="default">
 		<body>Op 9 november 2006 is de nieuwe www.overheid.nl opgeleverd op basis van MMBase. De site is gebouwd door IC&amp;S uit Utrecht en het ontwerp is van Cinnamon uit Leeuwarden.</body>
+		<date>1279138371</date>
+		<intro>Op 9 november 2006 is de nieuwe www.overheid.nl opgeleverd op basis van MMBase. De site is gebouwd door IC&amp;S uit Utrecht en het ontwerp is van Cinnamon uit Leeuwarden.</intro>
+		<title>overheid.nl</title>
 		<subtitle>Ook nieuwe site overheid.nl gebouwd met MMBase</subtitle>
 	</node>
 

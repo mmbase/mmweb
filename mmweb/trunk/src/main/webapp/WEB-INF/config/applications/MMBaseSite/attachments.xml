@@ -1,156 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
-<attachments exportsource="mmbase://jeeves.mmbase.org/install/foundation" timestamp="20100714204030">
-	<node number="19646" owner="default">
-		<handle file="attachments/19646.handle" />
-		<title>Poll Package</title>
-		<description></description>
-		<size>22535</size>
-		<filename>poll.zip</filename>
-		<mimetype>Failed to determine type</mimetype>
-	</node>
-
-	<node number="21020" owner="default">
-		<handle file="attachments/21020.handle" />
-		<title>DataMatrix_incl. handleiding eng</title>
-		<description></description>
-		<size>252476</size>
-		<filename>Datamatrix_inclusief handleidingENG.zip</filename>
-		<mimetype>Failed to determine type</mimetype>
-	</node>
-
-	<node number="24589" owner="default">
-		<handle file="attachments/24589.handle" />
-		<title>MMBase brochure (Dutch)</title>
-		<description>MMBase at a glance, why MMBase might be your choice. </description>
-		<size>313982</size>
-		<filename>Folder_MMBase.pdf</filename>
-		<mimetype>pdf</mimetype>
-	</node>
-
-	<node number="24842" owner="default">
-		<handle file="attachments/24842.handle" />
-		<title>MySites Package</title>
-		<description></description>
-		<size>240828</size>
-		<filename>MySites.1.3.zip</filename>
-		<mimetype>Failed to determine type</mimetype>
-	</node>
-
-	<node number="25065" owner="default">
-		<handle file="attachments/25065.handle" />
-		<title>MyMailform Package</title>
-		<description></description>
-		<size>73703</size>
-		<filename>MyMailform.1.3.zip</filename>
-		<mimetype>Failed to determine type</mimetype>
-	</node>
-
-	<node number="25482" owner="default">
-		<handle file="attachments/25482.handle" />
-		<title>MyShop Package</title>
-		<description></description>
-		<size>479832</size>
-		<filename>MyShop.1.1.zip</filename>
-		<mimetype>Failed to determine type</mimetype>
-	</node>
-
-	<node number="26349" owner="default">
-		<handle file="attachments/26349.handle" />
-		<title>MyImageMap</title>
-		<description></description>
-		<size>52112</size>
-		<filename>MyImagemap.1.0.zip</filename>
-		<mimetype>application/zip</mimetype>
-	</node>
-
-	<node number="26353" owner="default">
-		<handle file="attachments/26353.handle" />
-		<title>MyBulletinBoard</title>
-		<description></description>
-		<size>46916</size>
-		<filename>MyBulletinBoard.1.0.zip</filename>
-		<mimetype>application/zip</mimetype>
-	</node>
-
-	<node number="27070" owner="default">
-		<handle file="attachments/27070.handle" />
-		<title>Henk Hangyi</title>
-		<description>Search and find. Presentation MMEvent4</description>
+<attachments exportsource="mmbase://zilver.toly.net/null/foundation" timestamp="20100722140849">
+	<node number="869" owner="default">
+		<handle file="attachments/869.handle" />
 		<size>264704</size>
+		<title>Henk Hangyi</title>
+		<mimetype>Failed to determine type</mimetype>
+		<description>Search and find. Presentation MMEvent4</description>
 		<filename>Henk Hangyi_zoeken en vinden.ppt</filename>
-		<mimetype>Failed to determine type</mimetype>
 	</node>
 
-	<node number="27091" owner="default">
-		<handle file="attachments/27091.handle" />
-		<title>Wouter Heijke</title>
-		<description>Search and find with MMBase</description>
+	<node number="871" owner="default">
+		<handle file="attachments/871.handle" />
 		<size>109056</size>
+		<title>Wouter Heijke</title>
+		<mimetype>Failed to determine type</mimetype>
+		<description>Search and find with MMBase</description>
 		<filename>lucene_zoeken en vinden.ppt</filename>
-		<mimetype>Failed to determine type</mimetype>
 	</node>
 
-	<node number="27122" owner="default">
-		<handle file="attachments/27122.handle" />
-		<title>Fred de Vries</title>
-		<description>Open University and Open Source</description>
+	<node number="873" owner="default">
+		<handle file="attachments/873.handle" />
 		<size>386560</size>
+		<title>Fred de Vries</title>
+		<mimetype>Failed to determine type</mimetype>
+		<description>Open University and Open Source</description>
 		<filename>Fred de Vries_Open Universiteit.ppt</filename>
-		<mimetype>Failed to determine type</mimetype>
 	</node>
 
-	<node number="27231" owner="default">
-		<handle file="attachments/27231.handle" />
-		<title>Zoeken en Vinden</title>
-		<description>Presentatie Henny Bakker, MMEvent4</description>
+	<node number="875" owner="default">
+		<handle file="attachments/875.handle" />
 		<size>354304</size>
+		<title>Zoeken en Vinden</title>
+		<mimetype>Failed to determine type</mimetype>
+		<description>Presentatie Henny Bakker, MMEvent4</description>
 		<filename>Search-NG-At-MMbase_Jun-09.ppt</filename>
-		<mimetype>Failed to determine type</mimetype>
 	</node>
 
-	<node number="27238" owner="default">
-		<handle file="attachments/27238.handle" />
-		<title>MMBase Packages (part 1)</title>
-		<description>Presentation Henk Hangyi, MMEvent4 </description>
+	<node number="877" owner="default">
+		<handle file="attachments/877.handle" />
 		<size>687104</size>
+		<title>MMBase Packages (part 1)</title>
+		<mimetype>Failed to determine type</mimetype>
+		<description>Presentation Henk Hangyi, MMEvent4</description>
 		<filename>Packages.part1.ppt</filename>
-		<mimetype>Failed to determine type</mimetype>
 	</node>
 
-	<node number="27240" owner="default">
-		<handle file="attachments/27240.handle" />
-		<title>MMBase Packages (part 2)</title>
-		<description>Presentation Henk Hangyi, MMEvent4 </description>
+	<node number="879" owner="default">
+		<handle file="attachments/879.handle" />
 		<size>705024</size>
-		<filename>Packages.part2.ppt</filename>
+		<title>MMBase Packages (part 2)</title>
 		<mimetype>Failed to determine type</mimetype>
+		<description>Presentation Henk Hangyi, MMEvent4</description>
+		<filename>Packages.part2.ppt</filename>
 	</node>
 
-	<node number="27497" owner="default">
-		<handle file="attachments/27497.handle" />
-		<title>Jaarverslag 2003</title>
-		<description></description>
-		<size>559759</size>
-		<filename>Jaarverslag Stichting MMBase 2003def.pdf</filename>
-		<mimetype>pdf</mimetype>
-	</node>
-
-	<node number="27717" owner="default">
-		<handle file="attachments/27717.handle" />
-		<title>MMBase Brochure</title>
-		<description></description>
-		<size>176612</size>
-		<filename>Brochure_EN_4.pdf</filename>
-		<mimetype>pdf</mimetype>
-	</node>
-
-	<node number="47564" owner="default">
-		<handle file="attachments/47564.handle" />
-		<title>Partner contract comm. vendors</title>
-		<description></description>
+	<node number="885" owner="default">
+		<handle file="attachments/885.handle" />
 		<size>148668</size>
-		<filename>Partnercontract commercial vendors [english].pdf</filename>
+		<title>Partner contract comm. vendors</title>
 		<mimetype>application/pdf</mimetype>
+		<description></description>
+		<filename>Partnercontract commercial vendors [english].pdf</filename>
 	</node>
 
 </attachments>

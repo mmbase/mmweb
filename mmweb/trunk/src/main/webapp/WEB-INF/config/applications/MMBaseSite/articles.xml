@@ -1,32 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<articles exportsource="mmbase://jeeves.mmbase.org/install/foundation" timestamp="20100714204030">
-	<node number="279" owner="admin">
-		
-		<title>Foundation</title>
-		<intro>The goal of the MMBase Foundation is facilitating the content management system MMBase for Open Source usage, along with its community, focusing on the stabilization, innovation and continuity of the software. </intro>
-		
-		<created>-1</created>
-		<online>1060358514</online>
-		
-		<source>1068304182</source>
-		<offline>1735686054</offline>
-		<subtitle></subtitle>
-		<body>The MMBase Foundation supports the community: users, commercial partners and developers. The developers have their own portal and organisation structure, their Management Committee advises the Foundation. The Foundation primarily looks after the interests of the users and commercial partners, but supports the developers where and if necessary. Major goal is to facilitate the web content management system for Open Source use with a focus on   stabilization, innovation and continuity of the software and community.    </body>
+<articles exportsource="mmbase://zilver.toly.net/null/foundation" timestamp="20100722140849">
+	<node number="971" owner="admin">
+		<body>The MMBase Foundation supports the community: users, commercial partners and developers. The developers have their own portal and organisation structure, their Management Committee advises the Foundation. The Foundation primarily looks after the interests of the users and commercial partners, but supports the developers where and if necessary. Major goal is to facilitate the web content management system for Open Source use with a focus on   stabilization, innovation and continuity of the software and community.</body>
 		<lastmodified>-6</lastmodified>
+		<show>true</show>
+		<intro>The goal of the MMBase Foundation is facilitating the content management system MMBase for Open Source usage, along with its community, focusing on the stabilization, innovation and continuity of the software.</intro>
+		<offline>1735686054</offline>
+		<creator></creator>
+		<online>1060358514</online>
 		<author></author>
+		<title>Foundation</title>
+		<created>-1</created>
+		<lastmodifier></lastmodifier>
+		<subtitle></subtitle>
 	</node>
 
-	<node number="18649" owner="admin">
-		
-		<title>MMBase guidelines</title>
-		<intro></intro>
-		
-		<created>1064150685</created>
-		<online>1064150685</online>
-		
-		<source></source>
-		<offline>1064150685</offline>
-		<subtitle></subtitle>
+	<node number="973" owner="admin">
 		<body>&lt;h3&gt;Roles &amp;amp; Responsibilities&lt;/h3&gt;
 
 
@@ -531,24 +520,21 @@ END OF CALL: &amp;lt;date voting ends&amp;gt;&lt;br /&gt;
 
   &lt;/li&gt;
 
-&lt;/ul&gt;
-
-</body>
+&lt;/ul&gt;</body>
 		<lastmodified>1064150685</lastmodified>
+		<show>true</show>
+		<intro></intro>
+		<offline>1064150685</offline>
+		<creator></creator>
+		<online>1064150685</online>
 		<author></author>
+		<title>MMBase guidelines</title>
+		<created>1064150685</created>
+		<lastmodifier></lastmodifier>
+		<subtitle></subtitle>
 	</node>
 
-	<node number="18668" owner="admin">
-		
-		<title>MMBase developers community</title>
-		<intro></intro>
-		
-		<created>1064151180</created>
-		<online>1064151186</online>
-		
-		<source></source>
-		<offline>1064151186</offline>
-		<subtitle></subtitle>
+	<node number="975" owner="admin">
 		<body>&lt;P&gt;The MMBase developers are the core part of the MMBase project. Without these developers, in fact, there would be no MMBase project. The roles and responsibilities that people assume within the project are based on merit. Everyone can help regardless of what their role is. The developers community is very active. Every day information exchange takes place on the mailing list and the IRC (MMBase chat). The MMBase management Committee and the Committers do their best to manage all processes. &lt;/P&gt;
 
 &lt;P&gt;MMBase Management Committee. &lt;BR&gt;The MMBase Management Committee consists of 5&amp;nbsp;developers who have made major contributions to the project and have in depth knowledge of the system. The MMC coordinates the Open Source process,&amp;nbsp;the MMBase projects, the&amp;nbsp;code that is&amp;nbsp;added to the core. They make release plans and manage CVS. &lt;/P&gt;
@@ -557,150 +543,106 @@ END OF CALL: &amp;lt;date voting ends&amp;gt;&lt;br /&gt;
 
 &lt;P&gt;Foundation. The foundation is founded to facilitate the developers community, and organisations that are using MMBase. The MMC communicates with the foundation to keep each other informed. For more information about the foundation we refer to the foundation portal.&lt;/P&gt;</body>
 		<lastmodified>1064151186</lastmodified>
+		<show>true</show>
+		<intro></intro>
+		<offline>1064151186</offline>
+		<creator></creator>
+		<online>1064151186</online>
 		<author></author>
+		<title>MMBase developers community</title>
+		<created>1064151180</created>
+		<lastmodifier></lastmodifier>
+		<subtitle></subtitle>
 	</node>
 
-	<node number="18676" owner="admin">
-		
-		<title>Mozilla License 1.0</title>
-		<intro></intro>
-		
-		<created>1064151535</created>
-		<online>1064151535</online>
-		
-		<source></source>
-		<offline>1064151535</offline>
-		<subtitle></subtitle>
+	<node number="977" owner="admin">
 		<body>1. Definitions. &lt;br /&gt;&amp;nbsp;&lt;br /&gt;1.1. ``Contributor'' means each entity that creates or contributes to the creation of Modifications. &lt;br /&gt;&amp;nbsp;&lt;br /&gt;1.2. ``Contributor Version'' means the combination of the Original Code, prior modifications used by a Contributor, and the Modifications made by that particular Contributor. &lt;br /&gt;&amp;nbsp;&lt;br /&gt;1.3. ``Covered Code'' means the Original Code or Modifications or the combination of the Original Code and Modifications, in each case including portions thereof. &lt;br /&gt;&amp;nbsp;&lt;br /&gt;1.4. ``Electronic Distribution Mechanism'' means a mechanism generally accepted in the software development community for the electronic transfer of data. &lt;br /&gt;&amp;nbsp;&lt;br /&gt;1.5. ``Executable'' means Covered Code in any form other than Source Code. &lt;br /&gt;&amp;nbsp;&lt;br /&gt;1.6. ``Initial Developer'' means the individual or entity identified as the Initial Developer in the Source Code notice required by Exhibit A. &lt;br /&gt;&amp;nbsp;&lt;br /&gt;1.7. ``Larger Work'' means a work which combines Covered Code or portions thereof with code not governed by the terms of this License. &lt;br /&gt;&amp;nbsp;&lt;br /&gt;1.8. ``License'' means this document. &lt;br /&gt;&amp;nbsp;&lt;br /&gt;1.9. ``Modifications'' means any addition to or deletion from the substance or structure of either the Original Code or any previous Modifications. When Covered Code is released as a series of files, a Modification is: &lt;br /&gt;&amp;nbsp;&lt;br /&gt;A. Any addition to or deletion from the contents of a file containing Original Code or previous Modifications. &lt;br /&gt;&amp;nbsp;&lt;br /&gt;B. Any new file that contains any part of the Original Code or previous Modifications. &lt;br /&gt;&amp;nbsp;&lt;br /&gt;1.10. ``Original Code'' means Source Code of computer software code which is described in the Source Code notice required by Exhibit A as Original Code, and which, at the time of its release under this License is not already Covered Code governed by this License. &lt;br /&gt;&amp;nbsp;&lt;br /&gt;1.11. ``Source Code'' means the preferred form of the Covered Code for making modifications to it, including all modules it contains, plus any associated interface definition files, scripts used to control compilation and installation of an Executable, or a list of source code differential comparisons against either the Original Code or another well known, available Covered Code of the Contributor's choice. The Source Code can be in a compressed or archival form, provided the appropriate decompression or de-archiving software is widely available for no charge. &lt;br /&gt;&amp;nbsp;&lt;br /&gt;1.12. ``You'' means an individual or a legal entity exercising rights under, and complying with all of the terms of, this License or a future version of this License issued under Section 6.1. For legal entities, ``You'' includes any entity which controls, is controlled by, or is under common control with You. For purposes of this definition, ``control'' means (a) the power, direct or indirect, to cause the direction or management of such entity, whether by contract or otherwise, or (b) ownership of fifty percent (50%) or more of the outstanding shares or beneficial ownership of such entity. &lt;br /&gt;&amp;nbsp;&lt;br /&gt;2. Source Code License. &lt;br /&gt;&amp;nbsp;&lt;br /&gt;2.1. The Initial Developer Grant. &lt;br /&gt;The Initial Developer hereby grants You a world-wide, royalty-free, non-exclusive license, subject to third party intellectual property claims: &lt;br /&gt;&amp;nbsp;&lt;br /&gt;(a) to use, reproduce, modify, display, perform, sublicense and distribute the Original Code (or portions thereof) with or without Modifications, or as part of a Larger Work; and &lt;br /&gt;&amp;nbsp;&lt;br /&gt;(b) under patents now or hereafter owned or controlled by Initial Developer, to make, have made, use and sell (``Utilize'') the Original Code (or portions thereof), but solely to the extent that any such patent is reasonably necessary to enable You to Utilize the Original Code (or portions thereof) and not to any greater extent that may be necessary to Utilize further Modifications or combinations. &lt;br /&gt;&amp;nbsp;&lt;br /&gt;2.2. Contributor Grant. &lt;br /&gt;Each Contributor hereby grants You a world-wide, royalty-free, non-exclusive license, subject to third party intellectual property claims: &lt;br /&gt;&amp;nbsp;&lt;br /&gt;(a) to use, reproduce, modify, display, perform, sublicense and distribute the Modifications created by such Contributor (or portions thereof) either on an unmodified basis, with other Modifications, as Covered Code or as part of a Larger Work; and &lt;br /&gt;&amp;nbsp;&lt;br /&gt;(b) under patents now or hereafter owned or controlled by Contributor, to Utilize the Contributor Version (or portions thereof), but solely to the extent that any such patent is reasonably necessary to enable You to Utilize the Contributor Version (or portions thereof), and not to any greater extent that may be necessary to Utilize further Modifications or combinations. &lt;br /&gt;&amp;nbsp;&lt;br /&gt;3. Distribution Obligations. &lt;br /&gt;&amp;nbsp;&lt;br /&gt;3.1. Application of License. &lt;br /&gt;The Modifications which You create or to which You contribute are governed by the terms of this License, including without limitation Section 2.2. The Source Code version of Covered Code may be distributed only under the terms of this License or a future version of this License released under Section 6.1, and You must include a copy of this License with every copy of the Source Code You distribute. You may not offer or impose any terms on any Source Code version that alters or restricts the applicable version of this License or the recipients' rights hereunder. However, You may include an additional document offering the additional rights described in Section 3.5. &lt;br /&gt;&amp;nbsp;&lt;br /&gt;3.2. Availability of Source Code. &lt;br /&gt;Any Modification which You create or to which You contribute must be made available in Source Code form under the terms of this License either on the same media as an Executable version or via an accepted Electronic Distribution Mechanism to anyone to whom you made an Executable version available; and if made available via Electronic Distribution Mechanism, must remain available for at least twelve (12) months after the date it initially became available, or at least six (6) months after a subsequent version of that particular Modification has been made available to such recipients. You are responsible for ensuring that the Source Code version remains available even if the Electronic Distribution Mechanism is maintained by a third party. &lt;br /&gt;&amp;nbsp;&lt;br /&gt;3.3. Description of Modifications. &lt;br /&gt;You must cause all Covered Code to which you contribute to contain a file documenting the changes You made to create that Covered Code and the date of any change. You must include a prominent statement that the Modification is derived, directly or indirectly, from Original Code provided by the Initial Developer and including the name of the Initial Developer in (a) the Source Code, and (b) in any notice in an Executable version or related documentation in which You describe the origin or ownership of the Covered Code. &lt;br /&gt;&amp;nbsp;&lt;br /&gt;3.4. Intellectual Property Matters &lt;br /&gt;&amp;nbsp;&lt;br /&gt;(a) Third Party Claims. &lt;br /&gt;If You have knowledge that a party claims an intellectual property right in particular functionality or code (or its utilization under this License), you must include a text file with the source code distribution titled ``LEGAL'' which describes the claim and the party making the claim in sufficient detail that a recipient will know whom to contact. If you obtain such knowledge after You make Your Modification available as described in Section 3.2, You shall promptly modify the LEGAL file in all copies You make available thereafter and shall take other steps (such as notifying appropriate        mailing lists or newsgroups) reasonably calculated to inform those who received the Covered Code that new knowledge has been obtained. &lt;br /&gt;&amp;nbsp;&lt;br /&gt;(b) Contributor APIs. &lt;br /&gt;If Your Modification is an application programming interface and You own or control patents which are reasonably necessary to implement that API, you must also include this information in the LEGAL file. &lt;br /&gt;&amp;nbsp;&lt;br /&gt;3.5. Required Notices. &lt;br /&gt;You must duplicate the notice in Exhibit A in each file of the Source Code, and this License in any documentation for the Source Code, where You describe recipients' rights relating to Covered Code. If You created one or more Modification(s), You may add your name as a Contributor to the notice described in Exhibit A. If it is not possible to put such notice in a particular Source Code file due to its structure, then you must include such notice in a location (such as a relevant directory file) where a user would be likely to look for such a notice. You may choose to offer, and to charge a fee for, warranty, support, indemnity or liability obligations to one or more recipients of Covered Code. However, You may do so only on Your own behalf, and not on behalf of the Initial Developer or any Contributor. You must make it absolutely clear than any such warranty, support, indemnity or liability obligation is offered by You alone, and You hereby agree to indemnify the Initial Developer and every Contributor for any liability incurred by the Initial Developer or such Contributor as a result of warranty, support, indemnity or liability terms You offer. &lt;br /&gt;&amp;nbsp;&lt;br /&gt;3.6. Distribution of Executable Versions. &lt;br /&gt;You may distribute Covered Code in Executable form only if the requirements of Section 3.1-3.5 have been met for that Covered Code, and if You include a notice stating that the Source Code version of the Covered Code is available under the terms of this License, including a description of how and where You have fulfilled the obligations of Section 3.2. The notice must be conspicuously included in any notice in an Executable version, related documentation or collateral in which You describe recipients' rights relating to the Covered Code. You may distribute the Executable version of Covered Code under a license of Your choice, which may contain terms different from this License, provided that You are in compliance with the terms of this License and that the license for the Executable version does not attempt to limit or alter the recipient's rights in the Source Code version from the rights set forth in this License. If You distribute the Executable version under a different license You must make it absolutely clear that any terms which differ from this License are offered by You alone, not by the Initial Developer or any Contributor. You hereby agree to indemnify the Initial Developer and every Contributor for any liability incurred by the Initial Developer or such Contributor as a result of any such terms You offer. &lt;br /&gt;&amp;nbsp;&lt;br /&gt;3.7. Larger Works. &lt;br /&gt;You may create a Larger Work by combining Covered Code with other code not governed by the terms of this License and distribute the Larger Work as a single product. In such a case, You must make sure the requirements of this License are fulfilled for the Covered Code. &lt;br /&gt;&amp;nbsp;&lt;br /&gt;4. Inability to Comply Due to Statute or Regulation. &lt;br /&gt;&amp;nbsp;&lt;br /&gt;If it is impossible for You to comply with any of the terms of this License with respect to some or all of the Covered Code due to statute or regulation then You must: (a) comply with the terms of this License to the maximum extent possible; and (b) describe the limitations and the code they affect. Such description must be included in the LEGAL file described in Section 3.4 and must be included with all distributions of the Source Code. Except to the extent prohibited by statute or regulation, such description must be sufficiently detailed for a recipient of ordinary skill to be able to understand it. &lt;br /&gt;&amp;nbsp;&lt;br /&gt;5. Application of this License. &lt;br /&gt;&amp;nbsp;&lt;br /&gt;This License applies to code to which the Initial Developer has attached the notice in Exhibit A, and to related Covered Code. &lt;br /&gt;&amp;nbsp;&lt;br /&gt;6. Versions of the License. &lt;br /&gt;&amp;nbsp;&lt;br /&gt;6.1. New Versions. &lt;br /&gt;Netscape Communications Corporation (``Netscape'') may publish revised and/or new versions of the License from time to time. Each version will be given a distinguishing version number. &lt;br /&gt;&amp;nbsp;&lt;br /&gt;6.2. Effect of New Versions. &lt;br /&gt;Once Covered Code has been published under a particular version of the License, You may always continue to use it under the terms of that version. You may also choose to use such Covered Code under the terms of any subsequent version of the License published by Netscape. No one other than Netscape has the right to modify the terms applicable to Covered Code created under this License. &lt;br /&gt;&amp;nbsp;&lt;br /&gt;6.3. Derivative Works. &lt;br /&gt;If you create or use a modified version of this License (which you may only do in order to apply it to code which is not already Covered Code governed by this License), you must (a) rename Your license so that the phrases ``Mozilla'', ``MOZILLAPL'', ``MOZPL'', ``Netscape'', ``NPL'' or any confusingly similar phrase do not appear anywhere in your license and (b) otherwise make it clear that your version of the license contains terms which differ from the Mozilla Public License and Netscape Public License. (Filling in the name of the Initial Developer, Original Code or Contributor in the notice described in Exhibit A shall not of themselves be deemed to be modifications of this License.) &lt;br /&gt;&amp;nbsp;&lt;br /&gt;7. DISCLAIMER OF WARRANTY. &lt;br /&gt;&amp;nbsp;&lt;br /&gt;COVERED CODE IS PROVIDED UNDER THIS LICENSE ON AN ``AS IS'' BASIS, WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES THAT THE COVERED CODE IS FREE OF DEFECTS, MERCHANTABLE, FIT FOR A PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE COVERED CODE IS WITH YOU. SHOULD ANY COVERED CODE PROVE DEFECTIVE IN ANY RESPECT, YOU (NOT THE INITIAL DEVELOPER OR ANY OTHER CONTRIBUTOR) ASSUME THE COST OF ANY NECESSARY SERVICING,  REPAIR OR CORRECTION. THIS DISCLAIMER OF WARRANTY CONSTITUTES AN ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY COVERED CODE IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER. &lt;br /&gt;&amp;nbsp;&lt;br /&gt;8. TERMINATION. &lt;br /&gt;&amp;nbsp;&lt;br /&gt;This License and the rights granted hereunder will terminate automatically if You fail to comply with terms herein and fail to cure such breach within 30 days of becoming aware of the breach. All sublicenses to the Covered Code which are properly granted shall survive any termination of this License. Provisions which, by their nature, must remain in effect beyond the termination of this License shall survive. &lt;br /&gt;&amp;nbsp;&lt;br /&gt;9. LIMITATION OF LIABILITY. &lt;br /&gt;&amp;nbsp;&lt;br /&gt;UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER TORT (INCLUDING NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE INITIAL DEVELOPER, ANY OTHER CONTRIBUTOR, OR ANY DISTRIBUTOR OF COVERED CODE, OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE LIABLE TO YOU OR ANY OTHER PERSON FOR ANY INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF ANY CHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL, WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER COMMERCIAL  DAMAGES OR LOSSES, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE POSSIBILITY OF SUCH DAMAGES. THIS LIMITATION OF LIABILITY SHALL NOT APPLY TO LIABILITY FOR DEATH OR PERSONAL INJURY RESULTING FROM SUCH PARTY'S NEGLIGENCE TO THE EXTENT APPLICABLE LAW PROHIBITS SUCH LIMITATION. SOME JURISDICTIONS DO NOT&lt;br /&gt;ALLOW THE EXCLUSION OR LIMITATION OF INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO THAT EXCLUSION AND LIMITATION MAY NOT APPLY TO YOU. &lt;br /&gt;&amp;nbsp;&lt;br /&gt;10. U.S. GOVERNMENT END USERS. &lt;br /&gt;&amp;nbsp;&lt;br /&gt;The Covered Code is a ``commercial item,'' as that term is defined in 48 C.F.R. 2.101 (Oct. 1995), consisting of ``commercial computer software'' and ``commercial computer software documentation,'' as such terms are used in 48 C.F.R. 12.212 (Sept. 1995). Consistent with 48 C.F.R. 12.212 and 48 C.F.R. 227.7202-1 through 227.7202-4 (June 1995), all U.S. Government End Users acquire Covered Code with only those rights set forth herein. &lt;br /&gt;&amp;nbsp;&lt;br /&gt;11. MISCELLANEOUS. &lt;br /&gt;&amp;nbsp;&lt;br /&gt;This License represents the complete agreement concerning subject matter hereof. If any provision of this License is held to be unenforceable, such provision shall be reformed only to the extent necessary to make it enforceable. This License shall be governed by California law provisions (except to the extent applicable law, if any, provides otherwise), excluding its conflict-of-law provisions. With respect to disputes in which at least one party is a citizen of, or an entity chartered or registered to do business in, the United States of America: (a) unless otherwise agreed in writing, all disputes relating to this License (excepting any dispute relating to intellectual property rights) shall be subject to final and binding arbitration, with the losing party paying all costs of arbitration; (b) any arbitration relating to this Agreement shall be held in Santa Clara County, California, under the auspices of JAMS/EndDispute; and (c) any litigation relating to this Agreement shall be subject to the jurisdiction of the Federal Courts of the Northern District of California, with venue lying in Santa Clara County, California, with the losing party responsible for costs, including without limitation, court costs and reasonable attorneys fees and expenses. The application of the United Nations Convention on Contracts for the International Sale of Goods is expressly excluded. Any law or regulation which provides that the language of a contract shall be construed against the drafter shall not apply to this License. &lt;br /&gt;&amp;nbsp;&lt;br /&gt;12. RESPONSIBILITY FOR CLAIMS. &lt;br /&gt;&amp;nbsp;&lt;br /&gt;Except in cases where another Contributor has failed to comply with Section 3.4, You are responsible for damages arising, directly or indirectly, out of Your utilization of rights under this License, based on the number of copies of Covered Code you made available, the revenues you received from utilizing such rights, and other relevant factors. You agree to work with affected parties to distribute responsibility on an equitable basis. &lt;br /&gt;&amp;nbsp;&lt;br /&gt;EXHIBIT A. &lt;br /&gt;&amp;nbsp;&lt;br /&gt;``The contents of this file are subject to the Mozilla Public License Version 1.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at http://www.mozilla.org/MPL/ &lt;br /&gt;&amp;nbsp;&lt;br /&gt;Software distributed under the License is distributed on an &quot;AS IS&quot; basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License for the specific language governing rights and limitations under the License. &lt;br /&gt;&amp;nbsp;&lt;br /&gt;The Original Code is ______________________________________. &lt;br /&gt;&amp;nbsp;&lt;br /&gt;The Initial Developer of the Original Code is ________________________. Portions created by ______________________ are Copyright (C) ______  _______________________. All Rights Reserved. &lt;br /&gt;&amp;nbsp;&lt;br /&gt;     Contributor(s): ______________________________________.'' &lt;br /&gt;&amp;nbsp;&lt;br /&gt;</body>
 		<lastmodified>1064151535</lastmodified>
+		<show>true</show>
+		<intro></intro>
+		<offline>1064151535</offline>
+		<creator></creator>
+		<online>1064151535</online>
 		<author></author>
+		<title>Mozilla License 1.0</title>
+		<created>1064151535</created>
+		<lastmodifier></lastmodifier>
+		<subtitle></subtitle>
 	</node>
 
-	<node number="19206" owner="default">
-		
-		<title>People at MMBase</title>
-		<intro>On&amp;nbsp;this page you can find information on people of the MMBase community.</intro>
-		
-		<created>-1</created>
-		<online>1065432540</online>
-		
-		<source></source>
-		<offline>1735686000</offline>
-		<subtitle></subtitle>
+	<node number="979" owner="default">
 		<body>&lt;P&gt;Just use the search form on the right to select the persons you want to have more information on. You should at least use one of the search criteria.&lt;/P&gt;
 
 &lt;P&gt;Please write an email to &lt;A href=&quot;mailto:minfo@mmbase.org&quot;&gt;info@mmbase.org&lt;/A&gt;, if you want to be added to the &quot;People at MMBase&quot;.&lt;/P&gt;</body>
 		<lastmodified>1065432540</lastmodified>
+		<show>true</show>
+		<intro>On&amp;nbsp;this page you can find information on people of the MMBase community.</intro>
+		<offline>1735686000</offline>
+		<creator></creator>
+		<online>1065432540</online>
 		<author></author>
+		<title>People at MMBase</title>
+		<created>-1</created>
+		<lastmodifier></lastmodifier>
+		<subtitle></subtitle>
 	</node>
 
-	<node number="19409" owner="default">
-		
-		<title>Developers</title>
+	<node number="981" owner="default">
+		<body></body>
+		<lastmodified>1066079640</lastmodified>
+		<show>true</show>
 		<intro>Hola, we are working hard on the 1.9 release of MMBase. Please checkout the latest news articles for a status update or join the irc channel.
 
 
 
 &lt;h4&gt;Documentation&lt;/h4&gt;
 
-The most current MMBase docs are irregularly uploaded to &lt;a href=&quot;http://www.mmbase.org/mmdocs/&quot;&gt;www.mmbase.org/mmdocs&lt;/a&gt; and &lt;a href=&quot;http://www.mmbase.org/api/&quot;&gt;www.mmbase.org/api&lt;/a&gt;. Pointing to the most current documentation of several of its features and the javadocs. Older versions are listed &lt;a href=&quot;http://www.mmbase.org/?portal=199&amp;page=549&quot;&gt;here&lt;/a&gt;.
-
-</intro>
-		
-		<created>1066079698</created>
-		<online>1066079640</online>
-		
-		<source></source>
+The most current MMBase docs are irregularly uploaded to &lt;a href=&quot;http://www.mmbase.org/mmdocs/&quot;&gt;www.mmbase.org/mmdocs&lt;/a&gt; and &lt;a href=&quot;http://www.mmbase.org/api/&quot;&gt;www.mmbase.org/api&lt;/a&gt;. Pointing to the most current documentation of several of its features and the javadocs. Older versions are listed &lt;a href=&quot;http://www.mmbase.org/?portal=199&amp;page=549&quot;&gt;here&lt;/a&gt;.</intro>
 		<offline>1066079640</offline>
-		<subtitle></subtitle>
-		<body></body>
-		<lastmodified>1066079640</lastmodified>
+		<creator></creator>
+		<online>1066079640</online>
 		<author></author>
+		<title>Developers</title>
+		<created>1066079698</created>
+		<lastmodifier></lastmodifier>
+		<subtitle></subtitle>
 	</node>
 
-	<node number="19636" owner="default">
-		
-		<title>Poll</title>
-		<intro>&lt;P&gt;This poll package is developed by André van Toly. It is in use on a large number of websites including: &lt;A href=&quot;http://www.libelle.nl&quot;&gt;www.libelle.nl&lt;/A&gt;, &lt;A href=&quot;http://www.netwerk.tv&quot;&gt;www.netwerk.tv&lt;/A&gt;, etc.&lt;/P&gt;
-
-&lt;P&gt;Last updated: Nov 1, 2003 &lt;/P&gt;</intro>
-		
-		<created>1068306348</created>
-		<online>1068288703</online>
-		
-		<source></source>
-		<offline>1735686043</offline>
-		<subtitle></subtitle>
-		<body></body>
-		<lastmodified>1068288703</lastmodified>
-		<author></author>
-	</node>
-
-	<node number="19649" owner="default">
-		
-		<title>Packages</title>
-		<intro>Here you can find and download a number of packages, which have been build by MMBase users and offered to the MMBase community.</intro>
-		
-		<created>-1</created>
-		<online>1068291150</online>
-		
-		<source></source>
-		<offline>1735686030</offline>
-		<subtitle></subtitle>
-		<body></body>
-		<lastmodified>1068291150</lastmodified>
-		<author></author>
-	</node>
-
-	<node number="19700" owner="admin">
-		
-		<title>MMBase</title>
-		<intro>MMBase is an object relational mapping tool to build advanced web-applications. If you are looking for an MMBase-style Enterprise Web Content Management System, please go to the &lt;a href=&quot;http://www.cmscontainer.org&quot;&gt;CMScontainer.org&lt;/a&gt;. Both have strong multi media features and the CMScontainer has advanced portal functionalities (JSR 168 compliant). There is a large installed base in The Netherlands. Many of the largest Dutch sites/portals (Kennisnet, KNMI, broadcasters) use MMBase and/or the CMSContainer. Main characteristics: Java, Open Source, open standards. The systems can be used with all major operating systems, application servers and many different databases. Some of the users can be found below (latest sites build...). </intro>
-		
-		<created>-1</created>
-		<online>1068305400</online>
-		
-		<source></source>
-		<offline>1735686000</offline>
-		<subtitle></subtitle>
+	<node number="987" owner="admin">
 		<body></body>
 		<lastmodified>1068305400</lastmodified>
+		<show>true</show>
+		<intro>MMBase is an object relational mapping tool to build advanced web-applications. If you are looking for an MMBase-style Enterprise Web Content Management System, please go to the &lt;a href=&quot;http://www.cmscontainer.org&quot;&gt;CMScontainer.org&lt;/a&gt;. Both have strong multi media features and the CMScontainer has advanced portal functionalities (JSR 168 compliant). There is a large installed base in The Netherlands. Many of the largest Dutch sites/portals (Kennisnet, KNMI, broadcasters) use MMBase and/or the CMSContainer. Main characteristics: Java, Open Source, open standards. The systems can be used with all major operating systems, application servers and many different databases. Some of the users can be found below (latest sites build...).</intro>
+		<offline>1735686000</offline>
+		<creator></creator>
+		<online>1068305400</online>
 		<author></author>
+		<title>MMBase</title>
+		<created>-1</created>
+		<lastmodifier></lastmodifier>
+		<subtitle></subtitle>
 	</node>
 
-	<node number="19701" owner="default">
-		
-		<title>Foundation</title>
+	<node number="989" owner="default">
+		<body></body>
+		<lastmodified>1068305323</lastmodified>
+		<show>true</show>
 		<intro>The goal of the MMBase Foundation is to facilitate the content management system MMBase for Open Source usage, along with its community, focusing on the stabilization, innovation and continuity of the software. The Foundation support collaboration between it's partners, to avoid redundant development. 
 
 
 
 The MMBase Foundation supports the community: users, commercial partners and developers. The Foundation primarily looks after the interests of the users and commercial partners, as the developers have their own organisation structure, but supports the developers where and if necessary.</intro>
-		
-		<created>-1</created>
-		<online>1068305323</online>
-		
-		<source></source>
 		<offline>1735686043</offline>
-		<subtitle></subtitle>
-		<body></body>
-		<lastmodified>1068305323</lastmodified>
+		<creator></creator>
+		<online>1068305323</online>
 		<author></author>
+		<title>Foundation</title>
+		<created>-1</created>
+		<lastmodifier></lastmodifier>
+		<subtitle></subtitle>
 	</node>
 
-	<node number="19757" owner="default">
-		
-		<title>Partners</title>
-		<intro>In the near future, this page will list all the partners of the Foundation, their portfolios, projects and company description. 
-
-</intro>
-		
-		<created>1073390459</created>
-		<online>1068319680</online>
-		
-		<source></source>
-		<offline>1735686000</offline>
-		<subtitle></subtitle>
+	<node number="991" owner="default">
 		<body>&lt;P&gt;The MMBase Foundation is a non-profit organization that is funded by partners. The Foundation partners can be divided in three groups; end users of MMBase, commercial partners that specialize in implementation and MMBase maintenance and hosting partners. &lt;/P&gt;
 
 &lt;p&gt;
@@ -715,62 +657,19 @@ The MMBase Foundation supports the community: users, commercial partners and dev
 
 &lt;P&gt;&lt;/P&gt;</body>
 		<lastmodified>1068319680</lastmodified>
-		<author></author>
-	</node>
-
-	<node number="20022" owner="default">
-		
-		<title>MMBase</title>
-		<intro></intro>
-		
-		<created>-1</created>
-		<online>1068538016</online>
-		
-		<source></source>
-		<offline>1735686056</offline>
-		<subtitle></subtitle>
-		<body>De MMBase community is nog steeds voor een groot deel een Nederlands gezelschap. Om deze reden is er bij de Stichting ook informatie in het Nederlands verkrijgbaar, zoals een folder en productinformatie. In de nabije toekomst komt er op dit gedeelte van de website een uitgebreide Nederlandse beschrijving van MMBase. &lt;p&gt;
-
-
-
-Wilt u meer Nederlandse informatie over MMBase kunt u contact opnemen met de Stichting MMBase telefoon: 035 6288088 of email: info@mmbase.org.
-
-
-
-Bijgevoegd vindt u de MMBase brochure in het Nederlands (tevens met een Engelse vertaling).</body>
-		<lastmodified>1068538016</lastmodified>
-		<author></author>
-	</node>
-
-	<node number="20063" owner="default">
-		
-		<title>Jobs</title>
-		<intro>At this moment there are no jobs.
-
-</intro>
-		
-		<created>1070459580</created>
-		<online>1068631560</online>
-		
-		<source></source>
+		<show>true</show>
+		<intro>In the near future, this page will list all the partners of the Foundation, their portfolios, projects and company description.</intro>
 		<offline>1735686000</offline>
-		<subtitle></subtitle>
-		<body></body>
-		<lastmodified>1068631560</lastmodified>
+		<creator></creator>
+		<online>1068319680</online>
 		<author></author>
+		<title>Partners</title>
+		<created>1073390459</created>
+		<lastmodifier></lastmodifier>
+		<subtitle></subtitle>
 	</node>
 
-	<node number="20075" owner="default">
-		
-		<title>Activities within the MMBase Community</title>
-		<intro>The stability of a Open Source community depends on the stability and activity of its members. </intro>
-		
-		<created>-1</created>
-		<online>1068637640</online>
-		
-		<source></source>
-		<offline>1735686021</offline>
-		<subtitle></subtitle>
+	<node number="997" owner="default">
 		<body>The Foundation is in many cases the first contact point for new users and developers and coordinates the communication within the community. The Foundation also brings users and potential users together, so they can learn from each others experiences. Technical developments are collected and shared with partners and shared development between users is initiated by the Foundation. &lt;p&gt;
 
 
@@ -793,40 +692,21 @@ Other activities&lt;br&gt;
 
 - The Foundation actively informs politicians (European Parliament Members and Dutch national MP’s) on the importance of open standards, OSS and software patent issues. &lt;br&gt;
 
-- On the international level, the Foundation looks for cooperation with other communities, to share knowledge, applications and stimulate research and the “Take Up” of Open Source Software, especially MMBase. &lt;p&gt;&lt;p&gt;
-
-</body>
+- On the international level, the Foundation looks for cooperation with other communities, to share knowledge, applications and stimulate research and the “Take Up” of Open Source Software, especially MMBase. &lt;p&gt;&lt;p&gt;</body>
 		<lastmodified>1068637640</lastmodified>
+		<show>true</show>
+		<intro>The stability of a Open Source community depends on the stability and activity of its members.</intro>
+		<offline>1735686021</offline>
+		<creator></creator>
+		<online>1068637640</online>
 		<author></author>
+		<title>Activities within the MMBase Community</title>
+		<created>-1</created>
+		<lastmodifier></lastmodifier>
+		<subtitle></subtitle>
 	</node>
 
-	<node number="20107" owner="admin">
-		
-		<title>Data Matrix</title>
-		<intro></intro>
-		
-		<created>-1</created>
-		<online>1068736261</online>
-		
-		<source></source>
-		<offline>1735686001</offline>
-		<subtitle></subtitle>
-		<body>&lt;P&gt;The Matrix is a tool for managing online overviews. There is a manual for editors. The Matrix resulted from collaboration of a number of divisions of ICTU (advies.overheid.nl and OSOSS), Q42, and Hartman Communicatie BV.&lt;/P&gt;</body>
-		<lastmodified>1068736261</lastmodified>
-		<author></author>
-	</node>
-
-	<node number="20133" owner="default">
-		
-		<title>About the MMBase Foundation</title>
-		<intro></intro>
-		
-		<created>-1</created>
-		<online>1068810707</online>
-		
-		<source></source>
-		<offline>1735686047</offline>
-		<subtitle></subtitle>
+	<node number="1001" owner="default">
 		<body>The MMBase Foundation was established in 2002. It is a non profit institute and its main objective, as established in article 2 of the Foundation Statutes, is to facilitate the Content Management System MMBase for Open Source use, with the related community, focusing on stability, innovation and the existence of the software. &lt;p&gt;
 
 
@@ -835,48 +715,40 @@ MMBase is a so called enterprise web content management system, covering the ful
 
 
 
-At this point the Foundation has a few dozen (commercial) partners. There is a large developers community, of which 12 have the status of committer and another 5 form the MMBase Management Committee. The MMBase Foundation has a CEO a part-time employees, a board and an advisory committee of partners and developers (the MMC), and users. MMBase is the largest Open Source Community in the Netherlands and plays a leading role in the overall Open Source application and component development. The Foundation is –so far- using quite informal methods for the evaluation of the implementation partners and hosting providers.
-
-
-
-</body>
-		<lastmodified>1068810707</lastmodified>
-		<author></author>
+At this point the Foundation has a few dozen (commercial) partners. There is a large developers community, of which 12 have the status of committer and another 5 form the MMBase Management Committee. The MMBase Foundation has a CEO a part-time employees, a board and an advisory committee of partners and developers (the MMC), and users. MMBase is the largest Open Source Community in the Netherlands and plays a leading role in the overall Open Source application and component development. The Foundation is –so far- using quite informal methods for the evaluation of the implementation partners and hosting providers.</body>
+		<lastmodified>1279733894</lastmodified>
+		<show>true</show>
+		<intro></intro>
+		<offline>1735686000</offline>
+		<creator>admin</creator>
+		<online>1068810660</online>
+		<author>Jo</author>
+		<title>About the MMBase Foundation</title>
+		<created>-1</created>
+		<lastmodifier>admin</lastmodifier>
+		<subtitle></subtitle>
 	</node>
 
-	<node number="20135" owner="default">
-		
-		<title>MMBase history</title>
-		<intro></intro>
-		
-		<created>-1</created>
-		<online>1068810907</online>
-		
-		<source></source>
-		<offline>1735686007</offline>
-		<subtitle></subtitle>
+	<node number="1003" owner="default">
 		<body>The origin of MMBase was developed in the heart of the Dutch Public Broadcasting organization VPRO  (www.vpro.nl). After 5 years of internal development, the VPRO decided to make MMBase Open Source in May of the year 2000. Soon other broadcasters also started to use MMBase as well and a year later there where already a handful MMBase websites. &lt;p&gt;
 
 
 
-After the first year the take-up got into another gear and at this moment there are –as far as we know- several hundreds MMBase websites. We have even found some in China (not that we understand what they are about). And the number of users that consider MMBase to be strategically important for their organization is growing fast. From an easy to use CMS just for the presentation of some web pages, the system is now turning in to an enterprise system. 
-
-</body>
+After the first year the take-up got into another gear and at this moment there are –as far as we know- several hundreds MMBase websites. We have even found some in China (not that we understand what they are about). And the number of users that consider MMBase to be strategically important for their organization is growing fast. From an easy to use CMS just for the presentation of some web pages, the system is now turning in to an enterprise system.</body>
 		<lastmodified>1068810907</lastmodified>
+		<show>true</show>
+		<intro></intro>
+		<offline>1735686007</offline>
+		<creator></creator>
+		<online>1068810907</online>
 		<author></author>
+		<title>MMBase history</title>
+		<created>-1</created>
+		<lastmodifier></lastmodifier>
+		<subtitle></subtitle>
 	</node>
 
-	<node number="20139" owner="default">
-		
-		<title>MMBase in a nutshell</title>
-		<intro>MMBase is a so called dynamic enterprise web content management system (CMS). </intro>
-		
-		<created>-1</created>
-		<online>1068811136</online>
-		
-		<source></source>
-		<offline>1735686056</offline>
-		<subtitle></subtitle>
+	<node number="1005" owner="default">
 		<body>This means that MMBase can be used to manage information with only one tool: a web-browser. Information can time and place independent be created, stored, changed, manipulated and deleted. The editor needs no knowledge of technology. This of course only if you have the right authorisation to do so. MMbase separates content from lay-out and structure. This means, for example, that a piece of text can be used on different sites, mobile phones, flash movies, print, CD, in a different context and lay out. If the text itself would contain lay-out properties, it would be very difficult to accomplish this, if possible at all. &lt;p&gt;
 
 
@@ -893,24 +765,21 @@ MMBase can be used in any language. All major documentation is in English, as is
 
 
 
-MMBase is a professional system. To implement MMBase knowledge of setting up a server, database, application server and installing software is necessary. In most cases an implementation partner will do the job. However, after installation, no technical know how is necessary for the maintenance of information, or re-arranging the navigation, or adding new sections to your website.&lt;p&gt;
-
-</body>
+MMBase is a professional system. To implement MMBase knowledge of setting up a server, database, application server and installing software is necessary. In most cases an implementation partner will do the job. However, after installation, no technical know how is necessary for the maintenance of information, or re-arranging the navigation, or adding new sections to your website.&lt;p&gt;</body>
 		<lastmodified>1068811136</lastmodified>
+		<show>true</show>
+		<intro>MMBase is a so called dynamic enterprise web content management system (CMS).</intro>
+		<offline>1735686056</offline>
+		<creator></creator>
+		<online>1068811136</online>
 		<author></author>
+		<title>MMBase in a nutshell</title>
+		<created>-1</created>
+		<lastmodifier></lastmodifier>
+		<subtitle></subtitle>
 	</node>
 
-	<node number="21063" owner="default">
-		
-		<title>MMBase promotion products</title>
-		<intro></intro>
-		
-		<created>1070980917</created>
-		<online>1069144800</online>
-		
-		<source></source>
-		<offline>1735686000</offline>
-		<subtitle>The MMBase Foundation develops promotion material for MMBase distributors and users</subtitle>
+	<node number="1007" owner="default">
 		<body>To facilitate the content managementsystem MMBase the MMBase Foundation has developed a number of product for the promotion of MMBase. Users and distributors can order or get these products at the MMBase Foundation. &lt;p&gt;
 
 
@@ -927,82 +796,36 @@ The products available at this time are:&lt;p&gt;
 
 
 
-Please contact the Foundation for more information on availability +31 (0)35 6288088 or info@mmbase.org. </body>
+Please contact the Foundation for more information on availability +31 (0)35 6288088 or info@mmbase.org.</body>
 		<lastmodified>1069144800</lastmodified>
-		<author></author>
-	</node>
-
-	<node number="21402" owner="default">
-		
-		<title>MMBase Pen</title>
-		<intro>
-
-</intro>
-		
-		<created>1069856012</created>
-		<online>1069854060</online>
-		
-		<source></source>
+		<show>true</show>
+		<intro></intro>
 		<offline>1735686000</offline>
-		<subtitle></subtitle>
-		<body>The MMBase Foundation has MMBase promotion pens for partners. The pens can be ordered at the Foundation. </body>
-		<lastmodified>1069854060</lastmodified>
+		<creator></creator>
+		<online>1069144800</online>
 		<author></author>
+		<title>MMBase promotion products</title>
+		<created>1070980917</created>
+		<lastmodifier></lastmodifier>
+		<subtitle>The MMBase Foundation develops promotion material for MMBase distributors and users</subtitle>
 	</node>
 
-	<node number="21409" owner="default">
-		
-		<title>MMok</title>
-		<intro>A large white and blue MMBase coffee cup.</intro>
-		
-		<created>-1</created>
-		<online>1069855270</online>
-		
-		<source></source>
-		<offline>1735686010</offline>
-		<subtitle></subtitle>
+	<node number="1011" owner="default">
 		<body></body>
 		<lastmodified>1069855270</lastmodified>
+		<show>true</show>
+		<intro>A large white and blue MMBase coffee cup.</intro>
+		<offline>1735686010</offline>
+		<creator></creator>
+		<online>1069855270</online>
 		<author></author>
+		<title>MMok</title>
+		<created>-1</created>
+		<lastmodifier></lastmodifier>
+		<subtitle></subtitle>
 	</node>
 
-	<node number="21428" owner="default">
-		
-		<title>MMBase brochure</title>
-		<intro></intro>
-		
-		<created>-1</created>
-		<online>1069860123</online>
-		
-		<source></source>
-		<offline>1735686003</offline>
-		<subtitle></subtitle>
-		<body>MMBase is a professional webbased CMS system for creating, managing, and presenting information. For MMBase it makes no difference if the information is created for print, a telephone screen, palmtop, flash or computer. MMBase is very flexible and offers users a maximum freedom of choice. &lt;p&gt;
-
-
-
-Most vendors of enterprise Content Managment Systems suggest that the architecture of a CMS is only a matter of reading the installation manual properly. We don't want to give that impression. When designing a good CMS there is a lot more to think of, especially for large scale corporations. In a lot of cases &quot;out of the box&quot; software rurns out to be an empty promise and in the course of the project it might even rather be an obstacle than an advantage. MMBase offers powerful core functionalities, and enables you to tailor the system quickly and flexibly to your specific needs. &lt;p&gt;
-
-
-
-Please download the brochure for more information. 
-
-If you are interested please sent an email to jo@mmbase.org.  </body>
-		<lastmodified>1069860123</lastmodified>
-		<author></author>
-	</node>
-
-	<node number="21436" owner="default">
-		
-		<title>MMBase stand</title>
-		<intro>The MMBase Foundation has aquired a stand for promotion purposes. </intro>
-		
-		<created>-1</created>
-		<online>1069860799</online>
-		
-		<source></source>
-		<offline>1735686079</offline>
-		<subtitle></subtitle>
+	<node number="1015" owner="default">
 		<body>The stand will be used for the promotion of MMBase and its supporting companies. The MMBase Foundation will use the stand for events and seminars, preferrably together with partners. If the Foundation is not using the stand, partners of the Foundation can use the stand for their own promotion activities. &lt;p&gt;
 
 
@@ -1015,22 +838,21 @@ Please call the Foundation, for information on availability: +31 (0)35 6288088&l
 
 
 
-ATTENTION: This stand was initially developed for the CMS-congres, on the 24th of November 2003. The logos on the stand are the partners that participated on this day. The logo's on the stand are not permanant and can be changed. </body>
+ATTENTION: This stand was initially developed for the CMS-congres, on the 24th of November 2003. The logos on the stand are the partners that participated on this day. The logo's on the stand are not permanant and can be changed.</body>
 		<lastmodified>1069860799</lastmodified>
+		<show>true</show>
+		<intro>The MMBase Foundation has aquired a stand for promotion purposes.</intro>
+		<offline>1735686079</offline>
+		<creator></creator>
+		<online>1069860799</online>
 		<author></author>
+		<title>MMBase stand</title>
+		<created>-1</created>
+		<lastmodifier></lastmodifier>
+		<subtitle></subtitle>
 	</node>
 
-	<node number="21593" owner="default">
-		
-		<title>Contact information</title>
-		<intro></intro>
-		
-		<created>1070618867</created>
-		<online>1070618820</online>
-		
-		<source></source>
-		<offline>1070618820</offline>
-		<subtitle></subtitle>
+	<node number="1017" owner="default">
 		<body>&lt;p&gt;MMBase Foundation&lt;br /&gt;
 
 Neuweg 83&lt;br /&gt;
@@ -1083,20 +905,19 @@ Mobile: +31 (0)6 53292887&lt;br /&gt;
 
 &lt;p&gt;Occasionally, developers may twitter to &lt;a href=&quot;https://twitter.com/mmbase&quot;&gt;@mmbase&lt;/a&gt;&lt;/p&gt;.</body>
 		<lastmodified>1070618820</lastmodified>
+		<show>true</show>
+		<intro></intro>
+		<offline>1070618820</offline>
+		<creator></creator>
+		<online>1070618820</online>
 		<author></author>
+		<title>Contact information</title>
+		<created>1070618867</created>
+		<lastmodifier></lastmodifier>
+		<subtitle></subtitle>
 	</node>
 
-	<node number="21628" owner="default">
-		
-		<title>MMBeamer</title>
-		<intro>The Foundation has a Philips bSure XG2 beamer available for partners. </intro>
-		
-		<created>1070980386</created>
-		<online>1070980393</online>
-		
-		<source></source>
-		<offline>1070980393</offline>
-		<subtitle>Philips bSure XG2</subtitle>
+	<node number="1019" owner="default">
 		<body>Specifications Philips bSure XG2	&lt;p&gt;
 
 
@@ -1111,40 +932,21 @@ Weight 	        : 3,7 kg		&lt;br&gt;
 
 Lens	        : Zoom/ Focus	&lt;br&gt;
 
-Contrast	        : 300:1&lt;br&gt;
-
-</body>
+Contrast	        : 300:1&lt;br&gt;</body>
 		<lastmodified>1070980393</lastmodified>
+		<show>true</show>
+		<intro>The Foundation has a Philips bSure XG2 beamer available for partners.</intro>
+		<offline>1070980393</offline>
+		<creator></creator>
+		<online>1070980393</online>
 		<author></author>
+		<title>MMBeamer</title>
+		<created>1070980386</created>
+		<lastmodifier></lastmodifier>
+		<subtitle>Philips bSure XG2</subtitle>
 	</node>
 
-	<node number="21650" owner="default">
-		
-		<title>404 Page Not Found</title>
-		<intro>The page you are looking for cannot be found. </intro>
-		
-		<created>1071061155</created>
-		<online>1071061155</online>
-		
-		<source></source>
-		<offline>1260449955</offline>
-		<subtitle></subtitle>
-		<body>The webmasters will soon be notified about this disgrace. In the meantime, please be patient.</body>
-		<lastmodified>1071061155</lastmodified>
-		<author></author>
-	</node>
-
-	<node number="21858" owner="default">
-		
-		<title>MMBase hardboards</title>
-		<intro></intro>
-		
-		<created>1071761194</created>
-		<online>1071761214</online>
-		
-		<source></source>
-		<offline>1071761214</offline>
-		<subtitle></subtitle>
+	<node number="1023" owner="default">
 		<body>Size 100 x 75 cm.&lt;br&gt;
 
 
@@ -1155,216 +957,38 @@ The Foundation has two PCV MMBase promotion boards available for partners. The b
 
 Please contact the Foundation for more information: +31 (0)35 6288088 or info@mmbase.org</body>
 		<lastmodified>1071761214</lastmodified>
+		<show>true</show>
+		<intro></intro>
+		<offline>1071761214</offline>
+		<creator></creator>
+		<online>1071761214</online>
 		<author></author>
+		<title>MMBase hardboards</title>
+		<created>1071761194</created>
+		<lastmodifier></lastmodifier>
+		<subtitle></subtitle>
 	</node>
 
-	<node number="24844" owner="default">
-		
-		<title>MySites</title>
-		<intro></intro>
-		
-		<created>1080844209</created>
-		<online>1080746441</online>
-		
-		<source></source>
-		<offline>1735686041</offline>
-		<subtitle></subtitle>
-		<body>MySites is a package that shows how to create a website with a dynamic navigation structure and templating. The template included in the MySites package is a general purpose text template, by which you can create pages which show articles. An article consists of a couple of paragraphs, links, pages, attachments and images. The user can manage the structure of the website and the template used for each page.&lt;br&gt;&lt;br&gt;
-
-See &lt;a target=&quot;_blank&quot; href=&quot;http://www.mmatch.nl/packages&quot;&gt;http://www.mmatch.nl/packages&lt;/a&gt; for a demo.&lt;br&gt;&lt;br&gt;
-
-Last updated: May 4, 2004.&lt;br&gt;&lt;br&gt;</body>
-		<lastmodified>1080746441</lastmodified>
-		<author></author>
-	</node>
-
-	<node number="25017" owner="default">
-		
-		<title>MMC Minutes</title>
-		<intro></intro>
-		
-		<created>1081502664</created>
-		<online>1081502640</online>
-		
-		<source></source>
-		<offline>1081502640</offline>
-		<subtitle></subtitle>
+	<node number="1027" owner="default">
 		<body>This page shows the minutes of the MMBase Committers meeting (previously called the MMBase Management Committee). If you have some input for a MMC meeting, please sent an email to developers@mmbase.org
 
 
 
 Overview:</body>
 		<lastmodified>1081502640</lastmodified>
-		<author></author>
-	</node>
-
-	<node number="25067" owner="default">
-		
-		<title>MyMailform</title>
+		<show>true</show>
 		<intro></intro>
-		
-		<created>1083668588</created>
-		<online>1081525235</online>
-		
-		<source></source>
-		<offline>1735686035</offline>
+		<offline>1081502640</offline>
+		<creator></creator>
+		<online>1081502640</online>
+		<author></author>
+		<title>MMC Minutes</title>
+		<created>1081502664</created>
+		<lastmodifier></lastmodifier>
 		<subtitle></subtitle>
-		<body>MyMailform is a package that shows how to create a mailform by using the editwizards. The template included in the MyMailform package is a general purpose mailform, by which you can create pages with questions of different types like: checkboxes, radio buttons, textlines, textareas and dates. The user can group questions into items and can change the layout of the questions.
-
-&lt;br&gt;&lt;br&gt;
-
-See &lt;a target=&quot;_blank&quot; href=&quot;http://www.mmatch.nl/packages&quot;&gt;http://www.mmatch.nl/packages&lt;/a&gt; for a demo.&lt;br&gt;&lt;br&gt;
-
-Last updated: May 19, 2004.&lt;br&gt;&lt;br&gt;
-
-</body>
-		<lastmodified>1081525235</lastmodified>
-		<author></author>
 	</node>
 
-	<node number="25165" owner="default">
-		
-		<title>Request for Hardware</title>
-		<intro></intro>
-		
-		<created>1082110638</created>
-		<online>1082110638</online>
-		
-		<source></source>
-		<offline>1082110638</offline>
-		<subtitle></subtitle>
-		<body>Description:
-
-Machine for the mmbase website(s) and corresponding backend database.
-
-
-
-Minimum Requirements:
-
-- Rackmount chassis up to 2U
-
-- At least 1xCPU 2.0Ghz
-
-- At least 1G memory
-
-- At least 50G of RAID storage (RAID1 or RAID5)
-
-
-
-
-
-Description:
-
-Machine for cvs repository, mail handling (both mailserver and mailinglists)
-
-and nightly builds.
-
-
-
-Minimum Requirements:
-
-- Rackmount chassis up to 2U
-
-- At least 2xCPU 2.0Ghz
-
-- At least 1G memory
-
-- At least 50G of RAID storage (RAID1 or RAID5)</body>
-		<lastmodified>1082110638</lastmodified>
-		<author></author>
-	</node>
-
-	<node number="25184" owner="default">
-		
-		<title>MMEvent4 June 9 2004</title>
-		<intro></intro>
-		
-		<created>1084613920</created>
-		<online>1082121748</online>
-		
-		<source></source>
-		<offline>1735686088</offline>
-		<subtitle>Announcement MMEvent4! (mainly in Dutch)</subtitle>
-		<body>MMBase is a widely used Content Management System, especially in the Netherlands, with a fast growing group of users and developers. Time to show the world what is happening (!) and what the expectations are for the coming period. The fourth annual event will be held at the Technical University of Delft. The event will be &quot;mainly&quot; in Dutch.&lt;p&gt;
-
-This year we will try to bring you a new, interesting and colourful program and bring you up tot date with the latest developments. With a wide range of subjects and a number of parallel sessions, this event will be the meeting place for (potential) users, commercial service providers, developers, designers or persons and organisations that are generally interested in state of the art dynamic web techniques. &lt;p&gt;
-
-Some of the topics (please note, the Event will be mainly in Dutch):&lt;p&gt;
-
--United CMS effort of Dutch cities, by Arjen Hof, Amsterdam.
-
--Papers on &quot;application development in open source&quot;: see the news section on MMBase website. 
-
--Dutch politics on open standards/open source
-
--Europe, representatives of other open source projects.
-
--Many showcases (forum, websitebuilder, portaltechnology, e-learning, statistics, etc.).&lt;p&gt;
-
-The costs of the Event will be € 100 (excl. Btw) per person. Students pay a special rate of € 15 and the press has free entrance, on condition that they apply in advance. Partners of the Foundation get 3 complementary tickets, additional tickets are € 25 (minimum of 4).&lt;p&gt;
-
-This Event is of interest for everyone involved in the development of Web Content Management / Portals. We hope to see you on June 9. &lt;p&gt; 
-
-More information on the MMEvent4 will soon be available. Please contact the Foundation at +31 (0)35-6288088 or Jo@mmbase.org.</body>
-		<lastmodified>1082121748</lastmodified>
-		<author></author>
-	</node>
-
-	<node number="25204" owner="default">
-		
-		<title>Registration</title>
-		<intro></intro>
-		
-		<created>-1</created>
-		<online>1082127717</online>
-		
-		<source></source>
-		<offline>1735686057</offline>
-		<subtitle>MMEvent4 June 9 2004</subtitle>
-		<body>To register for the MMEvent4 please sent an email to the Foundation at jo@mmbase.org or call 035 6288088. 
-
-
-
-</body>
-		<lastmodified>1082127717</lastmodified>
-		<author></author>
-	</node>
-
-	<node number="25481" owner="default">
-		
-		<title>MyShop</title>
-		<intro></intro>
-		
-		<created>1083667870</created>
-		<online>1083667889</online>
-		
-		<source></source>
-		<offline>1083667889</offline>
-		<subtitle></subtitle>
-		<body>MyShop is a package that shows an example of a shoppingcart in MMBase. You can manage products and productgroups with the editwizards. Keywords, discounts and detailed product information, like images and attachments, can be attached to the products. The completed orders are posted to an email account. The MyShop templates include a search page by which you can search products on text, keywords and productgroups.
-
-&lt;br&gt;&lt;br&gt;
-
-See &lt;a target=&quot;_blank&quot; href=&quot;http://www.mmatch.nl/packages&quot;&gt;http://www.mmatch.nl/packages&lt;/a&gt; for a demo.&lt;br&gt;&lt;br&gt;
-
-Last updated: May 17, 2004.&lt;br&gt;&lt;br&gt;
-
-</body>
-		<lastmodified>1083667889</lastmodified>
-		<author></author>
-	</node>
-
-	<node number="26251" owner="default">
-		
-		<title>Program fourth MMEvent</title>
-		<intro></intro>
-		
-		<created>1084359349</created>
-		<online>1084347240</online>
-		
-		<source></source>
-		<offline>1735686000</offline>
-		<subtitle>Program of the day [in Dutch]:</subtitle>
+	<node number="1039" owner="default">
 		<body>&lt;p&gt;
 
 For information in English, please contact the Foundation (Jo@mmbase.org)&lt;br&gt;
@@ -1459,118 +1083,34 @@ Discussie onder leiding van &lt;b&gt;Rob Peters&lt;/b&gt; en &lt;b&gt;Ruben Wend
 
 17.00 Borrel&lt;br&gt;</body>
 		<lastmodified>1084347240</lastmodified>
-		<author></author>
-	</node>
-
-	<node number="26256" owner="default">
-		
-		<title>Route</title>
-		<intro>More information can be found on the website of the Faculty Techniek, Bestuur en Management on www.tbm.tudelft.nl. </intro>
-		
-		<created>1084613841</created>
-		<online>1084351176</online>
-		
-		<source></source>
-		<offline>1735686036</offline>
-		<subtitle>The route to the Technical University Delft</subtitle>
-		<body>Please note, the Event will be mainly in Dutch.&lt;br&gt;&lt;br&gt;
-
-Public Transport: train and bus &lt;br&gt;&lt;br&gt;
-
-From &lt;b&gt;Rotterdam/Dordrecht and Amsterdam/Schiphol/Den Haag/Utrecht&lt;/b&gt;: get off on NS-Station Delft, and take the bus: 
-
-stadslijn 63 direction Tanthof, or
-
-streeklijn 129 direction Rotterdam.
-
-Get off on the stop &quot;Aula TU Delft&quot;. Walk into the direction from which you just came and take the first street left (Jaffalaan); the third building is number 5, the building of Techniek, Bestuur en Management.&lt;br&gt;&lt;br&gt;
-
-By car&lt;br&gt;&lt;br&gt;
-
-From the &lt;b&gt;A13 from the direction Den Haag / Amsterdam and from the direction Rotterdam&lt;/b&gt;:
-
-Exit Delft-Zuid, keep right, direction of the TU-wijk. At the end of the viaduct turn right (Schoemakersstraat). The third street left (C. Huygensweg). At the end of the road turn right (Mekelweg) and then the second street to the left (Jaffalaan). The third building is number 5, the building of Techniek, Bestuur en Management.</body>
-		<lastmodified>1084351176</lastmodified>
-		<author></author>
-	</node>
-
-	<node number="26351" owner="default">
-		
-		<title>MyImageMap</title>
+		<show>true</show>
 		<intro></intro>
-		
-		<created>-1</created>
-		<online>1084786238</online>
-		
-		<source></source>
-		<offline>1735686038</offline>
-		<subtitle></subtitle>
-		<body>MyImageMap is a package that shows how to create an image map with clickable areas, which are linked to related pages and articles. With this package you can use every image to create an image map.&lt;br&gt;&lt;br&gt;
-
-
-
-See &lt;a href=&quot;http://www.mmatch.nl/packages&quot;&gt;http://www.mmatch.nl/packages&lt;/a&gt; for a demo.&lt;br&gt;&lt;br&gt;
-
-
-
-Last updated: May 17, 2004.&lt;br&gt;&lt;br&gt;</body>
-		<lastmodified>1084786238</lastmodified>
+		<offline>1735686000</offline>
+		<creator></creator>
+		<online>1084347240</online>
 		<author></author>
+		<title>Program fourth MMEvent</title>
+		<created>1084359349</created>
+		<lastmodifier></lastmodifier>
+		<subtitle>Program of the day [in Dutch]:</subtitle>
 	</node>
 
-	<node number="26355" owner="default">
-		
-		<title>MyBulletinBoard</title>
-		<intro></intro>
-		
-		<created>-1</created>
-		<online>1084786658</online>
-		
-		<source></source>
-		<offline>1735686038</offline>
-		<subtitle></subtitle>
-		<body>MyBulletinBoard is a package that shows how to create a page where users can leave a message on your BulletinBoard. After posting the message users receive an email containing a link by which they can confirm the placement of their message.&lt;br&gt;&lt;br&gt;
-
-
-
-See &lt;a href=&quot;http://www.mmatch.nl/packages&quot;&gt;http://www.mmatch.nl/packages&lt;/a&gt; for a demo.&lt;br&gt;&lt;br&gt;
-
-
-
-Last updated: May 17, 2004.&lt;br&gt;&lt;br&gt;</body>
-		<lastmodified>1084786658</lastmodified>
-		<author></author>
-	</node>
-
-	<node number="27069" owner="default">
-		
-		<title>Presentations on the MMBase Event4</title>
-		<intro>Most of the presentations that are held on the MMBase Event are public and can be downloaded from this site. If you would like to receive a presentation that was held on the MMEvent4 that is not available on this page, please contact the Foundation. 
-
-</intro>
-		
-		<created>-1</created>
-		<online>1087375906</online>
-		
-		<source></source>
-		<offline>1735686046</offline>
-		<subtitle></subtitle>
+	<node number="1047" owner="default">
 		<body></body>
 		<lastmodified>1087375906</lastmodified>
+		<show>true</show>
+		<intro>Most of the presentations that are held on the MMBase Event are public and can be downloaded from this site. If you would like to receive a presentation that was held on the MMEvent4 that is not available on this page, please contact the Foundation.</intro>
+		<offline>1735686046</offline>
+		<creator></creator>
+		<online>1087375906</online>
 		<author></author>
+		<title>Presentations on the MMBase Event4</title>
+		<created>-1</created>
+		<lastmodifier></lastmodifier>
+		<subtitle></subtitle>
 	</node>
 
-	<node number="27084" owner="default">
-		
-		<title>Successful fourth Event</title>
-		<intro>On June 9, some 100 attendees enjoyed a day full of presentations and debate at the Technical university of Delft. </intro>
-		
-		<created>-1</created>
-		<online>1087378340</online>
-		
-		<source></source>
-		<offline>1735686020</offline>
-		<subtitle>Hundred people visited fourth annual Event</subtitle>
+	<node number="1049" owner="default">
 		<body>The MMBase community of users, developers, and implementators, and interested companies that visited the Event, did not only see how MMBase is currently used within governmental and educational institutes and businesses. Also a number of prominent companies like Philips Medical Systems shared their experiences with the use of open source and MMBase and the related policy questions. &lt;p&gt;
 
  
@@ -1751,82 +1291,86 @@ Bieslog: http://bieslog.vpro.nl
 
 For more information, please contact the Foundation, jo@mmbase.org , 035 6288088.&lt;p&gt;</body>
 		<lastmodified>1087378340</lastmodified>
+		<show>true</show>
+		<intro>On June 9, some 100 attendees enjoyed a day full of presentations and debate at the Technical university of Delft.</intro>
+		<offline>1735686020</offline>
+		<creator></creator>
+		<online>1087378340</online>
 		<author></author>
+		<title>Successful fourth Event</title>
+		<created>-1</created>
+		<lastmodifier></lastmodifier>
+		<subtitle>Hundred people visited fourth annual Event</subtitle>
 	</node>
 
-	<node number="27093" owner="default">
-		
-		<title>Search and Find</title>
+	<node number="1051" owner="default">
+		<body>In the parallel session on Search and Find three different approaches on search on MMBase websites were presented: Fast, Lucene, and Database Search. In the discussion the solution with Lucene came out as the favourite, since it is open source and based on Java, which makes a seamless integration with MMBase possible.</body>
+		<lastmodified>1087380824</lastmodified>
+		<show>true</show>
 		<intro>Henny Bekker (Surfnet)&lt;br&gt;
 
 Wouter Heijke (Finalist)&lt;br&gt;
 
-Henk Hangyi (MMatch)&lt;br&gt;
-
-</intro>
-		
-		<created>-1</created>
-		<online>1087380824</online>
-		
-		<source></source>
+Henk Hangyi (MMatch)&lt;br&gt;</intro>
 		<offline>1735686044</offline>
-		<subtitle></subtitle>
-		<body>In the parallel session on Search and Find three different approaches on search on MMBase websites were presented: Fast, Lucene, and Database Search. In the discussion the solution with Lucene came out as the favourite, since it is open source and based on Java, which makes a seamless integration with MMBase possible.</body>
-		<lastmodified>1087380824</lastmodified>
+		<creator></creator>
+		<online>1087380824</online>
 		<author></author>
+		<title>Search and Find</title>
+		<created>-1</created>
+		<lastmodifier></lastmodifier>
+		<subtitle></subtitle>
 	</node>
 
-	<node number="27095" owner="default">
-		
-		<title>MMBase packages</title>
-		<intro>H.Hangyi</intro>
-		
-		<created>-1</created>
-		<online>1087381110</online>
-		
-		<source></source>
-		<offline>1735686030</offline>
-		<subtitle></subtitle>
+	<node number="1053" owner="default">
 		<body>Presentation on the MMBase packages. Packages are add on functionalities for MMBase, like a poll and a forum. Currently a number of these packages can be downloaded from the MMBase site. But the development of a peer-to-peer package manager will make it possible to make packages from different servers available for all MMBase users.&lt;br&gt;&lt;br&gt;</body>
 		<lastmodified>1087381110</lastmodified>
+		<show>true</show>
+		<intro>H.Hangyi</intro>
+		<offline>1735686030</offline>
+		<creator></creator>
+		<online>1087381110</online>
 		<author></author>
+		<title>MMBase packages</title>
+		<created>-1</created>
+		<lastmodifier></lastmodifier>
+		<subtitle></subtitle>
 	</node>
 
-	<node number="27112" owner="default">
-		
-		<title>Bruno Felix</title>
-		<intro></intro>
-		
-		<created>-1</created>
-		<online>1087382149</online>
-		
-		<source></source>
-		<offline>1735686049</offline>
-		<subtitle></subtitle>
-		<body>Presentation on the generic MMBase forum. In cooperation with a number MMBase end users a MMBase forum is being developed. Bruno held a presentation on how this came to be and what they are developing. </body>
+	<node number="1055" owner="default">
+		<body>Presentation on the generic MMBase forum. In cooperation with a number MMBase end users a MMBase forum is being developed. Bruno held a presentation on how this came to be and what they are developing.</body>
 		<lastmodified>1087382149</lastmodified>
-		<author></author>
-	</node>
-
-	<node number="27124" owner="default">
-		
-		<title>Fred de Vries</title>
+		<show>true</show>
 		<intro></intro>
-		
-		<created>-1</created>
-		<online>1087383544</online>
-		
-		<source></source>
-		<offline>1735686004</offline>
-		<subtitle></subtitle>
-		<body>Fred de Vries held a presentation on the use of open source within the Open University. </body>
-		<lastmodified>1087383544</lastmodified>
+		<offline>1735686049</offline>
+		<creator></creator>
+		<online>1087382149</online>
 		<author></author>
+		<title>Bruno Felix</title>
+		<created>-1</created>
+		<lastmodifier></lastmodifier>
+		<subtitle></subtitle>
 	</node>
 
-	<node number="27375" owner="default">
-		
-		<title>MMBase presentations</title>
+	<node number="1057" owner="default">
+		<body>Fred de Vries held a presentation on the use of open source within the Open University.</body>
+		<lastmodified>1087383544</lastmodified>
+		<show>true</show>
+		<intro></intro>
+		<offline>1735686004</offline>
+		<creator></creator>
+		<online>1087383544</online>
+		<author></author>
+		<title>Fred de Vries</title>
+		<created>-1</created>
+		<lastmodifier></lastmodifier>
+		<subtitle></subtitle>
+	</node>
+
+	<node number="1059" owner="default">
+		<body></body>
+		<lastmodified>1088855108</lastmodified>
+		<show>true</show>
 		<intro>If you have MMBase related presentations (video/powerpoint), please feel free to send them to info@mmbase.org and we will put them online. Currently we are making some introduction videos about how to use MMBase, how to install it, information about the editwizards, and much more.&lt;br&gt;&lt;br&gt;
 
 
@@ -1839,298 +1383,236 @@ If you watched a presentation and want to provide use with an abstract of that p
 
 
 
-Fave fun watching the videos !!!&lt;br&gt;&lt;br&gt;
-
-
-
-
-
-</intro>
-		
-		<created>1088855141</created>
-		<online>1088855108</online>
-		
-		<source></source>
+Fave fun watching the videos !!!&lt;br&gt;&lt;br&gt;</intro>
 		<offline>1088855108</offline>
-		<subtitle></subtitle>
-		<body></body>
-		<lastmodified>1088855108</lastmodified>
+		<creator></creator>
+		<online>1088855108</online>
 		<author></author>
+		<title>MMBase presentations</title>
+		<created>1088855141</created>
+		<lastmodifier></lastmodifier>
+		<subtitle></subtitle>
 	</node>
 
-	<node number="27377" owner="default">
-		
-		<title>Wiab</title>
+	<node number="1061" owner="default">
+		<body></body>
+		<lastmodified>1088855793</lastmodified>
+		<show>true</show>
 		<intro>Presentation about Wiab by Arjen Hof.&lt;br&gt;&lt;br&gt;
 
 This presentation was recorded at the first MMBase event (Dutch).</intro>
-		
-		<created>1088855793</created>
-		<online>1088855793</online>
-		
-		<source></source>
 		<offline>1088855793</offline>
-		<subtitle></subtitle>
-		<body></body>
-		<lastmodified>1088855793</lastmodified>
+		<creator></creator>
+		<online>1088855793</online>
 		<author></author>
+		<title>Wiab</title>
+		<created>1088855793</created>
+		<lastmodifier></lastmodifier>
+		<subtitle></subtitle>
 	</node>
 
-	<node number="27383" owner="default">
-		
-		<title>Introduction about MMBase</title>
-		<intro>This presentation was recorded during the first MMBase Event. Dick Rijken talked aabout what MMBase is, about the history of MMBase, and about why the VPRO made it open source.</intro>
-		
-		<created>1088857574</created>
-		<online>1088857574</online>
-		
-		<source></source>
-		<offline>1088857574</offline>
-		<subtitle></subtitle>
+	<node number="1063" owner="default">
 		<body></body>
 		<lastmodified>1088857574</lastmodified>
+		<show>true</show>
+		<intro>This presentation was recorded during the first MMBase Event. Dick Rijken talked aabout what MMBase is, about the history of MMBase, and about why the VPRO made it open source.</intro>
+		<offline>1088857574</offline>
+		<creator></creator>
+		<online>1088857574</online>
 		<author></author>
+		<title>Introduction about MMBase</title>
+		<created>1088857574</created>
+		<lastmodifier></lastmodifier>
+		<subtitle></subtitle>
 	</node>
 
-	<node number="27387" owner="default">
-		
-		<title>Editorial people</title>
-		<intro>This presenation was recorded during the fist MMBase Event. Erwin Blom talked about...</intro>
-		
-		<created>1088859245</created>
-		<online>1088859245</online>
-		
-		<source></source>
-		<offline>1088859245</offline>
-		<subtitle></subtitle>
+	<node number="1065" owner="default">
 		<body></body>
 		<lastmodified>1088859245</lastmodified>
+		<show>true</show>
+		<intro>This presenation was recorded during the fist MMBase Event. Erwin Blom talked about...</intro>
+		<offline>1088859245</offline>
+		<creator></creator>
+		<online>1088859245</online>
 		<author></author>
+		<title>Editorial people</title>
+		<created>1088859245</created>
+		<lastmodifier></lastmodifier>
+		<subtitle></subtitle>
 	</node>
 
-	<node number="27391" owner="default">
-		
-		<title>Technical Presenation</title>
-		<intro>This presentation was recorded during the first MMBase event.</intro>
-		
-		<created>1088860057</created>
-		<online>1088860057</online>
-		
-		<source></source>
-		<offline>1088860057</offline>
-		<subtitle></subtitle>
+	<node number="1067" owner="default">
 		<body></body>
 		<lastmodified>1088860057</lastmodified>
+		<show>true</show>
+		<intro>This presentation was recorded during the first MMBase event.</intro>
+		<offline>1088860057</offline>
+		<creator></creator>
+		<online>1088860057</online>
 		<author></author>
+		<title>Technical Presenation</title>
+		<created>1088860057</created>
+		<lastmodifier></lastmodifier>
+		<subtitle></subtitle>
 	</node>
 
-	<node number="27399" owner="default">
-		
-		<title>Lowlands</title>
-		<intro>This presentation was recorded during the first MMBase event. The first part of the presentation is missing.</intro>
-		
-		<created>1088860252</created>
-		<online>1088860252</online>
-		
-		<source></source>
-		<offline>1088860252</offline>
-		<subtitle></subtitle>
+	<node number="1069" owner="default">
 		<body></body>
 		<lastmodified>1088860252</lastmodified>
+		<show>true</show>
+		<intro>This presentation was recorded during the first MMBase event. The first part of the presentation is missing.</intro>
+		<offline>1088860252</offline>
+		<creator></creator>
+		<online>1088860252</online>
 		<author></author>
+		<title>Lowlands</title>
+		<created>1088860252</created>
+		<lastmodifier></lastmodifier>
+		<subtitle></subtitle>
 	</node>
 
-	<node number="27403" owner="default">
-		
-		<title>Jeroen</title>
-		<intro></intro>
-		
-		<created>1088860615</created>
-		<online>1088860615</online>
-		
-		<source></source>
-		<offline>1088860615</offline>
-		<subtitle></subtitle>
+	<node number="1071" owner="default">
 		<body></body>
 		<lastmodified>1088860615</lastmodified>
+		<show>true</show>
+		<intro></intro>
+		<offline>1088860615</offline>
+		<creator></creator>
+		<online>1088860615</online>
 		<author></author>
+		<title>Jeroen</title>
+		<created>1088860615</created>
+		<lastmodifier></lastmodifier>
+		<subtitle></subtitle>
 	</node>
 
-	<node number="27407" owner="default">
-		
-		<title>Sanne</title>
-		<intro></intro>
-		
-		<created>1088860689</created>
-		<online>1088860689</online>
-		
-		<source></source>
-		<offline>1088860689</offline>
-		<subtitle></subtitle>
+	<node number="1073" owner="default">
 		<body></body>
 		<lastmodified>1088860689</lastmodified>
+		<show>true</show>
+		<intro></intro>
+		<offline>1088860689</offline>
+		<creator></creator>
+		<online>1088860689</online>
 		<author></author>
+		<title>Sanne</title>
+		<created>1088860689</created>
+		<lastmodifier></lastmodifier>
+		<subtitle></subtitle>
 	</node>
 
-	<node number="27411" owner="default">
-		
-		<title>Martijn</title>
-		<intro></intro>
-		
-		<created>1088860773</created>
-		<online>1088860773</online>
-		
-		<source></source>
-		<offline>1088860773</offline>
-		<subtitle></subtitle>
+	<node number="1075" owner="default">
 		<body></body>
 		<lastmodified>1088860773</lastmodified>
+		<show>true</show>
+		<intro></intro>
+		<offline>1088860773</offline>
+		<creator></creator>
+		<online>1088860773</online>
 		<author></author>
+		<title>Martijn</title>
+		<created>1088860773</created>
+		<lastmodifier></lastmodifier>
+		<subtitle></subtitle>
 	</node>
 
-	<node number="27415" owner="default">
-		
-		<title>Kars</title>
-		<intro></intro>
-		
-		<created>1088860935</created>
-		<online>1088860935</online>
-		
-		<source></source>
-		<offline>1088860935</offline>
-		<subtitle></subtitle>
+	<node number="1077" owner="default">
 		<body></body>
 		<lastmodified>1088860935</lastmodified>
+		<show>true</show>
+		<intro></intro>
+		<offline>1088860935</offline>
+		<creator></creator>
+		<online>1088860935</online>
 		<author></author>
+		<title>Kars</title>
+		<created>1088860935</created>
+		<lastmodifier></lastmodifier>
+		<subtitle></subtitle>
 	</node>
 
-	<node number="27419" owner="default">
-		
-		<title>Gilion</title>
-		<intro></intro>
-		
-		<created>1088860992</created>
-		<online>1088860992</online>
-		
-		<source></source>
-		<offline>1088860992</offline>
-		<subtitle></subtitle>
+	<node number="1079" owner="default">
 		<body></body>
 		<lastmodified>1088860992</lastmodified>
+		<show>true</show>
+		<intro></intro>
+		<offline>1088860992</offline>
+		<creator></creator>
+		<online>1088860992</online>
 		<author></author>
+		<title>Gilion</title>
+		<created>1088860992</created>
+		<lastmodifier></lastmodifier>
+		<subtitle></subtitle>
 	</node>
 
-	<node number="27423" owner="default">
-		
-		<title>JeanLuc</title>
-		<intro></intro>
-		
-		<created>1088861046</created>
-		<online>1088861046</online>
-		
-		<source></source>
-		<offline>1088861046</offline>
-		<subtitle></subtitle>
+	<node number="1081" owner="default">
 		<body></body>
 		<lastmodified>1088861046</lastmodified>
+		<show>true</show>
+		<intro></intro>
+		<offline>1088861046</offline>
+		<creator></creator>
+		<online>1088861046</online>
 		<author></author>
+		<title>JeanLuc</title>
+		<created>1088861046</created>
+		<lastmodifier></lastmodifier>
+		<subtitle></subtitle>
 	</node>
 
-	<node number="27491" owner="default">
-		
-		<title>Partner contracts</title>
-		<intro></intro>
-		
-		<created>1094049595</created>
-		<online>1089200520</online>
-		
-		<source></source>
-		<offline>1735686000</offline>
-		<subtitle></subtitle>
+	<node number="1083" owner="default">
 		<body>&lt;p&gt;
 
 The MMBase Foundation was set up by end users and is now supported by end users and commercial implementation companies. The present partners can be found on the homepage. Joining us, means we can put a greater effort in working together, sharing code and knowledge. For a few thousand euro's a year, we can achieve more.  So please help.
 
 &lt;/p&gt;&lt;p&gt;
 
-If you want to become a partner of the MMBase Foundation to support the community, please contact the director of the Foundation, Jo Lahaye, by sending an email to Jo@MMBase.org or phone (GMT+1) +31 (0)35 6288088.&lt;/p&gt; 
-
-
-
-</body>
+If you want to become a partner of the MMBase Foundation to support the community, please contact the director of the Foundation, Jo Lahaye, by sending an email to Jo@MMBase.org or phone (GMT+1) +31 (0)35 6288088.&lt;/p&gt;</body>
 		<lastmodified>1089200520</lastmodified>
-		<author></author>
-	</node>
-
-	<node number="27499" owner="default">
-		
-		<title>Jaarverslag 2003</title>
+		<show>true</show>
 		<intro></intro>
-		
-		<created>-1</created>
-		<online>1089203973</online>
-		
-		<source></source>
-		<offline>1735686033</offline>
-		<subtitle></subtitle>
-		<body>De Stichting is in 2002 opgericht met steun van, in het bijzonder, de gemeente Amsterdam en Omroepvereniging VPRO. Behalve de oprichting is in 2002 hard gewerkt aan het operationeel maken van de Stichting. In 2003 is de Stichting het eerste volle jaar actief geweest. In financiële zin worden beiden jaren in dit jaarverslag behandeld. De reden daarvoor is gelegen in de wijze van boekhouding die de VPRO in deze jaren voor zijn rekening heeft genomen.
-
-&lt;p&gt;
-
-Conform de statuten van de Stichting is het beleid meermaals onderwerp van gesprek geweest tussen directie en het bestuur. Omdat er weinig vergelijkbare Stichtingen in Europa te vinden waren (en zijn) en de wensen van de eindgebruikers en commerciële dienstverleners nog niet duidelijk waren, heeft een groot aantal gesprekken tussen de directeur en stakeholders geleid tot het in kaart brengen van de belangrijkste verwachtingen en wensen. Op hoofdlijnen heeft dat geleid tot het verzoek om concreet beleid te voeren op de onderwerpen zoals besproken in het jaarverslag. 
-
-
-
-Het jaarverslag kunt u downloaden van deze pagina. 
-
-</body>
-		<lastmodified>1089203973</lastmodified>
+		<offline>1735686000</offline>
+		<creator></creator>
+		<online>1089200520</online>
 		<author></author>
+		<title>Partner contracts</title>
+		<created>1094049595</created>
+		<lastmodifier></lastmodifier>
+		<subtitle></subtitle>
 	</node>
 
-	<node number="27677" owner="default">
-		
-		<title>Installing MMBase in 20 minutes (English)</title>
-		<intro>This presentation made by Henk Hangyi shows how to install MMBase in 20 minutes. Henk will guide you through the installation of the JDK, an application server, a database and finally MMBase. After watching this you will be able to run MMBase.</intro>
-		
-		<created>1089878598</created>
-		<online>1089878580</online>
-		
-		<source></source>
-		<offline>1089878580</offline>
-		<subtitle></subtitle>
+	<node number="1087" owner="default">
 		<body></body>
 		<lastmodified>1089878580</lastmodified>
+		<show>true</show>
+		<intro>This presentation made by Henk Hangyi shows how to install MMBase in 20 minutes. Henk will guide you through the installation of the JDK, an application server, a database and finally MMBase. After watching this you will be able to run MMBase.</intro>
+		<offline>1089878580</offline>
+		<creator></creator>
+		<online>1089878580</online>
 		<author></author>
+		<title>Installing MMBase in 20 minutes (English)</title>
+		<created>1089878598</created>
+		<lastmodifier></lastmodifier>
+		<subtitle></subtitle>
 	</node>
 
-	<node number="27728" owner="default">
-		
-		<title>Working with the MMBase object cloud (English)</title>
-		<intro>In this session Henk Hangyi will guide you through the proces of making your own MMBase object cloud. This proces involves: Short explication of objects and relations. How you define MMBase objects, introducation of some standard MMBase objects, creating/updating/deleting objects. How to create relations in MMBase.</intro>
-		
-		<created>1090225159</created>
-		<online>1090225159</online>
-		
-		<source></source>
-		<offline>1090225159</offline>
-		<subtitle></subtitle>
+	<node number="1089" owner="default">
 		<body></body>
 		<lastmodified>1090225159</lastmodified>
+		<show>true</show>
+		<intro>In this session Henk Hangyi will guide you through the proces of making your own MMBase object cloud. This proces involves: Short explication of objects and relations. How you define MMBase objects, introducation of some standard MMBase objects, creating/updating/deleting objects. How to create relations in MMBase.</intro>
+		<offline>1090225159</offline>
+		<creator></creator>
+		<online>1090225159</online>
 		<author></author>
+		<title>Working with the MMBase object cloud (English)</title>
+		<created>1090225159</created>
+		<lastmodifier></lastmodifier>
+		<subtitle></subtitle>
 	</node>
 
-	<node number="39565" owner="default">
-		
-		<title>LeoCMS-application</title>
-		<intro>Please read the information on this page carefully, before starting the download of the MMBase-style LeoCMS-application offered as open source software by the city of Leeuwarden. The application and documentation is mainly in Dutch (we will work on an English version).</intro>
-		
-		<created>1102795466</created>
-		<online>1102795440</online>
-		
-		<source>Gemeente Leeuwarden</source>
-		<offline>1449864240</offline>
-		<subtitle></subtitle>
+	<node number="1091" owner="default">
 		<body>&lt;p&gt;
 
 By selecting the first checkbox you declare that you have read and understood The Mozilla Public License version 1.1. that can be found on http://www.mozilla.org/MPL/ and that you accept all consequences that derive from this license. This download may only be used in a way that meets the requirements of MPL 1.1. 
@@ -2169,20 +1651,19 @@ If you want, you can leave your name and e-mailadres. We will be glad to keep yo
 
 &lt;/p&gt;</body>
 		<lastmodified>1102795440</lastmodified>
+		<show>true</show>
+		<intro>Please read the information on this page carefully, before starting the download of the MMBase-style LeoCMS-application offered as open source software by the city of Leeuwarden. The application and documentation is mainly in Dutch (we will work on an English version).</intro>
+		<offline>1449864240</offline>
+		<creator></creator>
+		<online>1102795440</online>
 		<author>andre</author>
+		<title>LeoCMS-application</title>
+		<created>1102795466</created>
+		<lastmodifier></lastmodifier>
+		<subtitle></subtitle>
 	</node>
 
-	<node number="41161" owner="default">
-		
-		<title>MMBase mailingslists</title>
-		<intro>The first step to get involved with MMBase, subscribe to one of the mailingslists. The mailinglists are maintained by the MMC.</intro>
-		
-		<created>1107987747</created>
-		<online>1106602680</online>
-		
-		<source></source>
-		<offline>1735686000</offline>
-		<subtitle></subtitle>
+	<node number="1093" owner="default">
 		<body>&lt;p&gt;&lt;b&gt;&lt;a href=&quot;index.jsp?page=page_announcemail&quot;&gt;Announce&lt;/a&gt;&lt;/b&gt;&lt;br /&gt;
 
 Regular news updates&lt;br /&gt;
@@ -2233,132 +1714,124 @@ The 'users' or 'frontend' list. This list contains discussions related to the de
 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;</body>
 		<lastmodified>1106602680</lastmodified>
+		<show>true</show>
+		<intro>The first step to get involved with MMBase, subscribe to one of the mailingslists. The mailinglists are maintained by the MMC.</intro>
+		<offline>1735686000</offline>
+		<creator></creator>
+		<online>1106602680</online>
 		<author>andre</author>
+		<title>MMBase mailingslists</title>
+		<created>1107987747</created>
+		<lastmodifier></lastmodifier>
+		<subtitle></subtitle>
 	</node>
 
-	<node number="41169" owner="default">
-		
-		<title>Developers mailing list</title>
-		<intro></intro>
-		
-		<created></created>
-		<online>1106604660</online>
-		
-		<source></source>
-		<offline>1735686000</offline>
-		<subtitle></subtitle>
+	<node number="1095" owner="default">
 		<body>&lt;a href=&quot;http://lists.mmbase.org/mailman/listinfo/developers&quot;&gt;Subscribe or unsubscribe&lt;/a&gt; to this list.</body>
 		<lastmodified>1106604660</lastmodified>
+		<show>true</show>
+		<intro></intro>
+		<offline>1735686000</offline>
+		<creator></creator>
+		<online>1106604660</online>
 		<author></author>
+		<title>Developers mailing list</title>
+		<created></created>
+		<lastmodifier></lastmodifier>
+		<subtitle></subtitle>
 	</node>
 
-	<node number="41171" owner="default">
-		
-		<title>Users mailing list</title>
-		<intro></intro>
-		
-		<created></created>
-		<online>1106604960</online>
-		
-		<source></source>
-		<offline>1735686000</offline>
-		<subtitle></subtitle>
+	<node number="1097" owner="default">
 		<body>&lt;a href=&quot;http://lists.mmbase.org/mailman/listinfo/users&quot;&gt;Subscribe or unsubscribe&lt;/a&gt; to this list.</body>
 		<lastmodified>1106604960</lastmodified>
+		<show>true</show>
+		<intro></intro>
+		<offline>1735686000</offline>
+		<creator></creator>
+		<online>1106604960</online>
 		<author></author>
+		<title>Users mailing list</title>
+		<created></created>
+		<lastmodifier></lastmodifier>
+		<subtitle></subtitle>
 	</node>
 
-	<node number="41173" owner="default">
-		
-		<title>Announce mailing list</title>
-		<intro></intro>
-		
-		<created></created>
-		<online>1106605020</online>
-		
-		<source></source>
-		<offline>1735686000</offline>
-		<subtitle></subtitle>
+	<node number="1099" owner="default">
 		<body>&lt;a href=&quot;http://lists.mmbase.org/mailman/listinfo/announce&quot;&gt;Subscribe or unsubscribe&lt;/a&gt; to this list.</body>
 		<lastmodified>1106605020</lastmodified>
+		<show>true</show>
+		<intro></intro>
+		<offline>1735686000</offline>
+		<creator></creator>
+		<online>1106605020</online>
 		<author></author>
+		<title>Announce mailing list</title>
+		<created></created>
+		<lastmodifier></lastmodifier>
+		<subtitle></subtitle>
 	</node>
 
-	<node number="41867" owner="default">
-		
-		<title>SCM mailing list</title>
-		<intro></intro>
-		
-		<created></created>
-		<online>1107979560</online>
-		
-		<source></source>
-		<offline>1735686000</offline>
-		<subtitle></subtitle>
+	<node number="1101" owner="default">
 		<body>&lt;a href=&quot;http://lists.mmbase.org/mailman/listinfo/cvs&quot;&gt;Subscribe or unsubscribe&lt;/a&gt; to this list.</body>
 		<lastmodified>1107979560</lastmodified>
+		<show>true</show>
+		<intro></intro>
+		<offline>1735686000</offline>
+		<creator></creator>
+		<online>1107979560</online>
 		<author></author>
+		<title>SCM mailing list</title>
+		<created></created>
+		<lastmodifier></lastmodifier>
+		<subtitle></subtitle>
 	</node>
 
-	<node number="41869" owner="default">
-		
-		<title>Community mailing list</title>
-		<intro></intro>
-		
-		<created></created>
-		<online>1107979620</online>
-		
-		<source></source>
-		<offline>1735686000</offline>
-		<subtitle></subtitle>
+	<node number="1103" owner="default">
 		<body></body>
 		<lastmodified>1107979620</lastmodified>
+		<show>true</show>
+		<intro></intro>
+		<offline>1735686000</offline>
+		<creator></creator>
+		<online>1107979620</online>
 		<author></author>
+		<title>Community mailing list</title>
+		<created></created>
+		<lastmodifier></lastmodifier>
+		<subtitle></subtitle>
 	</node>
 
-	<node number="42180" owner="default">
-		
-		<title>Download releases, builds and applications</title>
-		<intro>Here you'll find the latest official MMBase release, builds from the stable branch - like MMBase 1.8 beta - and the HEAD branch from cvs. Besides that this page lists several MMBase based applications and packages.</intro>
-		
-		<created></created>
-		<online>1108416540</online>
-		
-		<source></source>
-		<offline>1735686000</offline>
-		<subtitle></subtitle>
+	<node number="1105" owner="default">
 		<body></body>
 		<lastmodified>1108416540</lastmodified>
+		<show>true</show>
+		<intro>Here you'll find the latest official MMBase release, builds from the stable branch - like MMBase 1.8 beta - and the HEAD branch from cvs. Besides that this page lists several MMBase based applications and packages.</intro>
+		<offline>1735686000</offline>
+		<creator></creator>
+		<online>1108416540</online>
 		<author>andre</author>
+		<title>Download releases, builds and applications</title>
+		<created></created>
+		<lastmodifier></lastmodifier>
+		<subtitle></subtitle>
 	</node>
 
-	<node number="46180" owner="admin">
-		
-		<title>Committers mailinglist</title>
-		<intro></intro>
-		
-		<created></created>
-		<online>1112606220</online>
-		
-		<source></source>
-		<offline>1735686000</offline>
-		<subtitle></subtitle>
+	<node number="1107" owner="admin">
 		<body></body>
 		<lastmodified>1112606220</lastmodified>
+		<show>true</show>
+		<intro></intro>
+		<offline>1735686000</offline>
+		<creator></creator>
+		<online>1112606220</online>
 		<author></author>
+		<title>Committers mailinglist</title>
+		<created></created>
+		<lastmodifier></lastmodifier>
+		<subtitle></subtitle>
 	</node>
 
-	<node number="47449" owner="default">
-		
-		<title>How to become a partner</title>
-		<intro></intro>
-		
-		<created></created>
-		<online>1118670720</online>
-		
-		<source></source>
-		<offline>1735686000</offline>
-		<subtitle></subtitle>
+	<node number="1109" owner="default">
 		<body>&lt;p&gt;
 
 The foundation offers a contract to companies or persons who want to become a partner. This contract formalizes the partnership and contains a mutual code of conduct.
@@ -2369,36 +1842,34 @@ It is now possible to download the english version of the commercial vendor part
 
 &lt;/p&gt;</body>
 		<lastmodified>1118670720</lastmodified>
+		<show>true</show>
+		<intro></intro>
+		<offline>1735686000</offline>
+		<creator></creator>
+		<online>1118670720</online>
 		<author></author>
+		<title>How to become a partner</title>
+		<created></created>
+		<lastmodifier></lastmodifier>
+		<subtitle></subtitle>
 	</node>
 
-	<node number="47461" owner="default">
-		
-		<title>Websites in MMBase</title>
-		<intro>Examples of websites build with MMBase</intro>
-		
-		<created>1144825367</created>
-		<online>1118673000</online>
-		
-		<source></source>
-		<offline>1735686000</offline>
-		<subtitle></subtitle>
+	<node number="1111" owner="default">
 		<body></body>
 		<lastmodified>1118673000</lastmodified>
+		<show>true</show>
+		<intro>Examples of websites build with MMBase</intro>
+		<offline>1735686000</offline>
+		<creator></creator>
+		<online>1118673000</online>
 		<author></author>
+		<title>Websites in MMBase</title>
+		<created>1144825367</created>
+		<lastmodifier></lastmodifier>
+		<subtitle></subtitle>
 	</node>
 
-	<node number="47505" owner="default">
-		
-		<title>Why should you become a partner?</title>
-		<intro></intro>
-		
-		<created></created>
-		<online>1119252660</online>
-		
-		<source></source>
-		<offline>1735686000</offline>
-		<subtitle></subtitle>
+	<node number="1113" owner="default">
 		<body>&lt;p&gt;Since its start in 2003 the main purpose of the foundation is to support the MMbase community as well as acting in the interest of users, commercial vendors and the developers community. Open source software is about working together, sharing, distributing, projectmanagemtn, maintaining sites, and software, etc. To coordinate these activities, the MMBase Foundation was established. Of course, the Foundation needs money to fullfill the coordinative task. If you would considermaking a contribution, please contact Jo Lahaye (Jo@mmbase.org).
 
 &lt;/p&gt;&lt;p&gt;
@@ -2421,56 +1892,51 @@ Another important activity of the foundation is giving information concerning th
 
 For more information please contact the managing director of the foundation MMBase Mr. Jo Lahaye by email (jo@mmbase.org) or telephone (+31 (0)35 6288088).
 
-&lt;/p&gt;
-
-</body>
+&lt;/p&gt;</body>
 		<lastmodified>1119252660</lastmodified>
+		<show>true</show>
+		<intro></intro>
+		<offline>1735686000</offline>
+		<creator></creator>
+		<online>1119252660</online>
 		<author></author>
+		<title>Why should you become a partner?</title>
+		<created></created>
+		<lastmodifier></lastmodifier>
+		<subtitle></subtitle>
 	</node>
 
-	<node number="47511" owner="default">
-		
-		<title>Holland Open Software Conference 2005</title>
-		<intro></intro>
-		
-		<created></created>
-		<online>1119359940</online>
-		
-		<source></source>
-		<offline>1735686000</offline>
-		<subtitle></subtitle>
+	<node number="1115" owner="default">
 		<body></body>
 		<lastmodified>1119359940</lastmodified>
+		<show>true</show>
+		<intro></intro>
+		<offline>1735686000</offline>
+		<creator></creator>
+		<online>1119359940</online>
 		<author></author>
+		<title>Holland Open Software Conference 2005</title>
+		<created></created>
+		<lastmodifier></lastmodifier>
+		<subtitle></subtitle>
 	</node>
 
-	<node number="48655" owner="default">
-		
-		<title>E-mail form</title>
-		<intro>Contact the MMBase foundation for general information about the use of MMBase or for more specific questions.</intro>
-		
-		<created>1172084831</created>
-		<online>1140619680</online>
-		
-		<source></source>
-		<offline>1735686000</offline>
-		<subtitle></subtitle>
+	<node number="1117" owner="default">
 		<body></body>
 		<lastmodified>1140619680</lastmodified>
+		<show>true</show>
+		<intro>Contact the MMBase foundation for general information about the use of MMBase or for more specific questions.</intro>
+		<offline>1735686000</offline>
+		<creator></creator>
+		<online>1140619680</online>
 		<author></author>
+		<title>E-mail form</title>
+		<created>1172084831</created>
+		<lastmodifier></lastmodifier>
+		<subtitle></subtitle>
 	</node>
 
-	<node number="50543" owner="default">
-		
-		<title>MMBase Technical Board</title>
-		<intro></intro>
-		
-		<created>1151524871</created>
-		<online>1151524860</online>
-		
-		<source></source>
-		<offline>1151524860</offline>
-		<subtitle></subtitle>
+	<node number="1119" owner="default">
 		<body>In the year 2005 a lot of people and organizations participated in the debate on the future of MMBase. There were -and are- many different views on the road ahead. In the autumn of 2005 this led to the conclusion that if we want to move ahead, we need a board that represents the whole community: developers, users and technical partners.
 
 
@@ -2497,190 +1963,53 @@ For an overview of the MMBase Community see http://www.mmbase.org/mmbase/images/
 
 This pages shows an overview of the minutes of meeting of the technical board:</body>
 		<lastmodified>1151524860</lastmodified>
+		<show>true</show>
+		<intro></intro>
+		<offline>1151524860</offline>
+		<creator></creator>
+		<online>1151524860</online>
 		<author></author>
+		<title>MMBase Technical Board</title>
+		<created>1151524871</created>
+		<lastmodifier></lastmodifier>
+		<subtitle></subtitle>
 	</node>
 
-	<node number="51810" owner="default">
-		
-		<title>Regular meetings within the MMBase community</title>
-		<intro></intro>
-		
-		<created></created>
-		<online>1164395280</online>
-		
-		<source></source>
-		<offline>1735686000</offline>
-		<subtitle></subtitle>
+	<node number="1121" owner="default">
 		<body>The MMBase community nows two groups that meet on a regular basis: (1) the tecnical board and (2) the MMBase Committers meeting (previously called the MMBase Management Committee). Next to these meeting the developers organize developers meetings to discuss ongoing projects and new initiatives. Once a year an MMBase Annual meeting is organized by the MMBase foundation.
 
 
 
 The image in the left column gives a schematic overview of the mmbase community.</body>
 		<lastmodified>1164395280</lastmodified>
-		<author></author>
-	</node>
-
-	<node number="51938" owner="default">
-		
-		<title>Training</title>
-		<intro>The MMBase Foundation organizes - on request - three different courses for the following target groups: managers, application developers, webmasters and editors. </intro>
-		
-		<created></created>
-		<online>1168682880</online>
-		
-		<source></source>
+		<show>true</show>
+		<intro></intro>
 		<offline>1735686000</offline>
-		<subtitle></subtitle>
-		<body>&lt;p&gt;If you are looking for deep(er) inside technical knowledge, please contact the Foundation. In collaboration with our partners we will try to meet your specific training needs.&lt;/p&gt;
-
-
-
-&lt;p&gt;
-
-The following default (basic) courses are on request available. The first one (for managers) is free, the other ones cost euro 100 a person, with a minimum of three attendees. If for any reason you are not capable of paying these fees, the
-
-Foundation might be able to help. Default location is Hilversum, but training on the spot is also possible. Normal duration is 3 hours (morning or afternoon session); the session for managers takes 2 hours. If you want more information or you would like to arrange a training, please contact the foundation by sending a mail to &lt;a href=&quot;mailto:jo@mmbase.org&quot;&gt;Jo@mmbase.org&lt;/a&gt;.
-
-&lt;/p&gt;
-
-
-
-&lt;h3&gt;The courses&lt;/h3&gt;
-
-
-
-&lt;p&gt;
-
-&lt;strong&gt;Managers&lt;/strong&gt; (free, on request).&lt;br /&gt;
-
-The course for managers focuses on the following aspects:&lt;/p&gt;
-
-
-
-&lt;ul&gt;
-
-	&lt;li&gt;is a content-management system and portal necessary in your organization&lt;/li&gt;
-
-	&lt;li&gt;what kind of system would suit you best (out of the box - growth scenario)&lt;/li&gt;
-
-	&lt;li&gt;(dis)advantages of document oriented system and/or object oriented system &lt;/li&gt;
-
-	&lt;li&gt;what does it mean to use open source software&lt;/li&gt;
-
-	&lt;li&gt;multitiered environment, separation of content, structure, layout&lt;/li&gt;
-
-	&lt;li&gt;Java, JEE characteristics&lt;/li&gt;
-
-	&lt;li&gt;MMBase-core, Component Framework, MMBase CMS portal, e-learning (Didactor) &lt;/li&gt;
-
-	&lt;li&gt;available components&lt;/li&gt;
-
-	&lt;li&gt;getting started&lt;/li&gt;
-
-&lt;/ul&gt;
-
-
-
-&lt;p&gt;
-
-&lt;strong&gt;Application development&lt;/strong&gt; (euro 100 a person, minimum of three persons, on request)&lt;/p&gt;
-
-&lt;ul&gt;
-
-	&lt;li&gt;architecture of MMBase, general characteristics of the Java (JEE) environment.&lt;/li&gt;
-
-	&lt;li&gt;documentation and examples&lt;/li&gt;
-
-	&lt;li&gt;object oriented programming &lt;/li&gt;
-
-	&lt;li&gt;MMBase-core, what's in there, how is it used &lt;/li&gt;
-
-	&lt;li&gt;Component Framework and components&lt;/li&gt;
-
-	&lt;li&gt;MMBase CMS portal &lt;/li&gt;
-
-	&lt;li&gt;e-learning (Didactor) &lt;/li&gt;
-
-	&lt;li&gt;installing MMBase &lt;/li&gt;
-
-	&lt;li&gt;&quot;Hello world&quot;, a first news article &lt;/li&gt;
-
-	&lt;li&gt;using JSP and taglib &lt;/li&gt;
-
-	&lt;li&gt;do's and don'ts  &lt;/li&gt;
-
-	&lt;li&gt;building more complex websites (examples)&lt;/li&gt;
-
-&lt;/ul&gt;
-
-
-
-&lt;p&gt;
-
-&lt;strong&gt;Webmasters / editors&lt;/strong&gt; (euro 100 a person, minimum of three persons, on request) &lt;/p&gt;
-
-&lt;ul&gt;
-
-	&lt;li&gt;MMBase architecture, general characteristics&lt;/li&gt;
-
-	&lt;li&gt;documentation, examples&lt;/li&gt;
-
-	&lt;li&gt;managing the users of an application (roles based security: who is allowed what)&lt;/li&gt;
-
-	&lt;li&gt;creating content, available object-types &lt;/li&gt;
-
-	&lt;li&gt;basic advise for writing web content&lt;/li&gt;
-
-	&lt;li&gt;editwizards, different types, how they function, what they can('t) do.  &lt;/li&gt;
-
-	&lt;li&gt;why and how is content shown; the browser request and the JSP&lt;/li&gt;
-
-	&lt;li&gt;managing the number of JSP's&lt;/li&gt;
-
-	&lt;li&gt;workflow &lt;/li&gt;
-
-	&lt;li&gt;navigation &lt;/li&gt;
-
-	&lt;li&gt;adding a forum, poll, chat, webform, etc. to your &quot;pages&quot; &lt;/li&gt;
-
-	&lt;li&gt;starting a new (sub-)site &lt;/li&gt;
-
-	&lt;li&gt;handling large amounts of content (objects) &lt;/li&gt;
-
-	&lt;li&gt;different implementations of MMBase (examples, pro's and con's) &lt;/li&gt;
-
-&lt;/ul&gt;</body>
-		<lastmodified>1168682880</lastmodified>
+		<creator></creator>
+		<online>1164395280</online>
 		<author></author>
+		<title>Regular meetings within the MMBase community</title>
+		<created></created>
+		<lastmodifier></lastmodifier>
+		<subtitle></subtitle>
 	</node>
 
-	<node number="52522" owner="default">
-		
-		<title>API documentation</title>
-		<intro>This page lists the current and all former Java docs of MMBase.</intro>
-		
-		<created></created>
-		<online></online>
-		
-		<source></source>
-		<offline></offline>
-		<subtitle></subtitle>
+	<node number="1125" owner="default">
 		<body>The current release of MMBase is version 1.9.</body>
 		<lastmodified></lastmodified>
+		<show>true</show>
+		<intro>This page lists the current and all former Java docs of MMBase.</intro>
+		<offline></offline>
+		<creator></creator>
+		<online></online>
 		<author></author>
+		<title>API documentation</title>
+		<created></created>
+		<lastmodifier></lastmodifier>
+		<subtitle></subtitle>
 	</node>
 
-	<node number="52535" owner="default">
-		
-		<title>About the documentation</title>
-		<intro>The documentation of MMBase is devided in several parts.</intro>
-		
-		<created></created>
-		<online></online>
-		
-		<source></source>
-		<offline></offline>
-		<subtitle></subtitle>
+	<node number="1127" owner="default">
 		<body>&lt;p&gt;Most documentation can be found in '&lt;a href=&quot;/mmdocs&quot;&gt;Overview&lt;/a&gt;'. It lists the documentation that is available in docbook format in MMBase cvs from where it can be generated to html and pdf.&lt;/p&gt;
 
 &lt;p&gt;The API documentation lists the Java docs of several releases.&lt;/p&gt;
@@ -2703,47 +2032,52 @@ The course for managers focuses on the following aspects:&lt;/p&gt;
 
 &lt;p&gt;The &lt;a href=&quot;/principles&quot;&gt;Principle Tracker&lt;/a&gt; is a tool to keep track of several MMBase coding principles and provides guidelines to application development and development in general for and with MMBase.&lt;/p&gt;</body>
 		<lastmodified></lastmodified>
+		<show>true</show>
+		<intro>The documentation of MMBase is devided in several parts.</intro>
+		<offline></offline>
+		<creator></creator>
+		<online></online>
 		<author></author>
+		<title>About the documentation</title>
+		<created></created>
+		<lastmodifier></lastmodifier>
+		<subtitle></subtitle>
 	</node>
 
-	<node number="52616" owner="default">
-		
-		<title>CMS Container mailing list</title>
-		<intro></intro>
-		
-		<created></created>
-		<online></online>
-		
-		<source></source>
-		<offline></offline>
-		<subtitle></subtitle>
+	<node number="1129" owner="default">
 		<body>&lt;a href=&quot;http://lists.mmbase.org/mailman/listinfo/cmscontainer&quot;&gt;Subscribe or unsubscribe&lt;/a&gt; to this list.</body>
 		<lastmodified></lastmodified>
+		<show>true</show>
+		<intro></intro>
+		<offline></offline>
+		<creator></creator>
+		<online></online>
 		<author></author>
+		<title>CMS Container mailing list</title>
+		<created></created>
+		<lastmodifier></lastmodifier>
+		<subtitle></subtitle>
 	</node>
 
-	<node number="53773" owner="default">
-		
-		<title>Subversion</title>
-		<intro>MMBase uses Subversion as its content repository since May 1st, 2009.</intro>
-		
-		<created></created>
-		<online></online>
-		
-		<source></source>
-		<offline></offline>
-		<subtitle></subtitle>
+	<node number="1131" owner="default">
 		<body>To access MMBase's Subversion repository anonymously you must of course have svn installed.&lt;br /&gt; 
 
 The URL is: https://scm.mmbase.org/ &lt;br /&gt;
 
 It can be used on the command line: 'svn co https://scm.mmbase.org/mmbase/trunk' for guest access but when you want to check in, svn will request a name and password. MMBase developers or committers can use their original CVS pserver account. Otherwise contact the developers-list and we'll help you.&lt;br /&gt;
 
-The history of our repository can be browsed at http://scm.mmbase.org/view/
-
-</body>
+The history of our repository can be browsed at http://scm.mmbase.org/view/</body>
 		<lastmodified></lastmodified>
+		<show>true</show>
+		<intro>MMBase uses Subversion as its content repository since May 1st, 2009.</intro>
+		<offline></offline>
+		<creator></creator>
+		<online></online>
 		<author></author>
+		<title>Subversion</title>
+		<created></created>
+		<lastmodifier></lastmodifier>
+		<subtitle></subtitle>
 	</node>
 
 </articles>
