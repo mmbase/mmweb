@@ -47,6 +47,7 @@
               <mm:component name="mynews" block="list">
                 <mm:param name="max">${max}</mm:param>
                 <mm:param name="offset">${offset}</mm:param>
+                <mm:param name="more">false</mm:param>
               </mm:component>
 
               <mm:import externid="mynews.total" id="total" from="request" />
@@ -64,20 +65,24 @@
       <div id="sidebar">
         <div>
           
-          page: ${page}
-          n: ${n}
-
           <c:choose>
             <c:when test="${component eq 'mynews' and block eq 'news'}">
-              <h3>Latest news</h3>
+              <mm:link page="list">
+                <mm:frameworkparam name="component">mynews</mm:frameworkparam>
+                <h3><a href="${_}">Latest news</a></h3>
+              </mm:link>
               <mm:component name="mynews" block="list">
                 <mm:param name="max">3</mm:param>
+                <mm:param name="more">true</mm:param>
               </mm:component>
             </c:when>
             <c:otherwise>
-             <p>Eh, nix</p>
+             <p> </p>
             </c:otherwise>
           </c:choose>
+
+          page: ${page}
+          n: ${n}
 
         </div>
       </div>
