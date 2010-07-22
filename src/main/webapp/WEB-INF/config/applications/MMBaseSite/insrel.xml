@@ -1,282 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<insrel exportsource="mmbase://jeeves.mmbase.org/install/foundation" timestamp="20100714204034">
-	<node number="13258" owner="admin" snumber="561" dnumber="13257" rtype="related" dir="bidirectional">
+<insrel exportsource="mmbase://zilver.toly.net/null/foundation" timestamp="20100722140850">
+	<node number="1417" owner="default" snumber="447" dnumber="1007" rtype="readmore" dir="bidirectional">
 	</node>
 
-	<node number="13279" owner="admin" snumber="556" dnumber="13278" rtype="related" dir="bidirectional">
+	<node number="1431" owner="default" snumber="457" dnumber="991" rtype="readmore" dir="bidirectional">
 	</node>
 
-	<node number="13340" owner="admin" snumber="558" dnumber="13339" rtype="related" dir="bidirectional">
+	<node number="1433" owner="default" snumber="451" dnumber="991" rtype="readmore" dir="bidirectional">
 	</node>
 
-	<node number="13374" owner="admin" snumber="536" dnumber="13373" rtype="related" dir="bidirectional">
+	<node number="1435" owner="default" snumber="445" dnumber="991" rtype="readmore" dir="bidirectional">
 	</node>
 
-	<node number="14213" owner="admin" snumber="13316" dnumber="14130" rtype="related" dir="bidirectional">
+	<node number="1439" owner="default" snumber="461" dnumber="1027" rtype="readmore" dir="bidirectional">
 	</node>
 
-	<node number="14907" owner="admin" snumber="13332" dnumber="14906" rtype="related" dir="bidirectional">
+	<node number="1507" owner="default" snumber="517" dnumber="1119" rtype="readmore" dir="bidirectional">
 	</node>
 
-	<node number="18628" owner="default" snumber="18625" dnumber="18627" rtype="related" dir="bidirectional">
+	<node number="2586" owner="default" snumber="2516" dnumber="2509" rtype="related" dir="bidirectional">
 	</node>
 
-	<node number="18640" owner="admin" snumber="545" dnumber="13373" rtype="related" dir="bidirectional">
+	<node number="2587" owner="default" snumber="2516" dnumber="2508" rtype="related" dir="bidirectional">
 	</node>
 
-	<node number="18667" owner="admin" snumber="574" dnumber="13373" rtype="related" dir="bidirectional">
+	<node number="2588" owner="default" snumber="2516" dnumber="2507" rtype="related" dir="bidirectional">
 	</node>
 
-	<node number="18675" owner="admin" snumber="537" dnumber="13373" rtype="related" dir="bidirectional">
+	<node number="2589" owner="default" snumber="2516" dnumber="2584" rtype="related" dir="bidirectional">
 	</node>
 
-	<node number="19648" owner="default" snumber="19638" dnumber="13373" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="19686" owner="default" snumber="570" dnumber="19685" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="19711" owner="default" snumber="516" dnumber="19685" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="20024" owner="default" snumber="521" dnumber="13373" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="20065" owner="default" snumber="519" dnumber="13373" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="20067" owner="default" snumber="19662" dnumber="13373" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="20074" owner="default" snumber="19507" dnumber="13373" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="21047" owner="default" snumber="20141" dnumber="13373" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="21048" owner="default" snumber="20137" dnumber="13373" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="21049" owner="default" snumber="20131" dnumber="13373" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="21065" owner="default" snumber="19503" dnumber="13373" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="21334" owner="default" snumber="21335" dnumber="13339" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="21336" owner="default" snumber="21337" dnumber="13339" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="21338" owner="default" snumber="21339" dnumber="19685" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="21340" owner="default" snumber="21341" dnumber="13257" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="21352" owner="default" snumber="18884" dnumber="13373" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="21403" owner="default" snumber="21405" dnumber="13373" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="21418" owner="default" snumber="21063" dnumber="21059" rtype="readmore" dir="bidirectional">
-	</node>
-
-	<node number="21429" owner="default" snumber="21059" dnumber="13373" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="21437" owner="default" snumber="21431" dnumber="13373" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="21460" owner="default" snumber="21461" dnumber="13373" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="21462" owner="default" snumber="21063" dnumber="21461" rtype="readmore" dir="bidirectional">
-	</node>
-
-	<node number="21478" owner="default" snumber="21479" dnumber="13257" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="21568" owner="default" snumber="21063" dnumber="21405" rtype="readmore" dir="bidirectional">
-	</node>
-
-	<node number="21626" owner="default" snumber="21625" dnumber="13373" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="21652" owner="default" snumber="21649" dnumber="13373" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="21787" owner="default" snumber="21788" dnumber="13373" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="21860" owner="default" snumber="21857" dnumber="13373" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="22044" owner="default" snumber="19757" dnumber="21857" rtype="readmore" dir="bidirectional">
-	</node>
-
-	<node number="22045" owner="default" snumber="19757" dnumber="21625" rtype="readmore" dir="bidirectional">
-	</node>
-
-	<node number="22046" owner="default" snumber="19757" dnumber="21431" rtype="readmore" dir="bidirectional">
-	</node>
-
-	<node number="25014" owner="default" snumber="25011" dnumber="25013" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="25018" owner="default" snumber="25017" dnumber="25011" rtype="readmore" dir="bidirectional">
-	</node>
-
-	<node number="25164" owner="default" snumber="25163" dnumber="25013" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="25166" owner="default" snumber="25165" dnumber="25163" rtype="readmore" dir="bidirectional">
-	</node>
-
-	<node number="25185" owner="default" snumber="25177" dnumber="13373" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="25200" owner="default" snumber="25171" dnumber="13373" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="25202" owner="default" snumber="25168" dnumber="13373" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="25206" owner="default" snumber="25176" dnumber="13373" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="25458" owner="default" snumber="23538" dnumber="25457" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="26252" owner="default" snumber="26254" dnumber="13373" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="26258" owner="default" snumber="25175" dnumber="13373" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="27073" owner="default" snumber="27076" dnumber="13373" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="27081" owner="default" snumber="27082" dnumber="13373" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="27225" owner="default" snumber="27226" dnumber="13373" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="27374" owner="default" snumber="582" dnumber="13373" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="27501" owner="default" snumber="27502" dnumber="13373" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="38407" owner="default" snumber="193" dnumber="38406" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="39054" owner="admin" snumber="191" dnumber="38406" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="39187" owner="default" snumber="166" dnumber="38406" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="41150" owner="default" snumber="41151" dnumber="13373" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="41177" owner="default" snumber="25980" dnumber="41176" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="41856" owner="default" snumber="41855" dnumber="13339" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="41858" owner="default" snumber="41857" dnumber="13339" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="46177" owner="default" snumber="46178" dnumber="13339" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="47017" owner="admin" snumber="47013" dnumber="47016" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="47451" owner="default" snumber="47447" dnumber="13373" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="47452" owner="default" snumber="27492" dnumber="13373" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="47457" owner="default" snumber="47459" dnumber="13373" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="47463" owner="default" snumber="571" dnumber="13373" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="47475" owner="default" snumber="19473" dnumber="13373" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="47479" owner="default" snumber="47478" dnumber="13373" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="47512" owner="default" snumber="47509" dnumber="13373" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="48450" owner="default" snumber="177" dnumber="42552" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="49872" owner="default" snumber="25888" dnumber="49871" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="50542" owner="default" snumber="50534" dnumber="25013" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="50544" owner="default" snumber="50543" dnumber="50534" rtype="readmore" dir="bidirectional">
-	</node>
-
-	<node number="51807" owner="default" snumber="546" dnumber="13260" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="51808" owner="default" snumber="50538" dnumber="13373" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="51935" owner="default" snumber="51936" dnumber="13373" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="52515" owner="default" snumber="547" dnumber="13339" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="52519" owner="default" snumber="549" dnumber="13373" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="52521" owner="default" snumber="548" dnumber="49871" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="52524" owner="default" snumber="17427" dnumber="13339" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="52531" owner="default" snumber="17432" dnumber="13339" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="52532" owner="default" snumber="17438" dnumber="13339" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="52533" owner="default" snumber="21316" dnumber="13339" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="52534" owner="default" snumber="40749" dnumber="13339" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="52541" owner="default" snumber="52537" dnumber="13339" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="52546" owner="default" snumber="52544" dnumber="13339" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="52620" owner="default" snumber="52612" dnumber="13339" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="53134" owner="default" snumber="48685" dnumber="53133" rtype="related" dir="bidirectional">
-	</node>
-
-	<node number="53772" owner="default" snumber="560" dnumber="13373" rtype="related" dir="bidirectional">
+	<node number="2591" owner="default" snumber="2516" dnumber="2590" rtype="related" dir="bidirectional">
 	</node>
 
 </insrel>
