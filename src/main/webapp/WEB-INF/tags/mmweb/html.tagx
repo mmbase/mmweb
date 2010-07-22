@@ -119,13 +119,31 @@
               
               <div id="footer">
                 <div id="footer-inner">
-                  <ul>
+
+                  <mm:node number="pool_mmbase">
+                    <mm:relatednodescontainer type="pages" role="posrel" searchdirs="destination">
+                      <mm:constraint field="posrel.pos" value="11" value2="100" operator="BETWEEN" />
+                      <mm:sortorder field="posrel.pos" direction="UP" />
+                      <ul>
+                        <li><a href="${mm:link('')}">Home</a></li>
+                        <mm:relatednodes>
+                          <li>
+                            <mm:link page="page" referids="_node@n">
+                              <mm:frameworkparam name="component">mmsite</mm:frameworkparam>
+                              <a href="${_}"><mm:field name="title" /></a>
+                            </mm:link>
+                          </li>
+                        </mm:relatednodes>
+                      </ul>
+                    </mm:relatednodescontainer>
+                  </mm:node>
+                  <!-- <ul>
                     <li><a href="${mm:link('')}">Home</a></li>
                     <li><a href="sitemap.html">Sitemap</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Docs</a></li>
                     <li><a href="#">Bugs</a></li>
-                  </ul>
+                  </ul> -->
                   <p>This website is made and maintained by the MMBase community. Send comments to webmaster@mmbase.org.</p>
                 </div>
               </div><!-- /#footer -->
