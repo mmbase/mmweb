@@ -372,6 +372,8 @@ div.images
 	font-size: 0.9em;
 	font-style: italic;
 	text-align: right;
+	clear: both;
+	margin: 6px;
 }
 
 div.images > img,
