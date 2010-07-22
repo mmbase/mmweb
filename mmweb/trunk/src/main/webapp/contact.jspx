@@ -17,15 +17,17 @@
         <div>
           <h2>Contact</h2>
 
-          <p>Contact          </p>
+          <p>Contact form should come here..</p>
 
         </div>
       </div>
     
       <div id="sidebar">
         <div>
-          <h4>Sidebar</h4>
-
+          <h4>Address etc.</h4>
+          <p>
+            E-mail addresses, other contact information.
+          </p>
 
         </div>
       </div>
