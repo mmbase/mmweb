@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<!DOCTYPE list PUBLIC "-//MMBase/DTD editwizard 1.0//EN" "http://www.mmbase.org/dtd/wizard-schema_1_0.dtd">
+<list role="posrel" destination="category"
+		minoccurs="0" maxoccurs="*"
+		orderby="field[@name='pos']"
+		ordertype="number">
+
+	<title>Categorien</title>
+	<item>
+		<title>Related category</title>
+		<description></description>
+		<field fdatapath="field[@name=&apos;pos&apos;]" ftype="line"><prompt>Positie</prompt></field>
+		<field name="title" ftype="data">
+			<prompt>Titel</prompt>
+		</field>
+		<field ftype="startwizard" wizardname="wizards/category/category" inline="true" >
+			<prompt>Bekijk categorie</prompt>
+		</field>
+	 </item>
+		
+	<action type="create">
+		<relation role="posrel">
+			<object type="category" />
+		</relation>
+	</action>
+	
+	
+	<command name="search" nodepath="category" fields="title,description" orderby="title" age="-1">
+    	<prompt></prompt>
+		<search-filter>
+			<name>Titel bevat</name>
+			<search-fields>title</search-fields>
+		</search-filter>
+		<search-filter>
+			<name>Omschrijving bevat</name>
+			<search-fields>description</search-fields>
+		</search-filter>
+	</command>
+      
+</list>	
+

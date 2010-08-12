@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE list PUBLIC "-//MMBase/DTD editwizard 1.0//EN" "http://www.mmbase.org/dtd/wizard-schema_1_0.dtd">
+<list role="related" destination="groups"
+		minoccurs="0" maxoccurs="*">
+	<title>Groups</title>
+	<item>
+		<title></title>
+		<field name="name" ftype="data"><prompt>Name</prompt></field>
+	</item>
+	<command name="search" nodepath="groups" fields="name" orderby="name" age="-1">
+		<search-filter>
+			<name>Name</name>
+			<search-fields>name</search-fields>
+		</search-filter>
+	</command> 
+	<action type="create">
+		<relation role="related">
+			<object type="groups" />
+		</relation>
+	</action>
+</list>		

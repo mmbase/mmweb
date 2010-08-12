@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!DOCTYPE optionlist PUBLIC "-//MMBase/DTD editwizard 1.0//EN" "http://www.mmbase.org/dtd/wizard-schema_1_0.dtd">
+<optionlist name="layout_questions">
+	<option id="1">new line &amp; small size</option>
+	<option id="2">new line &amp; medium size</option>
+	<option id="3">new line &amp; large size</option>
+	<option id="4">same line &amp; small size</option>
+	<option id="5">same line &amp; medium size</option>
+	<option id="6">same line &amp; large size</option>
+</optionlist>

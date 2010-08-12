@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<!DOCTYPE list PUBLIC "-//MMBase/DTD editwizard 1.0//EN" "http://www.mmbase.org/dtd/wizard-schema_1_0.dtd">
+<list role="posrel" destination="answers"
+		minoccurs="0" maxoccurs="*"
+		orderby="field[@name='pos']"
+		ordertype="number">
+	<title xml:lang="nl">Antwoorden</title>
+	<title xml:lang="en">Answers</title>
+	<item>
+		<title></title>
+		<field fdatapath="field[@name=&apos;pos&apos;]" ftype="line">
+			<prompt xml:lang="nl">Positie</prompt>
+			<prompt xml:lang="en">Position</prompt>
+		</field>
+		<field name="answer" ftype="line">
+			<prompt xml:lang="nl">Antwoord</prompt>
+			<prompt xml:lang="en">Answer</prompt>
+		</field>
+		<field name="layout" ftype="enum">
+			<prompt xml:lang="nl">Layout van het antwoord</prompt>
+			<prompt xml:lang="en">Layout of the answer</prompt>
+			<optionlist select="layout_answers"></optionlist>
+		</field>
+		
+	</item>
+	<command name="search" nodepath="answers" fields="answer" orderby="number" directions="down" age="-1">
+		<prompt></prompt>
+		<search-filter>
+			<name xml:lang="nl">Antwoord bevat</name>
+			<name xml:lang="en">Answer contains</name>
+			<search-fields>Answer</search-fields>
+		</search-filter>
+	</command>
+	<command name="insert" />
+	<action type="create">
+		<relation role="posrel">
+			<object type="answers">
+				<field name="layout">1</field>
+			</object>
+			<field name="pos">{sum(//relation[@role=&apos;posrel&apos; and @lastitem=&apos;true&apos;]/field[@name=&apos;pos&apos;])+{$pos}}</field>
+		</relation>
+	</action>
+</list>		

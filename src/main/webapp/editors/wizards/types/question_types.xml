@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!DOCTYPE optionlist PUBLIC "-//MMBase/DTD editwizard 1.0//EN" "http://www.mmbase.org/dtd/wizard-schema_1_0.dtd">
+<optionlist name="question_types">
+	<option id="1">textarea</option>
+	<option id="2">textline</option>
+	<option id="3">dropdown (only one choice possible)</option>
+	<option id="4">radio buttons (only one choice possible)</option>
+	<option id="5">check boxes (more than one choice possible)</option>
+	<option id="6">date</option>
+</optionlist>
