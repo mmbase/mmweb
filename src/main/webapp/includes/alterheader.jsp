@@ -19,6 +19,9 @@
 
 <script type="text/javascript" language="javascript" src="<mm:url page="/scripts/mmbase.js" />"><!-- MSIE needs this --></script>
 <script type="text/javascript" language="javascript" src="<mm:url page="/scripts/navi.js" />"><!-- MSIE needs this --></script>
+<script src="<mm:url page="/scripts/jquery-1.3.2.min.js" />" type="text/javascript"><!-- MSIE needs this --></script>
+<script src="<mm:url page="/scripts/twitter.js" />" type="text/javascript"><!-- MSIE needs this --></script>
+
 </head>
 <body>
 <%@ include file="nav.jsp" %>
