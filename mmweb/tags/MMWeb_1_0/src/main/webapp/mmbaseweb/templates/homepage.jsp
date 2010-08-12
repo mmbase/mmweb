@@ -1,6 +1,7 @@
 <%@ taglib uri="http://www.mmbase.org/mmbase-taglib-2.0" prefix="mm" 
 %><%@ taglib uri="http://www.opensymphony.com/oscache" prefix="cache" 
 %><%@ taglib uri="http://java.sun.com/jsp/jstl/xml" prefix="x" 
+%><%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" 
 %><%@ page language="java" contentType="text/html; charset=utf-8" session="false"
 %><mm:cloud><%@ include file="/includes/getids.jsp" 
 %><%@ include file="/includes/alterheader.jsp"
@@ -172,130 +173,133 @@
 	<mm:link page="http://www.mmbase.org/jira/secure/IssueNavigator.jspa?reset=true&mode=hide&pid=10000&created:previous=-1w&sorter/field=created&sorter/order=DESC">
 	  <a href="${_}">
 	</mm:link>
-	<%-- cache:cache key="jira.feed.rss">
-	  <c:catch var="ex1" --%>
-        <mm:formatter escape="none">
-          <mm:include cite="true" page="http://www.mmbase.org/jira/secure/IssueNavigator.jspa">
-            <mm:param name="view">rss</mm:param>
-            <mm:param name="pid">10000</mm:param>
-            <mm:param name="created:previous">-1w</mm:param>
-            <mm:param name="sorter/field">created</mm:param>
-            <mm:param name="sorter/order">DESC</mm:param>
-            <mm:param name="tempMax">25</mm:param>
-            <mm:param name="reset">true</mm:param>
-            <mm:param name="decorator">none</mm:param>
-          </mm:include>
-          <mm:xslt>
-            <xsl:template match="channel">
-              <xsl:value-of select="count(//item)" />
-            </xsl:template>
-          </mm:xslt>
-        </mm:formatter> new issues</a><br />
-        <mm:link page="http://www.mmbase.org/jira/secure/IssueNavigator.jspa?reset=true&mode=hide&pid=10000&status=5&status=6&updated:previous=-1w&sorter/field=updated&sorter/order=DESC">
-          <a href="${_}">
-        </mm:link>
-        <mm:formatter escape="none">
-          <mm:include cite="true" page="http://www.mmbase.org/jira/secure/IssueNavigator.jspa">
-            <mm:param name="view">rss</mm:param>
-            <mm:param name="pid">10000</mm:param>
-            <mm:param name="status">5</mm:param>
-            <mm:param name="status">6</mm:param>
-            <mm:param name="updated:previous">-1w</mm:param>
-            <mm:param name="sorter/field">updated</mm:param>
-            <mm:param name="sorter/order">DESC</mm:param>
-            <mm:param name="tempMax">25</mm:param>
-            <mm:param name="reset">true</mm:param>
-            <mm:param name="decorator">none</mm:param>
-          </mm:include>
-          <mm:xslt>
-            <xsl:template match="channel">
-              <xsl:value-of select="count(//item)" />
-            </xsl:template>
-          </mm:xslt>
-        </mm:formatter> issues solved</a>.<br />
-        <a href="http://www.mmbase.org/jira">Go to bugtracker &raquo;&raquo;</a></p>
-    
-        <mm:node number="portal_developers"><mm:field name="number"><mm:compare value="$portal">
-        <p>Recently updated:</p>
-        <mm:formatter escape="none">
-          <mm:include cite="true" page="http://www.mmbase.org/jira/secure/IssueNavigator.jspa">
-            <mm:param name="view">rss</mm:param>
-            <mm:param name="pid">10000</mm:param>
-            <mm:param name="update:previous">-1w</mm:param>
-            <mm:param name="sorter/field">updated</mm:param>
-            <mm:param name="sorter/order">DESC</mm:param>
-            <mm:param name="tempMax">5</mm:param>
-            <mm:param name="decorator">none</mm:param>
-            <mm:param name="reset">true</mm:param>
-          </mm:include>
-          <mm:xslt>
-            <xsl:template match="channel">
-              <ul class="none">
-            <xsl:for-each select="item">
-              <xsl:if test="position() &lt; 6">
-                <li>
-                  <a href="{link}"><xsl:value-of select="title" /> (<xsl:value-of select="component" />)</a>
-                </li>
-              </xsl:if>
-            </xsl:for-each>
-              </ul>
-            </xsl:template>
-          </mm:xslt>
-        </mm:formatter>
-        </mm:compare></mm:field></mm:node>
-<%--      </c:catch>
-      <c:if test="${!empty ex1}">
-        <cache:usecached />
-      </c:if>
-	</cache:cache> --%>
-<%-- ### /search, agenda, dev mail ? ### --%>
-
-  <h4><a title="Follow us on Twitter" href="http://twitter.com/mmbase">Twitter</a></h4>
-  
-  <ul class="none">
-  
-  <cache:cache time="600">
-    <mm:formatter escape="none">
-      <mm:include page="http://twitter.com/statuses/user_timeline/mmbase.xml?callback=twitterCallback2&count=3" cite="true" />
-      <mm:xslt>
-    
-        <xsl:template match="statuses">
-          <xsl:for-each select="status">
-            <li class="tweet">
-              <xsl:value-of select="text" /> -
-              <em><xsl:value-of select="created_at" /></em>
-            </li>
-          </xsl:for-each>
-        </xsl:template>
-    
-      </mm:xslt>
-    </mm:formatter>
-  </cache:cache>
-  </ul>
-
-</td>
-</tr>
-</table>
-</div>
-
-<%-- logo's @ pagebottom --%>
-<mm:related path="posrel,organisation,posrel,images" searchdir="destination"
-    fields="posrel.pos,organisation.number,organisation.name"
-	orderby="organisation.name" directions="UP">
+	<cache:cache key="jira.feed.rss">
+	  <c:catch var="ex1">
+	    <mm:formatter escape="none">
+	      <mm:include cite="true" page="http://www.mmbase.org/jira/secure/IssueNavigator.jspa">
+		<mm:param name="view">rss</mm:param>
+		<mm:param name="pid">10000</mm:param>
+		<mm:param name="created:previous">-1w</mm:param>
+		<mm:param name="sorter/field">created</mm:param>
+		<mm:param name="sorter/order">DESC</mm:param>
+		<mm:param name="tempMax">25</mm:param>
+		<mm:param name="reset">true</mm:param>
+		<mm:param name="decorator">none</mm:param>
+	      </mm:include>
+	      <mm:xslt>
+		<xsl:template match="channel">
+		  <xsl:value-of select="count(//item)" />
+		</xsl:template>
+	      </mm:xslt>
+	      </mm:formatter> new issues</a><br />
+	      <mm:link page="http://www.mmbase.org/jira/secure/IssueNavigator.jspa?reset=true&mode=hide&pid=10000&status=5&status=6&updated:previous=-1w&sorter/field=updated&sorter/order=DESC">
+		<a href="${_}">
+		</mm:link>
+		<mm:formatter escape="none">
+		  <mm:include cite="true" page="http://www.mmbase.org/jira/secure/IssueNavigator.jspa">
+		    <mm:param name="view">rss</mm:param>
+		    <mm:param name="pid">10000</mm:param>
+		    <mm:param name="status">5</mm:param>
+		    <mm:param name="status">6</mm:param>
+		    <mm:param name="updated:previous">-1w</mm:param>
+		    <mm:param name="sorter/field">updated</mm:param>
+		    <mm:param name="sorter/order">DESC</mm:param>
+		    <mm:param name="tempMax">25</mm:param>
+		    <mm:param name="reset">true</mm:param>
+		    <mm:param name="decorator">none</mm:param>
+		  </mm:include>
+		  <mm:xslt>
+		    <xsl:template match="channel">
+		      <xsl:value-of select="count(//item)" />
+		    </xsl:template>
+		  </mm:xslt>
+		  </mm:formatter> issues solved</a>.<br />
+		  <a href="http://www.mmbase.org/jira">Go to bugtracker &raquo;&raquo;</a></p>
+		  
+		  <mm:node number="portal_developers"><mm:field name="number"><mm:compare value="$portal">
+		    <p>Recently updated:</p>
+		    <mm:formatter escape="none">
+		      <mm:include cite="true" page="http://www.mmbase.org/jira/secure/IssueNavigator.jspa">
+			<mm:param name="view">rss</mm:param>
+			<mm:param name="pid">10000</mm:param>
+			<mm:param name="update:previous">-1w</mm:param>
+			<mm:param name="sorter/field">updated</mm:param>
+			<mm:param name="sorter/order">DESC</mm:param>
+			<mm:param name="tempMax">5</mm:param>
+			<mm:param name="decorator">none</mm:param>
+			<mm:param name="reset">true</mm:param>
+		      </mm:include>
+		      <mm:xslt>
+			<xsl:template match="channel">
+			  <ul class="none">
+			    <xsl:for-each select="item">
+			      <xsl:if test="position() &lt; 6">
+				<li>
+				  <a href="{link}"><xsl:value-of select="title" /> (<xsl:value-of select="component" />)</a>
+				</li>
+			      </xsl:if>
+			    </xsl:for-each>
+			  </ul>
+			</xsl:template>
+		      </mm:xslt>
+		    </mm:formatter>
+		  </mm:compare>
+		</mm:field>
+		  </mm:node>
+		  -      
+		</c:catch>
+		<c:if test="${!empty ex1}">
+		  <cache:usecached />
+		</c:if>
+	      </cache:cache>
+	      <%-- ### /search, agenda, dev mail ? ### --%>
+	      
+	      <h4><a title="Follow us on Twitter" href="http://twitter.com/mmbase">Twitter</a></h4>
+	      
+	      <ul class="none">
+		
+		<cache:cache time="600">
+		  <mm:formatter escape="none">
+		    <mm:include page="http://twitter.com/statuses/user_timeline/mmbase.xml?callback=twitterCallback2&count=3" cite="true" />
+		    <mm:xslt>
+		      
+		      <xsl:template match="statuses">
+			<xsl:for-each select="status">
+			  <li class="tweet">
+			    <xsl:value-of select="text" /> -
+			    <em><xsl:value-of select="created_at" /></em>
+			  </li>
+			</xsl:for-each>
+		      </xsl:template>
+		      
+		    </mm:xslt>
+		  </mm:formatter>
+		</cache:cache>
+	      </ul>
+	      
+	    </td>
+	  </tr>
+	</table>
+      </div>
+      
+      <%-- logo's @ pagebottom --%>
+      <mm:related path="posrel,organisation,posrel,images" searchdir="destination"
+		  fields="posrel.pos,organisation.number,organisation.name"
+		  orderby="organisation.name" directions="UP">
 	<mm:remove referid="org_name" /><mm:remove referid="org" />
 	<mm:field name="organisation.name" id="org_name" write="false" />
 	<mm:field name="organisation.number" id="org" write="false" />
 	<mm:node element="images">
 	  <mm:first><div class="sponsorlogos"></mm:first>
 	  <a title="More about <mm:write referid="org_name" />" href="<mm:url referids="org"
-		  ><mm:param name="portal">foundation</mm:param
+	  ><mm:param name="portal">foundation</mm:param
 		  ><mm:param name="page">organisations</mm:param></mm:url>"><img src="<mm:image template="s(60x35)" />" 
-			  border="0" hspace="4" vspace="4" alt="<mm:write referid="org_name" />" /></a>
+	  border="0" hspace="4" vspace="4" alt="<mm:write referid="org_name" />" /></a>
 	  <mm:last></div></mm:last>
 	</mm:node>
-</mm:related>
-</mm:node>
-</mm:notpresent>
+      </mm:related>
+    </mm:node>
+  </mm:notpresent>
 
 <%@ include file="/includes/alterfooter.jsp"%>
 </mm:cloud>
