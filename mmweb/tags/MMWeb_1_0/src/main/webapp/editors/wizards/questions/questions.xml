@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE wizard-schema PUBLIC "-//MMBase/DTD editwizard 1.0//EN" "http://www.mmbase.org/dtd/wizard-schema_1_0.dtd">
+<wizard-schema id="empty">
+	
+	<title xml:lang="nl">Vragen</title>
+	<title xml:lang="en">Questions</title>
+	
+	<action include="wizards/questions/create_questions.xml" />
+    <action include="wizards/questions/delete_questions.xml" />
+	<action include="wizards/questions/load_questions.xml" />
+	<lists>
+		<optionlist include="wizards/types/boolean.xml" /> 
+		<optionlist include="wizards/types/question_types.xml" /> 
+		<optionlist include="wizards/types/layout_questions.xml" /> 
+		<optionlist include="wizards/types/layout_answers.xml" /> 
+	</lists>
+	<steps>
+		<step form-schema="edit_questions" />
+	</steps>
+	<form-schema id="edit_questions" extends="wizards/questions/edit_questions.xml" />
+</wizard-schema>

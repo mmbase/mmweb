@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<!DOCTYPE list PUBLIC "-//MMBase/DTD editwizard 1.0//EN" "http://www.mmbase.org/dtd/wizard-schema_1_0.dtd">
+<list role="posrel" destination="questions"
+		minoccurs="0" maxoccurs="*"
+		orderby="field[@name='pos']"
+		ordertype="number">
+	<title xml:lang="nl">Vragen (gebruikt in formulieren)</title>
+	<title xml:lang="en">Questions (used in forms)</title>
+	<item>
+		<title></title>
+		<field fdatapath="field[@name=&apos;pos&apos;]" ftype="line">
+			<prompt xml:lang="nl">Positie</prompt>
+			<prompt xml:lang="en">Position</prompt>
+		</field>
+		
+		<field name="title" ftype="line" >
+			<prompt xml:lang="nl">Vraag</prompt>
+			<prompt xml:lang="en">Question</prompt>
+		</field>
+		<field name="required" ftype="enum">
+			<prompt xml:lang="nl">Is deze vraag verplicht?</prompt>
+			<prompt xml:lang="en">Is this question mandatory?</prompt>
+			<optionlist select="boolean"></optionlist>
+		</field>
+		<field name="type" ftype="enum">
+			<prompt xml:lang="nl">Type van de vraag</prompt>
+			<prompt xml:lang="en">Type of the question</prompt>
+			<optionlist select="question_types"></optionlist>
+		</field>
+		<field name="layout" ftype="enum">
+			<prompt xml:lang="nl">Layout van de vraag(size heeft alleen invloed op textline en textarea)</prompt>
+			<prompt xml:lang="en">Layout of the question (size only affects textline and textarea)</prompt>
+			<optionlist select="layout_questions"></optionlist>
+		</field>
+		
+		<list include="wizards/answers/add_answers_posrel.xml" />
+	</item>
+	
+	
+	<command name="search" nodepath="questions" fields="title" orderby="title" age="-1">
+		<prompt></prompt>
+		<search-filter>
+			<name xml:lang="nl">Titel bevat</name>
+			<name xml:lang="en">Title contains</name>
+			<search-fields>title</search-fields>
+		</search-filter>
+	</command>
+	<command name="startwizard" inline="true" wizardname="wizards/questions/questions" objectnumber="new"/>
+	<action type="create">
+		<relation role="posrel">
+			<object type="questions">
+				<field name="required">0</field>
+				<field name="layout">3</field>
+			</object>
+			<field name="pos">{sum(//relation[@role=&apos;posrel&apos; and @lastitem=&apos;true&apos;]/field[@name=&apos;pos&apos;])+{$pos}}</field>
+		</relation>
+	</action>
+</list>		

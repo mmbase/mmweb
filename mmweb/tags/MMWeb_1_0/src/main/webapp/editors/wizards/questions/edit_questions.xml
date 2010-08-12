@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!DOCTYPE form-schema PUBLIC "-//MMBase/DTD editwizard 1.0//EN" "http://www.mmbase.org/dtd/wizard-schema_1_0.dtd">
+<form-schema id="edit_questions">
+	<title xml:lang="nl">Pas deze vraag aan</title>
+	<title xml:lang="en">Edit this question</title>
+	
+	<field name="title">
+		<prompt xml:lang="nl">Vraag</prompt>
+		<prompt xml:lang="en">Question</prompt>
+	</field>
+	<field name="required" ftype="enum">
+		<prompt xml:lang="nl">Is deze vraag verplicht?</prompt>
+		<prompt xml:lang="en">Is this question mandatory?</prompt>
+		<optionlist select="boolean"></optionlist>
+	</field>
+	<field name="type" ftype="enum">
+			<prompt xml:lang="nl">Type van de vraag</prompt>
+			<prompt xml:lang="en">Type of the question</prompt>
+			<optionlist select="question_types"></optionlist>
+	</field>
+	<field name="layout" ftype="enum">
+			<prompt xml:lang="nl">Layout van de vraag (size heeft alleen invloed op textline en textarea)</prompt>
+			<prompt xml:lang="en">Layout of the question (size only affects textline and textarea)</prompt>
+			<optionlist select="layout_questions"></optionlist>
+	</field>
+	<list include="wizards/answers/add_answers_posrel.xml" />
+</form-schema>
+

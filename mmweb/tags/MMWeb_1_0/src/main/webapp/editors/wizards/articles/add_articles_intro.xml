@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!DOCTYPE list PUBLIC "-//MMBase/DTD editwizard 1.0//EN" "http://www.mmbase.org/dtd/wizard-schema_1_0.dtd">
+<list role="intro" destination="articles"
+	minoccurs="0" maxoccurs="1">
+
+	<title xml:lang="nl">Introductie</title>
+	<title xml:lang="en">Introduction</title>
+	<item>
+		<title></title>
+		<description>artikelen</description>
+		<field name="title" ftype="data">
+			<prompt xml:lang="nl">Titel</prompt>
+			<prompt xml:lang="en">Title</prompt>
+		</field>
+		<field fdatapath="." ftype="startwizard" inline="true" objectnumber="{object/@number}" wizardname="wizards/articles/articles">
+			<prompt></prompt>
+		</field>
+<!--		<field name="displaydate">
+			<prompt xml:lang="nl">Verschijningsdatum</prompt>
+			<prompt xml:lang="en">Display date</prompt>
+		</field>
+		<field name="expiredate">
+			<prompt xml:lang="nl">Verwijderdatum</prompt>
+			<prompt xml:lang="en">Remove date</prompt>
+		</field>
+-->	</item>
+		
+	<action type="create">
+		<relation role="intro">
+			<object type="articles">
+				<field name="expiredate">1735686000</field>
+				<field name="type">0</field>
+			</object>
+		</relation>
+	</action>
+	
+	<command name="search" nodepath="articles" fields="title" orderby="title" age="-1">
+    	<prompt></prompt>
+		<search-filter>
+			<name xml:lang="nl">Titel bevat</name>
+			<name xml:lang="en">Title contains</name>
+			<search-fields>title</search-fields>
+		</search-filter>
+	</command>
+	<command name="startwizard" inline="true" wizardname="wizards/articles/articles" objectnumber="new"/>
+      
+</list>	
+

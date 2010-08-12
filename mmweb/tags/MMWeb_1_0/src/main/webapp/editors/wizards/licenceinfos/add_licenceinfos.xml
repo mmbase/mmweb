@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE list PUBLIC "-//MMBase/DTD editwizard 1.0//EN" "http://www.mmbase.org/dtd/wizard-schema_1_0.dtd">
+<list role="related" destination="licenceinfos" minoccurs="1" maxoccurs="*">
+	<title>Licenceinfos</title>
+	<item>
+		<title>Licence</title>
+		<description></description>
+		<field name="name" ftype="data">
+		  <prompt>Name</prompt>
+		</field>
+		<field name="type" ftype="data">
+		  <prompt>Type</prompt>
+		</field>
+	</item>
+	<command name="search" nodepath="licenceinfos" fields="name,type" age="-1">
+		<prompt></prompt>
+		<search-filter>
+			<name>Name contains</name>
+			<search-fields>name</search-fields>
+		</search-filter>
+		<search-filter>
+			<name>Type contains</name>
+			<search-fields>type</search-fields>
+		</search-filter>
+	</command>
+	<command name="startwizard" inline="true" wizardname="wizards/licenceinfos/licenceinfos" objectnumber="new" />
+	<action type="create">
+		<relation role="related" destinationtype="licenceinfos" />
+	</action>
+</list>

@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!DOCTYPE list PUBLIC "-//MMBase/DTD editwizard 1.0//EN" "http://www.mmbase.org/dtd/wizard-schema_1_0.dtd">
+<list role="posrel" destination="project"
+		minoccurs="0" maxoccurs="*"
+		orderby="title"
+		ordertype="string"
+		hidecommand="move-up|move-down">
+
+	<title>Projects</title>
+	<item>
+		<title>Projects</title>
+		<description></description>
+		<field name="title" ftype="data">
+			<prompt>Name</prompt>
+		</field>
+	</item>
+		
+	<action type="create">
+		<relation role="posrel">
+			<object type="project" />
+		</relation>
+	</action>
+	
+	<command name="insert" />
+
+	<command name="search" nodepath="project" fields="title" orderby="title" age="-1">
+    	<prompt></prompt>
+		<search-filter>
+			<name>Name</name>
+			<search-fields>title</search-fields>
+		</search-filter>
+	</command>
+</list>	
+

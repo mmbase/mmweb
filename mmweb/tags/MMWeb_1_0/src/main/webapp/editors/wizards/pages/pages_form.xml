@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!DOCTYPE wizard-schema PUBLIC "-//MMBase/DTD editwizard 1.0//EN" "http://www.mmbase.org/dtd/wizard-schema_1_0.dtd">
+<wizard-schema id="edit-page">
+	<title xml:lang="nl">Email Form Paginas</title>
+	<title xml:lang="en">Email Form Pages</title>
+	<task-description>Use this wizard to edit a page.</task-description>
+	
+	 <action type="create">
+			<object type="pages">
+				<relation destination="form_template" role="related"/>
+			</object> 
+	 </action>
+	
+	<action include="wizards/pages/delete_pages.xml" />
+
+	<action type="load" extends="wizards/pages/load_pages.xml">
+		<relation destination="articles" role="intro" />
+  		<relation destination="pools" role="posrel" />
+	</action>
+	
+	<lists>
+		<optionlist include="wizards/types/boolean_text.xml" />
+		<optionlist include="wizards/types/boolean.xml" />
+	</lists>
+
+	<steps>
+		<step form-schema="edit_page" />
+	</steps>
+	
+	<form-schema id="edit_page">
+		<field name="title" dtminlength="1" dtmaxlength="100">
+			<prompt xml:lang="nl">Naam</prompt>
+			<prompt xml:lang="en">Title</prompt>
+			<description></description>
+		</field>
+		<field name="menuname" dtmaxlength="1024">
+			<prompt xml:lang="nl">Email adres die formulieren ontvangt (adressen worden gescheiden met puntkommas)</prompt>
+			<prompt xml:lang="en">Email address that receives the forms (addresses are seperated by semicolons)</prompt>
+			<description></description>
+		</field>
+	
+		<list include="wizards/templates/add_templates.xml" />
+		<list include="wizards/articles/add_articles_intro.xml" />
+		<list include="wizards/pools/add_pools_posrel.xml" />
+		<list include="wizards/articles/add_articles_posrel_form.xml" />
+	</form-schema>
+
+</wizard-schema>
