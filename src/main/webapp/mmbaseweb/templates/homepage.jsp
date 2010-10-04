@@ -259,21 +259,26 @@
 	      <ul class="none">
 		
 		<cache:cache time="600">
-		  <mm:formatter escape="none">
-		    <mm:include page="http://twitter.com/statuses/user_timeline/mmbase.xml?callback=twitterCallback2&count=3" cite="true" />
-		    <mm:xslt>
-		      
-		      <xsl:template match="statuses">
-			<xsl:for-each select="status">
-			  <li class="tweet">
-			    <xsl:value-of select="text" /> -
-			    <em><xsl:value-of select="created_at" /></em>
-			  </li>
-			</xsl:for-each>
-		      </xsl:template>
-		      
-		    </mm:xslt>
-		  </mm:formatter>
+		  <c:catch var="e">
+		    <mm:formatter escape="none">
+		      <mm:include page="http://twitter.com/statuses/user_timeline/mmbase.xml?callback=twitterCallback2&count=3" cite="true" />
+		      <mm:xslt>
+			
+			<xsl:template match="statuses">
+			  <xsl:for-each select="status">
+			    <li class="tweet">
+			      <xsl:value-of select="text" /> -
+			      <em><xsl:value-of select="created_at" /></em>
+			    </li>
+			  </xsl:for-each>
+			</xsl:template>
+			
+		      </mm:xslt>
+		    </mm:formatter>
+		  </c:catch>
+		  <c:if test="${!empty e}">
+		    <cache:usecached />
+		  </c:if>
 		</cache:cache>
 	      </ul>
 	      
