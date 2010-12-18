@@ -37,7 +37,13 @@
       <param name="ConversionPattern" value="%d{MM-dd HH:mm:ss} %m%n" />
     </layout>
   </appender>
-  
+  <appender name="errormailer" class="org.apache.log4j.net.SMTPAppender" >
+    <param name="To"   value="michiel" />
+    <param name="Theshold" value="SERVICE" />
+    <layout class="org.mmbase.util.logging.log4j.MMPatternLayout">
+      <param name="ConversionPattern" value="%N %d %q %c{4} %M.%L- %m%n" />
+    </layout>
+  </appender>
   
   <!-- categories -->
     <logger name="org.mmbase.security" >
@@ -51,12 +57,15 @@
     <appender-ref ref="pagedebug" />
   </logger>
 
-  <!-- SQL logging -->
-  <logger name="org.mmbase.module.database.MultiConnection" additivity="false">
-    <level class="&mmlevel;" value ="service" />   
+  <logger name="org.mmbase.QUERIES" additivity="false">
+    <level class="&mmlevel;" value ="service" />
     <appender-ref ref="sqllog" />
   </logger>
 
+  <logger name="org.mmbase.STACK.QUERIES" additivity="false">
+    <level class="&mmlevel;" value ="error" />
+    <appender-ref ref="sqllog" />
+  </logger>
   
   <!-- 
   STDERR is a special Category, to wich stderr will be written
@@ -72,6 +81,7 @@
   <root>
     <level class="&mmlevel;" value ="service" />
     <appender-ref ref="logfile" />
+    <appender-ref ref="errormailer" />
   </root>
 
 </log4j:configuration>
