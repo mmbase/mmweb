@@ -41,8 +41,9 @@
 	boolean memberOfGroup = true;		
 	if(!groupsId.equals("default")&&!organisationId.equals("default")) { 
 		memberOfGroup = false;
+                String cons = <"groups.number = '" + groupsId  + "'";
 		%><mm:list nodes="<%= persons_number %>" path="persons,groups"
-			constraints="<%= "groups.number = '" + groupsId  + "'" %>" max="1"
+			constraints="<%= cons" %>" max="1"
 				><% memberOfGroup = true;
 		%></mm:list><%
 	}
