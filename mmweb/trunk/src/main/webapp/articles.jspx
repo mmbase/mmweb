@@ -26,7 +26,7 @@
                 <h2><mm:field name="title" id="pagetitle" /></h2>
                 <mm:field name="subtitle"><mm:isnotempty><h3><mm:write /></h3></mm:isnotempty></mm:field>
                 <p class="intro">
-                  <mm:field name="online"><mm:isnotempty><mm:time format=":LONG" /></mm:isnotempty></mm:field>
+                  <mm:field name="online"><mm:isnotempty><mm:time format=":LONG" /><jsp:text> </jsp:text></mm:isnotempty></mm:field>
                   <mm:field name="intro"><mm:isnotempty><mm:write escape="links" /></mm:isnotempty></mm:field>
                 </p>
                 
