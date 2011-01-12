@@ -13,7 +13,7 @@
     <param-name>mmbase.taglib.eval_body_include</param-name>
     <param-value>true</param-value>
   </context-param>
-  
+
   <context-param>
     <param-name>mmbase.taglib.url.excludeForEncoding</param-name>
     <param-value>.*</param-value>
@@ -123,8 +123,6 @@
 
   <welcome-file-list>
     <welcome-file>index.jspx</welcome-file>
-    <welcome-file>index.jsp</welcome-file>
-    <welcome-file>default.jsp</welcome-file>
     <welcome-file>index.html</welcome-file>
   </welcome-file-list>
 

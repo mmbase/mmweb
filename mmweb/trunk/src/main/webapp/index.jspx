@@ -9,15 +9,15 @@
   <mmweb:html styleClass="home">
     <jsp:attribute name="title">Home</jsp:attribute>
     <jsp:attribute name="head">
-    
+
     </jsp:attribute>
     <jsp:attribute name="body">
       <mm:import id="page" externid="n">page_homepage</mm:import>
       <div id="submenu"><jsp:text> <!-- empty --> </jsp:text></div>
-      
+
       <div id="content">
         <div>
-        
+
           <mm:node referid="page" notfound="skip">
             <mm:relatednodescontainer type="articles" role="posrel" searchdirs="destination">
               <mm:maxnumber value="1" />
@@ -28,7 +28,7 @@
               </mm:relatednodes>
             </mm:relatednodescontainer>
           </mm:node>
-        
+
           <mm:link page="list">
             <mm:frameworkparam name="component">mynews</mm:frameworkparam>
             <h3 class="news"><a href="${_}">News</a></h3>
@@ -39,10 +39,9 @@
           </mm:component>
         </div>
       </div>
-    
+
       <div id="sidebar">
         <div>
-
           <h4>Links</h4>
           <mm:node referid="page" notfound="skip">
             <mm:relatednodescontainer type="urls" role="posrel" searchdirs="destination">
@@ -65,42 +64,17 @@
             <li><a href="#">Mailinglists</a></li>
           </ul>
 
-          <!-- mmbase tweets -->
-          <mm:content expires="120" escaper="none">
-            <div class="tweets">
-              <h4 class="twitter"><a href="http://twitter.com/mmbase">Follow us on twitter</a></h4>
-              <ul class="nolist">
-                <os:cache key="tweet.feed.mmbase" time="120">
-                  <c:catch var="ex1">
-                    <c:import var="url" url="http://twitter.com/statuses/user_timeline/mmbase.xml?callback=twitterCallback2&amp;count=2" />
-                    <x:parse var="doc" doc="${url}" />
-                    <x:forEach var="n" select="$doc/statuses/status">
-                      <li class="tweet">
-                        <c:set var="id"><x:out select="$n/id" /></c:set>
-                        <mm:import id="text" reset="true"><x:out select="$n/text" /></mm:import>
-                        ${mm:escape('links', text)}
-                        <em><a href="http://twitter.com/mmbase/statuses/${id}"><x:out select="$n/created_at" /></a></em>
-                      </li>
-                    </x:forEach>
-                  </c:catch>
-                  <c:if test="${! empty ex1}">
-                    <li class="tweet"><os:usecached /></li>
-                  </c:if>
-                </os:cache>
-              </ul>
-            </div>
-          </mm:content>
-
+          <mmweb:twitter />
           <mmweb:bugs />
-          
+
           <h4><a href="#latest">Latest sites in MMBase</a></h4>
           <ul class="nolist">
             <li><a href="#">Open Beelden</a></li>
           </ul>
-    
+
         </div>
       </div>
-  
+
     </jsp:attribute>
   </mmweb:html>
 </jsp:root>
