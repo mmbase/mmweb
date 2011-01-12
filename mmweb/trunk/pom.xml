@@ -12,7 +12,7 @@
   <description>The web-site www.mmbase.org</description>
 
   <properties>
-    <mmbase.version>1.9-SNAPSHOT</mmbase.version>
+    <mmbase.version>2.0-SNAPSHOT</mmbase.version>
     <jdbcUrl>jdbc:hsqldb:file:data/mmbase</jdbcUrl>
   </properties>
 
@@ -22,7 +22,7 @@
     <dependency>
       <groupId>org.mmbase</groupId>
       <artifactId>base-webapp</artifactId>
-      <version>1.9-servlet25-SNAPSHOT</version>
+      <version>${mmbase.version}</version>
       <type>war</type>
     </dependency>
 
@@ -53,7 +53,7 @@
       <version>${mmbase.version}</version>
       <type>war</type>
     </dependency>
-    
+
     <dependency>
       <groupId>org.mmbase</groupId>
       <artifactId>mmbase-mmsite</artifactId>
@@ -81,12 +81,6 @@
       <groupId>javax.mail</groupId>
       <artifactId>mail</artifactId>
       <version>1.4.1</version>
-      <scope>provided</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.mmbase</groupId>
-      <artifactId>mmbase</artifactId>
-      <version>${mmbase.version}</version>
       <scope>provided</scope>
     </dependency>
 
