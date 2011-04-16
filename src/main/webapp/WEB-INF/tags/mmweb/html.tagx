@@ -84,7 +84,7 @@
                   <a href="${mm:link('/')}"><img src="${mm:link('/html/style/images/mmbase-logo-sm.png')}" width="48" height="64" alt="MMBase" /></a>
                 </h1>
                 <div id="menu">
-                  <mm:node number="pool_mmbase">
+                  <mm:node number="pool_mmbase" notfound="skip">
                     <mm:relatednodescontainer type="pages" role="posrel" searchdirs="destination">
                       <mm:constraint field="posrel.pos" value="1" value2="10" operator="BETWEEN" />
                       <mm:sortorder field="posrel.pos" direction="UP" />
@@ -120,7 +120,7 @@
               <div id="footer">
                 <div id="footer-inner">
 
-                  <mm:node number="pool_mmbase">
+                  <mm:node number="pool_mmbase" notfound="skip">
                     <mm:relatednodescontainer type="pages" role="posrel" searchdirs="destination">
                       <mm:constraint field="posrel.pos" value="11" value2="100" operator="BETWEEN" />
                       <mm:sortorder field="posrel.pos" direction="UP" />
