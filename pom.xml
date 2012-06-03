@@ -1,21 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0                              http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
 
   <modelVersion>4.0.0</modelVersion>
 
-  <name>MMBase Web-site</name>
+  <name>MMBase Website</name>
   <groupId>org.mmbase</groupId>
   <artifactId>mmbase-website</artifactId>
   <version>2.0</version>
   <packaging>war</packaging>
+  <inceptionYear>2002</inceptionYear>
+  <description>The website www.mmbase.org</description>
 
-  <description>The web-site www.mmbase.org</description>
+  <organization>
+    <name>MMBase</name>
+    <url>http://www.mmbase.org</url>
+  </organization>
 
+  <scm>
+    <url>https://scm.mmbase.org/mmweb/trunk</url>
+    <connection>scm:svn:${project.scm.url}</connection>
+    <developerConnection>${project.scm.connection}</developerConnection>
+  </scm>
+
+  <issueManagement>
+    <system>JIRA</system>
+    <url>http://www.mmbase.org/jira/</url>
+  </issueManagement>
+  
   <properties>
-    <mmbase.version>2.0-SNAPSHOT</mmbase.version>
-    <jdbcUrl>jdbc:hsqldb:file:data/mmbase</jdbcUrl>
+    <mmbase.version>1.9-SNAPSHOT</mmbase.version>
+    <!-- <jdbcUrl>jdbc:hsqldb:file:data/mmbase</jdbcUrl> -->
   </properties>
 
+  <mailingLists>
+    <mailingList>
+      <name>MMBase discussion group</name>
+      <subscribe>http://groups.google.com/group/mmbase-discuss/subscribe</subscribe>
+      <unsubscribe>http://groups.google.com/group/mmbase-discuss/subscribe</unsubscribe>
+      <archive>https://groups.google.com/group/mmbase-discuss/topics</archive>
+    </mailingList>
+    <mailingList>
+      <name>MMBase SCM changes List</name>
+      <subscribe>http://groups.google.com/group/mmbase-repos/subscribe</subscribe>
+      <unsubscribe>http://groups.google.com/group/mmbase-repos/subscribe</unsubscribe>
+      <archive>https://groups.google.com/group/mmbase-repos/topics</archive>
+    </mailingList>
+  </mailingLists>
+
+  <developers>
+    <developer>
+      <id>michiel</id>
+      <name>Michiel Meeuwissen</name>
+      <email>Michiel.Meeuwissen@dynasol.nl</email>
+      <url>http://meeuw.org/</url>
+      <timezone>1</timezone>
+    </developer>
+    <developer>
+      <id>andre</id>
+      <name>Andre van Toly</name>
+      <email>andre@toly.nl</email>
+      <url>http://www.toly.nl/</url>
+      <timezone>1</timezone>
+    </developer>
+  </developers>
 
   <dependencies>
 
@@ -84,11 +133,18 @@
       <scope>provided</scope>
     </dependency>
 
+    <dependency>
+      <groupId>org.mmbase.tinymce</groupId>
+      <artifactId>tinymce-jquery</artifactId>
+      <version>3.4.9</version>
+      <type>war</type>
+    </dependency>
+    
   </dependencies>
 
 
   <build>
-    <defaultGoal>install</defaultGoal>
+    <defaultGoal>package</defaultGoal>
     <resources>
       <resource>
         <directory>src/main/resources</directory>
@@ -104,7 +160,9 @@
         </includes>
       </resource>
     </resources>
+    
     <plugins>
+      
       <plugin>
         <groupId>org.mmbase.maven</groupId>
         <artifactId>maven-mmbase-plugin</artifactId>
@@ -118,34 +176,79 @@
           </execution>
         </executions>
       </plugin>
+
       <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
+        <version>2.3.2</version>
         <configuration>
-          <source>1.6</source>
-          <target>1.6</target>
+          <source>1.5</source>
+          <target>1.5</target>
           <maxmem>256M</maxmem>
-          <fork>${compiler.fork}</fork>
-          <debug>false</debug>
           <showDeprecation>true</showDeprecation>
         </configuration>
       </plugin>
 
       <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-assembly-plugin</artifactId>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>buildnumber-maven-plugin</artifactId>
+        <version>1.0-beta-4</version>
         <configuration>
-          <descriptors>
-            <descriptor>src/main/assembly/resources/war.xml</descriptor>
-          </descriptors>
+          <buildNumberPropertyName>sources.version</buildNumberPropertyName>
+          <timestampPropertyName>timestamp</timestampPropertyName>
+          <timestampFormat>{0,date,yyyy-MM-dd'T'HH:mm}</timestampFormat>
+          <doCheck>${buildnumber.doCheck}</doCheck>
+          <doUpdate>true</doUpdate>
         </configuration>
+        <executions>
+          <execution>
+            <phase>validate</phase>
+            <goals>
+              <goal>create</goal>
+            </goals>
+          </execution>
+        </executions>
       </plugin>
 
       <plugin>
-        <artifactId>maven-war-plugin</artifactId>
-        <configuration>
-          <useDefaultExcludes>false</useDefaultExcludes>
-        </configuration>
+       <artifactId>maven-war-plugin</artifactId>
+       <!-- this is a version of the war plugin compiled by Michiel. See http://jira.codehaus.org/browse/MWAR-205 -->
+       <!--
+       <version>2.1-beta-2-20090723.092931-2</version>
+       -->
+       <version>2.1-beta-2-SNAPSHOT</version>
+       <configuration>
+         <archiveClasses>true</archiveClasses>
+
+          <overlays>
+            <overlay>
+              <groupId>org.mmbase.tinymce</groupId>
+              <artifactId>tinymce-jquery</artifactId>
+              <type>war</type>
+              <targetPath>mmbase</targetPath>
+            </overlay>
+          </overlays>
+          <archive>
+            <manifest>
+              <addClasspath>true</addClasspath>
+            </manifest>
+            <manifestEntries>
+              <url>${project.url}</url>
+            </manifestEntries>
+            <manifestSections>
+              <manifestSection>
+                <name>org.mmbase</name>
+                <manifestEntries>
+                  <Vendor>MMBase Webteam</Vendor>
+                  <Version>${project.version}.${timestamp}</Version>
+                  <SCM-Revision>${sources.version}</SCM-Revision>
+                  <Distribution>${project.version}</Distribution>
+                  <Build-Date>${timestamp}</Build-Date>
+                  <Description>${project.description}</Description>
+                </manifestEntries>
+              </manifestSection>
+            </manifestSections>
+          </archive>
+       </configuration>
       </plugin>
 
 
@@ -161,15 +264,20 @@
               <value>true</value>
             </systemProperty>
             <systemProperty>
-              <name>jdbcUrl</name>
-              <value>${jdbcUrl}</value>
-            </systemProperty>
-            <systemProperty>
-              <name>java.awt.headless</name>
-              <value>true</value>
+              <!--
+              This may not be very safe, but we use jetty only for developing
+              See: http://communitymapbuilder.org/display/JETTY/How+to+enable+serving+aliased+files
+              -->
+              <name>org.mortbay.util.FileResource.checkAliases</name>
+              <value>false</value>
             </systemProperty>
           </systemProperties>
         </configuration>
+        
+        <!--
+            These jars are needed by jetty-env.xml
+            which is used on mvn jetty:run
+        -->
         <dependencies>
           <dependency>
             <groupId>c3p0</groupId>
@@ -181,9 +289,12 @@
             <groupId>hsqldb</groupId>
             <artifactId>hsqldb</artifactId>
             <version>1.8.0.7</version>
+            <scope>runtime</scope>
           </dependency>
+          
         </dependencies>
-        </plugin>
+      </plugin>
+        
     </plugins>
   </build>
 
