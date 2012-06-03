@@ -6,7 +6,7 @@
   <description>
     MMBase is an open-source content managment system. See http://www.mmbase.org/. This is its website.
   </description>
-  <display-name>MMBase web-site</display-name>
+  <display-name>MMBase website</display-name>
 
   <context-param>
     <param-name>mmbase.taglib.eval_body_include</param-name>
@@ -19,12 +19,60 @@
     <!-- <param-value>.*\.(ico|jpg|gif|png|css|js)</param-value> -->
   </context-param>
 
+  <context-param>
+    <param-name>mmbase.taglib.field.nonExistance</param-name>
+    <param-value>exception</param-value>
+  </context-param>
+
+  <context-param>
+    <param-name>mmbase.taglib.function.nonExistance</param-name>
+    <param-value>exception</param-value>
+  </context-param>
+
+  <context-param>
+    <param-name>stall-server</param-name>
+    <param-value>false</param-value>
+  </context-param>
+
+  <context-param>
+    <param-name>mmbase.servlet.images.addfilename</param-name>
+    <param-value>yes</param-value>
+  </context-param>
+  <context-param>
+    <param-name>mmbase.servlet.attachments.addfilename</param-name>
+    <param-value>yes</param-value>
+  </context-param>
+
+  <context-param>
+    <param-name>javax.servlet.jsp.jstl.fmt.fallbackLocale</param-name>
+    <param-value>en</param-value>
+  </context-param>
+  <context-param>
+    <param-name>javax.servlet.jsp.jstl.fmt.locale</param-name>
+    <param-value>en</param-value>
+  </context-param>
+
+  <context-param>
+    <param-name>mmbase.taglib.max_enumhandler_length</param-name>
+    <param-value>60</param-value>
+  </context-param>
+
+  <context-param>
+    <param-name>mmbase.filesize.binaryPrefixes</param-name>
+    <param-value>false</param-value>
+  </context-param>
+
+  <listener>
+   <listener-class>org.mmbase.module.core.MMBaseContext</listener-class>
+  </listener>
+
+  <!-- this filter handles nice urls and components -->
   <filter>
     <filter-name>FrameworkFilter</filter-name>
     <filter-class>org.mmbase.framework.FrameworkFilter</filter-class>
     <init-param>
       <param-name>excludes</param-name>
-      <param-value>([.]ico$|[.]jpg$|[.]gif$|[.]png$|[.]css$|[.]js$|[.]jsp$|[.]do$)|/errorpages|/editors</param-value>
+      <param-value>([.]ico$|[.]jpg$|[.]gif$|[.]png$|[.]css$|[.]js$|[.]jsp$|[.]jspx$|[.]do$|[.]swf$|[.]jar$|[.]class$|[.]txt$)|/errorpages|/editors|/style</param-value>
     </init-param>
   </filter>
 
@@ -110,7 +158,6 @@
     <extension>war</extension>
     <mime-type>application/java-archive</mime-type>
   </mime-mapping>
-
   <mime-mapping>
     <extension>xsd</extension>
     <mime-type>application/xml</mime-type>
@@ -119,17 +166,38 @@
     <extension>pom</extension>
     <mime-type>application/xml</mime-type>
   </mime-mapping>
+  <mime-mapping>
+   <extension>ogv</extension>
+   <mime-type>video/ogg</mime-type>
+  </mime-mapping>
+  <mime-mapping>
+   <extension>m4v</extension>
+   <mime-type>video/x-m4v</mime-type>
+  </mime-mapping>
+  <mime-mapping>
+    <extension>meta</extension>
+    <mime-type>text/plain</mime-type>
+  </mime-mapping>
+  <mime-mapping>
+    <extension>m3u8</extension>
+    <mime-type>application/x-mpegURL</mime-type>
+  </mime-mapping>
+  <mime-mapping>
+    <extension>ts</extension>
+    <mime-type>video/MP2T</mime-type>
+  </mime-mapping>
+  <mime-mapping>
+    <extension>webm</extension>
+    <mime-type>video/webm</mime-type>
+  </mime-mapping>
 
   <welcome-file-list>
     <welcome-file>index.jspx</welcome-file>
     <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
     <welcome-file>index.html</welcome-file>
   </welcome-file-list>
 
-  <error-page>
-    <error-code>404</error-code>
-    <location>/mmbase/errorpages/404.jsp</location>
-  </error-page>
   <error-page>
     <error-code>400</error-code>
     <location>/mmbase/errorpages/400.jsp</location>
@@ -139,22 +207,48 @@
     <location>/mmbase/errorpages/403.jsp</location>
   </error-page>
   <error-page>
+    <error-code>404</error-code>
+    <location>/mmbase/errorpages/404.jsp</location>
+  </error-page>
+  <error-page>
     <exception-type>java.lang.Exception</exception-type>
     <location>/mmbase/errorpages/500.jsp</location>
-  </error-page>error-page>
+  </error-page>
   <error-page>
     <error-code>503</error-code>
     <location>/mmbase/errorpages/503.jsp</location>
   </error-page>
 
-<!-- don't know what this means -->
-<!--
+  <env-entry>
+    <env-entry-name>mmbase/mmbaseroot/datasource-context</env-entry-name>
+    <env-entry-type>java.lang.String</env-entry-type>
+    <env-entry-value>java:comp/env</env-entry-value>
+  </env-entry>
+  <env-entry>
+    <env-entry-name>mmbase/mmbaseroot/datasource</env-entry-name>
+    <env-entry-type>java.lang.String</env-entry-type>
+    <env-entry-value>jdbc/MMBase</env-entry-value>
+  </env-entry>
+  <env-entry>
+    <env-entry-name>mmbase/mmbaseroot/basename</env-entry-name>
+    <env-entry-type>java.lang.String</env-entry-type>
+    <env-entry-value>mm</env-entry-value>
+  </env-entry>
+  <!-- Defaults to en in MMBase 1.9
+      Defaults to value of context-param javax.servlet.jsp.jstl.fmt.fallbackLocale in MMBase 2.0
+  <env-entry>
+    <env-entry-name>mmbase/mmbaseroot/language</env-entry-name>
+    <env-entry-type>java.lang.String</env-entry-type>
+    <env-entry-value>en</env-entry-value>
+  </env-entry>
+  -->
   <env-entry>
     <env-entry-name>mmbase-builders/mmbasecontexts/readall</env-entry-name>
     <env-entry-type>java.lang.String</env-entry-type>
     <env-entry-value>true</env-entry-value>
   </env-entry>
- -->
+
+
   <resource-ref>
     <description>
       Datasource for the MMBase Database. This datasource must be
