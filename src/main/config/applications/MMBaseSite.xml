@@ -35,7 +35,8 @@
     <relation from="portals" to="portals" type="posrel" />
     <relation from="portals" to="pages" type="posrel" />
 
-    <relation from="pools" to="pages" type="posrel" />
+    <relation from="pools"   to="pages" type="posrel" />
+    <relation from="pools"   to="pages" type="related" />
     <relation from="pages"   to="pages" type="posrel" />
     <relation from="pages"   to="pages" type="readmore" /><!-- change to posrel -->
 
@@ -65,7 +66,7 @@
   <datasourcelist>
     <datasource builder="portals"     path="MMBaseSite/portals.xml" /><!-- will be removed in favor of pools -->
 
-    <datasource builder="pools"       path="MMBaseSite/portals.xml" />
+    <datasource builder="pools"       path="MMBaseSite/pools.xml" />
     <datasource builder="pages"       path="MMBaseSite/pages.xml" />
     <datasource builder="templates"   path="MMBaseSite/templates.xml" />
 

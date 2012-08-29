@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<posrel exportsource="mmbase://zilver.toly.net/null/foundation" timestamp="20100722140850">
+<posrel exportsource="mmbase://www.mmbase.org/mmweb" timestamp="20100722140850">
 	<node number="1541" owner="admin" snumber="336" dnumber="351" rtype="posrel" dir="bidirectional">
 		<pos>-1</pos>
 	</node>
