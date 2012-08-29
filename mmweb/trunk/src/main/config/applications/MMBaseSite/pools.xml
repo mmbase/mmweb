@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pools exportsource="mmbase://www.mmbase.org/mmweb" timestamp="20100722140849">
+	<node number="2516" owner="default" alias="pool_mmbase">
+		<description>MMBase website</description>
+		<name>MMBase website</name>
+	</node>
+
+</pools>

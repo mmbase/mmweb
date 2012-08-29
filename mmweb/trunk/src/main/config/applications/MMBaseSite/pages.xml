@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<pages exportsource="mmbase://zilver.toly.net/null/foundation" timestamp="20100722140849">
+<pages exportsource="mmbase://www.mmbase.org/mmweb" timestamp="20100722140849">
 	<node number="345" owner="admin" alias="page_homepage">
 		<template>2507</template>
 		<title>Homepage</title>
