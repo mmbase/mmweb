@@ -11,14 +11,14 @@
     <div class="tweets">
       <h4 class="twitter"><a href="http://twitter.com/mmbase">Follow us on twitter</a></h4>
       <ul class="nolist">
-        <os:cache key="tweet.feed.mmbase" time="120">
+        <os:cache key="tweet.feed.mmbase" time="0">
           <c:catch var="ex1">
             <c:import var="url" url="http://api.twitter.com/1/statuses/user_timeline/mmbase.xml?callback=twitterCallback2&amp;count=2" />
             <x:parse var="doc" doc="${url}" />
             <x:forEach var="n" select="$doc/statuses/status">
               <li class="tweet">
                 <c:set var="id"><x:out select="$n/id" /></c:set>
-                <mm:escape escape="links"><x:out select="$n/text" /></mm:escape>
+                <mm:escape escape="links"><x:out select="$n/text" /></mm:escape> 
                 <em><a href="http://twitter.com/mmbase/statuses/${id}"><x:out select="$n/created_at" /></a></em>
               </li>
             </x:forEach>
