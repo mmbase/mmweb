@@ -13,7 +13,7 @@
       <ul class="nolist">
         <os:cache key="tweet.feed.mmbase" time="120">
           <c:catch var="ex1">
-            <c:import var="url" url="http://twitter.com/statuses/user_timeline/mmbase.xml?callback=twitterCallback2&amp;count=2" />
+            <c:import var="url" url="http://api.twitter.com/1/statuses/user_timeline/mmbase.xml?callback=twitterCallback2&amp;count=2" />
             <x:parse var="doc" doc="${url}" />
             <x:forEach var="n" select="$doc/statuses/status">
               <li class="tweet">
