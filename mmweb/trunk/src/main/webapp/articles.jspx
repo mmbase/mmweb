@@ -114,9 +114,9 @@
            </mm:nodelistfunction>
           
             <mm:relatednodescontainer type="pages" role="posrel" searchdirs="destination">
-              <h4>Read more</h4>
               <ul class="nolist">
               <mm:relatednodes>
+                <mm:first><h4>Read more</h4></mm:first>
                 <li>
                   <mm:link page="page" referids="_node@n">
                     <mm:frameworkparam name="component">mmsite</mm:frameworkparam>
