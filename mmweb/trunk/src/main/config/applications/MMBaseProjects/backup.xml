@@ -1,0 +1,5 @@
+<contextdepth>
+  <!-- all projects on mmbase.org need to be related to this pools object first -->
+  <startnode alias="pool_mmbaseprojects" />
+  <depth>3</depth>
+</contextdepth>

@@ -6,6 +6,7 @@
   </requirements>
 
   <neededbuilderlist>
+    <builder maintainer="mmbase.org" version="1">pools</builder>
     <builder maintainer="mmbase.org" version="1">project</builder>
     
     <builder maintainer="mmbase.org" version="1">mmevents</builder>
@@ -31,7 +32,10 @@
   </neededreldeflist>
 
   <allowedrelationlist>
-    <relation from="mmevents" to="project" type="related" />
+    <!-- relate all mmbase.org projects to 'pool_mmbaseprojects' and export -->
+    <relation from="pools"         to="project" type="related" />
+    
+    <relation from="mmevents"      to="project" type="related" />
     <relation from="documentation" to="project" type="related" />
     
     <relation from="project" to="persons" type="posrel" />
@@ -56,6 +60,8 @@
   </allowedrelationlist>
 
   <datasourcelist>
+    <datasource builder="pools"       path="MMBaseProjects/pools.xml" />
+    
     <datasource builder="project"     path="MMBaseProjects/project.xml" />
     <datasource builder="mmevents"    path="MMBaseProjects/mmevents.xml" />
 
