@@ -42,6 +42,7 @@
     <param name="useTitle">true</param>
     <param name="dateDepth">2</param>
     <param name="mmweb">true</param>
+    <param name="whitespaceReplacer">-</param>
     <param name="renderJsp">/framework.jspx?component=mynews</param>
   </urlconverter>
 
