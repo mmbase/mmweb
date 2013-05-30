@@ -21,7 +21,7 @@
           <mm:node referid="page" notfound="skip">
             <mm:relatednodescontainer type="articles" role="posrel" searchdirs="destination">
               <mm:maxnumber value="1" />
-              <mm:sortorder field="posrel.pos" direction="DOWN" />
+              <mm:sortorder field="posrel.pos" direction="UP" />
               <mm:relatednodes>
                 <h2><mm:field name="title" /></h2>
                 <mm:field name="intro" escape="paragraph,links" />
@@ -67,10 +67,15 @@
           <mmweb:twitter />
           <mmweb:bugs />
 
-          <h4><a href="#latest">Latest sites in MMBase</a></h4>
-          <ul class="nolist">
-            <li><a href="#">Open Beelden</a></li>
-          </ul>
+          <mm:node number="page_mmbasewebsites" notfound="skip">
+            <mm:link page="page" referids="_node@n">
+              <mm:frameworkparam name="component">mmsite</mm:frameworkparam>
+              <h4><a href="${_}"><mm:field name="title" /></a></h4>
+            </mm:link>
+            <ul class="nolist">
+              <li><a href="#">Open Beelden</a></li>
+            </ul>
+          </mm:node>
 
         </div>
       </div>

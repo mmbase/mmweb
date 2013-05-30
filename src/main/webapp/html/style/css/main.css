@@ -1,19 +1,20 @@
 /*@import url(nav.css) screen;*/
-
 body
 {
 	margin: 0;
 	padding: 0;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "HelveticaNeue-Regular", "Helvetica Neue Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: small;
 	color: #333;
 	background-color: #fff;
-	/*background-image: url(images/tile.gif);*/
 }
 
-*html body {
-    font-size: x-small; /* for IE5/Win */
-    f\ont-size: small;  /* for other IE versions */
+*html body
+{
+	font-size: x-small;
+	/* for IE5/Win */
+	f\ont-size: small;
+	/* for other IE versions */
 }
 
 #head
@@ -36,12 +37,14 @@ body
 	max-width: 1000px;
 	margin: 0 auto 0 auto;
 }
+
 #head-inner
 {
 	margin: 0 auto;
 	min-width: 800px;
 	max-width: 1000px;
 }
+
 #footer-inner
 {
 	margin: 0 auto;
@@ -148,7 +151,6 @@ body
 	color: #00425a;
 }
 
-
 #content
 {
 	float: left;
@@ -176,6 +178,7 @@ body
 }
 
 #footer ul { padding: 1em 0 2em 1em; }
+
 #footer p
 {
 	padding: 0 0 2em 1em;
@@ -188,6 +191,7 @@ body
 	text-decoration: none;
 	color: #aaa;
 }
+
 #footer a:hover, #footer a:active { text-decoration: underline; }
 
 #footer li
@@ -198,14 +202,11 @@ body
 	list-style: none;
 }
 
-
 /* --------------- html --------------- */
-
 a:link { color: #00425a; }
 a:visited { color: #002828; }
 a:hover { color: #708A23; }
 a:active { color: #D6E44B; }
-
 h1 { font-size: 180%; }
 h2 { font-size: 160%; }
 h3 { font-size: 140%; }
@@ -213,6 +214,7 @@ h4 { font-size: 110%; }
 
 h1, h2, h3, h4, h5, h6
 {
+	font-weight: 500; 
 	color: #002828;
 	margin: 0 0 4px 0;
 }
@@ -225,6 +227,7 @@ h4 a:link, h4 a:visited
 	text-decoration: none;
 	color: #002828;
 }
+
 h1 a:hover, h1 a:active,
 h2 a:hover, h2 a:active,
 h3 a:hover, h3 a:active,
@@ -258,7 +261,6 @@ ol, ul
 
 img { border: 0; }
 
-
 table
 {
 	border-color: #CCC #CCC transparent #CCC;
@@ -270,25 +272,22 @@ table
 
 caption
 {
-    background: #ccc;
-    border-color: #CCC;
-    border-width: 1px 1px 0 1px;
-    border-style: solid solid none solid;
-    padding: 2px;
+	background: #ccc;
+	border-color: #CCC;
+	border-width: 1px 1px 0 1px;
+	border-style: solid solid none solid;
+	padding: 2px;
 }
 
-th
-{
-    background-color: #E6E9DD;
-}
+th { background-color: #E6E9DD; }
 
 th, td
 {
-    margin: 0;
-    padding: 4px;
-    border-bottom: 1px solid #ccc;
-    text-align: left;
-    vertical-align: top;
+	margin: 0;
+	padding: 4px;
+	border-bottom: 1px solid #ccc;
+	text-align: left;
+	vertical-align: top;
 }
 
 th.view, td.view { text-align: right; }
@@ -301,10 +300,7 @@ label
 }
 
 input, textarea { width: 90%; }
-input[type=submit]
-{
-	width: auto;
-}
+input[type=submit] { width: auto; }
 
 /* ---------------- specific styles ---------------- */
 p.err, p.msg
@@ -322,11 +318,16 @@ h3.news
 	padding-top: 12px;
 	clear: both;
 }
+
 p.intro
 {
-	font-weight: bold;
-	color: #444;
+
+    /* font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; */
+    font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 500;
+    color: #444;
 }
+p.intro span.online { font-weight: normal; }
 
 ul.nolist
 {
@@ -346,6 +347,7 @@ ul li.previous
 	margin: 1em 0;
 	width: 20%;
 }
+
 ul li.pages
 {
 	float: left;
@@ -354,10 +356,9 @@ ul li.pages
 	text-align: center;
 	font-weight: bold;
 }
-ul li.pages a
-{
-	display: inline;
-}
+
+ul li.pages a { display: inline; }
+
 ul li.next
 {
 	float: right;
@@ -409,8 +410,8 @@ h4.twitter a
 	margin-left: 2px;
 }
 
-h4.twitter a:link, h4.twitter a:visited  { text-decoration: none; }
-h4.twitter a:hover, h4.twitter a:active  { text-decoration: underline; }
+h4.twitter a:link, h4.twitter a:visited { text-decoration: none; }
+h4.twitter a:hover, h4.twitter a:active { text-decoration: underline; }
 
 img.right
 {
@@ -418,11 +419,14 @@ img.right
 	margin: 8px 0 8px 8px;
 }
 
-#lightbox-image-details-caption {
+#lightbox-image-details-caption
+{
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 10pt;
 }
-#lightbox-image-details-currentNumber {
+
+#lightbox-image-details-currentNumber
+{
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 9pt;
 }
