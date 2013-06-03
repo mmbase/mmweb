@@ -46,7 +46,12 @@
                       <ul class="urls">
                         <mm:relatednodes>
                           <li>
-                            <a title="${_node.description}" href="${_node.url}"><mm:field name="name" /></a>
+                            <a title="${_node.description}" href="${_node.url}">
+                              <mm:field name="name">
+                                <mm:isnotempty><mm:write escape="inline" /></mm:isnotempty>
+                                <mm:isempty><mm:field name="description" escape="inline" /></mm:isempty>
+                              </mm:field>
+                            </a>
                           </li>
                         </mm:relatednodes>
                       </ul>
