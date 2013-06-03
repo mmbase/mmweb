@@ -32,6 +32,14 @@
     <param name="useTitle">true</param>
     <param name="template">/articles.jspx</param>
   </urlconverter>
+  
+  <urlconverter class="org.mmbase.mmweb.ProjectUrlConverter">
+    <description xml:lang="en">
+      An urlconverter belonging to MMWeb for projects.
+    </description>
+    <param name="directory">/projects/</param>
+    <param name="useTitle">true</param>
+  </urlconverter>
 
   <urlconverter class="org.mmbase.mynews.MyNewsUrlConverter">
     <description xml:lang="en">
