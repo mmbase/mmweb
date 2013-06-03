@@ -1,0 +1,136 @@
+<jsp:root
+    version="2.0"
+    xmlns:jsp="http://java.sun.com/JSP/Page"
+    xmlns:c="http://java.sun.com/jsp/jstl/core"
+    xmlns:x="http://java.sun.com/jsp/jstl/xml"
+    xmlns:os="http://www.opensymphony.com/oscache"
+    xmlns:mm="http://www.mmbase.org/mmbase-taglib-2.0"
+    xmlns:mmweb="urn:jsptagdir:/WEB-INF/tags/mmweb">
+  <mm:import id="doc" externid="n" />
+  <mm:node number="$doc">
+    <mm:field name="title" id="doctitle" write="false" />
+  </mm:node>
+  
+  
+  <mmweb:html styleClass="projects">
+    <jsp:attribute name="title"><mm:write referid="doctitle" escape="inline" /> - Projects</jsp:attribute>
+    <jsp:attribute name="head">
+    
+    </jsp:attribute>
+    <jsp:attribute name="body">
+      <!-- mmweb:submenu page="${page}" / -->
+      <div id="submenu">
+        <ol>
+          <li><a href="${mm:link('/projects/')}">Projects</a></li>
+        </ol>
+      </div>
+      <div id="content">
+        <div>
+          <mm:node number="$doc">
+            
+            <h2>
+              <mm:field name="title" escape="inline" />
+            </h2>
+            <mm:field name="subtitle"><mm:isnotempty><h3><mm:write escape="inline" /></h3></mm:isnotempty></mm:field>
+            <mm:field name="intro" escape="p" />
+
+            <!-- urls and files -->
+            <mm:relatednodescontainer type="urls" role="posrel" searchdirs="destination">
+              <mm:size id="nr_urls" write="false" />
+            </mm:relatednodescontainer>
+            <mm:relatednodescontainer type="attachments" role="posrel" searchdirs="destination">
+              <mm:size id="nr_files" write="false" />
+            </mm:relatednodescontainer>
+            
+            <c:if test="${nr_urls gt 0 or nr_files gt 0}">
+              <div class="related">
+                
+                <mm:relatednodescontainer type="urls" role="posrel" searchdirs="destination">
+                  <mm:sortorder field="posrel.pos" direction="UP" />
+                  <ul class="urls">
+                    <mm:relatednodes>
+                      <li>
+                        <a title="${_node.description}" href="${_node.url}">
+                          <mm:field name="name">
+                            <mm:isnotempty><mm:write escape="inline" /></mm:isnotempty>
+                            <mm:isempty><mm:field name="description" /></mm:isempty>
+                          </mm:field>
+                        </a>
+                      </li>
+                    </mm:relatednodes>
+                  </ul>
+                </mm:relatednodescontainer>
+
+                <mm:relatednodescontainer type="attachments" role="posrel" searchdirs="destination">
+                  <mm:sortorder field="posrel.pos" direction="UP" />
+                  <ul class="attachments">
+                    <mm:relatednodes>
+                      <li>
+                        <mm:attachment><a title="${_node.description}" href="${_}"><mm:field name="title" /></a></mm:attachment>
+                        (<mm:field name="mimetype" />, <mm:field name="size" escape="filesize" />)
+                      </li>
+                    </mm:relatednodes>
+                  </ul>
+                </mm:relatednodescontainer>
+
+              </div>
+            </c:if>
+            
+            <!-- images -->
+            <mm:relatednodescontainer type="images" role="posrel" searchdirs="destination">
+              <mm:sortorder field="posrel.pos" direction="UP" />
+              <mm:relatednodes>
+                <div class="images">
+                  <mm:import id="lightbox_image" reset="true"><mm:image template="s(600)" /></mm:import>
+                  <a class="lightbox" title="${_node.title}" href="${lightbox_image}">
+                    <mm:image template="s(240)" mode="img" />
+                  </a>
+                  <mm:field name="title"><mm:isnotempty><mm:write /></mm:isnotempty></mm:field>
+                </div>
+              </mm:relatednodes>
+            </mm:relatednodescontainer>
+
+            <mm:field name="body" escape="p,links" />
+          
+          </mm:node>
+        </div>
+      </div>
+    
+      <div id="sidebar">
+        <div>
+          <mm:node number="$doc">
+
+            <mm:relatednodescontainer type="project" role="related" searchdirs="destination">
+              <ul class="project">
+                <mm:relatednodes>
+                  <li>
+                    <mm:link page="project">
+                      <mm:frameworkparam name="component">mmweb</mm:frameworkparam>
+                      <mm:frameworkparam name="node">${_node}</mm:frameworkparam>
+                      <a href="${_}"><mm:field name="title" /></a>
+                    </mm:link>
+                  </li>
+                </mm:relatednodes>
+              </ul>
+            </mm:relatednodescontainer>            
+
+            <mm:relatednodescontainer type="persons" role="posrel" searchdirs="source">
+              <mm:sortorder field="posrel.pos" direction="UP" />
+              <ul class="persons">
+                <mm:relatednodes>
+                  <li>
+                    <mm:field name="firstname"><mm:isnotempty><mm:write /></mm:isnotempty></mm:field>
+                    <mm:field name="suffix"><mm:isnotempty> <mm:write /></mm:isnotempty></mm:field>
+                    <mm:field name="lastname"><mm:isnotempty> <mm:write /></mm:isnotempty></mm:field>
+                  </li>
+                </mm:relatednodes>
+              </ul>
+            </mm:relatednodescontainer>            
+          
+          </mm:node>
+        </div>
+      </div>
+  
+    </jsp:attribute>
+  </mmweb:html>
+</jsp:root>
