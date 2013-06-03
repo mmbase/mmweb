@@ -1,0 +1,128 @@
+<jsp:root
+    version="2.0"
+    xmlns:jsp="http://java.sun.com/JSP/Page"
+    xmlns:c="http://java.sun.com/jsp/jstl/core"
+    xmlns:x="http://java.sun.com/jsp/jstl/xml"
+    xmlns:os="http://www.opensymphony.com/oscache"
+    xmlns:mm="http://www.mmbase.org/mmbase-taglib-2.0"
+    xmlns:mmweb="urn:jsptagdir:/WEB-INF/tags/mmweb">
+  <mm:import id="project" externid="n" />
+  <mm:node number="$project">
+    <mm:field name="title" id="projecttitle" write="false" />
+  </mm:node>
+  
+  
+  <mmweb:html styleClass="projects">
+    <jsp:attribute name="title"><mm:write referid="projecttitle" escape="inline" /> - Projects</jsp:attribute>
+    <jsp:attribute name="head">
+    
+    </jsp:attribute>
+    <jsp:attribute name="body">
+      <!-- mmweb:submenu page="${page}" / -->
+      <div id="submenu">
+        <ol>
+          <li><a href="${mm:link('/projects/')}">Projects</a></li>
+        </ol>
+      </div>
+      <div id="content">
+        <div>
+          <mm:node number="$project">
+            
+            <h2>
+              <span class="status"><mm:field name="status" /></span>
+              <mm:field name="title" escape="inline" />
+            </h2>
+            <mm:field name="subtitle"><mm:isnotempty><h3><mm:write escape="inline" /></h3></mm:isnotempty></mm:field>
+            <p class="intro">
+              <mm:field name="date"><mm:isnotempty><span class="online"><mm:time format=":LONG" /> </span></mm:isnotempty></mm:field>
+              <mm:field name="intro"><mm:isnotempty><mm:write escape="links" /></mm:isnotempty></mm:field>
+            </p>
+
+            <!-- urls and files -->
+            <mm:relatednodescontainer type="urls" role="posrel" searchdirs="destination">
+              <mm:size id="nr_urls" write="false" />
+            </mm:relatednodescontainer>
+            <mm:relatednodescontainer type="attachments" role="posrel" searchdirs="destination">
+              <mm:size id="nr_files" write="false" />
+            </mm:relatednodescontainer>
+            
+            <c:if test="${nr_urls gt 0 or nr_files gt 0}">
+              <div class="related">
+                
+                <mm:relatednodescontainer type="urls" role="posrel" searchdirs="destination">
+                  <mm:sortorder field="posrel.pos" direction="UP" />
+                  <ul class="urls">
+                    <mm:relatednodes>
+                      <li>
+                        <a title="${_node.description}" href="${_node.url}">
+                          <mm:field name="name">
+                            <mm:isnotempty><mm:write escape="inline" /></mm:isnotempty>
+                            <mm:isempty><mm:field name="description" /></mm:isempty>
+                          </mm:field>
+                        </a>
+                      </li>
+                    </mm:relatednodes>
+                  </ul>
+                </mm:relatednodescontainer>
+
+                <mm:relatednodescontainer type="attachments" role="posrel" searchdirs="destination">
+                  <mm:sortorder field="posrel.pos" direction="UP" />
+                  <ul class="attachments">
+                    <mm:relatednodes>
+                      <li>
+                        <mm:attachment><a title="${_node.description}" href="${_}"><mm:field name="title" /></a></mm:attachment>
+                        (<mm:field name="mimetype" />, <mm:field name="size" escape="filesize" />)
+                      </li>
+                    </mm:relatednodes>
+                  </ul>
+                </mm:relatednodescontainer>
+
+              </div>
+            </c:if>
+                
+            <mm:field name="body" escape="p,links" />
+          </mm:node>
+        </div>
+      </div>
+    
+      <div id="sidebar">
+        <div>
+          <mm:node number="$project">
+
+            <mm:relatednodescontainer type="persons" role="posrel" searchdirs="destination">
+              <mm:sortorder field="posrel.pos" direction="UP" />
+              <ul class="persons">
+                <mm:relatednodes>
+                  <li>
+                    <mm:field name="firstname"><mm:isnotempty><mm:write /></mm:isnotempty></mm:field>
+                    <mm:field name="suffix"><mm:isnotempty> <mm:write /></mm:isnotempty></mm:field>
+                    <mm:field name="lastname"><mm:isnotempty> <mm:write /></mm:isnotempty></mm:field>
+                  </li>
+                </mm:relatednodes>
+              </ul>
+            </mm:relatednodescontainer>            
+
+            <mm:relatednodescontainer type="documentation" role="related" searchdirs="source">
+              <ul class="documentation">
+                <mm:relatednodes>
+                  <li>
+                    <mm:link page="documentation">
+                      <mm:frameworkparam name="component">mmweb</mm:frameworkparam>
+                      <mm:frameworkparam name="node">${_node}</mm:frameworkparam>
+                      <a href="${_}"><mm:field name="title" /></a>
+                      <mm:field name="subtitle"><mm:isnotempty><br /><mm:write /></mm:isnotempty></mm:field>
+                    </mm:link>
+                  </li>
+                </mm:relatednodes>
+              </ul>
+            </mm:relatednodescontainer>            
+
+    
+          
+          </mm:node>
+        </div>
+      </div>
+  
+    </jsp:attribute>
+  </mmweb:html>
+</jsp:root>

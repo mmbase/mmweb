@@ -6,7 +6,7 @@
     xmlns:os="http://www.opensymphony.com/oscache"
     xmlns:mm="http://www.mmbase.org/mmbase-taglib-2.0"
     xmlns:mmweb="urn:jsptagdir:/WEB-INF/tags/mmweb">
-  <mmweb:html styleClass="contact">
+  <mmweb:html styleClass="projects">
     <jsp:attribute name="title">Projects</jsp:attribute>
     <jsp:attribute name="head">
     
@@ -17,7 +17,6 @@
       <div id="content">
         <div>
           <h2>Projects</h2>
-          <p>More about them.</p>
           
           <mm:hasnodemanager name="project">
             <mm:listnodescontainer type="project">
@@ -28,8 +27,18 @@
                 <mm:constraint field="status" value="contribution" inverse="true" />
               </mm:composite>
  
-              <mm:listnodes id="projectlist">      
-                <p> [<a href="#${_node.number}"><mm:field name="status" /></a>] </p>
+              <mm:listnodes>
+                <mm:changed>
+                  <h3>Status: <mm:field name="status" /></h3>
+                </mm:changed>
+                <h4>
+                  <mm:link page="project">
+                    <mm:frameworkparam name="component">mmweb</mm:frameworkparam>
+                    <mm:frameworkparam name="node">${_node}</mm:frameworkparam>
+                    <a href="${_}"><mm:field name="title" /></a>
+                  </mm:link>
+                </h4>
+                <mm:field name="intro" escape="paragraph" />
               </mm:listnodes>
             
             </mm:listnodescontainer>

@@ -319,6 +319,11 @@ h3.news
 	clear: both;
 }
 
+h2 > span.status
+{
+    float: right;
+    margin-right: 8px;
+}
 p.intro
 {
 
