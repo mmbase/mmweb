@@ -1,0 +1,83 @@
+<jsp:root
+    version="2.0"
+    xmlns:jsp="http://java.sun.com/JSP/Page"
+    xmlns:c="http://java.sun.com/jsp/jstl/core"
+    xmlns:x="http://java.sun.com/jsp/jstl/xml"
+    xmlns:os="http://www.opensymphony.com/oscache"
+    xmlns:mm="http://www.mmbase.org/mmbase-taglib-2.0"
+    xmlns:mmweb="urn:jsptagdir:/WEB-INF/tags/mmweb">
+  <mmweb:html styleClass="projects">
+    <jsp:attribute name="title">Releases</jsp:attribute>
+    <jsp:attribute name="head">
+    
+    </jsp:attribute>
+    <jsp:attribute name="body">
+      <mm:import id="page" externid="n" />
+      <mmweb:submenu page="${page}" />
+      <div id="content">
+        <div>
+          <h2>Releases</h2>
+          
+          <mm:hasnodemanager name="releases">
+            <mm:listnodescontainer type="releases">
+              <mm:sortorder field="date" direction="DOWN" />
+ 
+              <mm:listnodes>
+                <div id="release_${_node}" style="clear:both;padding-top:2em;">
+                  <h3><mm:field name="name" /> <mm:field name="version" /></h3>
+                  
+                  <div class="related">
+                    <mm:relatednodescontainer type="urls" role="posrel" searchdirs="destination">
+                      <mm:sortorder field="posrel.pos" direction="UP" />
+                      <ul class="urls">
+                        <mm:relatednodes>
+                          <li>
+                            <a title="${_node.description}" href="${_node.url}">
+                              <mm:field name="name">
+                                <mm:isnotempty><mm:write escape="inline" /></mm:isnotempty>
+                                <mm:isempty><mm:field name="description" escape="inline" /></mm:isempty>
+                              </mm:field>
+                            </a>
+                          </li>
+                        </mm:relatednodes>
+                      </ul>
+                    </mm:relatednodescontainer>
+                  </div>
+                  
+                  <h4><mm:field name="date"><mm:time format=":LONG" /></mm:field></h4>
+                  <mm:field name="intro" escape="paragraph(intro)" />
+                  <mm:field name="body" escape="paragraph" />
+                  
+                </div>
+              </mm:listnodes>
+            
+            </mm:listnodescontainer>
+          </mm:hasnodemanager>
+        </div>
+      </div>
+    
+      <div id="sidebar">
+        <div>
+
+          <mm:hasnodemanager name="releases">
+            <mm:listnodescontainer type="releases">
+              <mm:sortorder field="date" direction="DOWN" />
+ 
+              <ul class="nolist">
+              <mm:listnodes>
+                <li>
+                  <mm:field name="date"><mm:time format="dd-MM-yyyy" /></mm:field> /
+                  <a href="#release_${_node}"><mm:field name="name" /> <mm:field name="version" /></a>
+                </li>
+              </mm:listnodes>
+              </ul>
+            
+            </mm:listnodescontainer>
+          </mm:hasnodemanager>
+       
+        </div>
+      </div>
+  
+    </jsp:attribute>
+  </mmweb:html>
+</jsp:root>
