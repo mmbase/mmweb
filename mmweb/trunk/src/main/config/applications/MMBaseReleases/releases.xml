@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="utf-8"?>
+<releases exportsource="mmbase://alfred.mmbase.org/mmweb/foundation" timestamp="20130812162843">
+	<node number="3978" owner="admin">
+		<body></body>
+		<name>mmbase</name>
+		<intro></intro>
+		<version>1.5</version>
+	</node>
+
+	<node number="13334" owner="admin">
+		<body></body>
+		<name>MMBase</name>
+		<intro>This is release fixes a problem discoverd shortly after MMBase-1.6.4 was released. MMBase-1.6.4 contains a wrong class wich may result in rather confusing output of some queries. Check out the releasenotes for more information.
+ </intro>
+		<version>1.6.5</version>
+	</node>
+
+	<node number="17444" owner="admin">
+		<body></body>
+		<name>Complete MMBase application</name>
+		<intro></intro>
+		<version>March 7, 2000</version>
+	</node>
+
+	<node number="17577" owner="admin">
+		<body></body>
+		<name>stable MMBase release</name>
+		<intro></intro>
+		<version>13 march 2000</version>
+	</node>
+
+	<node number="17703" owner="admin">
+		<body></body>
+		<name>stable MMBase release</name>
+		<intro></intro>
+		<version>11 april 2000</version>
+	</node>
+
+	<node number="17720" owner="admin">
+		<body></body>
+		<name>stable MMBase release</name>
+		<intro></intro>
+		<version>1 may 2000</version>
+	</node>
+
+	<node number="17727" owner="admin">
+		<body></body>
+		<name>stable MMBase release</name>
+		<intro></intro>
+		<version>29 may 2000</version>
+	</node>
+
+	<node number="17733" owner="admin">
+		<body></body>
+		<name>stable MMBase release</name>
+		<intro></intro>
+		<version>5 july 2000</version>
+	</node>
+
+	<node number="18209" owner="admin">
+		<body></body>
+		<name>stable MMBase release</name>
+		<intro></intro>
+		<version>4 september 2000</version>
+	</node>
+
+	<node number="18505" owner="admin">
+		<body></body>
+		<name>stable MMBase release</name>
+		<intro></intro>
+		<version>30 october 2000</version>
+	</node>
+
+	<node number="18512" owner="admin">
+		<body></body>
+		<name>stable MMBase release</name>
+		<intro></intro>
+		<version>23 Februari 2001 (r1)</version>
+	</node>
+
+	<node number="18519" owner="admin">
+		<body></body>
+		<name>MMDistro</name>
+		<intro></intro>
+		<version>1.4</version>
+	</node>
+
+	<node number="18540" owner="admin">
+		<body></body>
+		<name>MMBase</name>
+		<intro></intro>
+		<version>1.5.1</version>
+	</node>
+
+	<node number="18549" owner="admin">
+		<body>MMBase is distributed in two different 'flavours', mmbase-src and
+mmbase. First is the source distribution and the second is the binary
+distribution.
+
+
+The binary distribution's target users are end-users and first-time
+users. It contains a working hsqldb database and applications (including builders) needed for the examples can be installed.
+
+The source distribution's target users are developers who like to start
+building their own MMBase.
+
+
+The final release can be downloaded from &lt;http://www.mmbase.org/download&gt;. This page will be updated somewhere tomorrow (friday), untill then you can download it from &lt;http://www.mmbase.org/releases/&gt;
+
+The MMBase releaseteam (thanks everybody who made this release possible)
+</body>
+		<name>MMBase</name>
+		<intro>The MMBase developers team is proud to present the final Release of
+MMBase-1.6.0.
+
+
+Highlights are:
+
+- Editwizards
+- Documentation
+- Scan turned off
+- Builders can use inheritance (experimental)
+- Automatic builder installation for applications
+- a lot of bugfixes
+- and more and more
+
+
+For more new features/bugfixes/etc see releasenotes inside the zip.</intro>
+		<version>1.6.0</version>
+	</node>
+
+	<node number="18560" owner="admin">
+		<body>MMBase is distributed in two different 'flavours', mmbase-src and
+mmbase. First is the source distribution and the second is the binary
+distribution.
+
+
+The binary distribution's target users are end-users and first-time
+users. It contains a working hsqldb database and applications (including
+builders) needed for the examples can be installed.
+
+
+The source distribution's target users are developers who like to start
+building their own MMBase.
+
+
+The release can be downloaded from &lt;http://www.mmbase.org/download&gt;.
+
+The MMBase releaseteam (thanks everybody who made this release possible)
+</body>
+		<name>MMBase</name>
+		<intro>The MMBase developers team is proud to present the Release of
+MMBase-1.6.1.
+
+
+MMBase-1.6.1 is the first bugfix release and it'll not be the last one :) . We're going to try to release a bugfix release every month.
+Besides the monthly official release, there will be a weekly build on saterday night. This weekly build can be downloaded from the nightly builds page &lt;http://www.mmbase.org/download/builds/&gt;.
+
+For information about fixed bugs see releasenotes inside the zip.</intro>
+		<version>1.6.1</version>
+	</node>
+
+	<node number="18561" owner="admin">
+		<body>MMBase-1.6.2 is the second bugfix release and fixes a few important performance bugs (ie. MMObjectNode::getRelated(type) fix and select *from fix). It also contains a new version of TypeRel which has better support for inheritance and has been cleaned.
+
+For more information about fixed bugs see releasenotes inside the zip.
+
+MMBase is distributed in two different 'flavours', mmbase-src and mmbase. First is the source distribution and the second is the binary distribution.
+
+The binary distribution's target users are end-users and first-time users. It contains a working hsqldb database and applications (including builders) needed for the examples can be installed.
+
+The source distribution's target users are developers who like to start building their own MMBase.
+
+The release can be downloaded in the download section. 
+
+At last the release team wants to thank  everybody who made this release possible.</body>
+		<name>MMBase</name>
+		<intro>The MMBase developers team is proud to present the second release of the stable MMBase 1.6, called MMBase-1.6.2
+
+In this new release more bugs are fixed, and some important performance issues have been solved.</intro>
+		<version>1.6.2</version>
+	</node>
+
+	<node number="18562" owner="admin">
+		<body></body>
+		<name>MMBase</name>
+		<intro>MMBase-1.6.3 is another bugfix release and fixes a few important bugs which caused a few problems in the previous release.</intro>
+		<version>1.6.3</version>
+	</node>
+
+	<node number="18564" owner="admin">
+		<body>MBase-1.6.4 is another bugfix release, see the releasenotes for an allmost complete list of changes.
+
+A lot of the changes are related to the  edittools:
+- editwizards: better performance
+- jsp-editors: few extra functions (eg create new node while creating relation)
+- my_editors: better useability and a few extra functions
+
+There are still a few known issues in this release, some of which will be fixed in the next major release (1.7.0), see releasenotes for more information.
+
+MMBase is distributed in three different 'flavours', mmbase-src, mmbase-bin and mmbase-bin for jdk1.4. First is the source distribution, the second is the binary distribution for jdk-1.3.x users and the third is the binary distribution for jdk-1.4.x users. The last one is necessary because of rmi incompatibilities between jdk-1.3.x and jdk-1.4.x.
+
+The binary distribution's target users are end-users and first-time users. It contains a working hsqldb database and applications (including builders) needed for the examples.
+
+The source distribution's target users are developers who like to start building their own MMBase.
+
+The release can be downloaded from &lt;http://www.mmbase.org/download&gt;.
+
+The MMBase releaseteam (thanks to everybody who made this release possible)</body>
+		<name>MMBase</name>
+		<intro>MMBase-1.6.4 is another bugfix release, see the releasenotes for an almost complete list of changes.
+
+The MMBase releaseteam thanks everybody who made this release possible</intro>
+		<version>1.6.4</version>
+	</node>
+
+	<node number="22896" owner="default">
+		<body>This rc can be used to test the next release. Please help us by testing it and send your test results to the mmbase developers mailinglist. If you find bugs, please report them in the bugtracker.</body>
+		<name>MMBase</name>
+		<intro>This is the first release candidate of the next major MMBase release. 
+
+Information about changes between MMBase-1.6.x and MMBase-1.7.0 is included in the releasenotes (though it's not complete yet).</intro>
+		<version>1.7.0-rc1</version>
+	</node>
+
+	<node number="23782" owner="default">
+		<body>There are a lot of bugs fixed between rc1 and rc2. Pdf version of most documentation is included.
+
+New with this release are the applications that are not part of the distro, these can be downloaded also.
+
+Information about changes between MMBase-1.6.x and MMBase-1.7.0 is included in the releasenotes.
+
+This rc can be used to test the next release. Please help us by testing it and send your test results to the mmbase developers mailinglist. If you find bugs, please report them in the bugtracker.</body>
+		<name>MMBase</name>
+		<intro>This is the second release candidate of the next major MMBase release.</intro>
+		<version>1.7.0-rc2</version>
+	</node>
+
+	<node number="24815" owner="default">
+		<body>This will be the last release candidate if no showstopers are found during the next week. The final release will be available next monday.
+
+There are a lot of bugs fixed between rc2 and rc3. 
+
+There are also release candidates available for the applications that are not part of the distro: Cloudcontextsecurity, media, email and scan.
+
+Information about changes between MMBase-1.6.x and MMBase-1.7.0 is included in the releasenotes.
+
+This rc can be used to test the next release. Please help us by testing it and send your test results to the mmbase developers mailinglist. If you find bugs, please report them in the bugtracker.</body>
+		<name>MMBase</name>
+		<intro>This is the third release candidate of the next major MMBase release.</intro>
+		<version>1.7.0-rc3</version>
+	</node>
+
+	<node number="24993" owner="default">
+		<body>This is the first release in which a lot of functionality has been 
+seperated from the core and put into applications. This process will 
+continue after this release. The core will become smaller and MMBase wil 
+become more modular.
+
+Other highlights are:
+
+- completely rewritten storage layer
+- new query framework
+- media application
+- a lot of new taglib features (see documentation for more info)
+
+For more new features/bugfixes/etc see releasenotes inside the zip.
+
+Because a lot of bugs have been fixed since the previous release, you 
+are advised to upgrade your existing installations. Please refer to the 
+upgrade.txt file for information.
+
+MMBase is distributed in two different 'flavours', mmbase-src and
+mmbase. First is the source distribution and the second is the binary
+distribution.
+
+The binary distribution's target users are end-users and first-time
+users. It contains a working hsqldb database and applications (including
+builders) needed for the examples can be installed.
+
+The source distribution's target users are developers who like to start
+building their own MMBase.
+
+Thanks to everybody who made this release possible.
+
+The MMBase releaseteam</body>
+		<name>MMBase</name>
+		<intro>The MMBase developers team is proud to present the long awaited final Release of MMBase-1.7.0 (only a few days after MMBase, as an open source project, turned 4, 3 april).
+</intro>
+		<version>1.7.0</version>
+	</node>
+
+	<node number="31541" owner="admin">
+		<body>There are a lot of bugs fixed in this release, see releasenotes.txt for more information about the bugs that are fixed.
+
+Because of the amount of bugs that have been fixed since the previous release, you are advised to upgrade your existing installations. Please refer to the 
+upgrade.txt file for information.
+
+MMBase is distributed in two different 'flavours', mmbase-src and
+mmbase. First is the source distribution and the second is the binary
+distribution.
+
+The binary distribution's target users are end-users and first-time
+users. It contains a working hsqldb database and applications (including
+builders) needed for the examples can be installed.
+
+The source distribution's target users are developers who like to start
+building their own MMBase.
+
+Thanks to everybody who made this release possible.
+
+The MMBase releaseteam</body>
+		<name>MMBase</name>
+		<intro>The MMBase developers team is proud to present the first bugfix release of MMBase-1.7.</intro>
+		<version>1.7.1</version>
+	</node>
+
+	<node number="39920" owner="default">
+		<body>More than 30 bugs have been fixed in this release and also a few performance issues have been resolved. See releasenotes.txt for the complete list of bugfixes.
+
+Because an unicast implementation has been added besides the existing multicast implementation for broadcasting changes, you are required to make some configuration changes. Please refer to the upgrade.txt for information about these changes.
+
+MMBase is distributed in two different 'flavours', mmbase-src and
+mmbase. First is the source distribution and the second is the binary
+distribution.
+
+The binary distribution's target users are end-users and first-time
+users. It contains a working hsqldb database and applications (including
+builders) needed for the examples can be installed.
+
+The source distribution's target users are developers who like to start
+building their own MMBase.
+
+Thanks to everybody who made this release possible.
+
+The MMBase releaseteam</body>
+		<name>MMBase</name>
+		<intro>The MMBase developers team is proud to present the second bugfix release of MMBase-1.7.</intro>
+		<version>1.7.2</version>
+	</node>
+
+	<node number="40657" owner="admin">
+		<body>This bug (#6637: Query-caches are not invalidated correctly if queried on relation-object directly) resulted in problems with the editwizards. 
+The 1.7.3 release includes a bugfix for this problem and also includes a few more bugfixes, see releasenotes for more information.
+
+The applications like Cloudcontext Security, Media, Email and Scan weren't updated  in this release. The applications from 1.7.2 can be used.</body>
+		<name>MMBase</name>
+		<intro>Just a few days after the 1.7.2 release a rather nasty bug has been found and fixed.</intro>
+		<version>1.7.3</version>
+	</node>
+
+	<node number="47989" owner="admin">
+		<body>After quite a long time we have finally released MMBase 1.7.4. It contains numerous bugfixes, and a few new features (most noticably: a few of the new 'imaging' features were backported from 1.8).</body>
+		<name>MMBase</name>
+		<intro>MMBase 1.7.4 is a bugfix release, with a few new features.</intro>
+		<version>1.7.4</version>
+	</node>
+
+	<node number="49979" owner="default">
+		<body>The first release candidate of the upcoming 1.8 release.</body>
+		<name>MMBase</name>
+		<intro>Release candidate of the upcoming 1.8 release.</intro>
+		<version>1.8.0-rc1</version>
+	</node>
+
+	<node number="50091" owner="default">
+		<body>The long anticipated release which packs a lot of new features and applications: optimised and cleaner code, new datatypes, improvements on fields and other functionality's and improvements.</body>
+		<name>MMBase</name>
+		<intro>The MMBase 1.8.0 release</intro>
+		<version>1.8.0</version>
+	</node>
+
+	<node number="50648" owner="default">
+		<body>Bugfixe release of MMBase 1.7. Contains a fix for a nasty bug in the editwizards that prevented them from running on Tomcat 5.5 and Java 1.5 and some other minor fixes.</body>
+		<name>MMBase</name>
+		<intro>Bugfixe release of the former main MMBase release.</intro>
+		<version>1.7.5</version>
+	</node>
+
+	<node number="50654" owner="default">
+		<body>This is a bugfix release, with major improvements on the terrain of
+performance and memory-use, and some minor other improvements. A more complete overview can be read in the release-notes.</body>
+		<name>MMBase</name>
+		<intro>The first bugfixes release of MMBase 1.8 with some major performance improvements.</intro>
+		<version>1.8.1</version>
+	</node>
+
+	<node number="51396" owner="default">
+		<body>A total of more then 20 bugs were fixed in this release. See the bugtracker for all bugs fixed in this release.</body>
+		<name>MMBase</name>
+		<intro>Second bugfix release of MMBase 1.8.</intro>
+		<version>1.8.2</version>
+	</node>
+
+	<node number="51849" owner="default">
+		<body>The former release was two months ago. Since then several more bugs were fixed, enough to justify a new release.</body>
+		<name>MMBase</name>
+		<intro>Third bugfix release of MMBase 1.8.</intro>
+		<version>1.8.3</version>
+	</node>
+
+	<node number="52554" owner="default">
+		<body>54 issues were fixed in this version: http://www.mmbase.org/jira/secure/IssueNavigator.jspa?reset=true&amp;pid=10000&amp;fixfor=10140</body>
+		<name>MMBase</name>
+		<intro>Bugfix release of MMBase 1.8.</intro>
+		<version>1.8.4</version>
+	</node>
+
+	<node number="52890" owner="default">
+		<body>This release candidate includes fixes for over 50 bugs. Please refer to the release noes for more information: http://www.mmbase.org/development/download/head/stable/MMBase-1_8_5-rc1//release-notes.txt</body>
+		<name>MMBase</name>
+		<intro>Release candidate for MMBase 1.8.5, for your testing purposes...</intro>
+		<version>1.8.5 rc1</version>
+	</node>
+
+	<node number="52914" owner="default">
+		<body>One of the main new features in this release is a javascript framework for the datatypes MMBase supports since 1.8. Using a asynchronous validation library (ajax) you can now validate form field inputs against their datatypes.</body>
+		<name>MMBase</name>
+		<intro>Between rc1 and this release a few more issues were found and fixed. </intro>
+		<version>1.8.5</version>
+	</node>
+
+	<node number="53203" owner="default">
+		<body>Version 1.9 adds functionality for component based development to MMBase. Components that adhere to the component framework standard can be used across different MMBase applications.</body>
+		<name>MMBase</name>
+		<intro>The beta release of the long awaited version with the MMBase Component Framework.</intro>
+		<version>1.9 beta</version>
+	</node>
+
+	<node number="53215" owner="default">
+		<body>This release contains a dozen new features and fixes over 50 issues. See the release notes for more information.</body>
+		<name>MMBase</name>
+		<intro>Release candidate for MMBase 1.8.6, for your testing purposes...</intro>
+		<version>1.8.6 rc1</version>
+	</node>
+
+	<node number="53350" owner="default">
+		<body>Bugfix release of MMBase 1.8.</body>
+		<name>MMBase</name>
+		<intro>Bugfix release of MMBase 1.8.</intro>
+		<version>1.8.6</version>
+	</node>
+
+	<node number="53467" owner="default">
+		<body>Components are applications or pieces of functionality that can be used in very different MMBase environments like Didactor or CMSC as long as the component framework is implemented. MMBase itself ships with a basic implementation of its framework, all administration pages are now component based and feature an urlfilter to beautify links.
+Besides all these new features this is the first release build with Maven.</body>
+		<name>MMBase</name>
+		<intro>The MMBase 1.9.0 release that includes the new MMBase Component Framework among a number of other new features.</intro>
+		<version>1.9.0</version>
+	</node>
+
+	<node number="53816" owner="default">
+		<body>This release has been made with Maven 2. The release notes note over 35 improvements and new features like support for H2 databases, views in MySQL and a few dozen bugfixes.</body>
+		<name>MMBase</name>
+		<intro>MMBase 1.9.1 includes several bug fixes and a some new features.</intro>
+		<version>1.9.1</version>
+	</node>
+
+	<node number="54066" owner="default">
+		<body>Release candidate of the soon to be released version 1.9.2.</body>
+		<name>MMBase</name>
+		<intro>Release candidate of the soon to be released version 1.9.2.</intro>
+		<version>1.9.2-rc2</version>
+	</node>
+
+	<node number="54131" owner="default">
+		<body>The download of this release is build with Maven though.</body>
+		<name>MMBase</name>
+		<intro>Bugfix release of MMBase 1.8 which still can be build with Ant.</intro>
+		<version>1.8.7</version>
+	</node>
+
+	<node number="54137" owner="default">
+		<body>This release includes 50 bugfixes and some improvements. One of the most notable new features is the new Streams application that encodes uploaded video and audio to other formats with the help of FFmpeg.</body>
+		<name>MMBase</name>
+		<intro>Latest release of MMBase with a ton of new features and bugfixes.</intro>
+		<version>1.9.2</version>
+	</node>
+
+	<node number="54264" owner="default">
+		<body>See the release notes http://www.mmbase.org/jira/browse/MMB/fixforversion/10190  New features include those of search and relate, streams, data types and core.</body>
+		<name>MMBase</name>
+		<intro>Latest bug fix release of MMBase with some new features.</intro>
+		<version>1.9.3</version>
+	</node>
+
+	<node number="54518" owner="default">
+		<body>MMBase-1.9.4 is a bugfix release, containing a few small new features. See the release notes for more details about the 25 issues new, fixed or improved.</body>
+		<name>MMBase</name>
+		<intro>MMBase-1.9.4 is a bugfix release, containing a few small new features. See the release notes for more details about the 25 issues new, fixed or improved.</intro>
+		<version>1.9.4</version>
+	</node>
+
+	<node number="54673" owner="default">
+		<body>Latest release of MMBase 1.9 with bugfixes and some new features.</body>
+		<name>MMBase</name>
+		<intro>Latest release of MMBase 1.9 with bugfixes and some new features.</intro>
+		<version>1.9.5</version>
+	</node>
+
+	<node number="55368" owner="default">
+		<body>Bugfix release with a few new features of the ever steady developing 1.9 branch of MMBase. Check the release notes for new features like automatic video thumbnails in streams, workflow in cloud context security, performance improvements, 25 bug fixes and 16 improvements.</body>
+		<name>MMBase</name>
+		<intro>Bugfix release with a few new features of the ever steady developing 1.9 branch of MMBase.</intro>
+		<version>1.9.6</version>
+	</node>
+
+</releases>

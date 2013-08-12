@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urls exportsource="mmbase://alfred.mmbase.org/mmweb/foundation" timestamp="20130812162843">
+	<node number="17513" owner="admin">
+		<description>all</description>
+		<name>Complete MMBase application (March 7, 2000)</name>
+		<url>http://www.mmbase.org/download/releases/orgmmbase7mar-dev.zip</url>
+	</node>
+
+	<node number="17700" owner="admin">
+		<description>all</description>
+		<name>stable MMBase release, 13 march 2000</name>
+		<url>http://www.mmbase.org/development/download/releases/orgmmbase-31march2000.zip</url>
+	</node>
+
+	<node number="17717" owner="admin">
+		<description>all</description>
+		<name>stable MMBase release, 11 april 2000</name>
+		<url>http://www.mmbase.org/development/download/releases/orgmmbase-11-04-2000.zip</url>
+	</node>
+
+	<node number="17723" owner="admin">
+		<description>all</description>
+		<name>stable MMBase release, 1 may 2000</name>
+		<url>http://development.mmbase.org/development/download/releases/orgmmbase-01-05-2000.zip</url>
+	</node>
+
+	<node number="17730" owner="admin">
+		<description>all</description>
+		<name>stable MMBase release, 29 may 2000</name>
+		<url>http://www.mmbase.org/download/releases/orgmmbase-29-05-2000.zip</url>
+	</node>
+
+	<node number="17974" owner="admin">
+		<description>all</description>
+		<name>stable MMBase release, 5 july 2000</name>
+		<url>http://www.mmbase.org/development/download/releases/orgmmbase-05-07-2000.zip</url>
+	</node>
+
+	<node number="18393" owner="admin">
+		<description>all</description>
+		<name>stable MMBase release, 4 september 2000</name>
+		<url>http://www.mmbase.org/download/releases/orgmmbase-04-09-2000.zip</url>
+	</node>
+
+	<node number="18508" owner="admin">
+		<description>all</description>
+		<name>stable MMBase release, 30 october 2000</name>
+		<url>http://www.mmbase.org/download/releases/orgmmbase-30-10-2000.zip</url>
+	</node>
+
+	<node number="18516" owner="admin">
+		<description>all</description>
+		<name>stable MMBase release, 23 Februari 2001 (r1)</name>
+		<url>http://development.mmbase.org/development/download/releases/MMBase-2001-02-23r1.zip</url>
+	</node>
+
+	<node number="18523" owner="admin">
+		<description>all</description>
+		<name>MMBase 1.4</name>
+		<url>http://www.mmbase.org/download/releases/MMBase-1.4.zip</url>
+	</node>
+
+	<node number="18543" owner="admin">
+		<description>src</description>
+		<name>MMBase 1.5.1 (src)</name>
+		<url>http://www.mmbase.org/download/releases/mmbase-src-1.5.1.zip</url>
+	</node>
+
+	<node number="18546" owner="admin">
+		<description>bin</description>
+		<name>MMBase 1.5.1 (bin)</name>
+		<url>http://www.mmbase.org/download/releases/mmbase-1.5.1.zip</url>
+	</node>
+
+	<node number="18553" owner="admin">
+		<description>bin</description>
+		<name>MMBase 1.6.0 (bin)</name>
+		<url>http://development.mmbase.org/development/download/releases/mmbase-1.6.0.zip</url>
+	</node>
+
+	<node number="18555" owner="admin">
+		<description>src</description>
+		<name>MMBase 1.6.0 (src)</name>
+		<url>http://development.mmbase.org/development/download/releases/mmbase-src-1.6.0.zip</url>
+	</node>
+
+	<node number="18575" owner="admin">
+		<description>bin</description>
+		<name>MMBase 1.6.5 (bin)</name>
+		<url>http://www.mmbase.org/download/releases/mmbase-1.6.5.zip</url>
+	</node>
+
+	<node number="18580" owner="admin">
+		<description>src</description>
+		<name>MMBase 1.6.5 (src) MMBase 1.6.5 (src)</name>
+		<url>http://www.mmbase.org/download/releases/mmbase-src-1.6.5.zip</url>
+	</node>
+
+	<node number="18611" owner="admin">
+		<description>bin</description>
+		<name>MMBase 1.6.4 (bin)</name>
+		<url>http://www.mmbase.org/download/releases/mmbase-1.6.4.zip</url>
+	</node>
+
+	<node number="18613" owner="admin">
+		<description>src</description>
+		<name>MMBase 1.6.4 (src)</name>
+		<url>http://www.mmbase.org/download/releases/mmbase-src-1.6.4.zip</url>
+	</node>
+
+	<node number="18617" owner="admin">
+		<description>bin</description>
+		<name>MMBase 1.6.3 (bin)</name>
+		<url>http://www.mmbase.org/download/releases/mmbase-1.6.3.zip</url>
+	</node>
+
+	<node number="18619" owner="admin">
+		<description>src</description>
+		<name>MMBase 1.6.3 (src)</name>
+		<url>http://www.mmbase.org/download/releases/mmbase-src-1.6.3.zip</url>
+	</node>
+
+	<node number="18621" owner="admin">
+		<description>src</description>
+		<name>MMBase 1.6.2 (src)</name>
+		<url>http://www.mmbase.org/download/releases/mmbase-src-1.6.2.zip</url>
+	</node>
+
+	<node number="18623" owner="admin">
+		<description>bin</description>
+		<name>MMBase 1.6.2 (bin)</name>
+		<url>http://development.mmbase.org/development/download/releases/mmbase-1.6.2.zip</url>
+	</node>
+
+	<node number="18631" owner="admin">
+		<description>bin</description>
+		<name>MMBase 1.6.1 (bin)</name>
+		<url>http://development.mmbase.org/development/download/releases/mmbase-1.6.1.zip</url>
+	</node>
+
+	<node number="18637" owner="admin">
+		<description>src</description>
+		<name>MMBase 1.6.1 (src)</name>
+		<url>http://development.mmbase.org/development/download/releases/mmbase-src-1.6.1.zip</url>
+	</node>
+
+	<node number="21767" owner="admin">
+		<description>bin (jdk 1.4)</description>
+		<name>MMBase 1.6.4 (jdk 1.4)</name>
+		<url>http://www.mmbase.org/download/releases/mmbase-1.6.4-jdk14.zip</url>
+	</node>
+
+	<node number="21769" owner="admin">
+		<description>bin (jdk 1.4)</description>
+		<name>mmbase 1.6.5 jdk 1.4</name>
+		<url>http://www.mmbase.org/download/releases/mmbase-1.6.5-jdk14.zip</url>
+	</node>
+
+	<node number="22897" owner="default">
+		<description>src</description>
+		<name>MMBase 1.7.0 Release Candidate 1 (src)</name>
+		<url>http://www.mmbase.org/download/releases/mmbase-src-1.7.0-rc1.zip</url>
+	</node>
+
+	<node number="22899" owner="default">
+		<description>bin</description>
+		<name>MMBase 1.7.0 Release Candidate 1 (bin)</name>
+		<url>http://www.mmbase.org/download/releases/mmbase-1.7.0-rc1.zip</url>
+	</node>
+
+	<node number="23771" owner="default">
+		<description>bin</description>
+		<name>MMBase 1.7.0 Release Candidate 2 (bin)</name>
+		<url>http://development.mmbase.org/development/download/releases/mmbase-1.7.0-rc2.zip</url>
+	</node>
+
+	<node number="23777" owner="default">
+		<description>src</description>
+		<name>MMBase 1.7.0 Release Candidate 2 (src)</name>
+		<url>http://www.mmbase.org/download/releases/mmbase-src-1.7.0-rc2.zip</url>
+	</node>
+
+	<node number="23778" owner="default">
+		<description>Application - CloudContext Security</description>
+		<name>MMbase 1.7.0 Release Candidate 2 - Cloud Context Security Application</name>
+		<url>http://www.mmbase.org/download/releases/mmbase-1.7.0-rc2-cloudcontextsecurity.zip</url>
+	</node>
+
+	<node number="23779" owner="default">
+		<description>Application - Media</description>
+		<name>MMbase 1.7.0 Release Candidate 2 - Media Application</name>
+		<url>http://development.mmbase.org/development/download/releases/mmbase-1.7.0-rc2-media.zip</url>
+	</node>
+
+	<node number="23780" owner="default">
+		<description>Application - Email</description>
+		<name>MMbase 1.7.0 Release Candidate 2 - Email Application</name>
+		<url>http://development.mmbase.org/development/download/releases/mmbase-1.7.0-rc2-email.zip</url>
+	</node>
+
+	<node number="23781" owner="default">
+		<description>Application - Scan (deprecated)</description>
+		<name>MMbase 1.7.0 Release Candidate 2 - Scan Application</name>
+		<url>http://www.mmbase.org/download/releases/mmbase-1.7.0-rc2-scan.zip</url>
+	</node>
+
+	<node number="24816" owner="default">
+		<description>bin</description>
+		<name>MMBase 1.7.0 Release Candidate 3 (bin)</name>
+		<url>http://www.mmbase.org/download/releases/mmbase-1.7.0-rc3.zip</url>
+	</node>
+
+	<node number="24818" owner="default">
+		<description>src</description>
+		<name>MMBase 1.7.0 Release Candidate 3 (src)</name>
+		<url>http://development.mmbase.org/development/download/releases/mmbase-src-1.7.0-rc3.zip</url>
+	</node>
+
+	<node number="24820" owner="default">
+		<description>Application - CloudContext Security</description>
+		<name>MMbase 1.7.0 Release Candidate 3 - Cloud Context Security Application</name>
+		<url>http://www.mmbase.org/download/releases/mmbase-1.7.0-rc3-cloudcontextsecurity.zip</url>
+	</node>
+
+	<node number="24822" owner="default">
+		<description>Application - Media</description>
+		<name>MMbase 1.7.0 Release Candidate 3 - Media Application</name>
+		<url>http://www.mmbase.org/download/releases/mmbase-1.7.0-rc3-media.zip</url>
+	</node>
+
+	<node number="24824" owner="default">
+		<description>Application - Email</description>
+		<name>MMbase 1.7.0 Release Candidate 3 - Email Application</name>
+		<url>http://development.mmbase.org/development/download/releases/mmbase-1.7.0-rc3-email.zip</url>
+	</node>
+
+	<node number="24826" owner="default">
+		<description>Application - Scan (deprecated)</description>
+		<name>MMbase 1.7.0 Release Candidate 3 - Scan Application</name>
+		<url>http://development.mmbase.org/download/releases/mmbase-1.7.0-rc3-scan.zip</url>
+	</node>
+
+	<node number="24987" owner="default">
+		<description>bin</description>
+		<name>MMBase 1.7.0 (bin)</name>
+		<url>http://development.mmbase.org/development/download/releases/mmbase-1.7.0.zip</url>
+	</node>
+
+	<node number="24988" owner="default">
+		<description>src</description>
+		<name>MMBase 1.7.0 (src)</name>
+		<url>http://development.mmbase.org/development/download/releases/mmbase-src-1.7.0.zip</url>
+	</node>
+
+	<node number="24989" owner="default">
+		<description>Application - CloudContext Security</description>
+		<name>MMbase 1.7.0 - Cloud Context Security Application</name>
+		<url>http://development.mmbase.org/development/download/releases/mmbase-1.7.0-cloudcontextsecurity.zip</url>
+	</node>
+
+	<node number="24990" owner="default">
+		<description>Application - Media</description>
+		<name>MMbase 1.7.0 - Media Application</name>
+		<url>http://development.mmbase.org/download/releases/mmbase-1.7.0-media.zip</url>
+	</node>
+
+	<node number="24991" owner="default">
+		<description>Application - Email</description>
+		<name>MMbase 1.7.0 - Email Application</name>
+		<url>http://development.mmbase.org/development/download/releases/mmbase-1.7.0-email.zip</url>
+	</node>
+
+	<node number="24992" owner="default">
+		<description>Application - Scan (deprecated)</description>
+		<name>MMbase 1.7.0 - Scan Application</name>
+		<url>http://development.mmbase.org/development/download/releases/mmbase-1.7.0-scan.zip</url>
+	</node>
+
+	<node number="31542" owner="admin">
+		<description>bin</description>
+		<name>MMBase 1.7.1 (bin)</name>
+		<url>http://development.mmbase.org/development/download/releases/mmbase-1.7.1.zip</url>
+	</node>
+
+	<node number="31544" owner="admin">
+		<description>src</description>
+		<name>MMBase 1.7.1 (src)</name>
+		<url>http://development.mmbase.org/development/download/releases/mmbase-src-1.7.1.zip</url>
+	</node>
+
+	<node number="31546" owner="admin">
+		<description>Application - CloudContext Security</description>
+		<name>MMbase 1.7.1 - Cloud Context Security Application</name>
+		<url>http://development.mmbase.org/development/download/releases/mmbase-1.7.1-cloudcontextsecurity.zip</url>
+	</node>
+
+	<node number="31548" owner="admin">
+		<description>Application - Media</description>
+		<name>MMbase 1.7.1 - Media Application</name>
+		<url>http://development.mmbase.org/development/download/releases/mmbase-1.7.1-media.zip</url>
+	</node>
+
+	<node number="31550" owner="admin">
+		<description>Application - Email</description>
+		<name>MMbase 1.7.1 - Email Application</name>
+		<url>http://development.mmbase.org/development/download/releases/mmbase-1.7.1-email.zip</url>
+	</node>
+
+	<node number="31552" owner="admin">
+		<description>Application - Scan (deprecated)</description>
+		<name>MMbase 1.7.1 - Scan Application</name>
+		<url>http://development.mmbase.org/development/download/releases/mmbase-1.7.1-scan.zip</url>
+	</node>
+
+	<node number="39921" owner="default">
+		<description>bin</description>
+		<name>MMBase 1.7.2 (bin)</name>
+		<url>http://development.mmbase.org/development/download/releases/mmbase-1.7.2.zip</url>
+	</node>
+
+	<node number="39923" owner="default">
+		<description>src</description>
+		<name>MMBase 1.7.2 (src)</name>
+		<url>http://development.mmbase.org/development/download/releases/mmbase-src-1.7.2.zip</url>
+	</node>
+
+	<node number="39925" owner="default">
+		<description>Application - CloudContext Security</description>
+		<name>MMbase 1.7.2 - Cloud Context Security Application</name>
+		<url>http://development.mmbase.org/development/download/releases/mmbase-1.7.2-cloudcontextsecurity.zip</url>
+	</node>
+
+	<node number="39927" owner="default">
+		<description>Application - Media</description>
+		<name>MMbase 1.7.2 - Media Application</name>
+		<url>http://development.mmbase.org/development/download/releases/mmbase-1.7.2-media.zip</url>
+	</node>
+
+	<node number="39929" owner="default">
+		<description>Application - Email</description>
+		<name>MMbase 1.7.2 - Email Application</name>
+		<url>http://development.mmbase.org/development/download/releases/mmbase-1.7.2-email.zip</url>
+	</node>
+
+	<node number="39931" owner="default">
+		<description>Application - Scan (deprecated)</description>
+		<name>MMbase 1.7.2 - Scan Application</name>
+		<url>http://development.mmbase.org/development/download/releases/mmbase-1.7.2-scan.zip</url>
+	</node>
+
+	<node number="40658" owner="admin">
+		<description>bin</description>
+		<name>MMBase 1.7.3 (bin)</name>
+		<url>http://development.mmbase.org/development/download/releases/mmbase-1.7.3.zip</url>
+	</node>
+
+	<node number="40660" owner="admin">
+		<description>src</description>
+		<name>MMBase 1.7.3 (src)</name>
+		<url>http://development.mmbase.org/development/download/releases/mmbase-src-1.7.3.zip</url>
+	</node>
+
+	<node number="47993" owner="admin">
+		<description>Complete build and several applications build upon 1.7.4</description>
+		<name>MMBase 1.7.4</name>
+		<url>/download/releases/MMBase-1_7_4</url>
+	</node>
+
+	<node number="49981" owner="default">
+		<description>The first release candidate, contributions and community supported applications based upon this release.</description>
+		<name>MMBase 1.8.0-rc1</name>
+		<url>/development/download/build_page.jsp?dir=head/MMBase-1.8.0.rc1</url>
+	</node>
+
+	<node number="50094" owner="default">
+		<description>Overview of 1.8 and all its applications</description>
+		<name>MMBase 1.8.0</name>
+		<url>http://www.mmbase.org/development/download/build_page.jsp?dir=head/MMBase-1.8.0.final</url>
+	</node>
+
+	<node number="50098" owner="default">
+		<description>ZIP file containing a complete ready-to-go webapp with the MMBase distribution (aprox. 14Mb)</description>
+		<name>MMBase 1.8.0 distro</name>
+		<url>http://www.mmbase.org/development/download/head/MMBase-1.8.0.final/mmbase-1.8.0.20060509.zip</url>
+	</node>
+
+	<node number="50649" owner="default">
+		<description>Bugfix release of MMBase 1.7</description>
+		<name>MMBase 1.7.5</name>
+		<url>http://www.mmbase.org/download/stable/MMBase-1_7_5/</url>
+	</node>
+
+	<node number="50655" owner="default">
+		<description>Links to MMBase 1.8.1 and related applications</description>
+		<name>MMBase 1.8.1</name>
+		<url>http://www.mmbase.org/development/download/build_page.jsp?dir=head/MMBase-1.8.1.final</url>
+	</node>
+
+	<node number="51398" owner="default">
+		<description>Download MMBase 1.8.2 and related applications</description>
+		<name>MMBase 1.8.2</name>
+		<url>http://www.mmbase.org/development/download/build_page.jsp?dir=stable/MMBase-1_8_2</url>
+	</node>
+
+	<node number="51404" owner="default">
+		<description>ZIP file containing a complete ready-to-go webapp with the MMBase distribution (aprox. 14Mb)</description>
+		<name>MMBase 1.8.2 distro</name>
+		<url>http://www.mmbase.org/development/download/stable/MMBase-1_8_2/mmbase-1.8.2.20061003.zip</url>
+	</node>
+
+	<node number="51853" owner="default">
+		<description>ZIP file containing a complete ready-to-go webapp with the MMBase distribution (aprox. 14Mb)</description>
+		<name>MMBase 1.8.3</name>
+		<url>http://www.mmbase.org/development/download/stable/MMBase-1_8_3/mmbase-1.8.3.20061205.zip</url>
+	</node>
+
+	<node number="51855" owner="default">
+		<description>This page contains the 1.8.3 release, its related applications, the source and documentation.</description>
+		<name>MMBase 1.8.3 and related applications</name>
+		<url>http://www.mmbase.org/development/download/build_page.jsp?dir=stable/MMBase-1_8_3</url>
+	</node>
+
+	<node number="52555" owner="default">
+		<description>Complete ready-to-go webapplication of MMBase (distribution, aprox. 14Mb)</description>
+		<name>MMBase 1.8.4</name>
+		<url>http://www.mmbase.org/development/download/stable/MMBase-1_8_4/mmbase-1.8.4.20070514.zip</url>
+	</node>
+
+	<node number="52557" owner="default">
+		<description>Download page for the 1.8.4 release, its related applications, source and documentation.</description>
+		<name>Download page for MMBase 1.8.4 and its applications</name>
+		<url>http://www.mmbase.org/development/download/build_page.jsp?dir=stable/MMBase-1_8_4</url>
+	</node>
+
+	<node number="52894" owner="default">
+		<description>Release candidate for MMBase 1.8.5</description>
+		<name>MMBase 1.8.5 rc1</name>
+		<url>http://www.mmbase.org/development/download/build_page.jsp?dir=head/stable/MMBase-1_8_5-rc1/</url>
+	</node>
+
+	<node number="52916" owner="default">
+		<description>Download page for MMBase 1.8.5, its related applications and source.</description>
+		<name>MMBase 1.8.5</name>
+		<url>http://www.mmbase.org/development/download/build_page.jsp?dir=stable/MMBase-1_8_5</url>
+	</node>
+
+	<node number="52920" owner="default">
+		<description>MMBase 1.8.5 release notes</description>
+		<name>MMBase 1.8.5 release notes</name>
+		<url>http://www.mmbase.org/development/download/stable/MMBase-1_8_5/release-notes.txt</url>
+	</node>
+
+	<node number="52922" owner="default">
+		<description>Complete MMBase 1.8.5 webapplication</description>
+		<name>MMBase 1.8.5 webapp</name>
+		<url>http://www.mmbase.org/development/download/stable/MMBase-1_8_5/mmbase-1.8.5.20071212.zip</url>
+	</node>
+
+	<node number="53201" owner="default">
+		<description>WAR file of MMBase-1.9.0.beta</description>
+		<name>MMBase 1.9 beta release</name>
+		<url>http://www.mmbase.org/development/download/builds/MMBase-1.9.0.beta/example-1.9.0-beta.war</url>
+	</node>
+
+	<node number="53216" owner="default">
+		<description>Release notes of MMBase 1.8.6</description>
+		<name>Release notes of MMBase 1.8.6</name>
+		<url>http://www.mmbase.org/jira/secure/ReleaseNote.jspa?version=10156&amp;styleName=Html&amp;projectId=10000&amp;Create=Create</url>
+	</node>
+
+	<node number="53218" owner="default">
+		<description>All binaries, applications, sources and documentation belonging to the MMBase 1.8.6 release candidate.</description>
+		<name>MMBase 1.8.6 rc1</name>
+		<url>http://www.mmbase.org/development/download/stable/MMBase-1_8_6_rc1/</url>
+	</node>
+
+	<node number="53220" owner="default">
+		<description>MMBase 1.8.6 rc1 webapplication</description>
+		<name>MMBase 1.8.6 rc1 webapplication</name>
+		<url>http://www.mmbase.org/development/download/stable/MMBase-1_8_6_rc1/mmbase-1.8.6.20080426.zip</url>
+	</node>
+
+	<node number="53225" owner="default">
+		<description>Release notes of MMBase 1.9 beta.</description>
+		<name>Release notes of MMBase 1.9 beta</name>
+		<url>http://www.mmbase.org/jira/secure/ReleaseNote.jspa?version=10119&amp;styleName=Html&amp;projectId=10000&amp;Create=Create</url>
+	</node>
+
+	<node number="53227" owner="default">
+		<description>Applications JAR's, sources and documentation belonging to the MMBase 1.9 beta release.</description>
+		<name>JAR's, applications etc. of MMBase 1.9 beta</name>
+		<url>http://www.mmbase.org/development/download/builds/MMBase-1.9.0.beta/</url>
+	</node>
+
+	<node number="53355" owner="default">
+		<description>All MMBase 1.8.6 jars, src etc. and including related applications</description>
+		<name>MMBase 1.8.6 jars and related applications</name>
+		<url>http://www.mmbase.org/development/download/stable/MMBase-1_8_6_Final/</url>
+	</node>
+
+	<node number="53358" owner="default">
+		<description>MMBase 1.8.6 webapplication</description>
+		<name>MMBase 1.8.6 webapp</name>
+		<url>http://www.mmbase.org/development/download/stable/MMBase-1_8_6_Final/mmbase-1.8.6.20080804.zip</url>
+	</node>
+
+	<node number="53471" owner="default">
+		<description>MMBase 1.9.0 war - containing the example webapp, formerly known as the distro, of MMBase.</description>
+		<name>MMBase 1.9.0 example war</name>
+		<url>http://www.mmbase.org/development/download/head/MMBase-1.9.0.final/example-1.9.0.war</url>
+	</node>
+
+	<node number="53473" owner="default">
+		<description>MMBase 1.9.0 build - page listing all applications that were automatically build against this release.</description>
+		<name>MMBase 1.9.0 builds</name>
+		<url>http://www.mmbase.org/development/download/build_page.jsp?dir=head/MMBase-1.9.0.final</url>
+	</node>
+
+	<node number="53475" owner="default">
+		<description>General documentation about the MMBase Component Framework (MMCF, to be updated) outlining the basic functionality about how to implement it and (re)write your own applications as components.</description>
+		<name>MMBase Component Framework documentation</name>
+		<url>http://www.mmbase.org/mm/documentation/backenddevelopers/components.html</url>
+	</node>
+
+	<node number="53483" owner="default">
+		<description>MMBase 1.9.0 Release notes - containing no less then 126 bug fixes, features and other improvements.</description>
+		<name>Release notes of MMBase 1.9.0</name>
+		<url>http://www.mmbase.org/jira/secure/ReleaseNote.jspa?version=10119&amp;styleName=Html&amp;projectId=10000&amp;Create=Create</url>
+	</node>
+
+	<node number="53820" owner="default">
+		<description>Release notes of MMBase 1.9.1</description>
+		<name>Release notes of MMBase 1.9.1</name>
+		<url>http://www.mmbase.org/jira/secure/ReleaseNote.jspa?projectId=10000&amp;styleName=Html&amp;version=10170</url>
+	</node>
+
+	<node number="53822" owner="default">
+		<description>Example webapp of MMBase 1.9.1</description>
+		<name>Example webapp of MMBase 1.9.1</name>
+		<url>http://www.mmbase.org/maven2/org/mmbase/example-webapp/1.9.1/</url>
+	</node>
+
+	<node number="53824" owner="default">
+		<description>The 'base' applications of MMBase 1.9.1
+</description>
+		<name>The main MMBase 1.9.1 applications</name>
+		<url>http://www.mmbase.org/maven2/org/mmbase/base-webapp/</url>
+	</node>
+
+	<node number="53832" owner="default">
+		<description>Just the MMBase 'core' jar itself.</description>
+		<name>MMBase 1.9.1</name>
+		<url>http://www.mmbase.org/maven2/org/mmbase/mmbase/1.9.1/</url>
+	</node>
+
+	<node number="54062" owner="default">
+		<description>The example webapp and related files</description>
+		<name>MMBase 1.9.2-rc2 example webapp</name>
+		<url>http://www.mmbase.org/maven2/org/mmbase/example-webapp/1.9.2-rc2/</url>
+	</node>
+
+	<node number="54064" owner="default">
+		<description>MMBase 1.9.2-rc2 release notes</description>
+		<name>MMBase 1.9.2-rc2 release notes</name>
+		<url>http://www.mmbase.org/jira/secure/ReleaseNote.jspa?projectId=10000&amp;styleName=Html&amp;version=10171</url>
+	</node>
+
+	<node number="54135" owner="default">
+		<description>MMBase 1.8.7 webapplication</description>
+		<name>MMBase 1.8.7 webapplication</name>
+		<url>http://www.mmbase.org/maven/mmbase/wars/example-1.8.7.war</url>
+	</node>
+
+	<node number="54141" owner="default">
+		<description>MMBase 1.9.2 example webapplication</description>
+		<name>MMBase 1.9.2 example WAR</name>
+		<url>http://www.mmbase.org/maven2/org/mmbase/example-webapp/1.9.2/example-webapp-1.9.2.war</url>
+	</node>
+
+	<node number="54143" owner="default">
+		<description>MMBase 1.9.2 release notes</description>
+		<name>MMBase 1.9.2 release notes</name>
+		<url>http://www.mmbase.org/jira/secure/ReleaseNote.jspa?version=10171&amp;styleName=Html&amp;projectId=10000&amp;Create=Create</url>
+	</node>
+
+	<node number="54145" owner="default">
+		<description>MMBase 1.8.7 release notes</description>
+		<name>MMBase 1.8.7 release notes</name>
+		<url>http://www.mmbase.org/jira/secure/ReleaseNote.jspa?version=10160&amp;styleName=Html&amp;projectId=10000&amp;Create=Create</url>
+	</node>
+
+	<node number="54147" owner="default">
+		<description>All MMBase 1.8.7 jar's and related applications</description>
+		<name>All MMBase 1.8.7 jar's and related applications</name>
+		<url>http://www.mmbase.org/development/download/stable/MMBase-1_8_7_Final/</url>
+	</node>
+
+	<node number="54149" owner="default">
+		<description>MMBase 1.9.2 jar, javadoc and sources</description>
+		<name>MMBase 1.9.2 jar, javadoc and sources</name>
+		<url>http://www.mmbase.org/maven2/org/mmbase/mmbase/1.9.2/</url>
+	</node>
+
+	<node number="54268" owner="default">
+		<description>MMBase 1.9.3 release notes</description>
+		<name>MMBase 1.9.3 release notes</name>
+		<url>http://www.mmbase.org/jira/browse/MMB/fixforversion/10190</url>
+	</node>
+
+	<node number="54270" owner="default">
+		<description>MMBase 1.9.3 example web application</description>
+		<name>MMBase 1.9.3 example WAR</name>
+		<url>http://www.mmbase.org/maven2/org/mmbase/example-webapp/1.9.3/</url>
+	</node>
+
+	<node number="54272" owner="default">
+		<description>MMBase 1.9.3 jar, javadoc and sources</description>
+		<name>MMBase 1.9.3 jar, javadoc and sources</name>
+		<url>http://www.mmbase.org/maven2/org/mmbase/mmbase/1.9.3/</url>
+	</node>
+
+	<node number="54459" owner="admin">
+		<description>Releasenotes 1.9.4</description>
+		<name>Releasenotes 1.9.4</name>
+		<url>http://www.mmbase.org/jira/secure/ReleaseNote.jspa?projectId=10000&amp;version=10191</url>
+	</node>
+
+	<node number="54523" owner="default">
+		<description>MMBase 1.9.4 example WAR</description>
+		<name>MMBase 1.9.4 example WAR</name>
+		<url>http://www.mmbase.org/maven2/org/mmbase/example-webapp/1.9.4/example-webapp-1.9.4.war</url>
+	</node>
+
+	<node number="54525" owner="default">
+		<description>MMBase 1.9.4 jar, javadoc and sources</description>
+		<name>MMBase 1.9.4 jar, javadoc and sources</name>
+		<url>http://www.mmbase.org/maven2/org/mmbase/mmbase/1.9.4/</url>
+	</node>
+
+	<node number="54674" owner="default">
+		<description>MMBase 1.9.5 jar, javadoc and sources</description>
+		<name>MMBase 1.9.5</name>
+		<url>http://www.mmbase.org/maven2/org/mmbase/mmbase/1.9.5/</url>
+	</node>
+
+	<node number="54676" owner="default">
+		<description>MMBase 1.9.5 example WAR from our maven repository.</description>
+		<name>MMBase 1.9.5 example WAR</name>
+		<url>http://www.mmbase.org/maven2/org/mmbase/example-webapp/1.9.5/example-webapp-1.9.5.war</url>
+	</node>
+
+	<node number="54678" owner="default">
+		<description>Releasenotes 1.9.5 provided by JIRA</description>
+		<name>Releasenotes 1.9.5</name>
+		<url>http://www.mmbase.org/jira/secure/ReleaseNote.jspa?projectId=10000&amp;version=10213</url>
+	</node>
+
+	<node number="55372" owner="default">
+		<description>MMBase 1.9.6 jar, javadoc and sources</description>
+		<name>MMBase 1.9.6</name>
+		<url>http://www.mmbase.org/maven2/org/mmbase/mmbase/1.9.6/</url>
+	</node>
+
+	<node number="55374" owner="default">
+		<description>MMBase version 1.9.6 releasenotes provided by JIRA.</description>
+		<name>Releasenotes 1.9.6</name>
+		<url>http://www.mmbase.org/jira/secure/ReleaseNote.jspa?projectId=10000&amp;version=10231</url>
+	</node>
+
+	<node number="55376" owner="default">
+		<description>MMBase 1.9.6 example WAR from our maven repository, includes among others examples for news (MyNews!), email, rmmci, streams and media.</description>
+		<name>MMBase 1.9.6 example WAR</name>
+		<url>http://www.mmbase.org/maven2/org/mmbase/example-webapp/1.9.6/</url>
+	</node>
+
+</urls>
