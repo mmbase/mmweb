@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pages exportsource="mmbase://alfred.mmbase.org/mmweb/foundation" timestamp="20130812162843">
+
+	<node number="13316" owner="admin" alias="page_releases">
+		<title>Releases</title>
+		<menuname>BackendDevelopers</menuname>
+	</node>
+
+</pages>

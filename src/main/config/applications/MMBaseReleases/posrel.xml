@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="utf-8"?>
+<posrel exportsource="mmbase://alfred.mmbase.org/mmweb/foundation" timestamp="20130812162843">
+	<node number="541" owner="admin" snumber="191" dnumber="177" rtype="posrel" dir="bidirectional">
+		<pos>1</pos>
+	</node>
+
+	<node number="13315" owner="admin" snumber="177" dnumber="560" rtype="posrel" dir="bidirectional">
+		<pos>3</pos>
+	</node>
+
+	<node number="13317" owner="admin" snumber="177" dnumber="13316" rtype="posrel" dir="bidirectional">
+		<pos>1</pos>
+	</node>
+
+	<node number="17514" owner="admin" snumber="17444" dnumber="17513" rtype="posrel" dir="bidirectional">
+		<pos>-1</pos>
+	</node>
+
+	<node number="17701" owner="admin" snumber="17577" dnumber="17700" rtype="posrel" dir="bidirectional">
+		<pos>-1</pos>
+	</node>
+
+	<node number="17718" owner="admin" snumber="17703" dnumber="17717" rtype="posrel" dir="bidirectional">
+		<pos>-1</pos>
+	</node>
+
+	<node number="17724" owner="admin" snumber="17720" dnumber="17723" rtype="posrel" dir="bidirectional">
+		<pos>-1</pos>
+	</node>
+
+	<node number="17731" owner="admin" snumber="17727" dnumber="17730" rtype="posrel" dir="bidirectional">
+		<pos>-1</pos>
+	</node>
+
+	<node number="17975" owner="admin" snumber="17733" dnumber="17974" rtype="posrel" dir="bidirectional">
+		<pos>-1</pos>
+	</node>
+
+	<node number="18395" owner="admin" snumber="18209" dnumber="18393" rtype="posrel" dir="bidirectional">
+		<pos>-1</pos>
+	</node>
+
+	<node number="18509" owner="admin" snumber="18505" dnumber="18508" rtype="posrel" dir="bidirectional">
+		<pos>-1</pos>
+	</node>
+
+	<node number="18517" owner="admin" snumber="18512" dnumber="18516" rtype="posrel" dir="bidirectional">
+		<pos>-1</pos>
+	</node>
+
+	<node number="18524" owner="admin" snumber="18519" dnumber="18523" rtype="posrel" dir="bidirectional">
+		<pos>-1</pos>
+	</node>
+
+	<node number="18544" owner="admin" snumber="18540" dnumber="18543" rtype="posrel" dir="bidirectional">
+		<pos>-1</pos>
+	</node>
+
+	<node number="18547" owner="admin" snumber="18540" dnumber="18546" rtype="posrel" dir="bidirectional">
+		<pos>-1</pos>
+	</node>
+
+	<node number="18554" owner="admin" snumber="18549" dnumber="18553" rtype="posrel" dir="bidirectional">
+		<pos>-1</pos>
+	</node>
+
+	<node number="18556" owner="admin" snumber="18549" dnumber="18555" rtype="posrel" dir="bidirectional">
+		<pos>-1</pos>
+	</node>
+
+	<node number="18576" owner="admin" snumber="13334" dnumber="18575" rtype="posrel" dir="bidirectional">
+		<pos>-1</pos>
+	</node>
+
+	<node number="18581" owner="admin" snumber="13334" dnumber="18580" rtype="posrel" dir="bidirectional">
+		<pos>-1</pos>
+	</node>
+
+	<node number="18612" owner="admin" snumber="18564" dnumber="18611" rtype="posrel" dir="bidirectional">
+		<pos>-1</pos>
+	</node>
+
+	<node number="18614" owner="admin" snumber="18564" dnumber="18613" rtype="posrel" dir="bidirectional">
+		<pos>-1</pos>
+	</node>
+
+	<node number="18618" owner="admin" snumber="18562" dnumber="18617" rtype="posrel" dir="bidirectional">
+		<pos>-1</pos>
+	</node>
+
+	<node number="18620" owner="admin" snumber="18562" dnumber="18619" rtype="posrel" dir="bidirectional">
+		<pos>-1</pos>
+	</node>
+
+	<node number="18622" owner="admin" snumber="18561" dnumber="18621" rtype="posrel" dir="bidirectional">
+		<pos>-1</pos>
+	</node>
+
+	<node number="18624" owner="admin" snumber="18561" dnumber="18623" rtype="posrel" dir="bidirectional">
+		<pos>-1</pos>
+	</node>
+
+	<node number="18632" owner="admin" snumber="18560" dnumber="18631" rtype="posrel" dir="bidirectional">
+		<pos>-1</pos>
+	</node>
+
+	<node number="18638" owner="admin" snumber="18560" dnumber="18637" rtype="posrel" dir="bidirectional">
+		<pos>-1</pos>
+	</node>
+
+	<node number="19631" owner="default" snumber="193" dnumber="177" rtype="posrel" dir="bidirectional">
+		<pos>1</pos>
+	</node>
+
+	<node number="19666" owner="admin" snumber="166" dnumber="177" rtype="posrel" dir="bidirectional">
+		<pos>1</pos>
+	</node>
+
+	<node number="21768" owner="admin" snumber="18564" dnumber="21767" rtype="posrel" dir="bidirectional">
+		<pos>-1</pos>
+	</node>
+
+	<node number="21770" owner="admin" snumber="13334" dnumber="21769" rtype="posrel" dir="bidirectional">
+		<pos>-1</pos>
+	</node>
+
+	<node number="22898" owner="default" snumber="22896" dnumber="22897" rtype="posrel" dir="bidirectional">
+		<pos>-1</pos>
+	</node>
+
+	<node number="22900" owner="default" snumber="22896" dnumber="22899" rtype="posrel" dir="bidirectional">
+		<pos>-1</pos>
+	</node>
+
+	<node number="23785" owner="default" snumber="23782" dnumber="23771" rtype="posrel" dir="bidirectional">
+		<pos>6</pos>
+	</node>
+
+	<node number="23786" owner="default" snumber="23782" dnumber="23777" rtype="posrel" dir="bidirectional">
+		<pos>5</pos>
+	</node>
+
+	<node number="23787" owner="default" snumber="23782" dnumber="23778" rtype="posrel" dir="bidirectional">
+		<pos>4</pos>
+	</node>
+
+	<node number="23788" owner="default" snumber="23782" dnumber="23779" rtype="posrel" dir="bidirectional">
+		<pos>3</pos>
+	</node>
+
+	<node number="23789" owner="default" snumber="23782" dnumber="23780" rtype="posrel" dir="bidirectional">
+		<pos>2</pos>
+	</node>
+
+	<node number="23790" owner="default" snumber="23782" dnumber="23781" rtype="posrel" dir="bidirectional">
+		<pos>1</pos>
+	</node>
+
+	<node number="24817" owner="default" snumber="24815" dnumber="24816" rtype="posrel" dir="bidirectional">
+		<pos>6</pos>
+	</node>
+
+	<node number="24819" owner="default" snumber="24815" dnumber="24818" rtype="posrel" dir="bidirectional">
+		<pos>5</pos>
+	</node>
+
+	<node number="24821" owner="default" snumber="24815" dnumber="24820" rtype="posrel" dir="bidirectional">
+		<pos>4</pos>
+	</node>
+
+	<node number="24823" owner="default" snumber="24815" dnumber="24822" rtype="posrel" dir="bidirectional">
+		<pos>3</pos>
+	</node>
+
+	<node number="24825" owner="default" snumber="24815" dnumber="24824" rtype="posrel" dir="bidirectional">
+		<pos>2</pos>
+	</node>
+
+	<node number="24827" owner="default" snumber="24815" dnumber="24826" rtype="posrel" dir="bidirectional">
+		<pos>1</pos>
+	</node>
+
+	<node number="24994" owner="default" snumber="24993" dnumber="24987" rtype="posrel" dir="bidirectional">
+		<pos>6</pos>
+	</node>
+
+	<node number="24995" owner="default" snumber="24993" dnumber="24988" rtype="posrel" dir="bidirectional">
+		<pos>5</pos>
+	</node>
+
+	<node number="24996" owner="default" snumber="24993" dnumber="24989" rtype="posrel" dir="bidirectional">
+		<pos>4</pos>
+	</node>
+
+	<node number="24997" owner="default" snumber="24993" dnumber="24990" rtype="posrel" dir="bidirectional">
+		<pos>3</pos>
+	</node>
+
+	<node number="24998" owner="default" snumber="24993" dnumber="24991" rtype="posrel" dir="bidirectional">
+		<pos>2</pos>
+	</node>
+
+	<node number="24999" owner="default" snumber="24993" dnumber="24992" rtype="posrel" dir="bidirectional">
+		<pos>1</pos>
+	</node>
+
+	<node number="25986" owner="default" snumber="177" dnumber="25980" rtype="posrel" dir="bidirectional">
+		<pos>4</pos>
+	</node>
+
+	<node number="31543" owner="admin" snumber="31541" dnumber="31542" rtype="posrel" dir="bidirectional">
+		<pos>6</pos>
+	</node>
+
+	<node number="31545" owner="admin" snumber="31541" dnumber="31544" rtype="posrel" dir="bidirectional">
+		<pos>5</pos>
+	</node>
+
+	<node number="31547" owner="admin" snumber="31541" dnumber="31546" rtype="posrel" dir="bidirectional">
+		<pos>4</pos>
+	</node>
+
+	<node number="31549" owner="admin" snumber="31541" dnumber="31548" rtype="posrel" dir="bidirectional">
+		<pos>3</pos>
+	</node>
+
+	<node number="31551" owner="admin" snumber="31541" dnumber="31550" rtype="posrel" dir="bidirectional">
+		<pos>2</pos>
+	</node>
+
+	<node number="31553" owner="admin" snumber="31541" dnumber="31552" rtype="posrel" dir="bidirectional">
+		<pos>1</pos>
+	</node>
+
+	<node number="39922" owner="default" snumber="39920" dnumber="39921" rtype="posrel" dir="bidirectional">
+		<pos>6</pos>
+	</node>
+
+	<node number="39924" owner="default" snumber="39920" dnumber="39923" rtype="posrel" dir="bidirectional">
+		<pos>5</pos>
+	</node>
+
+	<node number="39926" owner="default" snumber="39920" dnumber="39925" rtype="posrel" dir="bidirectional">
+		<pos>4</pos>
+	</node>
+
+	<node number="39928" owner="default" snumber="39920" dnumber="39927" rtype="posrel" dir="bidirectional">
+		<pos>3</pos>
+	</node>
+
+	<node number="39930" owner="default" snumber="39920" dnumber="39929" rtype="posrel" dir="bidirectional">
+		<pos>2</pos>
+	</node>
+
+	<node number="39932" owner="default" snumber="39920" dnumber="39931" rtype="posrel" dir="bidirectional">
+		<pos>1</pos>
+	</node>
+
+	<node number="40659" owner="admin" snumber="40657" dnumber="40658" rtype="posrel" dir="bidirectional">
+		<pos>null</pos>
+	</node>
+
+	<node number="40661" owner="admin" snumber="40657" dnumber="40660" rtype="posrel" dir="bidirectional">
+		<pos>null</pos>
+	</node>
+
+	<node number="47994" owner="admin" snumber="47989" dnumber="47993" rtype="posrel" dir="bidirectional">
+		<pos>1</pos>
+	</node>
+
+	<node number="49982" owner="default" snumber="49979" dnumber="49981" rtype="posrel" dir="bidirectional">
+		<pos>1</pos>
+	</node>
+
+	<node number="50095" owner="default" snumber="50091" dnumber="50094" rtype="posrel" dir="bidirectional">
+		<pos>1</pos>
+	</node>
+
+	<node number="50100" owner="default" snumber="50091" dnumber="50098" rtype="posrel" dir="bidirectional">
+		<pos>2</pos>
+	</node>
+
+	<node number="50650" owner="default" snumber="50648" dnumber="50649" rtype="posrel" dir="bidirectional">
+		<pos>1</pos>
+	</node>
+
+	<node number="50656" owner="default" snumber="50654" dnumber="50655" rtype="posrel" dir="bidirectional">
+		<pos>1</pos>
+	</node>
+
+	<node number="51399" owner="default" snumber="51396" dnumber="51398" rtype="posrel" dir="bidirectional">
+		<pos>1</pos>
+	</node>
+
+	<node number="51405" owner="default" snumber="51396" dnumber="51404" rtype="posrel" dir="bidirectional">
+		<pos>2</pos>
+	</node>
+
+	<node number="51854" owner="default" snumber="51849" dnumber="51853" rtype="posrel" dir="bidirectional">
+		<pos>1</pos>
+	</node>
+
+	<node number="51856" owner="default" snumber="51849" dnumber="51855" rtype="posrel" dir="bidirectional">
+		<pos>2</pos>
+	</node>
+
+	<node number="52545" owner="default" snumber="177" dnumber="52544" rtype="posrel" dir="bidirectional">
+		<pos>2</pos>
+	</node>
+
+	<node number="52556" owner="default" snumber="52554" dnumber="52555" rtype="posrel" dir="bidirectional">
+		<pos>1</pos>
+	</node>
+
+	<node number="52558" owner="default" snumber="52554" dnumber="52557" rtype="posrel" dir="bidirectional">
+		<pos>2</pos>
+	</node>
+
+	<node number="52895" owner="default" snumber="52890" dnumber="52894" rtype="posrel" dir="bidirectional">
+		<pos>1</pos>
+	</node>
+
+	<node number="52917" owner="default" snumber="52914" dnumber="52916" rtype="posrel" dir="bidirectional">
+		<pos>1</pos>
+	</node>
+
+	<node number="52921" owner="default" snumber="52914" dnumber="52920" rtype="posrel" dir="bidirectional">
+		<pos>2</pos>
+	</node>
+
+	<node number="52923" owner="default" snumber="52914" dnumber="52922" rtype="posrel" dir="bidirectional">
+		<pos>1</pos>
+	</node>
+
+	<node number="53207" owner="default" snumber="53203" dnumber="53201" rtype="posrel" dir="bidirectional">
+		<pos>1</pos>
+	</node>
+
+	<node number="53217" owner="default" snumber="53215" dnumber="53216" rtype="posrel" dir="bidirectional">
+		<pos>2</pos>
+	</node>
+
+	<node number="53219" owner="default" snumber="53215" dnumber="53218" rtype="posrel" dir="bidirectional">
+		<pos>3</pos>
+	</node>
+
+	<node number="53221" owner="default" snumber="53215" dnumber="53220" rtype="posrel" dir="bidirectional">
+		<pos>1</pos>
+	</node>
+
+	<node number="53226" owner="default" snumber="53203" dnumber="53225" rtype="posrel" dir="bidirectional">
+		<pos>2</pos>
+	</node>
+
+	<node number="53228" owner="default" snumber="53203" dnumber="53227" rtype="posrel" dir="bidirectional">
+		<pos>3</pos>
+	</node>
+
+	<node number="53356" owner="default" snumber="53350" dnumber="53355" rtype="posrel" dir="bidirectional">
+		<pos>3</pos>
+	</node>
+
+	<node number="53357" owner="default" snumber="53350" dnumber="53216" rtype="posrel" dir="bidirectional">
+		<pos>2</pos>
+	</node>
+
+	<node number="53359" owner="default" snumber="53350" dnumber="53358" rtype="posrel" dir="bidirectional">
+		<pos>1</pos>
+	</node>
+
+	<node number="53472" owner="default" snumber="53467" dnumber="53471" rtype="posrel" dir="bidirectional">
+		<pos>1</pos>
+	</node>
+
+	<node number="53474" owner="default" snumber="53467" dnumber="53473" rtype="posrel" dir="bidirectional">
+		<pos>2</pos>
+	</node>
+
+	<node number="53476" owner="default" snumber="53467" dnumber="53475" rtype="posrel" dir="bidirectional">
+		<pos>3</pos>
+	</node>
+
+	<node number="53484" owner="default" snumber="53467" dnumber="53483" rtype="posrel" dir="bidirectional">
+		<pos>3</pos>
+	</node>
+
+	<node number="53821" owner="default" snumber="53816" dnumber="53820" rtype="posrel" dir="bidirectional">
+		<pos>3</pos>
+	</node>
+
+	<node number="53823" owner="default" snumber="53816" dnumber="53822" rtype="posrel" dir="bidirectional">
+		<pos>1</pos>
+	</node>
+
+	<node number="53825" owner="default" snumber="53816" dnumber="53824" rtype="posrel" dir="bidirectional">
+		<pos>2</pos>
+	</node>
+
+	<node number="53834" owner="default" snumber="53816" dnumber="53832" rtype="posrel" dir="bidirectional">
+		<pos>1</pos>
+	</node>
+
+	<node number="54070" owner="default" snumber="54066" dnumber="54062" rtype="posrel" dir="bidirectional">
+		<pos>1</pos>
+	</node>
+
+	<node number="54071" owner="default" snumber="54066" dnumber="54064" rtype="posrel" dir="bidirectional">
+		<pos>2</pos>
+	</node>
+
+	<node number="54136" owner="default" snumber="54131" dnumber="54135" rtype="posrel" dir="bidirectional">
+		<pos>1</pos>
+	</node>
+
+	<node number="54142" owner="default" snumber="54137" dnumber="54141" rtype="posrel" dir="bidirectional">
+		<pos>1</pos>
+	</node>
+
+	<node number="54144" owner="default" snumber="54137" dnumber="54143" rtype="posrel" dir="bidirectional">
+		<pos>2</pos>
+	</node>
+
+	<node number="54146" owner="default" snumber="54131" dnumber="54145" rtype="posrel" dir="bidirectional">
+		<pos>2</pos>
+	</node>
+
+	<node number="54148" owner="default" snumber="54131" dnumber="54147" rtype="posrel" dir="bidirectional">
+		<pos>3</pos>
+	</node>
+
+	<node number="54150" owner="default" snumber="54137" dnumber="54149" rtype="posrel" dir="bidirectional">
+		<pos>3</pos>
+	</node>
+
+	<node number="54269" owner="default" snumber="54264" dnumber="54268" rtype="posrel" dir="bidirectional">
+		<pos>3</pos>
+	</node>
+
+	<node number="54271" owner="default" snumber="54264" dnumber="54270" rtype="posrel" dir="bidirectional">
+		<pos>1</pos>
+	</node>
+
+	<node number="54274" owner="default" snumber="54264" dnumber="54272" rtype="posrel" dir="bidirectional">
+		<pos>2</pos>
+	</node>
+
+	<node number="54520" owner="default" snumber="54518" dnumber="54459" rtype="posrel" dir="bidirectional">
+		<pos>3</pos>
+	</node>
+
+	<node number="54524" owner="default" snumber="54518" dnumber="54523" rtype="posrel" dir="bidirectional">
+		<pos>1</pos>
+	</node>
+
+	<node number="54526" owner="default" snumber="54518" dnumber="54525" rtype="posrel" dir="bidirectional">
+		<pos>2</pos>
+	</node>
+
+	<node number="54594" owner="default" snumber="177" dnumber="54593" rtype="posrel" dir="bidirectional">
+		<pos>6</pos>
+	</node>
+
+	<node number="54675" owner="default" snumber="54673" dnumber="54674" rtype="posrel" dir="bidirectional">
+		<pos>1</pos>
+	</node>
+
+	<node number="54677" owner="default" snumber="54673" dnumber="54676" rtype="posrel" dir="bidirectional">
+		<pos>2</pos>
+	</node>
+
+	<node number="54679" owner="default" snumber="54673" dnumber="54678" rtype="posrel" dir="bidirectional">
+		<pos>3</pos>
+	</node>
+
+	<node number="55373" owner="default" snumber="55368" dnumber="55372" rtype="posrel" dir="bidirectional">
+		<pos>1</pos>
+	</node>
+
+	<node number="55375" owner="default" snumber="55368" dnumber="55374" rtype="posrel" dir="bidirectional">
+		<pos>2</pos>
+	</node>
+
+	<node number="55377" owner="default" snumber="55368" dnumber="55376" rtype="posrel" dir="bidirectional">
+		<pos>3</pos>
+	</node>
+
+</posrel>
