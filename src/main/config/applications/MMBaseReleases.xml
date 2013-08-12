@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE application PUBLIC "-//MMBase//DTD application config 1.1//EN" "http://www.mmbase.org/dtd/application_1_1.dtd">
+<application name="MMBaseReleases" maintainer="mmbase.org" version="4" auto-deploy="false">
+  <requirements>
+  </requirements>
+
+  <neededbuilderlist>
+    <builder maintainer="mmbase.org" version="1">mmevents</builder>
+    <builder maintainer="mmbase.org" version="1">pages</builder>
+    <builder maintainer="mmbase.org" version="1">releases</builder>
+    <builder maintainer="mmbase.org" version="1">urls</builder>
+
+    <builder maintainer="mmbase.org" version="1">posrel</builder>
+    <builder maintainer="mmbase.org" version="1">insrel</builder>
+
+  </neededbuilderlist>
+
+  <neededreldeflist>
+    <reldef source="related" target="related" direction="bidirectional" guisourcename="Related" guitargetname="Related" builder="insrel" />
+    <reldef source="posrel"  target="posrel" direction="bidirectional" guisourcename="Posrel" guitargetname="Posrel" builder="posrel" />
+  </neededreldeflist>
+
+  <allowedrelationlist>
+    <relation from="pages"    to="releases" type="related" />
+    
+    <relation from="releases" to="mmevents" type="related" />
+    <relation from="releases" to="urls"     type="posrel" />
+    
+  </allowedrelationlist>
+
+  <datasourcelist>
+    <datasource builder="mmevents"    path="MMBaseReleases/mmevents.xml" />
+    <datasource builder="pages"       path="MMBaseReleases/pages.xml" />
+    <datasource builder="releases"    path="MMBaseReleases/releases.xml" />
+    <datasource builder="urls"        path="MMBaseReleases/urls.xml" />
+  </datasourcelist>
+
+  <relationsourcelist>
+    <relationsource builder="insrel" path="MMBaseReleases/insrel.xml" />
+    <relationsource builder="posrel" path="MMBaseReleases/posrel.xml" />
+  </relationsourcelist>
+
+  <contextsourcelist>
+    <contextsource path="MMBaseReleases/backup.xml" type="depth" goal="backup"/>
+  </contextsourcelist>
+
+  <description>
+    <![CDATA[MMBaseReleases contains all releases of MMBase published on mmbase.org.]]>
+  </description>
+
+  <install-notice>
+    <![CDATA[The MMBaseReleases application is installed.]]>
+  </install-notice>
+</application>
