@@ -29,11 +29,6 @@
     <url>http://www.mmbase.org/jira/</url>
   </issueManagement>
   
-  <properties>
-    <mmbase.version>1.9-SNAPSHOT</mmbase.version>
-    <!-- <jdbcUrl>jdbc:hsqldb:file:data/mmbase</jdbcUrl> -->
-  </properties>
-
   <mailingLists>
     <mailingList>
       <name>MMBase discussion group</name>
@@ -66,89 +61,12 @@
     </developer>
   </developers>
 
-  <dependencies>
-
-    <dependency>
-      <groupId>org.mmbase</groupId>
-      <artifactId>base-webapp</artifactId>
-      <version>${mmbase.version}</version>
-      <type>war</type>
-    </dependency>
-
-    <dependency>
-      <groupId>org.mmbase</groupId>
-      <artifactId>mmbase-resources</artifactId>
-      <version>${mmbase.version}</version>
-      <type>war</type>
-    </dependency>
-
-    <dependency>
-      <groupId>org.mmbase</groupId>
-      <artifactId>mmbase-mynews</artifactId>
-      <version>${mmbase.version}</version>
-      <type>war</type>
-    </dependency>
-
-    <dependency>
-      <groupId>org.mmbase</groupId>
-      <artifactId>mmbase-cloudcontext</artifactId>
-      <version>${mmbase.version}</version>
-      <type>war</type>
-    </dependency>
-
-    <dependency>
-      <groupId>org.mmbase</groupId>
-      <artifactId>mmbase-email</artifactId>
-      <version>${mmbase.version}</version>
-      <type>war</type>
-    </dependency>
-
-    <dependency>
-      <groupId>org.mmbase</groupId>
-      <artifactId>mmbase-mmsite</artifactId>
-      <version>${mmbase.version}</version>
-      <type>war</type>
-    </dependency>
-
-    <dependency>
-      <groupId>opensymphony</groupId>
-      <artifactId>oscache</artifactId>
-      <version>2.4</version>
-      <exclusions>
-        <exclusion>
-          <groupId>javax.servlet</groupId>
-          <artifactId>servlet-api</artifactId>
-        </exclusion>
-        <exclusion>
-          <groupId>log4j</groupId>
-          <artifactId>log4j</artifactId>
-        </exclusion>
-      </exclusions>
-    </dependency>
-
-    <dependency>
-      <groupId>javax.mail</groupId>
-      <artifactId>mail</artifactId>
-      <version>1.4.1</version>
-      <scope>provided</scope>
-    </dependency>
-
-    <dependency>
-      <groupId>org.mmbase.tinymce</groupId>
-      <artifactId>tinymce-jquery</artifactId>
-      <version>3.4.9</version>
-      <type>war</type>
-    </dependency>
-
-    <dependency>
-      <groupId>org.mmbase.jquery</groupId>
-      <artifactId>jquery-ui</artifactId>
-      <version>1.8-1</version>
-      <type>war</type>
-    </dependency>
-    
-  </dependencies>
-
+  <properties>
+    <mmbase.version>1.9-SNAPSHOT</mmbase.version>
+    <!-- <jdbcUrl>jdbc:hsqldb:file:data/mmbase</jdbcUrl> -->
+    <mmbase.core>mmbase</mmbase.core>
+    <mmsite.version>1.9-SNAPSHOT</mmsite.version>
+  </properties>
 
   <build>
     <defaultGoal>package</defaultGoal>
@@ -304,6 +222,104 @@
         
     </plugins>
   </build>
+
+  <dependencies>
+
+    <dependency>
+      <groupId>org.mmbase</groupId>
+      <artifactId>${mmbase.core}</artifactId>
+      <version>${mmbase.version}</version>
+      <scope>provided</scope>
+    </dependency>
+    
+    <dependency>
+      <groupId>org.mmbase</groupId>
+      <artifactId>base-webapp</artifactId>
+      <version>${mmbase.version}</version>
+      <type>war</type>
+    </dependency>
+    
+    <dependency>
+      <groupId>org.mmbase</groupId>
+      <artifactId>mmbase-resources</artifactId>
+      <version>${mmbase.version}</version>
+      <type>war</type>
+    </dependency>
+
+    <dependency>
+      <groupId>org.mmbase</groupId>
+      <artifactId>mmbase-mynews</artifactId>
+      <version>${mmbase.version}</version>
+      <type>war</type>
+    </dependency>
+
+    <dependency>
+      <groupId>org.mmbase</groupId>
+      <artifactId>mmbase-cloudcontext</artifactId>
+      <version>${mmbase.version}</version>
+      <type>war</type>
+    </dependency>
+
+    <dependency>
+      <groupId>org.mmbase</groupId>
+      <artifactId>mmbase-email</artifactId>
+      <version>${mmbase.version}</version>
+      <type>war</type>
+    </dependency>
+
+    <dependency>
+      <groupId>org.mmbase</groupId>
+      <artifactId>mmbase-mmsite</artifactId>
+      <version>${mmsite.version}</version>
+      <classifier>classes</classifier>
+      <scope>provided</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>servlet-api</artifactId>
+      <version>2.5</version>
+      <scope>provided</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>opensymphony</groupId>
+      <artifactId>oscache</artifactId>
+      <version>2.4</version>
+      <exclusions>
+        <exclusion>
+          <groupId>javax.servlet</groupId>
+          <artifactId>servlet-api</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>log4j</groupId>
+          <artifactId>log4j</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+
+    <dependency>
+      <groupId>javax.mail</groupId>
+      <artifactId>mail</artifactId>
+      <version>1.4.1</version>
+      <scope>provided</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.mmbase.tinymce</groupId>
+      <artifactId>tinymce-jquery</artifactId>
+      <version>3.4.9</version>
+      <type>war</type>
+    </dependency>
+
+    <dependency>
+      <groupId>org.mmbase.jquery</groupId>
+      <artifactId>jquery-ui</artifactId>
+      <version>1.8-1</version>
+      <type>war</type>
+    </dependency>
+    
+  </dependencies>
 
   <repositories>
     <repository>
