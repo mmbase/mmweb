@@ -259,7 +259,14 @@
       <version>${mmbase.version}</version>
       <type>war</type>
     </dependency>
-
+    
+    <dependency>
+      <groupId>org.mmbase</groupId>
+      <artifactId>mmbase-mmsite</artifactId>
+      <version>${mmsite.version}</version>
+      <type>war</type>
+    </dependency>
+    
     <dependency>
       <groupId>org.mmbase</groupId>
       <artifactId>mmbase-email</artifactId>
