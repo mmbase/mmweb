@@ -3,6 +3,7 @@
 <application name="MMBaseSite" maintainer="mmbase.org" version="1" auto-deploy="true">
   <requirements>
     <requires name="Resources" maintainer="mmbase.org" />
+    <requires name="MMSite"    maintainer="mmbase.org" />
   </requirements>
 
   <neededbuilderlist>
@@ -49,6 +50,9 @@
     <relation from="pages"   to="documentation"  type="posrel" /><!-- change in articles -->
     <relation from="pages"   to="news"           type="posrel" /><!-- change or delete ? -->
 
+    <relation from="pages" to="images" type="posrel" />
+    <relation from="pages" to="urls" type="posrel" />
+    
     <relation from="articles" to="images" type="posrel" />
     <relation from="articles" to="urls" type="posrel" />
     <relation from="articles" to="attachments" type="posrel" />
