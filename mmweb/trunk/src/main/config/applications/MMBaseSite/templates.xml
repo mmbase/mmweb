@@ -31,8 +31,15 @@
 	<node number="2590" owner="default">
 		<mimetype>text/html</mimetype>
 		<title>Sitemap</title>
-		<description></description>
+		<description>Template showing sitemap of this site</description>
 		<url>sitemap.jspx</url>
+	</node>
+
+	<node number="22590" owner="default">
+		<mimetype>text/html</mimetype>
+		<title>Projects</title>
+		<description>Template displaying projects</description>
+		<url>projects.jspx</url>
 	</node>
 
 </templates>
