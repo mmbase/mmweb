@@ -3,7 +3,7 @@
 	<node number="345" owner="admin" alias="page_homepage">
 		<template>2507</template>
 		<title>Homepage</title>
-		<expires></expires>
+		<expires>120</expires>
 		<description>MMBaseWeb</description>
 		<path>/</path>
 	</node>
@@ -11,7 +11,7 @@
 	<node number="348" owner="default" alias="download">
 		<template>2509</template>
 		<title>Download</title>
-		<expires></expires>
+		<expires>120</expires>
 		<description>MMBaseWeb</description>
 		<path>/download</path>
 	</node>
@@ -19,7 +19,7 @@
 	<node number="351" owner="default" alias="page_developershome">
 		<template></template>
 		<title>Developers Home</title>
-		<expires></expires>
+		<expires>120</expires>
 		<description>BackendDevelopers</description>
 		<path></path>
 	</node>
@@ -27,7 +27,7 @@
 	<node number="354" owner="default" alias="page_foundationhome">
 		<template></template>
 		<title>Foundation Home</title>
-		<expires></expires>
+		<expires>120</expires>
 		<description>Foundation</description>
 		<path></path>
 	</node>
@@ -35,7 +35,7 @@
 	<node number="363" owner="default">
 		<template></template>
 		<title>About</title>
-		<expires></expires>
+		<expires>120</expires>
 		<description>BackendDevelopers</description>
 		<path></path>
 	</node>
@@ -43,7 +43,7 @@
 	<node number="365" owner="default">
 		<template></template>
 		<title>License</title>
-		<expires></expires>
+		<expires>120</expires>
 		<description>BackendDevelopers</description>
 		<path></path>
 	</node>
@@ -51,7 +51,7 @@
 	<node number="367" owner="default">
 		<template></template>
 		<title>Guidelines</title>
-		<expires></expires>
+		<expires>120</expires>
 		<description>BackendDevelopers</description>
 		<path></path>
 	</node>
@@ -59,7 +59,7 @@
 	<node number="369" owner="default">
 		<template>2508</template>
 		<title>Bugs</title>
-		<expires></expires>
+		<expires>120</expires>
 		<description>BackendDevelopers</description>
 		<path>/bugs</path>
 	</node>
@@ -67,7 +67,7 @@
 	<node number="371" owner="admin">
 		<template></template>
 		<title>Overview</title>
-		<expires></expires>
+		<expires>120</expires>
 		<description>BackendDevelopers</description>
 		<path></path>
 	</node>
@@ -75,7 +75,7 @@
 	<node number="373" owner="admin">
 		<template></template>
 		<title>Apidocs</title>
-		<expires></expires>
+		<expires>120</expires>
 		<description>BackendDevelopers</description>
 		<path></path>
 	</node>
@@ -83,7 +83,7 @@
 	<node number="375" owner="default">
 		<template>2584</template>
 		<title>Documentation</title>
-		<expires></expires>
+		<expires>120</expires>
 		<description>BackendDevelopers</description>
 		<path>/mmdocs</path>
 	</node>
@@ -91,7 +91,7 @@
 	<node number="377" owner="default">
 		<template></template>
 		<title>Projects</title>
-		<expires></expires>
+		<expires>120</expires>
 		<description>BackendDevelopers</description>
 		<path></path>
 	</node>
@@ -99,7 +99,7 @@
 	<node number="379" owner="admin" alias="page_developersmail">
 		<template></template>
 		<title>Developers Mail</title>
-		<expires></expires>
+		<expires>120</expires>
 		<description>BackendDevelopers</description>
 		<path></path>
 	</node>
@@ -107,15 +107,15 @@
 	<node number="382" owner="admin" alias="page_cvs">
 		<template></template>
 		<title>Subversion Repository</title>
-		<expires></expires>
+		<expires>120</expires>
 		<description>BackendDevelopers</description>
-		<path></path>
+		<path>/download/repository</path>
 	</node>
 
 	<node number="389" owner="default">
 		<template></template>
 		<title>People</title>
-		<expires></expires>
+		<expires>120</expires>
 		<description>BackendDevelopers</description>
 		<path></path>
 	</node>
@@ -123,7 +123,7 @@
 	<node number="391" owner="default">
 		<template></template>
 		<title>Organization</title>
-		<expires></expires>
+		<expires>120</expires>
 		<description>BackendDevelopers</description>
 		<path></path>
 	</node>
@@ -131,7 +131,7 @@
 	<node number="393" owner="admin">
 		<template></template>
 		<title>Presentations</title>
-		<expires></expires>
+		<expires>120</expires>
 		<description>BackendDevelopers</description>
 		<path></path>
 	</node>
@@ -139,15 +139,15 @@
 	<node number="395" owner="admin" alias="page_releases">
 		<template></template>
 		<title>Releases</title>
-		<expires></expires>
+		<expires>120</expires>
 		<description>BackendDevelopers</description>
-		<path></path>
+		<path>/download/releases</path>
 	</node>
 
 	<node number="398" owner="admin">
 		<template></template>
 		<title>Archived projects</title>
-		<expires></expires>
+		<expires>120</expires>
 		<description>BackendDevelopers</description>
 		<path></path>
 	</node>
@@ -155,7 +155,7 @@
 	<node number="400" owner="admin">
 		<template></template>
 		<title>1.4</title>
-		<expires></expires>
+		<expires>120</expires>
 		<description>BackendDevelopers</description>
 		<path></path>
 	</node>
@@ -163,7 +163,7 @@
 	<node number="402" owner="admin">
 		<template></template>
 		<title>1.5</title>
-		<expires></expires>
+		<expires>120</expires>
 		<description>BackendDevelopers</description>
 		<path></path>
 	</node>
@@ -171,7 +171,7 @@
 	<node number="404" owner="admin">
 		<template></template>
 		<title>1.6</title>
-		<expires></expires>
+		<expires>120</expires>
 		<description>BackendDevelopers</description>
 		<path></path>
 	</node>
@@ -179,7 +179,7 @@
 	<node number="406" owner="admin" alias="page_search">
 		<template></template>
 		<title>Search</title>
-		<expires></expires>
+		<expires>120</expires>
 		<description>BackendDevelopers</description>
 		<path></path>
 	</node>
@@ -195,7 +195,7 @@
 	<node number="412" owner="default">
 		<template></template>
 		<title>Partnerships</title>
-		<expires></expires>
+		<expires>120</expires>
 		<description>Foundation</description>
 		<path></path>
 	</node>
@@ -203,7 +203,7 @@
 	<node number="416" owner="default">
 		<template></template>
 		<title>Activities</title>
-		<expires></expires>
+		<expires>120</expires>
 		<description>Foundation</description>
 		<path></path>
 	</node>
@@ -211,7 +211,7 @@
 	<node number="420" owner="default">
 		<template>2509</template>
 		<title>About</title>
-		<expires></expires>
+		<expires>120</expires>
 		<description>About MMBase</description>
 		<path>/about</path>
 	</node>
@@ -219,7 +219,7 @@
 	<node number="422" owner="default">
 		<template>2509</template>
 		<title>MMBase Foundation</title>
-		<expires></expires>
+		<expires>120</expires>
 		<description>Foundation</description>
 		<path>/about/foundation</path>
 	</node>
@@ -227,7 +227,7 @@
 	<node number="424" owner="default">
 		<template>2509</template>
 		<title>History</title>
-		<expires></expires>
+		<expires>120</expires>
 		<description>Foundation</description>
 		<path>/about/history</path>
 	</node>
@@ -235,7 +235,7 @@
 	<node number="426" owner="default">
 		<template>2509</template>
 		<title>MMBase in a nutshell</title>
-		<expires></expires>
+		<expires>120</expires>
 		<description>Foundation</description>
 		<path>/about/mmbase_in_a_nutshell</path>
 	</node>
@@ -243,7 +243,7 @@
 	<node number="430" owner="default">
 		<template></template>
 		<title>1.7</title>
-		<expires></expires>
+		<expires>120</expires>
 		<description>BackendDevelopers</description>
 		<path></path>
 	</node>
@@ -251,7 +251,7 @@
 	<node number="432" owner="default" alias="page_announcemail">
 		<template></template>
 		<title>Announce Mail</title>
-		<expires></expires>
+		<expires>120</expires>
 		<description>MMBaseWeb</description>
 		<path></path>
 	</node>
@@ -259,7 +259,7 @@
 	<node number="435" owner="default" alias="page_usersmail">
 		<template></template>
 		<title>Users Mail</title>
-		<expires></expires>
+		<expires>120</expires>
 		<description>MMBaseWeb</description>
 		<path></path>
 	</node>
@@ -267,7 +267,7 @@
 	<node number="438" owner="default" alias="page_agenda">
 		<template></template>
 		<title>Agenda</title>
-		<expires></expires>
+		<expires>120</expires>
 		<description>MMBaseWeb</description>
 		<path></path>
 	</node>
@@ -283,7 +283,7 @@
 	<node number="445" owner="default">
 		<template></template>
 		<title>MMBase stand</title>
-		<expires></expires>
+		<expires>120</expires>
 		<description></description>
 		<path></path>
 	</node>
@@ -291,7 +291,7 @@
 	<node number="447" owner="default">
 		<template></template>
 		<title>MMok</title>
-		<expires></expires>
+		<expires>120</expires>
 		<description></description>
 		<path></path>
 	</node>
@@ -299,7 +299,7 @@
 	<node number="451" owner="default">
 		<template></template>
 		<title>MMBeamer</title>
-		<expires></expires>
+		<expires>120</expires>
 		<description></description>
 		<path></path>
 	</node>
@@ -307,7 +307,7 @@
 	<node number="455" owner="default">
 		<template></template>
 		<title>Contracts</title>
-		<expires></expires>
+		<expires>120</expires>
 		<description></description>
 		<path></path>
 	</node>
@@ -315,7 +315,7 @@
 	<node number="457" owner="default">
 		<template></template>
 		<title>MMBase hardboards</title>
-		<expires></expires>
+		<expires>120</expires>
 		<description></description>
 		<path></path>
 	</node>
@@ -323,7 +323,7 @@
 	<node number="459" owner="admin">
 		<template></template>
 		<title>Knowledge base</title>
-		<expires></expires>
+		<expires>120</expires>
 		<description>Developers</description>
 		<path></path>
 	</node>
@@ -331,7 +331,7 @@
 	<node number="461" owner="default">
 		<template></template>
 		<title>MMC</title>
-		<expires></expires>
+		<expires>120</expires>
 		<description></description>
 		<path></path>
 	</node>
@@ -339,7 +339,7 @@
 	<node number="467" owner="default">
 		<template></template>
 		<title>MMEVENT</title>
-		<expires></expires>
+		<expires>120</expires>
 		<description>Information</description>
 		<path></path>
 	</node>
@@ -347,7 +347,7 @@
 	<node number="475" owner="default" alias="page_mmbasewebsites">
 		<template></template>
 		<title>Websites in MMBase</title>
-		<expires></expires>
+		<expires>120</expires>
 		<description>Foundation</description>
 		<path></path>
 	</node>
@@ -355,7 +355,7 @@
 	<node number="478" owner="default">
 		<template></template>
 		<title>Packages</title>
-		<expires></expires>
+		<expires>120</expires>
 		<description>Packages</description>
 		<path></path>
 	</node>
@@ -363,7 +363,7 @@
 	<node number="480" owner="default">
 		<template></template>
 		<title>Program</title>
-		<expires></expires>
+		<expires>120</expires>
 		<description>Program of the MMEvent4</description>
 		<path></path>
 	</node>
@@ -371,7 +371,7 @@
 	<node number="482" owner="default">
 		<template></template>
 		<title>Download presentations</title>
-		<expires></expires>
+		<expires>120</expires>
 		<description></description>
 		<path></path>
 	</node>
@@ -379,7 +379,7 @@
 	<node number="484" owner="default">
 		<template></template>
 		<title>Report of the fourth MMEvent</title>
-		<expires></expires>
+		<expires>120</expires>
 		<description></description>
 		<path></path>
 	</node>
@@ -387,7 +387,7 @@
 	<node number="488" owner="default">
 		<template></template>
 		<title>Partner contracts</title>
-		<expires></expires>
+		<expires>120</expires>
 		<description></description>
 		<path></path>
 	</node>
@@ -395,7 +395,7 @@
 	<node number="492" owner="admin">
 		<template></template>
 		<title>1.8</title>
-		<expires></expires>
+		<expires>120</expires>
 		<description></description>
 		<path></path>
 	</node>
@@ -403,7 +403,7 @@
 	<node number="494" owner="default">
 		<template></template>
 		<title>Mailinglists</title>
-		<expires></expires>
+		<expires>120</expires>
 		<description></description>
 		<path></path>
 	</node>
@@ -411,7 +411,7 @@
 	<node number="496" owner="default" alias="page_communitymail">
 		<template></template>
 		<title>Community Mail</title>
-		<expires></expires>
+		<expires>120</expires>
 		<description></description>
 		<path></path>
 	</node>
@@ -419,7 +419,7 @@
 	<node number="499" owner="default" alias="page_cvsmail">
 		<template></template>
 		<title>SCM Mail</title>
-		<expires></expires>
+		<expires>120</expires>
 		<description></description>
 		<path></path>
 	</node>
@@ -427,7 +427,7 @@
 	<node number="502" owner="default" alias="page_committorsmail">
 		<template></template>
 		<title>Committers Mail</title>
-		<expires></expires>
+		<expires>120</expires>
 		<description></description>
 		<path></path>
 	</node>
@@ -435,7 +435,7 @@
 	<node number="505" owner="admin">
 		<template></template>
 		<title>Applications</title>
-		<expires></expires>
+		<expires>120</expires>
 		<description>applications</description>
 		<path></path>
 	</node>
@@ -443,7 +443,7 @@
 	<node number="507" owner="default">
 		<template></template>
 		<title>How to become a partner?</title>
-		<expires></expires>
+		<expires>120</expires>
 		<description></description>
 		<path></path>
 	</node>
@@ -451,7 +451,7 @@
 	<node number="509" owner="default">
 		<template>2509</template>
 		<title>Activities</title>
-		<expires></expires>
+		<expires>120</expires>
 		<description></description>
 		<path>/about/activities</path>
 	</node>
@@ -459,7 +459,7 @@
 	<node number="511" owner="default">
 		<template></template>
 		<title>Why should you become a partner?</title>
-		<expires></expires>
+		<expires>120</expires>
 		<description></description>
 		<path></path>
 	</node>
@@ -467,7 +467,7 @@
 	<node number="513" owner="default">
 		<template></template>
 		<title>Holland Open Software Conference</title>
-		<expires></expires>
+		<expires>120</expires>
 		<description></description>
 		<path></path>
 	</node>
@@ -475,7 +475,7 @@
 	<node number="515" owner="default">
 		<template></template>
 		<title>E-mail form</title>
-		<expires></expires>
+		<expires>120</expires>
 		<description>jo.lahaye@mmbase.org</description>
 		<path></path>
 	</node>
@@ -483,7 +483,7 @@
 	<node number="517" owner="default">
 		<template></template>
 		<title>Technical Board</title>
-		<expires></expires>
+		<expires>120</expires>
 		<description>Minutes</description>
 		<path></path>
 	</node>
@@ -491,7 +491,7 @@
 	<node number="519" owner="default">
 		<template></template>
 		<title>Meetings</title>
-		<expires></expires>
+		<expires>120</expires>
 		<description>Developers</description>
 		<path></path>
 	</node>
@@ -499,7 +499,7 @@
 	<node number="523" owner="default">
 		<template></template>
 		<title>Architecture</title>
-		<expires></expires>
+		<expires>120</expires>
 		<description></description>
 		<path></path>
 	</node>
@@ -507,7 +507,7 @@
 	<node number="525" owner="default">
 		<template>2509</template>
 		<title>Maven-site</title>
-		<expires></expires>
+		<expires>120</expires>
 		<description></description>
 		<path>/download/maven</path>
 	</node>
@@ -515,7 +515,7 @@
 	<node number="527" owner="default">
 		<template></template>
 		<title>CMS Container Mail</title>
-		<expires></expires>
+		<expires>120</expires>
 		<description></description>
 		<path></path>
 	</node>
@@ -523,7 +523,7 @@
 	<node number="529" owner="admin">
 		<template></template>
 		<title>latest apidoc</title>
-		<expires></expires>
+		<expires>120</expires>
 		<description>latest</description>
 		<path></path>
 	</node>
