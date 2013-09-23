@@ -17,7 +17,7 @@
 	</node>
 
 	<node number="351" owner="default" alias="page_developershome">
-		<template></template>
+		<template>2509</template>
 		<title>Developers Home</title>
 		<expires>120</expires>
 		<description>BackendDevelopers</description>
@@ -25,7 +25,7 @@
 	</node>
 
 	<node number="354" owner="default" alias="page_foundationhome">
-		<template></template>
+		<template>2509</template>
 		<title>Foundation Home</title>
 		<expires>120</expires>
 		<description>Foundation</description>
@@ -33,7 +33,7 @@
 	</node>
 
 	<node number="363" owner="default">
-		<template></template>
+		<template>2509</template>
 		<title>About</title>
 		<expires>120</expires>
 		<description>BackendDevelopers</description>
@@ -41,7 +41,7 @@
 	</node>
 
 	<node number="365" owner="default">
-		<template></template>
+		<template>2509</template>
 		<title>License</title>
 		<expires>120</expires>
 		<description>BackendDevelopers</description>
@@ -49,7 +49,7 @@
 	</node>
 
 	<node number="367" owner="default">
-		<template></template>
+		<template>2509</template>
 		<title>Guidelines</title>
 		<expires>120</expires>
 		<description>BackendDevelopers</description>
@@ -65,7 +65,7 @@
 	</node>
 
 	<node number="371" owner="admin">
-		<template></template>
+		<template>2509</template>
 		<title>Overview</title>
 		<expires>120</expires>
 		<description>BackendDevelopers</description>
@@ -73,7 +73,7 @@
 	</node>
 
 	<node number="373" owner="admin">
-		<template></template>
+		<template>2509</template>
 		<title>Apidocs</title>
 		<expires>120</expires>
 		<description>BackendDevelopers</description>
@@ -89,15 +89,15 @@
 	</node>
 
 	<node number="377" owner="default">
-		<template></template>
+		<template>22590</template>
 		<title>Projects</title>
 		<expires>120</expires>
 		<description>BackendDevelopers</description>
-		<path></path>
+		<path>/projects</path>
 	</node>
 
 	<node number="379" owner="admin" alias="page_developersmail">
-		<template></template>
+		<template>2509</template>
 		<title>Developers Mail</title>
 		<expires>120</expires>
 		<description>BackendDevelopers</description>
@@ -105,7 +105,7 @@
 	</node>
 
 	<node number="382" owner="admin" alias="page_cvs">
-		<template></template>
+		<template>2509</template>
 		<title>Subversion Repository</title>
 		<expires>120</expires>
 		<description>BackendDevelopers</description>
@@ -113,7 +113,7 @@
 	</node>
 
 	<node number="389" owner="default">
-		<template></template>
+		<template>2509</template>
 		<title>People</title>
 		<expires>120</expires>
 		<description>BackendDevelopers</description>
@@ -121,7 +121,7 @@
 	</node>
 
 	<node number="391" owner="default">
-		<template></template>
+		<template>2509</template>
 		<title>Organization</title>
 		<expires>120</expires>
 		<description>BackendDevelopers</description>
@@ -129,7 +129,7 @@
 	</node>
 
 	<node number="393" owner="admin">
-		<template></template>
+		<template>2509</template>
 		<title>Presentations</title>
 		<expires>120</expires>
 		<description>BackendDevelopers</description>
@@ -137,7 +137,7 @@
 	</node>
 
 	<node number="395" owner="admin" alias="page_releases">
-		<template></template>
+		<template>22690</template>
 		<title>Releases</title>
 		<expires>120</expires>
 		<description>BackendDevelopers</description>
@@ -145,15 +145,15 @@
 	</node>
 
 	<node number="398" owner="admin">
-		<template></template>
+		<template>2509</template>
 		<title>Archived projects</title>
 		<expires>120</expires>
 		<description>BackendDevelopers</description>
-		<path></path>
+		<path>/projects/archived</path>
 	</node>
 
 	<node number="400" owner="admin">
-		<template></template>
+		<template>2509</template>
 		<title>1.4</title>
 		<expires>120</expires>
 		<description>BackendDevelopers</description>
@@ -161,7 +161,7 @@
 	</node>
 
 	<node number="402" owner="admin">
-		<template></template>
+		<template>2509</template>
 		<title>1.5</title>
 		<expires>120</expires>
 		<description>BackendDevelopers</description>
@@ -169,7 +169,7 @@
 	</node>
 
 	<node number="404" owner="admin">
-		<template></template>
+		<template>2509</template>
 		<title>1.6</title>
 		<expires>120</expires>
 		<description>BackendDevelopers</description>
@@ -177,7 +177,7 @@
 	</node>
 
 	<node number="406" owner="admin" alias="page_search">
-		<template></template>
+		<template>2509</template>
 		<title>Search</title>
 		<expires>120</expires>
 		<description>BackendDevelopers</description>
@@ -193,7 +193,7 @@
 	</node>
 
 	<node number="412" owner="default">
-		<template></template>
+		<template>2509</template>
 		<title>Partnerships</title>
 		<expires>120</expires>
 		<description>Foundation</description>
@@ -201,7 +201,7 @@
 	</node>
 
 	<node number="416" owner="default">
-		<template></template>
+		<template>2509</template>
 		<title>Activities</title>
 		<expires>120</expires>
 		<description>Foundation</description>
@@ -241,7 +241,7 @@
 	</node>
 
 	<node number="430" owner="default">
-		<template></template>
+		<template>2509</template>
 		<title>1.7</title>
 		<expires>120</expires>
 		<description>BackendDevelopers</description>
@@ -249,7 +249,7 @@
 	</node>
 
 	<node number="432" owner="default" alias="page_announcemail">
-		<template></template>
+		<template>2509</template>
 		<title>Announce Mail</title>
 		<expires>120</expires>
 		<description>MMBaseWeb</description>
@@ -257,7 +257,7 @@
 	</node>
 
 	<node number="435" owner="default" alias="page_usersmail">
-		<template></template>
+		<template>2509</template>
 		<title>Users Mail</title>
 		<expires>120</expires>
 		<description>MMBaseWeb</description>
@@ -265,7 +265,7 @@
 	</node>
 
 	<node number="438" owner="default" alias="page_agenda">
-		<template></template>
+		<template>2509</template>
 		<title>Agenda</title>
 		<expires>120</expires>
 		<description>MMBaseWeb</description>
@@ -281,7 +281,7 @@
 	</node>
 
 	<node number="445" owner="default">
-		<template></template>
+		<template>2509</template>
 		<title>MMBase stand</title>
 		<expires>120</expires>
 		<description></description>
@@ -289,7 +289,7 @@
 	</node>
 
 	<node number="447" owner="default">
-		<template></template>
+		<template>2509</template>
 		<title>MMok</title>
 		<expires>120</expires>
 		<description></description>
@@ -297,7 +297,7 @@
 	</node>
 
 	<node number="451" owner="default">
-		<template></template>
+		<template>2509</template>
 		<title>MMBeamer</title>
 		<expires>120</expires>
 		<description></description>
@@ -305,7 +305,7 @@
 	</node>
 
 	<node number="455" owner="default">
-		<template></template>
+		<template>2509</template>
 		<title>Contracts</title>
 		<expires>120</expires>
 		<description></description>
@@ -313,7 +313,7 @@
 	</node>
 
 	<node number="457" owner="default">
-		<template></template>
+		<template>2509</template>
 		<title>MMBase hardboards</title>
 		<expires>120</expires>
 		<description></description>
@@ -321,7 +321,7 @@
 	</node>
 
 	<node number="459" owner="admin">
-		<template></template>
+		<template>2509</template>
 		<title>Knowledge base</title>
 		<expires>120</expires>
 		<description>Developers</description>
@@ -329,7 +329,7 @@
 	</node>
 
 	<node number="461" owner="default">
-		<template></template>
+		<template>2509</template>
 		<title>MMC</title>
 		<expires>120</expires>
 		<description></description>
@@ -337,7 +337,7 @@
 	</node>
 
 	<node number="467" owner="default">
-		<template></template>
+		<template>2509</template>
 		<title>MMEVENT</title>
 		<expires>120</expires>
 		<description>Information</description>
@@ -345,15 +345,15 @@
 	</node>
 
 	<node number="475" owner="default" alias="page_mmbasewebsites">
-		<template></template>
+		<template>2509</template>
 		<title>Websites in MMBase</title>
 		<expires>120</expires>
 		<description>Foundation</description>
-		<path></path>
+		<path>/about/sites-in-mmbase</path>
 	</node>
 
 	<node number="478" owner="default">
-		<template></template>
+		<template>2509</template>
 		<title>Packages</title>
 		<expires>120</expires>
 		<description>Packages</description>
@@ -361,7 +361,7 @@
 	</node>
 
 	<node number="480" owner="default">
-		<template></template>
+		<template>2509</template>
 		<title>Program</title>
 		<expires>120</expires>
 		<description>Program of the MMEvent4</description>
@@ -369,7 +369,7 @@
 	</node>
 
 	<node number="482" owner="default">
-		<template></template>
+		<template>2509</template>
 		<title>Download presentations</title>
 		<expires>120</expires>
 		<description></description>
@@ -377,7 +377,7 @@
 	</node>
 
 	<node number="484" owner="default">
-		<template></template>
+		<template>2509</template>
 		<title>Report of the fourth MMEvent</title>
 		<expires>120</expires>
 		<description></description>
@@ -385,7 +385,7 @@
 	</node>
 
 	<node number="488" owner="default">
-		<template></template>
+		<template>2509</template>
 		<title>Partner contracts</title>
 		<expires>120</expires>
 		<description></description>
@@ -393,7 +393,7 @@
 	</node>
 
 	<node number="492" owner="admin">
-		<template></template>
+		<template>2509</template>
 		<title>1.8</title>
 		<expires>120</expires>
 		<description></description>
@@ -401,7 +401,7 @@
 	</node>
 
 	<node number="494" owner="default">
-		<template></template>
+		<template>2509</template>
 		<title>Mailinglists</title>
 		<expires>120</expires>
 		<description></description>
@@ -409,7 +409,7 @@
 	</node>
 
 	<node number="496" owner="default" alias="page_communitymail">
-		<template></template>
+		<template>2509</template>
 		<title>Community Mail</title>
 		<expires>120</expires>
 		<description></description>
@@ -417,7 +417,7 @@
 	</node>
 
 	<node number="499" owner="default" alias="page_cvsmail">
-		<template></template>
+		<template>2509</template>
 		<title>SCM Mail</title>
 		<expires>120</expires>
 		<description></description>
@@ -425,7 +425,7 @@
 	</node>
 
 	<node number="502" owner="default" alias="page_committorsmail">
-		<template></template>
+		<template>2509</template>
 		<title>Committers Mail</title>
 		<expires>120</expires>
 		<description></description>
@@ -433,7 +433,7 @@
 	</node>
 
 	<node number="505" owner="admin">
-		<template></template>
+		<template>2509</template>
 		<title>Applications</title>
 		<expires>120</expires>
 		<description>applications</description>
@@ -441,7 +441,7 @@
 	</node>
 
 	<node number="507" owner="default">
-		<template></template>
+		<template>2509</template>
 		<title>How to become a partner?</title>
 		<expires>120</expires>
 		<description></description>
@@ -457,7 +457,7 @@
 	</node>
 
 	<node number="511" owner="default">
-		<template></template>
+		<template>2509</template>
 		<title>Why should you become a partner?</title>
 		<expires>120</expires>
 		<description></description>
@@ -465,7 +465,7 @@
 	</node>
 
 	<node number="513" owner="default">
-		<template></template>
+		<template>2509</template>
 		<title>Holland Open Software Conference</title>
 		<expires>120</expires>
 		<description></description>
@@ -473,7 +473,7 @@
 	</node>
 
 	<node number="515" owner="default">
-		<template></template>
+		<template>2509</template>
 		<title>E-mail form</title>
 		<expires>120</expires>
 		<description>jo.lahaye@mmbase.org</description>
@@ -481,7 +481,7 @@
 	</node>
 
 	<node number="517" owner="default">
-		<template></template>
+		<template>2509</template>
 		<title>Technical Board</title>
 		<expires>120</expires>
 		<description>Minutes</description>
@@ -489,7 +489,7 @@
 	</node>
 
 	<node number="519" owner="default">
-		<template></template>
+		<template>2509</template>
 		<title>Meetings</title>
 		<expires>120</expires>
 		<description>Developers</description>
@@ -497,7 +497,7 @@
 	</node>
 
 	<node number="523" owner="default">
-		<template></template>
+		<template>2509</template>
 		<title>Architecture</title>
 		<expires>120</expires>
 		<description></description>
@@ -513,7 +513,7 @@
 	</node>
 
 	<node number="527" owner="default">
-		<template></template>
+		<template>2509</template>
 		<title>CMS Container Mail</title>
 		<expires>120</expires>
 		<description></description>
@@ -521,7 +521,7 @@
 	</node>
 
 	<node number="529" owner="admin">
-		<template></template>
+		<template>2509</template>
 		<title>latest apidoc</title>
 		<expires>120</expires>
 		<description>latest</description>
