@@ -4,6 +4,9 @@
       <ul>
         <li><a href="<%=request.getContextPath()%>/">Home</a></li>
       </ul>
-      <p>This website is made and maintained by the MMBase community. Send comments to webmaster@mmbase.org.</p>
+      <p>
+        This website is made and maintained by the MMBase community.<br />
+        Send comments to webmaster@mmbase.org.
+      </p>
     </div></div><!-- /#footer -->
     </div><!-- /#wrap -->
