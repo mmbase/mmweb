@@ -22,7 +22,8 @@
       <title>
         <c:if test="${! empty title}">${title} - </c:if> MMBase
       </title>
-      <link href="${mm:link('/favicon.ico')}" rel="shortcut icon" />
+      <link href="${mm:link('/favicon.ico')}" rel="shortcut icon" type="image/x-icon" />
+      <link href="${mm:link('/favicon.ico')}" rel="icon" type="image/x-icon" />
       <jsp:include page="/mmbase/jquery/jquery.jspx" />
       
       <link href="${mm:link('/scripts/jquery.lightbox-0.5.css')}" rel="stylesheet" type="text/css" />
