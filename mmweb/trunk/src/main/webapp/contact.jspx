@@ -9,27 +9,119 @@
   <mmweb:html styleClass="contact">
     <jsp:attribute name="title">Contact</jsp:attribute>
     <jsp:attribute name="head">
-    
+      <!-- link href="${mm:link('/html/style/js/main.js')}" rel="stylesheet" type="text/css" / -->
     </jsp:attribute>
     <jsp:attribute name="body">
       <mm:import id="page" externid="n" />
       <mmweb:submenu page="${page}" />
-      <div id="content">
-        <div>
-          <h2>Contact</h2>
+      
+      <mm:node referid="page">
+        <div id="content">
+          <div>
 
-          <p>Contact form should come here..</p>
+            <mm:relatednodescontainer type="articles" role="posrel" searchdirs="destination">
+              <mm:sortorder field="posrel.pos" direction="UP" />
+              <mm:maxnumber value="1" />
+              <mm:relatednodes>
+              
+                <h2><mm:field name="title" id="pagetitle" /></h2>
+                <mm:field name="subtitle"><mm:isnotempty><h3><mm:write /></h3></mm:isnotempty></mm:field>
+                <p class="intro">
+                  <mm:field name="online"><mm:isnotempty><span class="online"><mm:time format=":LONG" /> </span></mm:isnotempty></mm:field>
+                  <mm:field name="intro"><mm:isnotempty><mm:write escape="links" /></mm:isnotempty></mm:field>
+                </p>
+                <mm:field name="body" escape="paragraph,links" />
+              </mm:relatednodes>
+            </mm:relatednodescontainer>
 
-        </div>
-      </div>
-    
+            <!-- email form starts here -->
+            <mm:import id="property_to_email">andre@toly.net</mm:import>
+            <mm:nodelistfunction nodemanager="properties" name="list" referids="_node@node">
+              <mm:field name="key" id="propkey">
+                <mm:import id="property_$[propkey]" reset="true"><mm:field name="value" /></mm:import>
+              </mm:field>
+            </mm:nodelistfunction>
+
+            <mm:import externid="submit" />
+            <mm:form id="contactform" styleClass="${empty submit ? 'notsubmitted' : 'submitted'}">
+              <mm:import id="buffer">
+                <mm:createnode type="email" id="email" commitonclose="false">
+                  <mm:setfield name="to">${property_to_email}</mm:setfield>
+                  <fieldset class="labelininput">
+                    <!-- kind of protection against SPAM bots: this div and field should be hidden with javascript -->
+                    <div class="mm_contactform_to_address">
+                      <label for="mm_contactform_to_address">To</label>
+                      <input type="text" id="mm_contactform_to_address" name="mm_contactform_to_address" value="" />
+                    </div>
+                    <mm:fieldlist fields="from,subject,body">
+                      <div>
+                        <mm:fieldinfo type="forid">
+                          <label for="${_}"><mm:fieldinfo type="guiname" /></label>
+                        </mm:fieldinfo>
+                        <mm:fieldinfo type="input" /><mm:fieldinfo type="errors" />
+                      </div>
+                    </mm:fieldlist>
+                  </fieldset>
+                </mm:createnode>
+                <fieldset>
+                  <div>
+                    <input type="submit" name="submit" id="submit" value="Send" class="submit" />
+                  </div>
+                </fieldset>
+              </mm:import>
+              <mm:notpresent referid="submit">
+                <mm:write referid="buffer" escape="none" />
+              </mm:notpresent>
+
+              <mm:present referid="submit">
+                <mm:import externid="mm_contactform_to_address" />
+                <mm:valid inverse="true">
+                  <p class="err">Some error happened. Please correct this and try again.</p>
+                  <mm:cancel />
+                  <mm:write referid="buffer" escape="none" />
+                </mm:valid>
+                <mm:valid>
+                  <c:choose>
+                    <!-- kind of SPAM protection: check if bot filled hidden field -->
+                    <c:when test="${empty mm_contactform_to_address}">
+                      <mm:commit />
+                      <mm:node referid="email">
+                        <mm:functioncontainer>
+                          <mm:param name="type" value="oneshot" />
+                          <mm:function name="startmail">
+                            <p class="msg stay">Your message has been send.</p>
+                          </mm:function>
+                        </mm:functioncontainer>
+                      </mm:node>
+                    </c:when>
+                    <c:otherwise>
+                      <mm:cancel />
+                      <p class="msg stay">Your message has been send.</p>
+                      <!-- but not really -->
+                    </c:otherwise>
+                  </c:choose>
+                </mm:valid>
+              </mm:present>
+            </mm:form>
+
+            <!-- and email form ends here -->
+
+
+          </div>
+        </div><!-- /.content -->
+      </mm:node>
       <div id="sidebar">
         <div>
-          <h4>Address etc.</h4>
+          <h4>Address</h4>
           <p>
-            E-mail addresses, other contact information.
+            Stichting MMBase<br />
+            Neuweg 83<br />
+            1214 GM Hilversum
           </p>
 
+          <p>The Netherlands<br />
+          +31 (0)35 6838770 or +31 (0)6 53292887
+          </p>
         </div>
       </div>
   

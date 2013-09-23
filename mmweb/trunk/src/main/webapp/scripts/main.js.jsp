@@ -60,6 +60,8 @@ function initLightBox() {
 $(document).ready(function() {
     tweets();
     initLightBox();
+    // simple trick against bots
+    $('div.mm_contactform_to_address,div.mm_upload_form_to_address').hide();
 });
 
 </mm:content>

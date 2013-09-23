@@ -211,6 +211,8 @@ h1 { font-size: 180%; }
 h2 { font-size: 160%; }
 h3 { font-size: 140%; }
 h4 { font-size: 110%; }
+h5 { font-size: 1em; }
+
 
 h1, h2, h3, h4, h5, h6
 {
@@ -222,7 +224,8 @@ h1, h2, h3, h4, h5, h6
 h1 a:link, h1 a:visited,
 h2 a:link, h2 a:visited,
 h3 a:link, h3 a:visited,
-h4 a:link, h4 a:visited
+h4 a:link, h4 a:visited,
+h5 a:link, h5 a:visited
 {
 	text-decoration: none;
 	color: #002828;
@@ -231,7 +234,8 @@ h4 a:link, h4 a:visited
 h1 a:hover, h1 a:active,
 h2 a:hover, h2 a:active,
 h3 a:hover, h3 a:active,
-h4 a:hover, h4 a:active
+h4 a:hover, h4 a:active,
+h5 a:hover, h5 a:active
 {
 	text-decoration: underline;
 	color: #708A23;
@@ -306,11 +310,23 @@ input[type=submit] { width: auto; }
 p.err, p.msg
 {
 	margin: 0;
-	padding: 4px;
+	padding: 4pt 8pt;
 	font-weight: bold;
 }
 
-p.err { border: 1px solid #c00; }
+p.err
+{
+    border: 1px solid #c00;
+    background-color: #FCC;
+    margin: 1em 0;
+}
+
+p.msg
+{
+    border: 1px #060 solid;
+    background-color: #CFC;
+    margin: 1em 0;
+}
 
 h3.news
 {
@@ -434,4 +450,28 @@ img.right
 {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 9pt;
+}
+
+/* forms, contact form */
+
+label {  
+    display: block;
+    float: left;
+    width: 120px;
+    padding-top: 2px;
+}
+input { width: 360px; }
+
+fieldset
+{
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+div.mm_check_error { margin-left: 120px; }
+
+.contact form.notsubmitted div.mm_check_error {
+    color: #666;
+    display: none;
 }
