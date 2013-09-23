@@ -19,31 +19,40 @@
           
           <mm:node number="pool_mmbase">
             <mm:relatednodescontainer type="pages" role="posrel" searchdirs="destination">
-              <ol>
+              <ul>
                 <mm:relatednodes>
                   <li>
-                    <a href="_node.path"><mm:field name="title" /></a> 
+                    <mm:link page="page" referids="_node@n">
+                      <mm:frameworkparam name="component">mmsite</mm:frameworkparam>
+                      <a href="${_}"><mm:field name="title" /></a> 
+                    </mm:link>
                     <mm:relatednodescontainer type="pages" role="posrel" searchdirs="destination">
-                      <ol>
+                      <ul>
                         <mm:relatednodes>
                           <li>
-                            <a href="${_node.path}"><mm:field name="title" /></a>
+                            <mm:link page="page" referids="_node@n">
+                              <mm:frameworkparam name="component">mmsite</mm:frameworkparam>
+                               <a href="${_}"><mm:field name="title" /></a>
+                            </mm:link>
                             <mm:relatednodescontainer type="pages" role="posrel" searchdirs="destination">
-                              <ol>
+                              <ul>
                                 <mm:relatednodes>
                                   <li>
-                                    <a href="${_node.path}"><mm:field name="title" /></a>
+                                    <mm:link page="page" referids="_node@n">
+                                      <mm:frameworkparam name="component">mmsite</mm:frameworkparam>
+                                      <a href="${_}"><mm:field name="title" /></a>
+                                    </mm:link>
                                   </li>
                                 </mm:relatednodes>
-                              </ol>
+                              </ul>
                             </mm:relatednodescontainer>
                           </li>
                         </mm:relatednodes>
-                      </ol>
+                      </ul>
                     </mm:relatednodescontainer>
                   </li>
                 </mm:relatednodes>
-              </ol>
+              </ul>
             </mm:relatednodescontainer>
           </mm:node>
           
