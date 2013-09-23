@@ -57,12 +57,12 @@
             </mm:relatednodescontainer>
           </mm:node>
 
-          <ul class="nolist">
+          <!-- <ul class="nolist">
             <li><a href="#">Documentation</a></li>
             <li><a href="#">Taglib documentation</a></li>
             <li><a href="#">Bugtracker</a></li>
             <li><a href="#">Mailinglists</a></li>
-          </ul>
+          </ul> -->
 
           <mmweb:twitter />
           <mmweb:bugs />
@@ -72,9 +72,15 @@
               <mm:frameworkparam name="component">mmsite</mm:frameworkparam>
               <h4><a href="${_}"><mm:field name="title" /></a></h4>
             </mm:link>
-            <ul class="nolist">
-              <li><a href="#">Open Beelden</a></li>
-            </ul>
+            <mm:relatednodescontainer type="urls" role="posrel" searchdirs="destination">
+              <mm:maxnumber value="3" />
+              <mm:sortorder field="number" direction="DOWN" />
+              <ul class="nolist">
+              <mm:relatednodes>
+                <li><a title="${_node.description}" href="${_node.url}"><mm:field name="name" /></a></li>
+              </mm:relatednodes>
+              </ul>
+            </mm:relatednodescontainer>
           </mm:node>
 
         </div>
