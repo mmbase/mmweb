@@ -1,7 +1,7 @@
 /*
   Main javascript, depends on jQuery
   @author:  Andre van Toly
-  @version: '$Id:  $'
+  @version: '$Id$'
 */
 
 function tweets() {
