@@ -1,10 +1,15 @@
-/*@import url(nav.css) screen;*/
+/**
+ *  Stylesheet for new MMBase site
+ *  @author:  Andre van Toly
+ *  @version:  '$Id$'
+ */
+
 body
 {
 	margin: 0;
 	padding: 0;
 	font-family: "HelveticaNeue-Regular", "Helvetica Neue Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: small;
+	/* font-size: small; */
 	color: #333;
 	background-color: #fff;
 }
@@ -176,15 +181,15 @@ body
 }
 
 #content > div,
-#sidebar > div { padding: 1em; }
+#sidebar > div { padding: 3em 1em 1em 1em; }
 
 #footer-inner > ul
 {
     padding: 0 0 2em 1em;
-    width: 100px;
+    width: 120px;
     float: left;
 }
-#footer-inner > ul > li> ul { padding: 0; }
+#footer-inner > ul > li > ul { padding: 0; }
 
 #footer p
 {
@@ -199,14 +204,15 @@ body
 	color: #aaa;
 }
 
-#footer a:hover, #footer a:active { text-decoration: underline; }
+#footer a:hover, 
+#footer a:active { text-decoration: underline; }
 
 #footer li
 {
-	float: left;
-	margin: 0;
-	padding: 0 2em 0 0;
-	list-style: none;
+    float: left;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 /* --------------- html --------------- */
@@ -476,7 +482,11 @@ fieldset
     margin: 0;
 }
 
-div.mm_check_error { margin-left: 120px; }
+div.mm_check_error
+{
+    margin-left: 120px;
+    color: #c00;
+}
 
 .contact form.notsubmitted div.mm_check_error {
     color: #666;
