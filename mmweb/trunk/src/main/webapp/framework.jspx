@@ -81,9 +81,25 @@
             </c:otherwise>
           </c:choose>
 
-          page: ${page}
-          n: ${n}
-
+          <!-- page: ${page}
+          n: ${n} -->
+          <!-- <mm:present referid="page">
+            <mm:node number="$page">
+              <mm:relatednodescontainer type="pages" role="posrel" searchdirs="destination">
+                <ul class="nolist">
+                <mm:relatednodes>
+                  <mm:first><h4>Read more</h4></mm:first>
+                  <li>
+                    <mm:link page="page" referids="_node@n">
+                      <mm:frameworkparam name="component">mmsite</mm:frameworkparam>
+                      <a href="${_}"><mm:field name="title" /></a>
+                    </mm:link>
+                  </li>
+                </mm:relatednodes>
+                </ul>
+              </mm:relatednodescontainer>
+            </mm:node>
+          </mm:present> -->
         </div>
       </div>
     </jsp:attribute>

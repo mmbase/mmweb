@@ -119,7 +119,7 @@
       
         <div id="sidebar">
           <div>
-            page: ${page}
+            <!-- page: ${page}
             <mm:nodefunction name="parent" referids="_node@node" set="mmsite">
               <mm:import id="parent" reset="true"><mm:field name="number" /></mm:import>
             </mm:nodefunction>
@@ -130,12 +130,12 @@
             root: ${root}
            <mm:nodelistfunction name="crumbs" referids="_node@node" set="mmsite">
              crumbs: ${_node.number}
-           </mm:nodelistfunction>
+           </mm:nodelistfunction> -->
           
             <mm:relatednodescontainer type="pages" role="posrel" searchdirs="destination">
+              <mm:sortorder field="posrel.pos" direction="UP" />
               <ul class="nolist">
               <mm:relatednodes>
-                <mm:first><h4>Read more</h4></mm:first>
                 <li>
                   <mm:link page="page" referids="_node@n">
                     <mm:frameworkparam name="component">mmsite</mm:frameworkparam>

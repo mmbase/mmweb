@@ -48,11 +48,31 @@
     
       <div id="sidebar">
         <div>
-          <h4>More ...</h4>
-          <p>
-            ... information.
-          </p>
-
+          <mm:hasnodemanager name="project">
+            <mm:listnodescontainer type="project">
+              <mm:sortorder field="status" direction="UP" />
+              <mm:sortorder field="number" direction="DOWN" />
+              <mm:composite operator="AND">
+                <mm:constraint field="status" value="application" inverse="true" />
+                <mm:constraint field="status" value="contribution" inverse="true" />
+              </mm:composite>
+ 
+              <ul class="nolist">
+              <mm:listnodes>
+                <li>
+                <mm:changed>
+                  <h4>Status: <mm:field name="status" /></h4>
+                </mm:changed>
+                  <mm:link page="project">
+                    <mm:frameworkparam name="component">mmweb</mm:frameworkparam>
+                    <mm:frameworkparam name="node">${_node}</mm:frameworkparam>
+                    <a href="${_}"><mm:field name="title" /></a>
+                  </mm:link>
+                </li>
+              </mm:listnodes>
+              </ul>
+            </mm:listnodescontainer>
+          </mm:hasnodemanager>
         </div>
       </div>
   
