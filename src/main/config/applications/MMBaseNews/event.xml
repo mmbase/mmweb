@@ -1,0 +1,1702 @@
+<?xml version="1.0" encoding="utf-8"?>
+<event exportsource="mmbase://alfred.mmbase.org/mmweb/foundation" timestamp="20131003164110">
+	<node number="13267" owner="admin">
+		<body>body</body>
+		<title>MMweekend</title>
+		<subtitle>Hacking the Developers portal</subtitle>
+		<intro>intro</intro>
+	</node>
+
+	<node number="19099" owner="default">
+		<body>Er is weer een preconferentie en behalve de vele sessies zal er ook weer een informatiemarkt zijn, waar bedrijven en instellingen voor hoger onderwijs laten zien welke producten, kennis en ervaringen ze te bieden hebben.</body>
+		<title>Surf Educational days 2003 (Dutch only)</title>
+		<subtitle>Surf Onderwijsdagen 2003 (18 en 19 november)</subtitle>
+		<intro></intro>
+	</node>
+
+	<node number="19123" owner="default">
+		<body>Het congres Linux &amp; Open Source 2003 geeft u in één dag een volledig overzicht van de mogelijkheden die Linux en Open Source Software te bieden hebben. Het congres reikt u bovendien handvatten aan om Linux en Open Source Software succesvol te implementeren.
+
+Tijdens plenaire lezingen en parallelsessies komen de volgende onderwerpen aanbod: 
+Hoe implementeer ik Linux en Open Source in mijn organisatie? 
+Praktijkvoorbeelden van organisaties die met succes gebruik maken van Linux en Open Source 
+Alle kosten en baten voor het gebruik van Linux en Open Source op een rij 
+Een overzicht van de laatste ontwikkelingen op het gebied van Linux en Open Source Kosten: potentiele eindgebruikers: gratis, zonder inschrijving 27,-. deelnemers 549,-. </body>
+		<title>Linux en Open Source 2003</title>
+		<subtitle>Kennisplatform voor Linux &amp; Open Source.</subtitle>
+		<intro>Het congres Linux &amp; Open Source 2003 geeft u in één dag een volledig overzicht van de mogelijkheden die Linux en Open Source Software te bieden hebben. </intro>
+	</node>
+
+	<node number="19132" owner="default">
+		<body>Op woensdag 29 oktober 2003 organiseert ISPwijzer in nauwe samenwerking met een aantal samenwerkingsverbanden een landelijke conferentie over de inrichting van internetvoorzieningen op scholen na 2003. De conferentie is bestemd voor bestuursleden, directeuren en ICT-coördinatoren van samenwerkende onderwijsinstellingen Primair en Voortgezet Onderwijs. 
+
+Kosten: Gratis</body>
+		<title>Internetvoorzieningen na 2003</title>
+		<subtitle></subtitle>
+		<intro></intro>
+	</node>
+
+	<node number="19138" owner="default">
+		<body>Het congres in Amsterdam clustert het aanbod op het gebied van communicatie, marketing en sales en gaat in op de (zakelijke) toepassingen en praktische mogelijkheden van interactieve media. 
+
+Kosten: 157,50 (maximaal)
+</body>
+		<title>Ipan Congres</title>
+		<subtitle>Trends in Marketing, Media en Technologie</subtitle>
+		<intro></intro>
+	</node>
+
+	<node number="19149" owner="default">
+		<body>Het thema zal dit jaar voornamelijk liggen op de daadwerkelijke implementaties van alle plannen waar de afgelopen jaren veel aandacht aan is besteed. Veel best practices en aandacht voor implementaties. Op de dinsdag voor de liefhebbers de diepgaande focus op een vijftal onderwerpen in workshops, die de gehele dag doorlopen en waar een duidelijk leerelement in zit. Deze workshops bezorgen u ook een deelname certificaat. 
+
+</body>
+		<title>VIAG</title>
+		<subtitle>Het thema zal dit jaar voornamelijk liggen op de daadwerkelijke implementaties van alle plannen waar de afgelopen jaren veel aandacht aan is besteed.</subtitle>
+		<intro></intro>
+	</node>
+
+	<node number="19159" owner="default">
+		<body>Deze manifestatie voor het PO en VO biedt veelzijdige productinformatie en een uitgebreid aanbod aan workshops, lezingen en presentaties. Doelgroep: bestuurders, managers met ICT in hun portefeuille, (bovenschoolse) ICT-coördinatoren en systeembeheerders en in techniek van ICT geïnteresseerde leraren. Ook ISPwijzer zal een presentatie verzorgen. Daarom: veelzijdige productinformatie op de beursvloer en een uitgebreid aanbod aan workshops, lezingen en presentaties. Speciaal voor het primair en voorgezet onderwijs. 
+Kosten: Gratis
+</body>
+		<title>Manifestatie ICT beheer en techniek</title>
+		<subtitle></subtitle>
+		<intro>Deze manifestatie voor het PO en VO biedt veelzijdige productinformatie en een uitgebreid aanbod aan workshops, lezingen en presentaties. </intro>
+	</node>
+
+	<node number="19181" owner="default">
+		<body>Applictaties voor effectief content beheer in het Triavium te Nijmegen. Speciale aandacht gaat uit naar de komst van Enterprise Content Management (ECM). Enterprise Content Management is in tegenstelling tot Web Content Management juist bedoeld om álle interne informatiestromen toegankelijk te maken. Internet is hierbij slechts een van de kanalen. Welke voordelen ECM heeft boven andere Content Management Systemen en wat dit kan betekenen voor uw organisatie.</body>
+		<title>CMS Congres 2003 (Dutch only)</title>
+		<subtitle></subtitle>
+		<intro></intro>
+	</node>
+
+	<node number="19187" owner="default">
+		<body>Het congres wil een inspirerende ontmoetingsplek zijn voor het verbinden van mensen, praktijkervaringen en bereikte resultaten in zowel publieke sector als bedrijfsleven.
+Kosten: 225,- euro 
+</body>
+		<title>Congres working together in chains and networks (Dutch only)</title>
+		<subtitle>Samenwerken in Ketens en Netwerken</subtitle>
+		<intro></intro>
+	</node>
+
+	<node number="19192" owner="default">
+		<body>Tijdens het seminar op dinsdag  zullen keynotes hun visie geven op de mogelijkheden van portals en corporate governance. Bent u klaar voor de implementatie van een enterprise portal? Is uw visie en strategie al helder?Al nagedacht over een architectuur die past bij uw bedrijfsdoelstellingen? 
+</body>
+		<title>Enterprise Portals (Dutch only)</title>
+		<subtitle></subtitle>
+		<intro></intro>
+	</node>
+
+	<node number="20088" owner="default">
+		<body>De lezing, georganiseerd door Werkgroep Architectuur van afd. AIS vindt plaats op : Wo 19-11-2003 13:30 tot 16:00
+
+Hoe en waarmee wordt het gat tussen architectuur en projecten in de praktijk 
+gedicht? &lt;br&gt;
+Op woensdag 19 november 2003 organiseert de werkgroep Architectuur van 
+Informatiesystemen een lezing over bovenstaand onderwerp. Spreker is Rogier 
+Dijk die als informatiemanager werkzaam is bij Rabobank Nederland. In de rol 
+van domeinarchitect is hij verantwoordelijk voor het opstellen en bewaken 
+van de IT-strategie van een deel van het betalingsverkeer. &lt;p&gt;
+
+De lezing vindt plaats op woensdag 19 november van 13.30 tot 16.00 uur bij 
+AMEV (in de Gastroase) te Utrecht en is gratis toegankelijk voor NGI-leden. 
+Niet NGI-leden betalen een bijdrage van 20 Euro. 
+Aanmeldingen bij marten.kramer@nl.fortis.com &lt;p&gt;
+
+Meer informatie over deze activiteit kunt u verkrijgen bij Marten Kramer
+
+Kosten:
+Gratis voor Ngi -leden 
+Niet leden betalen Euro 20,00
+Lokatie: AMEV (in de Gastroase) te Utrecht
+</body>
+		<title>Gap between architecture and projects? (Dutch only)</title>
+		<subtitle>Hoe dicht je het gat tussen architectuur en projecten in de praktijk?</subtitle>
+		<intro>Deze activiteit, georganiseerd door Werkgroep Architectuur van afd. AIS vindt plaats op : Wo 19-11-2003 13:30 tot 16:00</intro>
+	</node>
+
+	<node number="20095" owner="default">
+		<body>5e TV en Internet congres 
+
+09.30 uur Ontvangst en registratie van de congresbezoekers 
+
+10.30 uur Opening van de dag door congresvoorzitter Rob van Beek (Uitgever Broadcast Press) 
+
+10.35 uur Breedband The First Mile TV 
+Een discussie over: 
+- De toekomst van breedband. 
+- Waar gaat het heen, TV of internet? 
+- Waar ligt de meerwaarde van internet ten opzichte van TV? 
+- Hoe ervaart de consument breedband? 
+- Hoe betrek je de programmamaker bij dit project? 
+Panel: Erik Huizer (NOB Cross Media Facilities), Oscar Kuiper (Kenniswijk), Erwin Blom (VPRO), Roel Rexwinkel (SURFnet) en Reinoud van Dommelen (Endemol). 
+
+11.00 uur Een digitale les van de BBC 
+- Welke ITV applicaties heeft de BBC ontwikkeld en waarom? 
+- Wat zijn de resultaten van gebruik van digitale televisie in de Engelse markt? 
+- Kan de Nederlandse publieke omroep ondanks de voorgestelde bezuinigingen investeren in digitale televisie? 
+Vlad Cohen, Senior Development Producer Interactive TV Programmes BBC New Media 
+
+11.30 uur Koffiepauze 
+
+12.00 uur Multimedia Formats 
+Bart Römer geeft een creatieve aftrap over multimedia formats: 
+- Hoe bedenk je een multimedia format? 
+- Hoe groot is de invloed van de adverteerder? 
+- Hoe beperkt is je creativiteit? 
+Vervolgens een paneldiscussie: Harry Dekker (Unilever), Peter Strating (Donkey), Ricardo van Amerongen (IP), Gijs Davelaar (Media Bridges) en Bart Römer. 
+
+Het panel praat over de volgende onderwerpen: 
+- Wat willen adverteerders nou werkelijk? 
+- Hoe ideaal is adverteren via multimedia? 
+- Hoe komt een multimedia concept van de grond? 
+
+12.45 uur Lunch 
+
+14.15 uur TV en Internet als alternatief distributiekanaal 
+Gerard Gielen (The Communication Company) geeft een overview van oude succesvolle en minder geslaagde pogingen om homeshopping te lanceren. 
+Vervolgens krijgt u antwoord op deze vragen: 
+- Welke consument koopt in Nederland via de homeshopping kanalen? 
+- Wat verwachten Wehkamp en Bol.com van de toekomst? 
+- Is retail TV een kostenpost of een lucratieve investering? 
+Panelleden: Pieter van Diepen (Wehkamp), Michel Schaeffer (Bol.com) en Gerard Gielen. 
+
+15.15 uur Een gloednieuw project: “Jong Zuid”. 
+Bas Verhart (Media Republic) gaat in op de case “Jong Zuid”, een fotodramaserie, exclusief te zien via internet, MSN Messenger, SMS en MMS. Nog niet eerder werd in Nederland een online en mobiele serie getoond. 
+
+15.35 uur Koffiepauze 
+
+16.00 uur Back to the present 
+15 jaar geleden was interactieve televisie een grote belofte. En dat is het vandaag de dag feitelijk nog steeds. Is dat een teken aan de wand? Zou het feit dat de meeste concepten vooral geldmachines zijn er iets mee te maken kunnen hebben? 
+Wim Andrea (PPGH JWT Colors) 
+
+16.30 uur Borrel 
+
+meer informatie en inschrijven (vermeld NGI lidmaatschapnummer) 
+
+Meer informatie over deze activiteit kunt u verkrijgen bij Sieneke Croes (telefoon 035-62 52 444)
+
+Kosten:
+Euro 485,00 excl btw voor NGI leden. De normale prijs bedraagt 550 Euro. 
+U kunt alleen schriftelijk annuleren voor 6 november 2003. Annulering wordt direct per fax bevestigd en de deelnamegelden worden gerestitueerd onder inhouding van 44 Euro administratiekosten per persoon. Na 6 november is bij verhindering alleen vervanging mogelijk.
+Lokatie
+Holiday Inn Amsterdam
+ 
+</body>
+		<title>5th TV and Internet congres (Dutch only)</title>
+		<subtitle>Deze activiteit, georganiseerd door NGI vindt plaats op : Do 20-11-2003 09:30 tot 16:30</subtitle>
+		<intro></intro>
+	</node>
+
+	<node number="20096" owner="default">
+		<body>EAI-Forum 2003 
+
+Op 25, 26 en 27 november a.s. organiseert IIRtraining het jaarlijkse EAI-Forum. Tijdens dit forum vindt u antwoord op vragen als: 
+ Waarom begint Applicatie Integratie bij uw architectuur? 
+ Is de technologie achter Webservices volwassen genoeg om in de harde praktijk toe te passen? 
+ Wat kost EAI en wat levert het op voor uw organisatie? 
+ Hoe verankert u uw integratieproject in uw bedrijf? 
+ Welke praktijklessen hebben uw vakgenoten geleerd? 
+
+U hoort unieke praktijkverhalen van o.a. ANWB, DSM, Marinebedrijf, Tradeplace BV, Vendex/KBB, Stichting Pensioenfonds ABP en Ahold. Bovendien delen sprekers als Ron Tolido en Michiel Malotaux (Gartner Consulting) hun visie op Applicatie Integratie en Webservices met u. Op 27 november kunt u de keuze maken uit een aantal interactieve en praktijkgerichte workshops! 
+
+Als lid van NGI ontvangt u 15% korting op de deelnameprijs*! Dus vraag nu de brochure aan, of meld u meteen aan met het aanmeldingsformulier op de website http://www.eai-forum.nl. 
+
+*Vermeld bij het veld opmerkingen uw NGI-lidnummer. 
+
+Na het succes van het EAI-Forum 2002 organiseert IIRtraining opnieuw een praktijkgericht forum over Enterprise Application Integration (EAI). Het EAI-Forum 2003 vindt dit jaar plaats in het Golden Tulip in Lisse. Wat is er in een jaar tijd allemaal gebeurd? 
+
+Uit het uitvoerig onderzoek dat voorafging aan het EAI-Forum 2003 blijkt dat er zeer veel onduidelijkheid bestaat over termen als EAI en Webservices. Bovendien plaatst u vraagtekens bij de beloftes die u worden gedaan over het rendement en de haalbaarheid van een EAI-project. Dé vraag waar u het antwoord op zoekt is: &quot;Wat hebben mijn vakgenoten voor elkaar gekregen op het gebied van EAI?&quot; 
+
+NGI sprekers zijn: 
+Dinsdag 25 november 16.45 Michiel Borgers, Voorzitter afdeling Beheer, NGI 
+Parallelstroom A Architectuur 
+Beheer van EAI: De vergeten wereld 
+
+Hoe moet EAI worden ingezet zodat de klant de juiste IT-services krijgt? 
+Wat betekent EAI voor de beheerprocessen en de beheerorganisatie? 
+Hoe bereikt u hogere kwaliteit van de dienstverlening en/of lagere kosten met EAI? 
+
+Dinsdag 25 november 16.00 Ary Velstra, Voorzitter afdeling Informatiesystemen, NGI 
+Parallelstroom B EAI: Het overwegen waard? 
+Waarmee overtuigt u het topmanagement van het rendement van EAI-oplossingen? 
+
+Wat kost EAI initieel en wat kost het u jaarlijks? 
+Welke verspillingen worden met behulp van EAI geëlimineerd? 
+Wat levert de toepassing van EAI u op? Direct en op langere termijn? 
+Hoe maakt en motiveert u een gedegen begroting voor uw EAI-project?
+
+Kosten:
+Voor twee dagen forum en één dag workshop: EUR 2.095,- (excl. BTW) 
+Voor twee dagen forum: EUR 1.495,- (excl. BTW) 
+Alléén de workshop: EUR 995,- (excl. BTW) 
+NB. NGI leden krigen 15% korting. Op het aanmeldingsformulier bij het veld opmerkingen aangeven dat u lid bent van het NGI, samen met het NGI lidmaatschapsnummer.
+Lokatie
+Golden Tulip De Nachtegaal 
+Heereweg 10 
+2161 AG Lisse 
+
+Tel +31 (0)252 43 30 30 
+Fax +31 (0)252 43 30 10</body>
+		<title>EAI forum 2003, Application Integration (Dutch only)</title>
+		<subtitle></subtitle>
+		<intro>Dit forum, georganiseerd door Afdeling AIS vindt plaats op : Di 25-11-2003 08:30 tot 27-11-2003 17:30
+
+</intro>
+	</node>
+
+	<node number="20102" owner="default">
+		<body>17:30 - 19:00
+VIP Reception 
+
+18:30 - 19:30
+Registration, drinks, snacks, networking &amp; great music featuring Russian singer Marynka Nicolai and her band 'Some Lovely Girls'
+
+19:30 
+Welcome by our Host Jonathan Marks, Creative Media Consultants
+Jonathan Marks gives a brief overview of the state of the industry - and the extent of the challenges it is facing. He will also launch the motion for the debate. 
+
+19:45 
+Part I: Keynotes by 
+Michel Mol, Internet Coordinator, Netherlands Broadcasting Corporation
+Gerd Leonhard, Music Futurist, former CEO, www.licensemusic.com, USA/Switzerland
+James M. Dorsey, Foreign Correspondent, The Wall Street Journal, Turkey
+
+20:45
+Coffee break
+
+21:15 
+Part II: Panel with Keynote Speakers and the Challengers
+Monique van Dusseldorp, New Media Consultant 
+John M. Middelweerd, Partner within PricewaterhouseCoopers, Audit practice 
+
+and our Host Jonathan Marks 
+The panel is followed by an open discussion. 
+
+22:15
+Closing remarks.
+
+Eventwebsite: http://www.clubofamsterdam.com/event.asp?contentid=251&amp;catid=85
+
+Speakers:
+Michel Mol
+Internet Coordinator, Netherlands Broadcasting Corporation 
+
+Gerd Leonhard
+Music Futurist, former CEO, www.licensemusic.com
+
+James M. Dorsey 
+James M. Dorsey is a veteran foreign correspondent. 
+
+Monique van Dusseldorp
+Monique van Dusseldorp is the founder of Van Dusseldorp, a new media consultancy, and the founder of Europemedia.net, a news service about European new media developments. 
+
+John M. Middelweerd
+Partner within PricewaterhouseCoopers, Audit practice
+
+Jonathan Marks 
+Since leaving Radio Netherlands in September 2003, Marks has set up his own business, Creative Media Consultants. </body>
+		<title>The future of the Media &amp; Entertainment Industry</title>
+		<subtitle>Thursday, November 27, 2003, 18:30-22:15</subtitle>
+		<intro>Electronic media has seriously lost the road ahead. Join us in Amsterdam for a critical debate on the world's biggest industry. Is the satisfactory future a return to the idealised past? Our speakers and panellists from across Europe agree that change is coming, but have outspoken and conflicting views on the options ahead. Join us for the fireworks - and interact yourself. If you want an evening of dull powerpoint presentations - look elsewhere. 
+
+</intro>
+	</node>
+
+	<node number="21055" owner="default">
+		<body>Veel organisaties zien dat kennis- en contentmanagement hun kapitaal is, maar weten nog niet precies hoe zij hiermee bijdragen aan organisatiedoelstellingen, prestatieverbetering en financieel resultaat. 
+
+Het seminar 'Kennis en content: uw kapitaal!' op 17 december, biedt een onafhankelijk plenair programma met praktische oplossingen voor actuele vraagstukken. 
+
+Wat kunt u op dit seminar verwachten?
+
+Prestatie-indicatoren en andere meetinstrumenten met het oog op uw ROI. 
+De juiste argumenten en stappen voor het verkrijgen van draagvlak binnen uw organisatie om kennis- en contentmanagement te professionaliseren. 
+Een gericht plan van aanpak om kennis en content te organiseren en verankeren. 
+Mogelijkheden om eigen kennis en content samen te voegen met externe informatie, om dienstverlening aan medewerkers en klanten te optimaliseren.
+Inhoud programma:
+
+Inhoudelijke bijdragen van onder meer CIBIT, Siemens, Shell, ANP, TNO en de Europese Commissie onder dagvoorzitterschap van kennismanagement-expert Prof. Dr. Paul Iske. 
+Succesvolle praktijkcases over de toepassingsmogelijkheden van kennis- en contentmanagement-tools. 
+Aandacht voor begrippen als taxonomie, contentmanagement systemen, search-engines, e-learning, corporate publishing en enterprise portals. 
+Volop gelegenheid om vragen te stellen aan specialisten en contacten te leggen met deelgenoten in de kennis- en contentbranche.
+Surf voor meer informatie naar: http://www.mediaplaza.nl/seminar/kennisencontent.
+
+* Gratis 'Gids Content Management Systemen 2003' t.w.v. 85,-
+Het beoordelen van het grote aanbod aan content management systemen is tijdrovend en complex. Iedere deelnemer aan dit seminar ontvangt daarom gratis de 'Gids Content Management Systemen 2003' t.w.v. 85,-. Surf voor meer informatie naar: http://www.entopic.com/gids/
+</body>
+		<title>Seminar: 'Knowledge and content: your capital!' (Dutch only)</title>
+		<subtitle>What does knowledge mean for your organization? And how far are you with the development of knowlegde and content managment?</subtitle>
+		<intro></intro>
+	</node>
+
+	<node number="21564" owner="default">
+		<body>On 20, 21 and 22 of April 2004 the 14th TINE– The ICT &amp; Networking Event is being held. 
+De belangrijkste doelstellingen van TINE zijn: 
+
+aanbod-, vraag- en gebruikerskant van ICT in een positieve omgeving bij elkaar brengen 
+ernaar streven een platform te creëren voor alle betrokkenen bij de ICT-sector 
+middels het centrale thema ‘Business en innovatie’ een bijdrage te leveren aan het imago, het wekklimaat en de beleving van ICT in het Nederlandse bedrijfsleven en de overheid. 
+
+Exposeren:
+U heeft de beschikking over minimaal 12 m². Op de ruimte van uw keuze bieden we u een compleet ingerichte stand inclusief meubilair, verlichting, electriciteitsverbruik, standschoonmaak etc.. Uw opbouwtijd is dus minimaal. De kosten bedragen
+€ 3.750,- voor een compleet ingerichte stand van 12 m², 
+€ 5.000,- voor een compleet ingerichte stand van 18 m² en
+€ 6.500 voor een compleet ingerichte stand van 24 m2. 
+
+zie ook: www.tine.nl</body>
+		<title>The ICT &amp; Networking Event (20, 21, 22 of April, Dutch only)</title>
+		<subtitle>This national specialized fair answeres present and futur questions on ICT. Where are the business opportunities? What innovations define the futur? What are your customers looking for?</subtitle>
+		<intro>In short, what are the latest developments on wireless and mobile business, storage, infrastructure and networks, data centers, office automation, security, application integration, business software, consultancy and training, open source, e-learning and content management.</intro>
+	</node>
+
+	<node number="21577" owner="default">
+		<body>27-29 april 2004 – Jaarbeurs Utrecht 
+
+De belangstelling voor Overheid &amp; ICT 2004; het platform voor ICT toepassingen en diensten in de overheidssector  breekt wederom alle records. Ruim 6 maanden voor beurs is het evenement nagenoeg uitverkocht. De organisatie heeft inmiddels een wachtlijst ingesteld. Een direct gevolg van het beleid van organisator Jaarbeurs Exhibitions &amp; Media die bewust kiest voor een gelimiteerd beursoppervlak gerelateerd aan het verwacht aantal bezoekers. Het afgelopen jaar trok Overheid &amp; ICT ruim 7.500 bezoekers. Waarmee het event veruit het grootste en meest representatieve platform is voor ICT in de overheidssector. De 11e editie vindt plaats van 27-29 april 2004 in Jaarbeurs Utrecht.
+
+Focus
+Een van de peilers van het succes van Overheid &amp; ICT (voorheen ICT Overheid) is de heldere focus op de overheidssector en de daarin verschuivende taken en verantwoordelijkheden waar het betreft ICT.  Was het voorheen veelal de ICT manager c.q. I&amp;A coordinator die de beursvloer domineerde de laatste edities groeide ook het bereik onder met name bestuurders, hoofden van dienst en beleidsmedewerkers explosief. Overheid &amp; ICT richt zich dan ook nadrukkelijk op bereik van alle actoren uit de overheidssector; bestuur, directie, beleid, (ICT) management &amp; implementatie binnen het rijk, provincie, gemeente, waterschappen, politie, justitie en brandweer.  
+
+Congres
+Geheel in lijn met deze ontwikkeling wordt voor de 2004 editie en in samenwerking met het congres- en studiecentrum van de VNG gewerkt aan een nieuwe en meer gefocuste opzet van het omlijstende congresprogramma. Gericht op specifieke functiegroepen en actuele beleidsthema’s en/of sectoren binnen de overheid. Met de belangrijkste branche-
+en beroepsorganisaties binnen de overheid zoals ICTU, VNG, VIAG, FAMO, VGS, NVVB, Divosa/Stimulansz, Stadswerk, RAVI etc. wordt daarover inmiddels intensief overlegd.  
+
+Wat blijft is de succesvolle samenwerking met Kluwer dat met haar titels Binnenlands Bestuur, Overheid Innovatief en Publiek Management als exclusief mediapartner aan het event is verbonden en mogelijk ook een rol krijgt in het omlijstende congresprogramma. 
+
+Portfolio
+Overheid &amp; ICT, dat met Zorg &amp; ICT inmiddels een zusje heeft dat zich richt op de zorgsector is met recht een van de kroonjuwelen uit het snel uitdijende portfolio van de marktgroep ICT van Jaarbeurs Exhibitions &amp; Media. Naast Overheid &amp; ICT en Zorg &amp; ICT bestaat dit portfolio inmiddels uit de vakevenementen Infosecurity.nl, Infosecurity.be, Storage Expo, My-Office en TCD. Jaarbeurs Exhibitions &amp; Media is een joint venture tussen Jaarbeurs en VNU.  
+
+http://beurzen.jem.nl/sites/overheid-en-ict/nl/index.asp</body>
+		<title>ICT &amp; Overheid (27 - 29 April, Dutch only)</title>
+		<subtitle>One of the success factors of the Dutch congres Overheid &amp; ICT is the clear focus on the public sector and the changing tasks en responsabilities as far as ICT is concerned.</subtitle>
+		<intro></intro>
+	</node>
+
+	<node number="21784" owner="default">
+		<body>On the Open Source Experience event organisations and individuals will present their experiences on working with Open Source. The program shows that also the private sector has numurous open source initiatives. The congres will also present the results of a research on the state of open source affaires in the Netherlands at this moment. 
+
+The list of presentors is compleet. Companies and organisations that share their experiences are amongs others Municiplaty of Leeuwarden, IBM, Luminis, OSOSS, PANanalytical (voorheen Philips), Rabobank en Wireless Leiden.  
+
+Amongst the presenters are Mark Bressers (Open Source en de rol van de overheid), Andy Haxby (Open Source en GEC), Jean-Luc van Hulst (Finalist IT Group), Aad Nales (Rotterdam CS), Tom van Sante (Pink Roccade Civility) en Huub Schuurmans (Wireless Leiden). 
+ 
+Open Source platforms that will be presented are Compiere (Open Source ERP), Eclipse (software development) en MMBase (Content Management System).
+ 
+For more information visit: http://www.oservaringen.nl 
+</body>
+		<title>Open Source Experiences 2004</title>
+		<subtitle>On Tuesday January 20 2004 the first Dutch Open Source Expiriences congres will take place (www.oservaringen.nl).</subtitle>
+		<intro></intro>
+	</node>
+
+	<node number="21797" owner="default">
+		<body>The third edition of the Content Management System congress takes place on May 25 2004 in the Congrescentrum “Het Triavium” in Nijmegen. The congress is in Dutch only. More information can be found on www.cmscongres.nl</body>
+		<title>CMS congress 2004</title>
+		<subtitle>Content management systems 2004; applications for effective content management</subtitle>
+		<intro></intro>
+	</node>
+
+	<node number="21942" owner="default">
+		<body>Thursday the 8th of January we organize a Bug Fixing day to fix some bugs that should be solved before the official MMBase 1.7 release. Developers that want to join the bug fixing team can join IRC to help us (server irc.slashnet.org, at channel #mmbase). We will be there till 17:30 to fix MMBase bugs.
+ 
+After a hard day working we will have diner at the VPRO and end the evening with a 'developers meeting' and a drink. Developers that want to attend the developers meeting and the dinner, please let us know by sending an email to info@mmbase.or</body>
+		<title>MMBase 1.7: Bug Fixing Day</title>
+		<subtitle></subtitle>
+		<intro>To ensure a stable and bug free MMBase 1.7 release we organise a MMBase bug fixing day the 8th of Januari.</intro>
+	</node>
+
+	<node number="22022" owner="default">
+		<body>More information on the congres can be found on:
+http://www.ngi.nl/scripts/kalender/nwkaldetail.php?key=1072554033</body>
+		<title>Congres: Open Source, times are changing</title>
+		<subtitle>A congres organized by the NGI, region Limburg</subtitle>
+		<intro>The chairman of the day is Tom van Sante, CEO business developement at PinkRoccade Civility. Prof. Dr. Ir. Michiel van Genuchten, professor software management, and marketing director at Philips wil give a presentation on Open Source. There are a number of other interesting speakers like Ir. Michael Hoekstra of IBM, Drs. Henk Kuiper of the Rabobank and Raul Pesch of Microsoft.
+ 
+ </intro>
+	</node>
+
+	<node number="22028" owner="default">
+		<body>More information can be found on www.e-governmentcongres.nl</body>
+		<title>The 4the national e-Governement Congres</title>
+		<subtitle>On March 12 2004 at the WTC Rotterdam</subtitle>
+		<intro>For 2004 the Dutch government has the goal to have 45% of its services in 2004 and 85% of the democratic basic information by the end of next year. This congres is about how they will be reaching their goals and how your organisation can benefit from their expterience. </intro>
+	</node>
+
+	<node number="22373" owner="default">
+		<body>The next MMBase developers meeting will be held the 4th of March. When you are interested in the development of MMBase, please feel free to come and sent an email to rob@mmbase.org for your registration.
+
+Program:
+19:00 - Welcome : Rob Vermeulen
+19:05 - Documenation : Henk Hangyi
+19:25 - Taglibs 2 : Michiel Meeuwissen 
+19:45 - Applications : Daniel Ockeloen
+20:05 - Break
+20:20 - Foundation : Jo Lahaye
+20:40 - Distro (discussion about releaseplan 1.8) - Gerard van Enk
+21:00 - End
+
+The meeting will be hosted by Finalist IT Group. Information about the location can be found at: http://www.finalist.nl/route_amsterdam.htm</body>
+		<title>MMBase developers meeting, 2004.03.04</title>
+		<subtitle></subtitle>
+		<intro>The next, two montly, MMBase developers meeting will be held the 4th of March 2004.
+
+</intro>
+	</node>
+
+	<node number="22768" owner="default">
+		<body>The congres, open source in practice, that Bull organises in cooperation with eMAXX, offers a complete overview of all the possibilities that open source can offer, in one day. 
+&lt;br&gt;
+Go to www.bull.nl for more information</body>
+		<title>Open Source in practice</title>
+		<subtitle></subtitle>
+		<intro>Open Source is hot. But what is Open Source, and why is it so interesting? 
+
+</intro>
+	</node>
+
+	<node number="22837" owner="default">
+		<body>The knowlegde center ELO organizes the knowlegdemarket (kennismarkt) 'electonic, and other government', in cooperation with other ICTU programs.
+
+The issues from the recently published actionprogram 'A different governement' will discussed extensively. They will be bundled in presentations, workshops and a discussion table. Advies Overheid.nl presents itself with a number of workshops. 
+
+More information can be found on: http://www.elo.nl/elo/advies_en_informatie/watiskcelo/kennismarktinfo.jsp </body>
+		<title>Knowlegde Market 'Electronic Government'</title>
+		<subtitle></subtitle>
+		<intro>February 19, De Doelen te Rotterdam </intro>
+	</node>
+
+	<node number="22852" owner="default">
+		<body>Location:
+ 
+Sociëteit De Witte 
+Plein 24 
+2502 AN Den Haag 
+Tel: 070 360 79 33  
+ 
+Temporary program: 
+
+• 13:00: Inloop 
+• 13:30: Welkom Gerard Schouw, directeur Kenniscentrum Grote Steden. 
+• 13:35: Korte inleiding Paul Schnabel, directeur Sociaal en Cultureel Planbureau 
+• 13:40: Dr. Willem van Winden met een terugblik over stedelijk ICT beleid van afgelopen jaren. 
+• 14:10: Vier Korte presentaties van hoofdstukken door auteurs: 
+
+Dr. Marcel Boogers - De wijk op het web 
+Drs. S Flight - Cameratoezicht en verplaatsing van criminaliteit en overlast 
+Drs. Lilian Linders - Bruggen bouwen met virtuele middelen 
+Drs. Renée van Os - Digitale democratie binnen de gemeente Hoogeveen 
+
+• 15:10: Theepauze 
+
+• 15:40: Debat o.l.v. Paul Schnabel over de toekomst van ICT en sociale kwaliteit met enkele goed ingevoerde wetenschappers en beleidsmensen. 
+• 16:35: Uitreiking van het eerste exemplaar van Jaarboek ICT en Samenleving aan Gerlach Cerfontaine 
+• 16:45: Borrel 
+
+Deelnemers krijgen een exemplaar van het Jaarboek mee naar huis. 
+
+</body>
+		<title>ICT in the city: far away or nearby?</title>
+		<subtitle></subtitle>
+		<intro>SQM organizes a special meeting about the second Yearbook ICT and society, on March 9th. In the yearbook, SQM and the Sociaal Cultureel Planbureau (SCP) bundle descriptions of reseach on the effects of ICT policy on the social domain. </intro>
+	</node>
+
+	<node number="22856" owner="default">
+		<body>During the openingsmeeting, the minister of Administrative Modernisation and Kingdom relations, Thom de Graaf, will discus the program of Administrative Modernisation.
+
+A main part of the conference will be presenations on examples of modernisation, quality improvement, and effectivity in the public sector. 45 of the best examples, choosen from the 500 proposed examples, will be presented. 
+
+There will be enought time to exchange experiences and debate. For the debate a 'Lagerhuis' is organized. There will also be an informationmarket.
+
+Location: Nederlands Congres Centrum in Den Haag. 
+ 
+
+</body>
+		<title>2nd National Conference Innovation and Quality Public Sector</title>
+		<subtitle></subtitle>
+		<intro>The theme of the conference will be a better service to the public and modernization of the government. And above all, lean from eachother. </intro>
+	</node>
+
+	<node number="23115" owner="default">
+		<body>Session 1: Juridical aspects of lincensing.
+Wednesdag March 3 2004
+A deepening into the different licenses (GNU, (N)GPL, Mozilla), the preconditions necessary with software development, and methods for releasing open source.
+
+Session 2: Open Source Systemdevelopment
+Thursday March 4 2004
+Which products, tools and components can be used, and which methods? How do you start a systemdevelopment project, aswell as the considerations around “code vs. load” will be discussed. 
+
+more information: www.i-portal.nl
+</body>
+		<title>Expert sessions Open Source</title>
+		<subtitle></subtitle>
+		<intro></intro>
+	</node>
+
+	<node number="23182" owner="default">
+		<body>The National ICT Event 2004 is an initiative of the Dutch ministery of Economic affaires, Nederland-ICT and Media Plaza, in cooperation with VNU Business Publications and the Jaarbeurs Exhibition &amp; media. 
+
+The ICT Event takes place at the MediaPlaza in Utrecht.
+
+More information on this Event can be found on http://www.ictevent.nl/</body>
+		<title>National ICT Event 2004</title>
+		<subtitle>On Thuesday May 18th, the National ICT Event 2004 takes place in Utrecht</subtitle>
+		<intro>The National ICT Event has the goal to stimulate the use of ICT applications and give a positive contribution to the ICT and e-business climate in the Netherlands.</intro>
+	</node>
+
+	<node number="23188" owner="default">
+		<body>The government is working on the integration of the physical and virtual world. Several initiatives were started and the coalition agreement mentions it a number of times. 
+
+But what means and instruments must a govenment use to improve effectivity and accessability? What consequences need to be taken into account bij local-, provicial and national governments, when developing ICT applications? 
+
+More information on this Event can be found on www.ckc-seminars.nl/overheidonline/ 
+</body>
+		<title>Government Online</title>
+		<subtitle></subtitle>
+		<intro>Increasing government transparancy, reducing administrative tasks, and improving customer-friendliness: all things that need high quality digital infrastructure. </intro>
+	</node>
+
+	<node number="24292" owner="default">
+		<body>Programma MMBase bijeenkomst 25 maart 2004
+Locatie Stadhuis Amsterdam (Stopera), Filmzaal. 
+Toegang is gratis. Aanmelden Jo@mmbase.org 
+
+Zaal open 09.30 uur: koffie en thee. 
+
+10.00-11.45 Jo Lahaye, Stichting MMBase: CMS implementatie in grote(re) onderwijsorganisaties, overheden, zorgsector. Open, objectgeorienteerde systemen hebben de toekomst. 
+11.45-12.30 Gerard van de Weerd, Finalist: CMS Leeuwarden een praktijkcase. 
+
+12.30-13.30 Lunchpauze. 
+Lunch dient iedereen zelf te regelen. In de directe nabijheid van het Amsterdamse Stadhuis zijn vele gelegenheden waar een broodje gekocht en genuttigd kan worden. 
+
+Middagprogramma: Voor partners van de Stichting MMBase en genodigden. 
+
+13.30-13.50 The Mediator Group, Arent van 't Spijker: Ontwikkeling van didactor
+13.50-14.10 Zoran Scepanovic, Amsterdam op stoom met WIAB: nieuw in release 2.5 
+14.10-14.30 Daniel Ockeloen (MMC) MMBased en applicaties 2: MMBase meer modulair
+14.30-14.50 Forum. Bruno Felix Submarine/Stichting web in de wijk.   
+
+14.50-15.10 Koffie/thee/koekje pauze 
+
+15.10-15.30 Rob Vermeulen, MMBase developersgemeenschap (stand van zaken, plannen)
+15.30-15.50 Mmatch: webmaker, intranet.
+15.50-16.05 Chat-functie als component beschikbaar.
+16.05-16.25 Q42: geavanceerd statistiekprogramma en wysiwyg editwizzards.   
+16.25-16.50 Discussie 
+
+1700 exact: zaal MOET LEEG zijn. 
+Borrel bij cafe Dante (drankje aangeboden door de Stichting MMBase)
+
+Jo Lahaye,
+maart 2004
+
+Meer informatie over het ochtendprogramma:
+Naarmate omgevingen groter worden, worden de eisen die gesteld worden aan de inrichting van systemen complexer. MMBase is open, platform-onafhankelijk en objectgeorienteerd. Daardoor kan het in veel situaties flexibel worden ingezet. Doordat het open source is, kan het goed met een organisatie meegroeien. Maar hoe richten we een CMS in, bijvoorbeeld als het gaat om workflow, eisen aan authenticatie, autorisatie, archivering, versiebeheer, metadata, datamodellen, enzovoorts. Jo Lahaye spreekt vanuit zijn ervaring als projectmanager van grote CMS trajecten over een aantal van deze aspecten. Gerard van de Weerd laat aansluitend vanuit de praktische case “Leeuwarden” zien hoe daar een aantal van deze elemenenten in verwerkt is. 
+
+
+
+</body>
+		<title>MMBase meeting (Dutch only)</title>
+		<subtitle>Aanmelden verplicht!</subtitle>
+		<intro></intro>
+	</node>
+
+	<node number="24795" owner="default">
+		<body>De overheid is hard bezig met het integreren van de fysieke en virtuele wereld. Diverse acties zijn opgestart en de regeerakkoorden staan er vol van. Maar welke middelen en instrumenten moet de overheid nu hanteren om de effectiviteit en de toegankelijkheid te verbeteren? Met welke gevolgen en zaken dienen de lokale-, provinciale overheden en rijksoverheid rekening te houden bij de toepassing van ICT? Op dit congres wordt ingegaan op wat de mogelijkheden, de randvoorwaarden en de eisen zijn voor het digitaliseren van overheidsdienstverlening.
+
+Meer informatie is te vinden op: http://www.ckc-seminars.nl/overheidonline</body>
+		<title>Government Online (dutch only)</title>
+		<subtitle>Integrating the physical and virtual world</subtitle>
+		<intro>Increasing transperancy of the Dutch government, decreasing administrative burdens, increase customer friendlyness: all things that make the simulation of high quality digital infrastruture a nessecity.  
+</intro>
+	</node>
+
+	<node number="25816" owner="default">
+		<body>The Mediacentre is the black-and-grey building next to the sattelite disc/parking lot (to the right when you have entered the Mediapark).
+
+The event starts at 18:30 hours, but you are welcome to come earlier if you like. 
+We will arrange for muchies, drinks and pizza.
+
+If you want to be present, send an email to Pierre.van.Rooden@omroep.nl.
+This will ensure you will gain access to the park.
+The Developers meeting will be freeform. Items to be disccussed include the Releasplan for 1.8 and the new taglib for MMBase (including the new query containers). </body>
+		<title>MMBase developers meeting, 2004.05.06</title>
+		<subtitle>MediaPark, Hilversum</subtitle>
+		<intro>The MMBase Developers meeting has been moved to a different location: the Mediapark in Hilversum, in the MediaCentre, in the 'belzaal' (1st floor).</intro>
+	</node>
+
+	<node number="26584" owner="default">
+		<body>For information in English, please contact the Foundation (Jo@mmbase.org)
+10.00 Opening. 
+Jo Lahaye, directeur Stichting MMBase
+
+10.03 Welkomswoord TU Delft
+Prof. dr. René Wagenaar, Prof. dr. Hans de Bruijn. 
+
+Overheid 
+10.15 Arjen Hof, programmamanager innovatie Amsterdam, presenteert mede namens Leeuwarden en Egem, de samenwerkingsplannen van en voor gemeenten. 
+Open standaarden, open source. Mark Bressers, programmamanager OSOSS. Wat is na 1,5 jaar bereikt en wat zijn de ambities voor dit jaar.
+
+Onderwijs 
+10.50 Fred de Vries, Open Universiteit Nederland, doet onderzoek naar open source systemen voor het hoger onderwijs, in opdracht van de digitale universiteit. Een tussentijds verslag. Een aantal ROC's zocht een manier om met studenten aan de maritieme opleiding in contact te blijven tijdens het langdurige verblijf op zee. Ordina en The Mediator Group vonden een oplossing met behulp van Didactor.
+
+11.30 Koffiepauze
+
+OSS en de industrie. 
+12.50 Dr. Frank van der Linden, van Philips Medical systems, over de ervaringen van Philips met het beheer van wereldwijd gebruikte software voor medische systemen. 
+12.10 Bernd Taselaar, Nederland ICT, directeur Fenit (Federatie Nederlandse IT) over de opstelling van zijn achterban ten aanzien van open standaarden en open source. 
+
+12.30 Lunchpauze
+
+13.15 Dick Rijken, voorzitter Stichting MMBase, welkomswoord voor de middag, kort overzicht activiteiten en plannen. 
+13.25 Pierre van Rooden, MMBase Management 
+Committee (MMC). Nieuw MMC, toeksomtvisie, release 1.7 en plannen voor release 1.8. 
+13.35 Henk Hangyi (MMatch). Diverse showcases, e-commerce en een overzicht van functionaliteit die open source wordt aangeboden. 
+13.55 Bruno Felix (Submarine, St. Web in de wijk) presenteert MMBob, een prachtig MMBase-style forum dat aan de MMBase-community wordt aangeboden. 
+14.10 Andres Steijaert. Surfnet presenteert zijn geavanceerde MMBase-applicatie. Deze applicatie is ontwikkeld door Finalist IT Group en Q42 en gebaseerd op de applicatie die voor “Leeuwarden” is ontwikkeld.
+14.20 Kars Veling: Qstats. Nieuwe kijk op managementinformatie.
+
+14.30 Parallelsessies
+1. Zoeken en vinden. 
+Henny Bekker. Een nieuwe zoekengine voor Surfnet. Henk Hangyi, zoeken en vinden binnen MMBase. 
+2. Is MMBase het juiste CMS voor mij
+Fokke Kooistra laat zien hoe MMBase in de dagelijkse pratijk bij de EO werkt en hoe het ook in uw omgeving kan passen. 
+3. Wetenschappelijke workshop
+Ruben van Wendel de Joode, Rob Peters. Wetenschappelijke workshop gericht op applicatieontwikkeling in open source. Wat zijn de issues voor bedrijven als ze besluiten hun applicaties in een open source omgeving te bouwen en hoe kunnen ze daarmee omgaan. 
+
+15.45 Pauze. 
+
+16.05 Angel Vaca, Directie Fundecyt, Extremadura, Spanje. 
+Over het succes van open source (LinEx) in een van de armere 'platteland' regio’s van Europa en de mogelijke samenwerking met de Stichting MMBase in een internationaal project. (English / Engels!) 
+16.35 Wim de Bie, over zijn populaire Bieslog
+17.00 Borrel</body>
+		<title>MMEVENT4</title>
+		<subtitle>9 juni 2004, Technische Universiteit Delft</subtitle>
+		<intro>This year we will try to bring you a new, interesting and colourful program and bring you up tot date with the latest developments. With a wide range of subjects and a number of parallel sessions, this event will be the meeting place for (potential) users, commercial service providers, developers, designers or persons and organisations that are generally interested in state of the art dynamic web techniques.</intro>
+	</node>
+
+	<node number="26839" owner="default">
+		<body>Many municipalities en governmental institutions have Open Source and Linux high on the agenda. Naturally, because of the advantages like low cost, high efficiency, and liability are convincing arguments. There are also more and more success stories of governmental institutions who have actually materialized the advantaged. 
+
+But more information about Linux and Open Source is desirable according to IBM. IBM offers open source services and in this session IBM offers answers to questions that many people still seem to have. 
+
+More informatie on the program can be found on: 
+http://www.ibm.com/nl/businessforum</body>
+		<title>IBM businessforum</title>
+		<subtitle></subtitle>
+		<intro>A session about Linux en Open Source within the governement
+</intro>
+	</node>
+
+	<node number="27267" owner="default">
+		<body>The Congres will look at the different aspects of Content Management: web content management, document management, record management, e-mail management, digital asset management (DAM), digital rights management, business process management (BPM), and workflow management, portal integration, knowledge management, information retrieval, taxonomy, metadata, usability and accessibility, open source and open standards, change management. 
+
+Program: 
+
+Bob Boiko (VS), author of the Content Management Bible
+Tony Byrne (VS), publisher of the CMS watch
+Martin White (UK), author of ‘Managing Enterprise Content’
+Peter Hinssen (BE)
+
+More information: www.ecmplaza.nl
+</body>
+		<title>ECMplaza</title>
+		<subtitle>The first ECMplaza year congres</subtitle>
+		<intro>On Tuesday November 9th, CKC and Hartman Communication organize the first ECMplaza year congres with the goal to give visitors a clear view on what the possibilities and options are for buying in the area of methods, techniques and tools for Content Management. </intro>
+	</node>
+
+	<node number="27596" owner="default">
+		<body>Dutch parties can make proposals to the European Commission for congres program and for the presentations on the knowledge market of the Event. 
+
+Until the 5th of May, projects can be sent in for the so called IST-price.
+
+This Event will be held at the Congress Centre in The Hague.
+
+More information can be found on: http://www.senter.nl/asp/page.asp?id=i000000&amp;version=&amp;alias=ist2004
+</body>
+		<title>IST 2004 Event (multiple days)</title>
+		<subtitle></subtitle>
+		<intro>The European Commission and the Dutch ministry of Economic Affairs organise this large scale ICT event, 'IST 2004 Event', on the 15,16 and 17 November 2004. The Event is part of the European Information Society Technologies Programme. It is a large congress, combining government, economy and ICT. Because the congress is in august it coincides with the European Union chairmanship of the Netherlands. </intro>
+	</node>
+
+	<node number="27601" owner="default">
+		<body>How can we use ICT solutions for economic growth, more employment, and a higher prosperity? One of the crucial success- and failure reason is the confidence of the citizens, patient, consumer and business in the information society. 
+
+The theme of the 7th eNetherlands Congress, on November 11, will therefore be: 
+
+eNetherlands: successful cooperation for a reliable Europe.
+
+More information: www.enederlandcongres.nl
+
+
+</body>
+		<title>The 7th eNederland Congress</title>
+		<subtitle>eEurope is more important than ever</subtitle>
+		<intro>In 2010 Europe wants to be the most competitive and dynamic knowledge economy in the world. But how do we get there?</intro>
+	</node>
+
+	<node number="27609" owner="default">
+		<body>The symposium focuses this year (2004) on practical experiences of the government with Open Standards and Open Source software. No theorie, but practice!
+
+Many governmental organisations will share learned lessons, so that everybody can get their advantage. There will be workshops, oriented towards developing and maintaining open standards.  But also on the cost advantage of open source software and front office application. 
+
+The congress will be held on the forth of November, at the WTC in Rotterdam. 
+
+More information on http://www.ososs.nl/2004.symposium.html</body>
+		<title>OSOSS Symposium</title>
+		<subtitle>Oriented on practical experience</subtitle>
+		<intro>On thirsday November 4, the Ososs program organises the second symposium by order of the ministery of Internal Affairs and Monarch Relations, and the ministry of Economic Affairs. 
+
+</intro>
+	</node>
+
+	<node number="27613" owner="default">
+		<body>This fall, Heliview organises another Linux and Open Source congress ‘Linux and Open Source 2004’ will take place on September 28 at Media Plaza in Utrecht. 
+
+More information on: www.heliview.com/conferences
+
+</body>
+		<title>Linux and Open Source 2004</title>
+		<subtitle>Organised by Heliview</subtitle>
+		<intro></intro>
+	</node>
+
+	<node number="30604" owner="admin">
+		<body>We would like to continue the developers meeting in the year to come, and also make a fresh restart with the users meeting. For those not familiar with the users and developers meeting: the goal of the users meeting is to inform users on released functionality and show how it can be installed and used; the goal of the developers meeting is to discuss new and ongoing development projects. The goal of both meetings is to stay informed, discuss, have a chat and a beer.
+
+To keep the number of meetings at once every two months, we propose to have the developers and users meetings at the same time and at the same location. Same time, same location, but separate meetings, means that you can choose between the developers or the users track or make a nice mixture of both by walking around.
+
+The planned dates for the meetings are:
+
+Thursday 2 sept 2004 - users meeting &amp; developers meeting - 19:00-21:00h (18:00h for those who join the pizza)
+Thursday 4 nov 2004 - users meeting &amp; developers meeting - 19:00-21:00h
+Thursday 6 jan 2005 - users meeting &amp; developers meeting - 19:00-21:00h
+Thursday 3 march 2005 - users meeting &amp; developers meeting - 19:00-21:00h
+Thursday 12 may 2005 - users meeting &amp; developers meeting - 19:00-21:00h
+
+So mark the dates in your agenda!
+
+The meeting on 2 sept will be hosted and free drinks will be served by:
+
+QUANTIQ XMEDIA
+Koninginneweg 11-13
+1217 KP Hilversum
+
+The location is quite near the city hall of Hilversum. The route can be found at: www.quantiq.com
+
+Pizza's are offered by the MMBase Foundation.
+
+PROGRAM OF THE DEVELOPERS MEETING ON 2 SEPT
+
+We propose the following agenda for the developers meeting.
+
+19:00-19:30h MMBase 1.8 / planning / projects (Rob Vermeulen / Gerard van Enk)
+19:30-20:00h Which tools are necessary on the new MMBase server (Gerard van Enk / ...)
+20:00-20:30h Ins/outs of the storage layer (... / ...)
+20:30-21:00h Introduction in the field types project (Michiel Meeuwissen)
+
+If you have any suggestions with regard to the program or like to discuss other topics, please send an email to rob@mmbase.org . The final program will be published on the MMBase website next week Tuesday.
+
+PROGRAM OF THE USERS MEETING ON 2 SEPT
+
+19:00-19:45h Cloud context security and the VARA.nl implementation (Michiel Meeuwissen &amp; Pierre van Rooden)
+
+With release 1.4 a pluggable security framework was added to MMBase. Since that time a number of security plug-ins have been developed and are in use. For instance: Didactor uses nl.eo.didactor.security.Authentication, LeoCMS (the implementation for Leeuwarden) uses nl.leocms.mmbase.security.cloud.Authenticate and a lot of sites use org.mmbase.security.implementation.cloud.Authenticate
+
+However, since release 1.7 MMBase is shipped with a new security plug-in, which is called Cloud Context Security (CCS). CCS is flexible and offers a lot of functionality. In this session the CCS functionality and the way it is used in the new VARA.nl site will be shown. 
+
+19:45-20:45h Installing and using the package builder, package manager and theme manager (Daniel Ockeloen)
+
+The package builder, package manager and theme manager have already been presented on some occasions. This session, however, will show you everything you need to know to be able to install and use these tools to build packages from your MMBase applications and offer them to the community. The topics addressed in the meeting are:
+1. Installing the package builder, the package manager and the theme manager.
+2. Using the package builder to build packages from your MMBase applications.
+3. Using the theme manager to manage and change the design of your MMBase applications.
+4. Using the package manager to offer your package to other users and deploy the packages offered by them.
+
+20:45-21:00h Any other things and discussing the program for the next users meetings.
+
+PLEASE, LET US KNOW IF YOU ATTEND THE DEVELOPERS OR USERS MEETING ON 2 SEPT
+
+If you would like to come to the meeting of 2 september please send an email to jo@mmbase.org and fill in the questions below.
+
+[ ] Yes, I will attend the user meeting of 2 september
+[ ] Yes, I will attend the developer meeting of 2 september
+[ ] Yes, I arrive at 18:00h and please order a pizza for me. My favorite taste of pizza is ......
+
+Kind regards,
+
+Rob Vermeulen
+E. rob@mmbase.org
+
+Henk Hangyi
+E. hangyi@xs4all.nl
+</body>
+		<title>MMBase developers meeting, 2004.09.02</title>
+		<subtitle></subtitle>
+		<intro></intro>
+	</node>
+
+	<node number="35338" owner="admin">
+		<body>As the ObjectWeb consortium becomes an important player in open source infrastructure software for the industry, its annual conference grows and strengthen as unique opportunity for professionals to discover, learn and exchange on middleware and open source software. 
+
+Now in its fourth edition, the ObjectWeb conference offers three day of tutorials, sessions and key notes for you to meet experts and champions of the ObjectWeb community and gain insight on all of the technology options available to you and your company. 
+
+Run jointly with the conference, an exhibition hall will give you all opportunities to watch exiting demos and get up-to-date informations from commercial vendors on complementary offers. 
+
+This year, we are happy to feature world-renown keynote speakers: B. Behlendorf (Apache Board), O. Klyut (Sr. Director, JCP), JP Lacotte (Vice-Chairman, ITEA), M. Milinkovich (Executive Director, Eclipse), H. Peyret (Senior Analyst, Forrester), H. Xu (Chief Architect, Guangzhou Research Center). 
+
+This conference is supported by ObjectWeb co-founders (INRIA, BULL, France Telecom) and benefactor member (Together Teamlösungen). For sponsorship opportunities, please contact OWCON05-contact@objectweb.org. 
+
+We are looking forward to welcome you to the fourth ObjectWeb Conference. The MMBase Foundation -and especially it's members- and Objectweb are working together on several levels. </body>
+		<title>Fourth Annual ObjectWeb Conference</title>
+		<subtitle>January 17-19, 2005 - Lyon, France</subtitle>
+		<intro></intro>
+	</node>
+
+	<node number="35344" owner="admin">
+		<body>The Online Educa in Berlin is the world largest international e-learning conference and also Europe's largest gathering of e-learning and distance education professionals.
+
+This annual conference attracts high-level decision makers from education, business and government - the three key areas driving e-learning adoption and innovation - making it the most important networking venue for experts, practitioners and newcomers from all over the world.
+
+The MMBase Foundation will be present in Berlin, not in the least because there are two speakers from within the MMBase community (Joost Becking and Fred de Vries; representing respectively The Mediator Group and the Open Universiteit Nederland).
+
+For more information, please go to: http://www.online-educa.com/en/</body>
+		<title>Online Educa Berlin 2004</title>
+		<subtitle>A 10 Year Celebration of Best Practice in E-Learning</subtitle>
+		<intro></intro>
+	</node>
+
+	<node number="36188" owner="default">
+		<body>The next MMBase user meeting will be on thursday 4 nov 2004 -
+19:00-21:00h (18:00h for those who join the pizza). The plan is to focus
+is on the different approaches used to build templates for an MMBase
+application.
+
+The program of the meeting is:
+
+1. Incorporating templates in the website context of the object model:
+Henk Hangyi (the MMBase site is used as a demo)
+2. Tree-part/leave-part: Johannes Verelst (Didactor and/or some of the
+EO sites will be used to demo)
+3. Struts: Nico Klaasens (LeoCMS will be used as a demo)
+4. Discussion: when to use which approach?
+
+The meeting will be hosted by Kennisnet in Zoetermeer (see link on top of this page for travel info)
+
+Pizza's are offered by the MMBase Foundation.
+
+PLEASE, LET US KNOW IF YOU ATTEND THE USER MEETING ON 4 NOV
+
+If you would like to come to the meeting of 4 november please send an
+email to jo@mmbase.org and fill in the questions below.
+
+[ ] Yes, I will attend the user meeting of 4 november
+[ ] Yes, I arrive at 18:00h and please order a pizza for me. My favorite
+taste of pizza is ......
+
+Hope to see you next week thursday,
+
+Kind regards, Henk.
+
+Ps. 
+1. For those not familiar with the users and developers meeting: the
+goal of the users meeting is to inform users on released functionality
+and show how it can be installed and used; the goal of the developers
+meeting is to discuss new and ongoing development projects. The goal of
+both meetings is to stay informed, discuss, have a chat and a beer.
+2. Next meetings will be held on thursday 6 jan 2005, thursday 3 march
+2005 and thursday 12 may 2005 (always 19:00-21:00h)
+
+</body>
+		<title>MMBase user meeting on thursday 4 nov 2004</title>
+		<subtitle></subtitle>
+		<intro></intro>
+	</node>
+
+	<node number="40532" owner="default">
+		<body>The next MMBase users &amp; developers meeting will be on Thursday January 27, 2005 - 19:00-21:00h (18:00h for those who join the pizza). We hope it will be as fruitful and interesting as the meeting of November 4.
+
+In the new year we want to use a new format for the users &amp; developers meeting: the meeting starts with a users part, developers can also join this part as long as they can abstain from starting to discuss technical issues. After the users part, the developers part of the meeting will be held. People who do not want to be witness of the technical discussion of new and ongoing development projects can leave then.
+
+The program of the meeting of January 27 is:
+
+USERS PART
+
+1 - LeoCMS - ??? &amp; Hessel van Rosbergen (30 min.)
+The MMBase application of the town Leeuwarden, called LeoCMS, will become downloadable from the MMBase site in the first week of 2005. The plan for the meeting is that one of the users of LeoCMS will show how they work with LeoCMS, what they see as strong and weak points, and their experience with the implementation project. In the second part of the presentation, Hessel van Rosbergen will give an overview of the modules integrated in the LeoCMS and point out how you can use and (most important ;-) participate in the development of these modules.
+
+DEVELOPERS PART
+
+1 - UML2MMBase - Ernst Bunders (15 min.)
+UML2MMBase is a third-party application that generates a complete webapplication from a UML objectmodel. As a user of this tool, Ernst will give a demo and highlight its features.
+
+2 - Lucene module - Wouter Heijke (15 min.)
+The Lucene module is an third-party MMBase module for full text search capabilities. Its creator, Wouter, will talk about how to use it, current status and future developments.
+
+3 - Sourceforge project MMApps - Kees Jongenburger (15 min.) MMApps is a project on Sourceforge, hosting third-party open source software for use with MMBase. On of its projectmanagers, Kees, will talk about its goals, and the ideas behind it, and how to participate.
+
+4 - JSP2 and MMBase - Rob van Maris (30 min.)
+This talk will start with a quick introduction to new features of JSP2, in particular the expression language, the Java Standard Tag Library, and the new Taglib API. This will be followed by ideas for an all-new MMBase taglib, that takes maximal advantage of these developments.
+
+The meeting will be hosted by Ordina in Amersfoort (You will receive an email with the precise location after you signed in by sending an email to jo@mmbase.org)
+
+Pizza's are offered by the MMBase Foundation.
+
+PLEASE, LET US KNOW IF YOU ATTEND THE USERS &amp; DEVELOPERS MEETING ON 27 JANUARY
+
+If you would like to come to the meeting of January 27 please send an email to jo@mmbase.org and fill in the questions below.
+
+[ ] Yes, I will attend the users &amp; developers meeting of January 27 [ ] Yes, I arrive at 18:00h and please order a pizza for me. My favorite taste of pizza is ......
+
+Hope to see you on the 27-th,
+
+Kind regards,
+
+Rob van Maris
+Henk Hangyi
+
+Ps. 
+1. For those not familiar with the users and developers meeting: the goal of the users part is to inform users on released functionality and show how it can be installed and used; the goal of the developers part is to discuss new and ongoing development projects. The overall goal is to stay informed, discuss, have a chat and a beer. 2. Next meetings will be held on Thursday 3 march 2005 and Thursday 12 may 2005 (always 19:00-21:00h)
+</body>
+		<title>MMBase developers meeting, 2005.01.27</title>
+		<subtitle></subtitle>
+		<intro></intro>
+	</node>
+
+	<node number="42506" owner="admin">
+		<body>The full program is now available on the website of Holland Open. There are many notorious speakers on the subject of open standards, open content and of course open source software present. 
+
+To give a short inpression of some of the 70 (!) speakers/workshop leaders present: 
+·	Frits Huffnagel, Alderman Amsterdam (ICT) - On the move, towards openness and transparency.   
+·	Scott Handy, Vice President IBM - Evolving super computing technologies &quot;on demand&quot; available.
+·	Stefaan van Hooydonk: head of AGFA Healthcare Academy - Let's make future education fun! 
+·	Jesús Villasante, EU Directorate General Information Society, head of unit, software development- Changing the perception, new directions. 
+·	Madan Mohan Rao: head of research AMIC, Bangalore, India - New divides, new dividends: An Asia-Pacific panorama of open source initiatives. 
+·	Dirk Willem van Gulik, President of the Apache Foundation - Future challenges.
+·	Erik Josefsson, spokesman FFII (Foundation for a Free Information Infrastructure) - Why the directive of the European Commission on software patents is little less than a huge mistake. 
+·	Charles D.A. Ruffolo: President RIBS, networKING - It's all about networking! 
+·	Jimmy (Jimbo) Wales: Founder of Wikipedia - Open content will bring more balance in this world.
+·	James Baty, CTO Sun Microsystems - How to combine business logic and talented 'nerds'. 
+
+And also besides the keynotes there are many interesting tracks: With speakers that don't show up on every occasion: Alan Williamson (LinuxWorld, SpikeSource), Ian Dolphin (e-learning, Sakai project), Francois Letellier (ObjectWeb), Arnoud Engelfriet (Philips patent attorney), Kimberly Simon (IBM), Eclipse and Webtool platform (Naci Dai), Ron Tolido (CTO Capgemini), etcetera, etcetera. 
+
+The initiative group &quot;HollandOpen&quot; worked very hard to organize this first Holland Open Software Conference in Amsterdam on May 30, 31. And on Wednesday June 1, there will be many surprising &quot;after conference&quot; sessions. This three-day event will be held at the premises of the University of Amsterdam, right in the heart of the old town. 
+
+This Conference is in fact the follow up of several Dutch Events, like the Open Source experiences congress, the MMBase Events and some smaller initiatives.
+
+The aim of the Holland Open Software Conference is to present a broad variety of mature projects and to offer a platform were knowledge can be exchanged and were people can meet in a professional and enthusiastic atmosphere. The conference likes to show the interested attendee and the ICT-professional, that open solutions are available and that they can cope. There is room for debate and unconventional contributions, as the organization likes to avoid dogmatic approaches of the subject. On the conference days, there are no sponsored tracks. The program committee, with many high profile scientists and enthusiasts with a more practical approach, have judged all proposals for papers and presentations.
+
+The initiative group has established a new not for profit organization, the Holland Open Foundation, who will act like an umbrella organization for all Dutch initiatives concerning open standards, open software and open content. Holland Open will also be the regional contact point for other initiatives or organizations in other (European) countries, with similar objectives. 
+
+The focus of the conference is primarily on open software, open standards and open content, but there is also room for other subjects like innovation, games etcetera. Some of the tracks are scientific, others will be very practical on lessons learned and hands on installations. 
+
+We will organize many parallel sessions and keynotes. We will start the conference with some high profile keynotes at the Aula of the University; all other presentations, debates and workshops will be held at the Faculty of Law at the Oudemanhuispoort, situated on walking distance. At the &quot;after conference&quot; on Wednesday, attendees can go into details with many of the speakers they listened to on Monday or Tuesday, or they can attend sessions organized by sponsors.
+
+The fee for attendees will be euro 185, including coffee, tea, lunches, a diner + party! 
+
+More information on the website of Holland Open.</body>
+		<title>Holland Open Software Conference : program now available</title>
+		<subtitle></subtitle>
+		<intro>This Conference is the follow up of several Dutch Events, like the Open Source experiences congress, the MMBase Events and some smaller initiatives.
+</intro>
+	</node>
+
+	<node number="47084" owner="default">
+		<body>The program of the meeting is now final:
+
+1 - UML2MMBase - Ernst Bunders (15 min.)
+UML2MMBase is a third-party application that generates a complete webapplication from a UML objectmodel. As a user of this tool, Ernst will give a demo and highlight its features.
+
+2 - Introduction to Maven - Nico Klasens (30 min.)
+Maven is  a software project management and comprehension tool that has recently beccome widely adopted. See: http://maven.apache.org. Now that an increasing number of separate modules of MMBase functionality is becoming available, a tool like Maven is needed to keep things managable. Nico Klasens will provide an introduction to Maven and tell about the experences he had while using Maven in projects (30 minutes).
+
+3 - Richtext project - Michiel Meeuwisseen (&lt;15 minutes)
+Status update. Michiel will explain why this project was recently re-opened.
+
+4 - Optimization project - Pierre van Rooden (&lt;15 minutes)
+Status update .
+
+
+5 - Celebration of 5th anniversary of the MMBase Open Source project (20h15 - 21h00).
+An informal, low-profile celebration - drinks and cake are provided for, sponsored by the VPRO.
+
+The meeting will be hosted by the VPRO, at VPRO Digitaal. (For directions, see: http://www.vpro.nl/route.)
+
+Pizza's are offered by the MMBase Foundation.
+
+PLEASE, LET US KNOW IF YOU WANT TO ATTEND
+
+If you would like to come to the meeting please send an email to robvanmaris@mmbase.org and fill in the questions below.
+
+[ ] Yes, I will attend the users &amp; developers meeting of May 19
+[ ] Yes, I arrive at 18:00h and please order a pizza for me. My favorite taste of pizza is ......
+</body>
+		<title>MMBase developers meeting, 2005.05.19</title>
+		<subtitle>The program of the meeting is now final!</subtitle>
+		<intro>The next MMBase users &amp; developers meeting will be on Thursday May 19, 2005 - 19:00-21:00h (18:00h for those who join the pizza). The meeting is open to anyone who is interested in one of the topics.
+</intro>
+	</node>
+
+	<node number="48004" owner="admin">
+		<body>At the annual meeting of the MMBase Foundation the board decided to research the position of MMBase because some people were suggesting the forecast was rather cloudy. The research was carried out by Ruben van Wendel de Joode, faculty of Organization &amp; Management, Delft Technical University. He wrote down the results in a paper called “A research concerning the continuity of the MMBase community”. The primary goal was to make clear what obstacles and possibilities lie ahead for further growth of MMBase. The gathering of data was done by interviewing 17 stakeholders: 7 committers, 4 end-users, 3 smaller vendors (&lt;50), 2 larger vendors (&gt;50) and the director of the Foundation.
+
+An english summary of the paper can be read in the news sections of this website.</body>
+		<title>Debate on paper about the MMBase community</title>
+		<subtitle></subtitle>
+		<intro>15.00 hours, Faculteit Bestuur Management en Techniek, Jaffalaan 5, TU Delft</intro>
+	</node>
+
+	<node number="48230" owner="default">
+		<body>The program of the meeting is:
+
+-what is new in 1.8 (release_notes?): Michiel Meeuwissen
+-caching / release strategies: Ernst Bunders
+-contributions: Daniel Ockeloen
+-richtext editor / datatypes / resourceloader: Michiel Meeuwissen
+
+The location of the meeting will be posted later. 
+
+Pizza's are offered by the MMBase Foundation.
+
+PLEASE, LET US KNOW IF YOU ATTEND THE USER MEETING ON TUESDAY 15 NOV
+
+If you would like to come to the meeting of 15 november please send an email to jo@mmbase.org and fill in the questions below.
+
+[ ] Yes, I will attend the user meeting of 15 november
+[ ] Yes, I arrive at 18:00h and please order a pizza for me. My favorite taste of pizza is ......
+
+Hope to see you on the 15-th,
+
+Kind regards, Henk.
+
+Ps.
+1. The users/developers meeting takes place after the MMBase Foundation meeting on the results Ruben van Wendel de Joode's report. 
+2. For those not familiar with the users and developers meeting: the goal of the users meeting is to inform users on released functionality
+and show how it can be installed and used; the goal of the developers meeting is to discuss new and ongoing development projects. The goal of
+both meetings is to stay informed, discuss, have a chat and a beer.
+</body>
+		<title>MMBase developers meeting, 2005.11.15</title>
+		<subtitle></subtitle>
+		<intro>The next MMBase user/developer meeting will be on tuesday 15 nov 2005 - 19:00-21:00h (18:00h for those who join the pizza). The plan is to present and discuss the upcoming MMBase 1.8 release.</intro>
+	</node>
+
+	<node number="48235" owner="default">
+		<body>Especially non-core MMBase developers are encouraged to participate in the weekend !!! Next to writing pieces of documentation and creating examples yourselves, your opinion about the documentation written by core developers is important as a first proof-of-the-pudding. Of course these two days will be an outstanding opportunity to learn more about MMBase.
+
+The program is as follows:
+
+Friday 9 december 2005
+10:00 welcome
+10:15 overview of status of documentation and gaps
+10:30 dividing tasks (documents)
+11:00-20:00 writing
+20:30 diner
+22:00 beer (pubs are in walking distance of location)
+
+Saturday 10 december 2005
+9:00 breakfast
+10:00-20:00 writing
+20:30 diner, including evaluation
+22:00 more beer
+
+The location will be the MMatch office:
+
+Hommelstraat 9A
+NL-3061 VA Rotterdam
+
+Note: there is no internet connection at this location. You have to bring a notebook with software installed yourself.
+
+Everybody is welcome to sleep there on the nights from 9-10 and 10-11 december, if you bring matras and sleeping bag.
+
+The MMBase Foundation has offered to sponsor part of the costs of this weekend, so you don't have to worry about costs of meals and drinks.
+
+Please let me know if you plan to join this unforgetable weekend, by writing an email to hangyi@xs4all.nl
+</body>
+		<title>Documentation weekend fri 9 dec and sat 10 dec 2005</title>
+		<subtitle></subtitle>
+		<intro>With the upcoming release of MMBase 1.8, the MMBase documentation needs some serious updating and extensions. The idea is to do this in a two day session which is open for everybody, who is willing to write documentation for MMBase.
+</intro>
+	</node>
+
+	<node number="48312" owner="admin">
+		<body>The yearly meeting of the Foundation wil be held on December 15, at the VPRO.
+
+From 15.00 hours to 17.15: several show cases. Language Dutch, unless we are
+asked to change this (to English).
+
+Please be welcome, subscribe by sending me an email.
+
+15.00-15.45:
+-Finalist: Stand van zaken ontwikkeling CMS Container, planning eerste release.
+-KNMI, Henk van Dijk: hoe schaalbaar is MMBase eigenlijk?
+
+15.45-16.00: Pauze
+
+16.00-17.15:
+-Submarine: editors
+-The Mediator Group: Didactor 2.0
+-Henk Hangyi: Natuurmonumenten, activiteitendatabase gebaseerd op LeoCMS
+-Release 1.8 (+documentatie).
+-Technical board + prioriteiten Stichting voor 2006
+
+17.15-18.30:
+Borrel + hapje; Deze borrel loopt over in de netwerkbijeenkomst van het Holland Open Software Platform.
+</body>
+		<title>Annual Foundation meeting, 2005</title>
+		<subtitle></subtitle>
+		<intro>Annual meeting of the MMBase Foundation followed by the Holland Open Software Platform 'borrel'.
+Location: VPRO, Hilversum</intro>
+	</node>
+
+	<node number="48417" owner="default">
+		<body>The plan is to present and discuss two important frameworks build on top
+of MMBase.
+
+The program of the meeting is:
+
+-The E-Learning Environment, Didactor: Johannes Verelst
+-The CMS Container, Karma: Wouter Heijke and Nico Klasens
+
+Topics to be addressed are:
+
+1. What is the particular usage of those frameworks?
+2. What kind of architecture is used: which functional components and
+features?
+3. How can components be added, how can they be enabled / disabled?
+4. How can the frameworks be build?
+5. Can the frameworks be downloaded from CVS? From where can they be
+downloaded?
+
+The location of the meeting will be posted later (it will be somewhere
+in the Amsterdam area). 
+
+Pizza's are offered by the MMBase Foundation.
+
+PLEASE, LET US KNOW IF YOU ATTEND THE USER MEETING ON WEDNESDAY JANUARY
+11 
+
+If you would like to come to the meeting of January 11, please send an
+email to jo@mmbase.org and fill in the questions below.
+
+[ ] Yes, I will attend the user meeting of January 11
+[ ] Yes, I arrive at 18:00h and please order a pizza for me. My favorite
+taste of pizza is ......
+
+Hope to see you in 2006!
+
+Ps.
+For those not familiar with the users and developers meeting: the goal
+of the users meeting is to inform users on released functionality
+and show how it can be installed and used; the goal of the developers
+meeting is to discuss new and ongoing development projects. The goal of
+both meetings is to stay informed, discuss, have a chat and a beer.
+
+</body>
+		<title>MMBase developers meeting, 2005.01.11</title>
+		<subtitle></subtitle>
+		<intro>Karma and Didactor will be presented on the next MMBase user/developer meeting Wednesday January 11, 2006 - 19:00-21:00h (18:00h for those who join the pizza).</intro>
+	</node>
+
+	<node number="48705" owner="default">
+		<body>The plan is to discuss and decide upon two important issues:
+
+1. the cms container datamodel (as proposed by Nico and Wouter)
+http://cvs.mmbase.org/viewcvs/speeltuin/applications/cmsc/
+
+2. the application for component based development (as proposed by
+Johannes)
+http://cvs.mmbase.org/viewcvs/speeltuin/applications/component/
+
+The location of the meeting is at the MMBase foundation office in
+Hilversum
+http://www.mmbase.org/contact
+
+Pizza's are offered by the MMBase Foundation.
+
+PLEASE, LET US KNOW IF YOU ATTEND THE USER MEETING ON MONDAY MARCH 6 
+
+If you would like to come to the meeting of March 6, please fill out the
+form on:
+
+http://www.mmbase.org/pizza
+
+Hope to see you!
+</body>
+		<title>MMBase developers meeting, 2006.03.06</title>
+		<subtitle></subtitle>
+		<intro>The next MMBase developer meeting will be on Monday March 6, 2006 -
+18:30-21:00h (18:00h for those who join the pizza).</intro>
+	</node>
+
+	<node number="48797" owner="default">
+		<body>You are assumed to bring your own notebook including a working MMBase
+1.8 installation. Your level of expertise is irrelevant, because we are
+also in need of non-core developers who are able to test MMBase!
+
+The bugfixing-day will take place in the Finalist office in Rotterdam. We
+start at 10:00h and will probably continue untill 20:00h. After that, we
+could have a diner together.
+
+For those of you who are not in the position to come to Rotterdam (for
+instance if you are located in Serbia, in China, or in the USSR) it is
+possible to join the bugfixing day online via the IRC channel.
+
+As always it will be a very inspiring day, full of surprises and new
+insights. If you like to join, please let us know by replying to this
+email or contact me on IRC.
+
+Hope to see you on March the 24-th !!
+
+Please send an email to the developers or users list if you like to attend.</body>
+		<title>MMBase 1.8: Bug Fixing Day</title>
+		<subtitle></subtitle>
+		<intro>A bugfixing day will be organised on Friday March 24. The goal of this day is to:
+
+1. check the status of open bugs
+2. test MMBase 1.8
+3. fix as much bugs as possible
+</intro>
+	</node>
+
+	<node number="51309" owner="default">
+		<body>During one of our last projectmeetings of the MMBase Component Framework project we thought it a good idea to organize a programming 'weekend' to make some significant progress with the new components and the framework that will harbor them. We possibly start around 10 friday, code and discuss until diner, code and discuss again until very, very late, get some sleep (or not), and start coding again saturday morning and the afternoon probably till diner. I trust that the MMBase foundation provides the catering...
+
+The 'weekend' will be held in Hilversum at Jo Lahaye's office at Neuweg 83, 1214 GM Hilversum (035-6288088 or call me for questions +31(0)627233562). Sleeping there will be quite basic but i think it will also be possible to have a few people sleep at my place or someone else's living in Hilversum.
+
+Anybody who wants to join and thinks that she/he can make a contribution is most welcome.</body>
+		<title>Component Framework coding 'weekend'</title>
+		<subtitle>Friday 13th and Saturday 14th October</subtitle>
+		<intro></intro>
+	</node>
+
+	<node number="51760" owner="default">
+		<body>MMBase Annual Meeting, 14 December 2006 from 14.00 hours till 19.00 hours. Location VPRO, Mediapark (Sumatralaan) Hilversum. 
+Join the annual meeting to find out what happened in 2006 and is planned for 2007.
+
+Please note that in the morning there is a special workshop for developers concerning the CMS container(9.30-13.30). See mmbase.org for more information.
+
+Presentations will be given by Lucas Vroemen of the regional broadcasting organization Limburg L1, the community of Nijmegen and several other organizations who started to use MMBase in 2006. And of course there we will provide you with information on the new developments that will be incorporated in the MMBase 2.0 release, like the CMS Container and the ComponentFramework. Entrance is free, but please register: jo@mmbase.org
+ 
+</body>
+		<title>MMEvent 2006. Location VPRO Hilversum, at 1400 hours</title>
+		<subtitle>Annual meeting MMBase Foundation</subtitle>
+		<intro></intro>
+	</node>
+
+	<node number="51786" owner="default">
+		<body></body>
+		<title>Second Component Framework coding 'weekend'</title>
+		<subtitle>Friday 8 th and Saturday 9 th of December, 2006</subtitle>
+		<intro></intro>
+	</node>
+
+	<node number="51797" owner="default">
+		<body></body>
+		<title>CMS Container Workshop</title>
+		<subtitle>Thursday 14 December</subtitle>
+		<intro>Like MMBase was not the first Content Management System build by the VPRO, it also took us some iteration to build the perfect editors and workflow environment on top of MMBase. First there was WiaB, then we got LeoCMS and finally there is the CMS Container !!! Join now to learn everything on how to use, install and build with the CMS Container. For the Dutch people, participation is free ;)</intro>
+	</node>
+
+	<node number="51945" owner="default">
+		<body>The issues we would like to discuss:
+
+1. the migration of the MMBase core to Java 1.5: how to do it in a structured way?
+2. the status of the component framework: does it fit with the original design document and who is to migrate when?
+3. release planning with Jira: no commit without issue number!
+
+Please let us know if you have any other topics that need to be discussed.
+
+The location of the meeting is at the MMBase foundation office in Hilversum
+
+http://www.mmbase.org/contact
+
+Pizza's are offered by the MMBase Foundation.
+
+PLEASE, LET US KNOW IF YOU ATTEND THE USER MEETING ON WEDNESSDAY 24
+
+If you would like to come to the meeting of Wednessday 24, please fill out the form on:
+
+http://www.mmbase.org/pizza
+
+Hope to see you!
+
+Kind regards, Henk.
+
+T. +31-629054903
+E. hangyi@xs4all.nl
+</body>
+		<title>MMBase developers meeting, 2007.01.24</title>
+		<subtitle>java 1,5, releases, components, and more</subtitle>
+		<intro>The next MMBase developer meeting will be on Wednessday January 24, 2007
+-18:30-21:00h (18:00h for those who join the pizza).</intro>
+	</node>
+
+	<node number="52356" owner="default">
+		<body>The next MMBase developer meeting will be on:
+
+Thursday March 8, 2007
+18:30-21:00h
+18:00h for those who join for pizza
+
+The issues we would like to discuss (next to the outcomes of the last
+meeting):
+
+1. mmbase 1.8: use and misuse
+2. migration from 1.7 to 1.8: lessons learned
+3. CMS Container, Component Framework and roadmap to 2.0
+
+Please let us know if you have any other topics that should be discussed.
+
+The location of the meeting is at the MMBase foundation office in Hilversum
+
+http://www.mmbase.org/contact
+
+Pizza's are offered by the MMBase Foundation.
+
+PLEASE, LET US KNOW IF YOU ATTEND THE USER MEETING ON MARCH 8.
+
+If you would like to come to the meeting of Thursday the 8th of March, please fill out the form on:
+
+http://www.mmbase.org/pizza
+
+Hope to see you!
+</body>
+		<title>MMBase developers meeting, 2007.03.08</title>
+		<subtitle></subtitle>
+		<intro>MMBase: migrate from 1.7, use and misuse of 1.8 and roadmap to 2.0</intro>
+	</node>
+
+	<node number="52410" owner="default">
+		<body>The next MMBase Developers Meeting will be on Thursday June 28, 2007 - 18:30-21:00h (18:00h for those who join the pizza).
+
+The new MMBase Component Framework (MMCF, the main improvement for the upcoming 1.9 release) will be presented at the developers meeting, together with its current status and future plans. The project team worked hard on it, so we have some examples now that seem to work (presented by Michiel)
+
+Next to the MMCF the following features, which are new in 1.8, will be presented:
+
+- Data types (Nico)
+- Nice new features in the taglib (André)
+
+The location of the meeting is at the MMBase foundation office in Hilversum http://www.mmbase.org/contact
+
+Pizza's are offered by the MMBase Foundation.
+
+PLEASE, LET US KNOW IF YOU ATTEND THE DEVELOPER MEETING ON THURSDAY JUNE 28
+
+If you would like to come to the meeting of June 28, please fill out the form on:
+
+http://www.mmbase.org/pizza
+
+Hope to see you!
+
+Btw. 
+
+1) In case you were expecting an MMBase bbq on the 28-th, we are sorry but we won't be organizing one this year. For an open source bbq you could go to: http://download.finalist.com/feest/flyer_feest_270607.pdf
+
+2) The dates of the following meetings after the summer holiday are:
+
+September 13
+November 8
+December 20
+</body>
+		<title>MMBase developers meeting, 2007.06.28</title>
+		<subtitle></subtitle>
+		<intro></intro>
+	</node>
+
+	<node number="52671" owner="default">
+		<body></body>
+		<title>MMBase developers meeting, 2007.09.13 CANCELLED</title>
+		<subtitle></subtitle>
+		<intro>The next MMBase developers meeting will NOT be at September 13, 2007. There is no program. it is cancelled.</intro>
+	</node>
+
+	<node number="52675" owner="default">
+		<body></body>
+		<title>Component Framework Day, July 6, 2007</title>
+		<subtitle></subtitle>
+		<intro>The next MMBase Component Framework Day will be held at the EO office. The goal of the day is to finish the beta-version of the component framework.</intro>
+	</node>
+
+	<node number="52681" owner="default">
+		<body>Goal of the weekend is to exchange components between the component frameworks: Patmos, Didactor and the CMS Container. The goal is to get webmail from Didactor working in the CMS Container and the form generator in Didactor.
+
+It will be held at offices of the MMBase Foundation in Hilversum, Neuweg 83. The 'weekend' starts Friday August 10 at 9.30 and will be coding until Saturday the end of the afternoon.</body>
+		<title>ANNULLED: Third Component Framework coding 'weekend'</title>
+		<subtitle>These two days will be scheduled later.</subtitle>
+		<intro></intro>
+	</node>
+
+	<node number="52845" owner="default">
+		<body>The MMEvent will this year be held at Kenninet, Paletsingel 32, Zoetermeer. Date: december 6, time 13.30 hours.
+We will try to bring you a new, interesting and colourful program and of course bring you up tot date with the latest developments. Most sessions will be held in Dutch, unless of course there are English speaking guests. Registration is obligatory: Jo@mmbase.org.
+
+Further information in Dutch.
+
+Op 6 december organiseert de Stichting MMBase vanaf 13.30 uur bij Kennisnet in Zoetermeer het  MMEvent 2007.
+
+MMBase maakt een aantal belangrijke wijzigingen door. De architectuur verandert en de wijze waarop modules gemaakt worden is met de totstandkoming van het MMCF (MMBase Component Framework Project) een stuk transparanter. Het afgelopen jaar is door een groep developers hard gewerkt om dit voor elkaar te krijgen. Waar staan we nu en wat betekent dit voor gebruikers.
+
+Ook organisaties en personen die zich aan het oriënteren zijn op een web content management systeem of portal technologie zijn van harte welkom, zeker bij de speciale sessie “getting started” van 14.00-15.30 uur.
+
+In de ochtend, vanaf 10 uur start de CMS Container gebruikersdag eveneens bij kennisnet. Belangstellenden zijn welkom, maar deze ochtend staat vooral in het teken van de volgende release en is dus niet bedoeld voor algemene oriëntatie. Dat kan in de middag.
+
+Het programma:
+10.00-13.00u : CMSc gebruikersoverleg.
+13.00-ontvangst MMEvent.
+13.40-14.00u : Jo Lahaye: MMBase, robuust en volwassen
+14.00-15.30u : Twee parallele tracks
+-Getting Started: Kennismaken met MMBase: Jo Lahaye en Jacob Koster
+-Architectuur principes, component framework en CMSc: Andre van Toly, Freek Punt en Henk Hangyi.
+
+15.30-16.30uur centrale sessies:
+Emer Beamer van Butterfly Works: learningaboutliving.org en wordsoverweapons.com
+Rob de Bruin, productmanager Kennisnet
+Martijn Verhoeven - MAG Productions
+
+16.30 uur: Borrel 
+
+Aanmelden: 
+Wij hopen u op 6 december te verwelkomen. Graag een email aan Jo@mmbase.org. Geef AUB aan op welk tijdstip u aanwezig zult zijn: 10.00 of 13.30.
+
+Aanvullende informatie:
+CMS Container.
+Indien u komt voor de CMS container gebruikersdag, dan wordt u een document met de releasenotes toegezonden ter voorbereiding. 
+Architectuur.
+Deze sessie is voorall bedoeld voor organisaties die al met MMBase aan de slag zijn, of zich al eerder georienteerd hebben en geinteresseerd zijn in de manier waarop toekomstige MMBase ontwikkelingen het beste in gang gezet kunnen worden. Meer informatie is te vinden op www.mmbase.org/mmcf 
+www.mmbase.org/principles
+
+Getting started.
+Van 14.00-15.30 Wat zijn de belangrijkste kenmerken van MMBase, wat is nodig om met MMBase aan de slag te gaan. Onderwerpen die aan de orde komen zijn ondermeer:
+-open source software, wat betekent dat
+-platform onafhankelijk, database-onafhankelijk
+-scheiding content, structuur, vormgeving
+-cross media gebruik
+-multiple url’s
+-object georienteerde ontwikkeling
+-schaalbaarheid (code and load)
+
+Tot 6 december! 
+</body>
+		<title>MMEvent2007: focus on architecture</title>
+		<subtitle>Everyone is welcome</subtitle>
+		<intro>The MMEvent will this year be held at Kennisnet, December 6. We will try to bring you a new, interesting and colourful program and of course bring you up tot date with the latest developments. Most sessions will be held in Dutch, unless of course there are English speaking guests. Registration is obligatory: Jo@mmbase.org. </intro>
+	</node>
+
+	<node number="52978" owner="default">
+		<body>The goal of the day is to thorougly test the beta-version of the component framework. We will start around 9.30h. For those who would like to join please write an email to andre[at]toly.nl.
+
+After a hard day of work, around 17.00h, we will have a new-years-drink at the café Het Arendsnest &lt;www.arendsnest.nl&gt; in Amsterdam (10 min. walk from Amserdam CS and just around the corner of Finalist Amsterdam).</body>
+		<title>MMBase 'Nieuwjaarsborrel' and MMCF day</title>
+		<subtitle></subtitle>
+		<intro>The next MMBase Component Framework Day will be held at the Finalist office in Amsterdam. It will be followed by a new-years-drink at 17.00h.</intro>
+	</node>
+
+	<node number="53031" owner="default">
+		<body></body>
+		<title>MMBase Component Framework Days, 2008.03.21 and 2008.03.22 at the MMBase foundation</title>
+		<subtitle></subtitle>
+		<intro>At March 21+22, 2008 the MMCF project will join to work on the MMBase 1.9 release.</intro>
+	</node>
+
+	<node number="53036" owner="default">
+		<body></body>
+		<title>MMBase Component Framework Days, 2008.02.22 and 2008.02.23 at the MMBase foundation</title>
+		<subtitle></subtitle>
+		<intro>At February 22+23, 2008 the MMCF project will join to work on the MMBase 1.9 release.</intro>
+	</node>
+
+	<node number="53040" owner="default">
+		<body></body>
+		<title>MMBase Component Framework Days, 2008.04.11 and 2008.04.12 at the MMBase foundation</title>
+		<subtitle></subtitle>
+		<intro>At April 11+12, 2008 the MMCF project will join to work on the MMBase 1.9 release.</intro>
+	</node>
+
+	<node number="53046" owner="default">
+		<body></body>
+		<title>MMBase Component Framework Day 2008.04.25 at the MMBase foundation</title>
+		<subtitle></subtitle>
+		<intro>If everything works according to plan the MMBase 1.9 will be released !!</intro>
+	</node>
+
+	<node number="53178" owner="default">
+		<body>The MMBase 1.9 release is planned for May 2008. At the developers meeting the release will be presented, including: 
+- the first results of production websites running on 1.9, which run on the new release
+- plans and first steps to improve the CMS Container, Didactor and other MMBase contributions by using the Component Framework
+- examples of using the Component Framework
+
+It will start at approximately 16 o'clock in Amsterdam:
+
+Nationaal Comité 4 en 5 mei
+Nieuwe Prinsgracht 89
+1018 VR  Amsterdam</body>
+		<title>MMBase Developers Meeting, 2008.06.24</title>
+		<subtitle></subtitle>
+		<intro>Were we will proudly present the upcoming MMBase 1.9 release...</intro>
+	</node>
+
+	<node number="53208" owner="default">
+		<body>The goal of this day is to:
+
+1. check the status of open bugs
+2. test MMBase 1.9
+3. fix as much bugs as possible
+
+You are assumed to bring your own notebook including a working MMBase 1.9 installation. Your level of expertise is irrelevant, because we are also in need of non-core developers who are able to test MMBase!
+
+The bugfixing-day will take place at the Foundation office in Hilversum (NL). We start at 9:30h and will probably continue untill 20:00h. After that, we could have a diner together.
+
+For those of you who are not in the position to come to Hilversum (for instance if you are located in Serbia, in China, or in the USSR) it is possible to join the bugfixing day online via the IRC channel.
+
+As always it will be a very inspiring day, full of surprises and new insights. If you like to join, please let us know by contacting us on the developers mailinglist or IRC.
+
+Hope to see you on June the 6-th !!
+
+Please send an email to the developers or users list if you like to attend.</body>
+		<title>MMBase 1.9: Bugfixing Day</title>
+		<subtitle></subtitle>
+		<intro>Developers day focussed on the issues found in the MMBase 1.9 beta release.</intro>
+	</node>
+
+	<node number="53518" owner="default">
+		<body>Uitnodiging geïnteresseerden en gebruikers.
+De Stichting MMBase/CMSc organiseert jaarlijks een Event waar de laatste ontwikkelingen worden getoond en toekomstige projecten worden toegelicht. Deze bijeenkomst is -na aanmelding- vrij   toegankelijk. Voor degenen die willen weten wat het betekent om met MMBase/CMSc aan de slag te gaan, organiseren we een speciale parallelsessie met de titel “Getting Started”. Graag aanmelden voor de bijeenkomst, omdat de ruimte beperkt is. Dat kan door een email te sturen aan Jo@mmbase.org.
+Locatie: regionale omroep Limburg, L1, Ambyerstraat 77B, 6226 AW Maastricht. 
+
+Programma donderdag 11 december, CMSC/MMEvent. 
+
+13.45 	Inloop
+14.20 	Welkom - Jo Lahaye, directeur stichting MMBase/CMSc
+14.30 	MMBase blijft kern van EO-ontwikkeling -Johannes Verelst – Technisch projectmanager EO.
+14.55	MMBase, release 1.9: wat is nieuw, consequenties – Michiel Meeuwissen. 
+15.15	MMBase as a service - Rob de Bruin, technisch projectmanager Kennisnet.
+15.40	Recente implementaties en features CMSContainer 
+-Nederlands Architectuur Instituut – Maak ons land – Pepijn Lemmens
+-OU / Ruud de Moor Centrum - portal.rdmc.ou.nl – Robin Vanspauwen
+-Nieuwe “tag” site van Butterfly Works – Emer Beamer
+16.20	De toekomst: samenwerking door open source. Lucas Vroemen, innovatiemanager L1.  
+16.45	borrel
+
+Op vrijdag 12 december hebben we, in samenwerking met LOSS en HollandOpen bovendien een Technology Outlook 2010 georganiseerd. Dat programma is eveneens hieronder opgenomen. Ook daarvoor geldt dat aanmelden verplicht is.
+
+13.15 	Inloop Koffie 
+13.30	Welkom, Jo Lahaye, dagvoorzitter. Is de source nog interessant? 
+13.40	Gemeente Eindhoven in agile ontwikkeling met Finalist IT Group. Spreker(s) volgt.
+14.00	GovUnited. Samen sterk met Software as a service. samenwerking loont en heeft dus de toekomst. -Ronald Vendelmans, projectleider Govunited.
+14.20	Van infosessies over OSS naar continu onafhankelijk advies over OSS via een loket Jan Driessen &amp; Erik Smets (LOSS, Limburgs Open Source Software Platform). 
+14.40	Web 2.0 applicaties met Agile en open source software. Richard den Adel, architect QNH Euregio  
+15.00	ICT wordt steeds crucialer in en voor het onderwijs - Rob de Bruin, projectmanager Kennisnet.
+15.20 	Woningcorporaties en hun partners kunnen nog veel winst behalen door ketensamenwerking. Luc Wolfs, hoofd ICT Maastrichtse woningcorporatie Servatius. 
+15.40	HSZuyd en Expertisecentrum ICT met voorstel voor een RAAK-project: een onafhankelijke vraagbaak voor OSS. Marion Fenijn en Marleen van der Laan (HSZuyd) 
+16.00	Medialand: crossmediaal en doelgroepgericht heeft de toekomst – Lucas vroemen, innovatiemanager L1.
+16.30	borrel</body>
+		<title>CMSc/MMEvent 11 (en 12) december 2008, Maastricht</title>
+		<subtitle></subtitle>
+		<intro>MMEvent 11 december in Maastricht bij L1.</intro>
+	</node>
+
+	<node number="53746" owner="default">
+		<body>The last meeting of May 14 resulted in a document that describes our ideas of how we think generic service functionality can be added to MMBase. In the meantime some first steps towards a proof-of-concept have been made. The meeting of September 10 is to discuss the document and the proof-of-concept.
+
+Pizza's are offered by the MMBase Foundation.
+ 
+PLEASE, LET US KNOW IF YOU ATTEND THE DEVELOPER MEETING ON THURSDAY SEPTEMBER 10
+ 
+If you attend the meeting and like to have pizza, please fill out the form, fill in your favourite type of pizza in the message field :
+ 
+http://www.mmbase.org/pizza
+ 
+Hope to see you!</body>
+		<title>MMBase developers meeting, 2009.09.10</title>
+		<subtitle></subtitle>
+		<intro>The next MMBase Developers Meeting will be on Thursday September, 10 2009 - 18:30-21:00h (18:00h for those who join the pizza). The location of the meeting is at the MMBase foundation office in Hilversum http://www.mmbase.org/contact.</intro>
+	</node>
+
+	<node number="53767" owner="default">
+		<body>We will start the migration in the morning (CET), and CVS will be disabled at about 8am. Some time in the afternoon the subversion repository will be up and ready to use. So versioning will be down fow a few hours, and it's convenient if all pending changes are checked in before that.</body>
+		<title>Migration from CVS to Subversion</title>
+		<subtitle></subtitle>
+		<intro>The MMBase CVS repository will migrate to Subversion.</intro>
+	</node>
+
+	<node number="53946" owner="default">
+		<body>Beste CMSc gebruiker/geïnteresseerde,
+
+Hierbij nodigen we u uit voor de 10-de! CMSc dag op dinsdag 29 september bij de Gemeente Almere. Doel van de gebruikersdag is om kennis te maken met anderen in de community, ervaringen uit te wisselen en samen na te denken over de toekomst van CMSc. Er staan een aantal belangrijke zaken op de agenda:
+- de nieuwe CMSc 1.7 (“Lets make it easy”): simple editors en Xinha
+- Nieuwsbrieven in actie,
+- CMSc en Single Sign On,
+- CMSc vergeleken met Hippo en Drupal.
+
+Verder is er een presentatie over Web 2.0/3.0 en hoe we daar als CMSc gebruiker op in kunnen spelen.
+
+Het programma ziet er als volgt uit:
+
+13.00 Lunch
+
+13.30 Welkom Gemeente Almere (Lidwien Venselaar)
+
+13.45 CMSc presentaties
+- www.aletta.nu door De Ontwikkelfabriek (Peter van Kampen)
+- CMSc en Single Sign On bij het NAi (Pepijn Lemmens)
+- CMSc Nieuwsbrief in actie bij Nationaal Comité 4 en 5 mei (Jitske Kuiper)
+- CMSc vergeleken met Hippo en Drupal (Ernst-Jan van der Laan)
+
+15.00 CMSc gebruikersoverleg
+- status update (Henk Hangyi)
+- status update documentatie project (Lidwien Venselaar)
+- demo van de nieuwe 1.7 release (Kristian Bettinger)
+- roadmap voor CMSc 1.8 (Henk Hangyi)
+
+16.00 Web 2.0/3.0 vanuit interfacing/user perspectief aan de hand van concrete voorbeelden (Rik Koster, http://www.edenspiekermann.com/en/about/people/rik-koster)
+
+17.00 Borrel
+
+Wij hopen u op de gebruikersdag te verwelkomen. Zou u telefonisch via 06-29054903 kunnen laten weten of u en eventuele collega's aanwezig zullen zijn?
+
+Alvast bedankt voor uw reactie en tot ziens op de CMSc gebruikersdag!
+
+Met vriendelijke groet,
+
+Jo Lahaye
+Directeur Stichting MMBase
+t: 035-628 8088
+
+Henk Hangyi
+Account manager Finalist IT Group
+t: 06-29054903</body>
+		<title>10-th CMSc user day in Almere (Dutch)</title>
+		<subtitle></subtitle>
+		<intro>Locatie Stadshuis Almere, Stadshuisplein 1, Almere Stad</intro>
+	</node>
+
+	<node number="54049" owner="default">
+		<body>Datum: 15 december 2009.
+Locatie: Stichting Kennisnet, Paletsingel 32, Zoetermeer. 
+Aanmelding wordt op prijs gesteld: jo.lahaye (@) mmbase.org
+10.00-12.30 uur, met aansluitend lunch. 
+In de ochtend vindt de 11e CMSc-gebruikersdag plaats, met de volgende onderwerpen. 
+Balans tussen bezoekersaantallen en site-dynamiek met behulp van Portletcache. Toegepast voor L1.  
+Stappen voor het verkrijgen van het Keurmerk Drempelvrij.
+NAI neemt eerste blogmodule in CMSc in gebruik 
+Roadmap voor release 1.
+
+13.30-16.00 uur MMEvent 2009
+13.30-14.00 Maarten Brinkerink (beeld en Geluid) en Andre van Toly (www.toly.nl) over de ontwikkeling die ze voor Beeld en Geluid hebben gedaan. Open Beelden is een open mediaplatform dat toegang biedt tot audiovisuele collecties die eenvoudig hergebruikt kunnen worden. Een voorbeeld van daarvan is het ‘remixen’ van archiefmateriaal in nieuw werk. Deze nieuwe werken kunnen gebruikers vervolgens ook weer aan het platform toevoegen. Open Beelden biedt daarnaast een API, wat het gemakkelijk maakt om mashups te ontwikkelen.zie http://www.openbeelden.nl. 
+-MMBase Streams applicatie die m.b.v. FFmpeg en FFmpeg2Theora streams (audio en video) ter plekke converteerd naar verschillende Open Source formaten, waaronder Ogg maar ook h.264 mpeg. Dat gebeurt ongeveer op dezelfde manier als MMBase nu afbeeldingen converteerd met ImageMagick.
+- Uitbreidingen op de huidige Media applicatie om het bovenstaande te ondersteunen.
+- Een geheel multitalige versie van de site waarin alle nodes op veldniveau vertaald kunnen worden.
+- HTML5 video en audiotags om de streams af te spelen
+14.00-14.30 Lucas Vroemen (Innovatiemanager L1). De ontwikkelingen in de mediawereld gaan razendsnel, dat vraagt om open technologie die flexibel meegroeit met de steeds veranderende wensen en eisen. Spreker: Lucas Vroemen (innovatiemanager L1) 
+14.30-14.50 Hendrik Hangyi, projectmanager Proteon. Vergelijking tussen verschillende Open Source Content Management Systemen, in het bijzonder Hippo en CMSc. 
+14.50-15.10 Michiel Meeuwissen. Komende release(s) van MMBase en recente ontwikkelingen aan de core.
+15.10-15.30: Minne Oostra en Peter van Kampen (De Ontwikkelfabriek).  De site  www.aletta.nu is een succesvol voorbeeld van integratie tussen CMSc en Solr (Apache Lucene project). Zoeken in grote hoeveelheden geclassificeerde data. Hoe werkt dat. 
+15.30-15.45 Spreker nog onbekend. Naar een uniforme manier van MMBase Webservices. 
+15.45-16.00 Jo Lahaye (Stichting MMBase/CMSc). Waarom bedenkt elke organisatie steeds weer opnieuw de eigenschappen van een nieuwsbericht of agenda-item? Kan dat anders? 
+16.00: Borrel. Kennisnet en de Stichting MMBase/CMSc bieden de aanwezigen graag een hapje en een drankje aan.</body>
+		<title>MMEvent 2009 en 11e CMSc gebruikersdag</title>
+		<subtitle></subtitle>
+		<intro>Op 15 december wordt in Zoetermeer bij Kennisnet (Paletsingel 32) de 11e CMSc gebruikersdag gehouden. De voorlopige agenda voor het ochtend- en middagprogramma staat hieronder. Aanmelding wordt op prijs gesteld: jo.lahaye (@) mmbase.org</intro>
+	</node>
+
+</event>

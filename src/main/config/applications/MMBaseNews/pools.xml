@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<pools exportsource="mmbase://jeeves.mmbase.org/install/foundation" timestamp="20100709170657">
+<pools exportsource="mmbase://alfred.mmbase.org/mmweb/foundation" timestamp="20131003164110">
 	<node number="13358" owner="admin" alias="news_developers">
 		<name>Developers news</name>
 		<description>News category</description>
@@ -10,17 +10,22 @@
 		<description>News category</description>
 	</node>
 
-	<node number="19392" owner="default">
+	<node number="19392" owner="admin">
 		<name>Developers agenda</name>
 		<description>Events category</description>
 	</node>
 
-	<node number="19841" owner="default" alias="mmbase_news_general">
+	<node number="19400" owner="admin">
+		<name>Foundation Agenda</name>
+		<description>Event category</description>
+	</node>
+
+	<node number="19841" owner="admin" alias="mmbase_news_general">
 		<name>General MMBase news</name>
 		<description>News category. News for the MMBase homepage should be related to this category.</description>
 	</node>
 
-	<node number="19852" owner="default">
+	<node number="19852" owner="admin" alias="mmbase_agenda_general">
 		<name>General agenda</name>
 		<description>Agenda category. Agenda items (events) for the MMBase homepage should be related to this category.</description>
 	</node>
