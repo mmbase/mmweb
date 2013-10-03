@@ -56,6 +56,13 @@
     <level class="&mmlevel;" value="debug" />
   </logger>
  -->
+  
+  <logger name="org.mmbase.mmweb.ProjectUrlConverter">
+    <level class="&mmlevel;" value="debug" />
+  </logger>
+  <logger name="org.mmbase.mmsite">
+    <level class="&mmlevel;" value="debug" />
+  </logger>
  
   <logger name="org.mmbase.PAGE">
     <level class="&mmlevel;" value="info" />
