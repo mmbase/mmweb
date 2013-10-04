@@ -26,6 +26,7 @@
 <mm:import externid="commit">false</mm:import>
 <mm:cloud rank="administrator" method="http">
   <mm:transaction commitonclose="$commit">
+    <mm:node number="default.mags" id="default_magazine" />
   
     <mm:import externid="offset">0</mm:import>
     <mm:import externid="max">25</mm:import>
@@ -41,7 +42,22 @@
             <mm:field name="number" /> - <mm:field name="title" />
             <em> published: <mm:field name="date"><mm:time format="dd-MM-yyyy HH:mm" /></mm:field></em>
 
+
+            <!-- check if related to mags -->
+            <mm:relatednodescontainer type="mags" role="posrel" searchdirs="source">
+              <mm:constraint field="number" value="default.mags" operator="EQUAL" />
+              <mm:import id="rels" reset="true"><mm:size /></mm:import>
+            </mm:relatednodescontainer>
+            rels: <strong>${rels}</strong>
+            <c:if test="${rels lt 1}">
+              <mm:node id="thisnews" number="$_node.number" />    
+              <mm:createrelation source="default_magazine" destination="thisnews" role="posrel">
+                <mm:setfield name="pos">1</mm:setfield>
+              </mm:createrelation>
+              : converted
+            </c:if>
             
+            <!-- convert mmevents to proper time field -->
             <mm:import id="start" reset="true" />
             <mm:relatednodescontainer type="mmevents" role="related" searchdirs="destination">
               <mm:relatednodes>
