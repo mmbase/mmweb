@@ -41,5 +41,12 @@
 		<description>Template displaying projects</description>
 		<url>projects.jspx</url>
 	</node>
+	
+	<node number="22690" owner="default">
+		<mimetype>text/html</mimetype>
+		<title>Releases</title>
+		<description>Template displaying MMBase releases</description>
+		<url>releases.jspx</url>
+	</node>
 
 </templates>
