@@ -42,7 +42,7 @@
             <c:when test="${component eq 'mynews' and block eq 'list'}">
             
               <mm:import externid="offset"></mm:import>
-              <mm:import externid="max">3</mm:import>
+              <mm:import externid="max">25</mm:import>
             
               <mm:component name="mynews" block="list">
                 <mm:param name="max">${max}</mm:param>
@@ -72,7 +72,7 @@
                 <h3><a href="${_}">Latest news</a></h3>
               </mm:link>
               <mm:component name="mynews" block="list">
-                <mm:param name="max">3</mm:param>
+                <mm:param name="max">5</mm:param>
                 <mm:param name="more">true</mm:param>
               </mm:component>
             </c:when>
