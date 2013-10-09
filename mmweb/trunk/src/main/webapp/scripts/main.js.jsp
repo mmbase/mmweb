@@ -1,7 +1,7 @@
 // -*- mode: javascript; -*-
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" 
 %><%@ taglib uri="http://www.mmbase.org/mmbase-taglib-2.0" prefix="mm" %>
-<mm:content encoding="UTF-8" type="text/javascript" expires="0">
+<mm:content encoding="UTF-8" type="text/javascript" expires="1800">
 
 /*
   Main javascript, depends on jQuery
@@ -67,8 +67,6 @@ $(document).ready(function() {
         $('div.eventbody').hide();
         $('a.eventtitle').click(function(ev){
             ev.preventDefault();
-            console.log('dada 2');
-            // open div
             var eventbody = $(this).parents('div.event').find('div.eventbody');
             if ($(eventbody).is(':hidden')) {
                 $(eventbody).slideDown();
