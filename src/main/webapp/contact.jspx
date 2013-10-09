@@ -47,7 +47,7 @@
               <mm:import id="buffer">
                 <mm:createnode type="email" id="email" commitonclose="false">
                   <mm:setfield name="to">${property_to_email}</mm:setfield>
-                  <fieldset class="labelininput">
+                  <fieldset class="fields">
                     <!-- kind of protection against SPAM bots: this div and field should be hidden with javascript -->
                     <div class="mm_contactform_to_address">
                       <label for="mm_contactform_to_address">To</label>
@@ -63,7 +63,7 @@
                     </mm:fieldlist>
                   </fieldset>
                 </mm:createnode>
-                <fieldset>
+                <fieldset class="buttons">
                   <div>
                     <input type="submit" name="submit" id="submit" value="Send" class="submit" />
                   </div>
