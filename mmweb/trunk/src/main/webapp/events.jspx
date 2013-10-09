@@ -1,0 +1,129 @@
+<jsp:root
+    version="2.0"
+    xmlns:jsp="http://java.sun.com/JSP/Page"
+    xmlns:c="http://java.sun.com/jsp/jstl/core"
+    xmlns:x="http://java.sun.com/jsp/jstl/xml"
+    xmlns:os="http://www.opensymphony.com/oscache"
+    xmlns:mm="http://www.mmbase.org/mmbase-taglib-2.0"
+    xmlns:mmweb="urn:jsptagdir:/WEB-INF/tags/mmweb">
+  <mmweb:html styleClass="agenda">
+    <jsp:attribute name="title">Agenda</jsp:attribute>
+    <jsp:attribute name="head">
+    
+    </jsp:attribute>
+    <jsp:attribute name="body">
+      <mm:import id="page" externid="n" />
+      <mmweb:submenu page="${page}" />
+      <div id="content">
+        <div>
+          <mm:import externid="offset">0</mm:import>
+          <mm:import id="max">25</mm:import>
+
+              
+          <h2>Agenda</h2>
+          
+          <mm:hasnodemanager name="event">
+            <mm:listnodescontainer type="event">
+              <mm:sortorder field="date" direction="DOWN" />
+              <mm:size id="total" write="false" />
+              <mm:offset value="$offset" />
+              <mm:maxnumber value="$max" />
+ 
+              <mm:listnodes>
+                <div class="event">
+                  <h3><a class="eventtitle" href="#event_${_node}"><mm:field name="title" /></a></h3>
+                  <h4>
+                    <mm:field name="date"><mm:time format=":LONG" /></mm:field> 
+                    <mm:field name="subtitle"><mm:isnotempty><span class="subtitle"> - <mm:write /></span></mm:isnotempty></mm:field>
+                  </h4>
+                  
+                  <div class="eventbody" id="event_${_node}">
+                    <!-- urls, attachments -->
+                    <mm:relatednodescontainer type="urls" role="posrel" searchdirs="destination">
+                      <mm:size id="nr_urls" write="false" />
+                    </mm:relatednodescontainer>
+                    <mm:relatednodescontainer type="attachments" role="posrel" searchdirs="destination">
+                      <mm:size id="nr_atts" write="false" />
+                    </mm:relatednodescontainer>
+                    <c:if test="${nr_urls gt 0 or nr_atts gt 0}">
+                      <div class="related">
+                        <mm:relatednodescontainer type="urls" role="posrel" searchdirs="destination">
+                          <mm:sortorder field="posrel.pos" direction="UP" />
+                          <ul class="urls">
+                            <mm:relatednodes>
+                              <li>
+                                <a title="${_node.description}" href="${_node.url}">
+                                  <mm:field name="name">
+                                    <mm:isnotempty><mm:write escape="inline" /></mm:isnotempty>
+                                    <mm:isempty><mm:field name="description" escape="inline" /></mm:isempty>
+                                  </mm:field>
+                                </a>
+                              </li>
+                            </mm:relatednodes>
+                          </ul>
+                        </mm:relatednodescontainer>
+                        <mm:relatednodescontainer type="attachments" role="posrel" searchdirs="destination">
+                          <mm:sortorder field="posrel.pos" direction="UP" />
+                          <ul class="attachments">
+                            <mm:relatednodes>
+                              <li>
+                                <mm:attachment>
+                                  <a title="${_node.description}" href="${_}"><mm:field name="title" /></a>
+                                </mm:attachment>
+                                (<mm:field name="mimetype" />, <mm:field name="size" escape="filesize" />)
+                              </li>
+                            </mm:relatednodes>
+                          </ul>
+                        </mm:relatednodescontainer>
+                      </div>
+                    </c:if>
+                  
+                    <mm:field name="intro" escape="paragraph(intro)" />
+
+                    <!-- images -->
+                    <mm:relatednodescontainer type="images" role="posrel" searchdirs="destination">
+                      <mm:sortorder field="posrel.pos" direction="UP" />
+                      <mm:relatednodes>
+                        <div class="images">
+                          <mm:import id="lightbox_image" reset="true"><mm:image template="s(600)" /></mm:import>
+                          <a class="lightbox" title="${_node.title}" href="${lightbox_image}">
+                            <mm:image template="s(240)" mode="img" />
+                          </a>
+                          <mm:field name="title"><mm:isnotempty><mm:write /></mm:isnotempty></mm:field>
+                        </div>
+                      </mm:relatednodes>
+                    </mm:relatednodescontainer>
+                
+                    <mm:field name="body" escape="p,links" />
+                  </div>
+                </div>
+              </mm:listnodes>
+            
+            </mm:listnodescontainer>
+
+            <mm:url id="pageurl" absolute="true" write="false" />
+            <mmweb:pager total="${total}" offset="${offset}" max="${max}" baseurl="${pageurl}" />
+
+          </mm:hasnodemanager>
+        </div>
+      </div>
+    
+      <div id="sidebar">
+        <div>
+          
+          <mm:link page="list">
+            <mm:frameworkparam name="component">mynews</mm:frameworkparam>
+            <h3><a href="${_}">Latest news</a></h3>
+          </mm:link>
+          <mm:component name="mynews" block="list">
+            <mm:param name="max">5</mm:param>
+            <mm:param name="offset">0</mm:param>
+            <mm:param name="more">true</mm:param>
+          </mm:component>
+       
+        </div>
+      </div>
+  
+    </jsp:attribute>
+  </mmweb:html>
+</jsp:root>

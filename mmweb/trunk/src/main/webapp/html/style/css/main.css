@@ -8,8 +8,8 @@ body
 {
 	margin: 0;
 	padding: 0;
-	font-family: "HelveticaNeue-Regular", "Helvetica Neue Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	/* font-size: small; */
+	font-family: "Helvetica Neue", HelveticaNeue, Helvetica, Geneva, "Lucida Grande", sans-serif;
+	font-size: small;
 	color: #333;
 	background-color: #fff;
 }
@@ -30,8 +30,8 @@ body
 
 #wrap
 {
-	/*background: url(../images/twocol-bg.gif) repeat-y 70% 0;*/
 	background-color: #efefef;
+	font-size: 1.1em;
 	clear: both;
 	padding-top: 4px;
 }
@@ -466,15 +466,15 @@ img.right
 }
 
 /* forms, contact form */
-
-label {  
+form#contactform { background: #fff;padding: 1em; }
+label {
     display: block;
     float: left;
     width: 120px;
     padding-top: 2px;
 }
 input { width: 360px; }
-
+form > fieldset.fields > div { margin-bottom: 12px; }
 fieldset
 {
     border: none;
@@ -492,3 +492,10 @@ div.mm_check_error
     color: #666;
     display: none;
 }
+
+body.agenda div.event
+{
+    clear: both;
+    padding-top: 1em;
+}
+body.agenda span.subtitle { color: #666; }
