@@ -116,7 +116,7 @@
 
                 <p>
                   This website is made and maintained by the MMBase community.<br />
-                  Send comments to webmaster@mmbase.org.
+                  Send comments to webmaster [@] mmbase.org. Or use our <a href="${mm:link('/contact')}">contact form</a>.
                 </p>
 
                 <mm:node number="pool_mmbase">

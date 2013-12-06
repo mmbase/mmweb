@@ -15,8 +15,8 @@
       <div id="content">
         <div>
           <p>
-            <a href="convert.jspx">news</a> -
-            <a href="convert2.jspx">site</a> -
+            <a href="convert-news.jspx">news</a> -
+            <a href="convert-site.jspx">site</a> -
             <a href="convert-projects.jspx">projects</a> -
             <a href="convert-releases.jspx">releases</a>
           </p>
@@ -29,7 +29,7 @@
     <mm:node number="default.mags" id="default_magazine" />
   
     <mm:import externid="offset">0</mm:import>
-    <mm:import externid="max">25</mm:import>
+    <mm:import externid="max">100</mm:import>
     
     <ol>
       <mm:listnodescontainer type="news">
