@@ -10,24 +10,16 @@
   <mm:content expires="120" escaper="none">
     <div class="tweets">
       <h4 class="twitter"><a href="http://twitter.com/mmbase">Follow us on twitter</a></h4>
-      <ul class="nolist">
-        <os:cache key="tweet.feed.mmbase" time="0">
-          <c:catch var="ex1">
-            <c:import var="url" url="http://api.twitter.com/1/statuses/user_timeline/mmbase.xml?callback=twitterCallback2&amp;count=2" />
-            <x:parse var="doc" doc="${url}" />
-            <x:forEach var="n" select="$doc/statuses/status">
-              <li class="tweet">
-                <c:set var="id"><x:out select="$n/id" /></c:set>
-                <mm:escape escape="links"><x:out select="$n/text" /></mm:escape> 
-                <em><a href="http://twitter.com/mmbase/statuses/${id}"><x:out select="$n/created_at" /></a></em>
-              </li>
-            </x:forEach>
-          </c:catch>
-          <c:if test="${! empty ex1}">
-            <li class="tweet"><os:usecached /></li>
-          </c:if>
-        </os:cache>
-      </ul>
+
+      <a class="twitter-timeline"
+        href="https://twitter.com/mmbase" 
+        data-widget-id="410545080118702080"
+        data-tweet-limit="1"
+        data-link-color="#00425a"
+        data-chrome="noheader nofooter transparent"
+        >Tweets by @mmbase</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
     </div>
   </mm:content>
 </jsp:root>
