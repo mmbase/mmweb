@@ -4,7 +4,7 @@
 		<template>2507</template>
 		<title>Homepage</title>
 		<expires>120</expires>
-		<description>MMBaseWeb</description>
+		<description>Homepage of this site.</description>
 		<path>/</path>
 	</node>
 
@@ -12,7 +12,7 @@
 		<template>2509</template>
 		<title>Download</title>
 		<expires>120</expires>
-		<description>MMBaseWeb</description>
+		<description>Download MMBase, sources, jar's.</description>
 		<path>/download</path>
 	</node>
 
@@ -60,7 +60,7 @@
 		<template>2508</template>
 		<title>Bugs</title>
 		<expires>120</expires>
-		<description>BackendDevelopers</description>
+		<description>Bugs are handled by Jira.</description>
 		<path>/bugs</path>
 	</node>
 
@@ -84,7 +84,7 @@
 		<template>2584</template>
 		<title>Documentation</title>
 		<expires>120</expires>
-		<description>BackendDevelopers</description>
+		<description>MMDocs: MMBase, applications and project documentation.</description>
 		<path>/mmdocs</path>
 	</node>
 
@@ -92,7 +92,7 @@
 		<template>22590</template>
 		<title>Projects</title>
 		<expires>120</expires>
-		<description>BackendDevelopers</description>
+		<description>Project developing parts of MMBase.</description>
 		<path>/projects</path>
 	</node>
 
@@ -108,7 +108,7 @@
 		<template>2509</template>
 		<title>Subversion Repository</title>
 		<expires>120</expires>
-		<description>BackendDevelopers</description>
+		<description>The subversion repository with our sources.</description>
 		<path>/download/repository</path>
 	</node>
 
@@ -140,7 +140,7 @@
 		<template>22690</template>
 		<title>Releases</title>
 		<expires>120</expires>
-		<description>BackendDevelopers</description>
+		<description>Releases of MMBase and other applications.</description>
 		<path>/download/releases</path>
 	</node>
 
@@ -148,7 +148,7 @@
 		<template>2509</template>
 		<title>Archived projects</title>
 		<expires>120</expires>
-		<description>BackendDevelopers</description>
+		<description>Older archived projects.</description>
 		<path>/projects/archived</path>
 	</node>
 
@@ -228,7 +228,7 @@
 		<template>2509</template>
 		<title>History</title>
 		<expires>120</expires>
-		<description>Foundation</description>
+		<description>Some more about the history.</description>
 		<path>/about/history</path>
 	</node>
 
