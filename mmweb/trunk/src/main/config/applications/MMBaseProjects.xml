@@ -15,11 +15,10 @@
     <builder maintainer="mmbase.org" version="1">attachments</builder>
     <builder maintainer="mmbase.org" version="1">images</builder>
 
-    <builder maintainer="mmbase.org" version="1">groups</builder>
+    <!-- <builder maintainer="mmbase.org" version="1">groups</builder> -->
     <builder maintainer="mmbase.org" version="1">persons</builder>
     <builder maintainer="mmbase.org" version="1">organisation</builder>
     <builder maintainer="mmbase.org" version="1">documentation</builder>
-    <builder maintainer="mmbase.org" version="1">news</builder>
 
     <builder maintainer="mmbase.org" version="1">posrel</builder>
     <builder maintainer="mmbase.org" version="1">insrel</builder>
@@ -44,8 +43,7 @@
     
     <relation from="persons" to="documentation" type="posrel" />
     <relation from="persons" to="images" type="posrel" />
-    <relation from="persons" to="groups" type="posrel" />
-    <relation from="persons" to="news" type="posrel" />
+    <!-- <relation from="persons" to="groups" type="posrel" /> -->
     <relation from="persons" to="urls" type="posrel" />
     <relation from="persons" to="organisation" type="posrel" />
     
@@ -69,13 +67,10 @@
     <datasource builder="attachments" path="MMBaseProjects/attachments.xml" />
     <datasource builder="images"      path="MMBaseProjects/images.xml" />
 
-    <datasource builder="groups"      path="MMBaseProjects/groups.xml" />
+    <!-- <datasource builder="groups"      path="MMBaseProjects/groups.xml" /> -->
     <datasource builder="persons"     path="MMBaseProjects/persons.xml" />
     <datasource builder="organisation" path="MMBaseProjects/organisation.xml" />
-
-    <datasource builder="articles"      path="MMBaseProjects/articles.xml" />
     <datasource builder="documentation" path="MMBaseProjects/documentation.xml" />
-    <datasource builder="news"          path="MMBaseProjects/news.xml" />
   </datasourcelist>
 
   <relationsourcelist>
