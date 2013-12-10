@@ -197,6 +197,12 @@ body
 	color: #555;
 	margin-top: 0;
 }
+#footer p a:link,
+#footer p a:visited
+{
+    color: #555;
+    text-decoration: underline;
+}
 
 #footer a:link, #footer a:visited
 {
