@@ -29,8 +29,8 @@
     <datatype base="line" xmlns="http://www.mmbase.org/xmlns/datatypes">
       <required value="true" />
       <minLength value="1" enforce="oncreate">
-        <description xml:lang="en">... is required, at least 1 character.</description>        
-        <description xml:lang="nl">... is verplicht, tenminste 1 karakter.</description>
+        <description xml:lang="en">A subject is required.</description>        
+        <description xml:lang="nl">Een onderwerp is verplicht.</description>
       </minLength>
       <maxLength value="255" />
     </datatype>
@@ -54,6 +54,10 @@
       <property name="maxAddress" value="1" />
       <property name="local" value="false" />
       <required value="true" />
+      <minLength value="1">
+        <description xml:lang="en">An email address is required.</description>        
+        <description xml:lang="nl">Een e-mail adres is verplicht.</description>
+      </minLength>
       <maxLength value="255" />
     </datatype>
   </field>
