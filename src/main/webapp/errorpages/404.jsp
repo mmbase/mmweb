@@ -11,15 +11,33 @@
 <%@ include file="page-header.jsp" %>
       
         <h2>404 The requested resource is unavailable</h2>
-        <h3><%=org.mmbase.Version.get()%></h3>
+        <h3><%= org.mmbase.Version.get() %></h3>
         <p>
           <% String mesg = (String) request.getAttribute("org.mmbase.servlet.error.message");
              if (mesg == null) {
-           %>
-          The current URL (<%=request.getAttribute("javax.servlet.error.message")%>) does not
-          point to an existing resource in this web-application.
+          %>
+              The current URL - <%= request.getAttribute("javax.servlet.error.message")%> - 
+              you are looking for cannot be found.
+              
+
+<mm:cloud username="admin" password="admin2k" method="pagelogon">
+<mm:createnode id="mailtje" type="email">
+  <mm:setfield name="from">web@mmbase.org</mm:setfield>
+  <mm:setfield name="to">andre@mmbase.org</mm:setfield>
+  <mm:setfield name="subject">[mmbase.org] Page not found</mm:setfield>
+<mm:setfield name="body">
+To our disgrace threw the following url an 404: <%= request.getAttribute("javax.servlet.error.message") %>
+</mm:setfield>
+</mm:createnode>
+
+<mm:node referid="mailtje">
+  <mm:function name="mail" />
+  <br />The webmasters will soon be notified about this disgrace. In the meantime, please be patient.
+</mm:node>
+
+</mm:cloud>
           <% } else { %>
-          <%=mesg%>
+              <%=mesg%>
           <% } %>
         </p>
         
