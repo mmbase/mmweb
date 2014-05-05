@@ -185,8 +185,8 @@ body
 
 #footer-inner > ul
 {
-    padding: 0 0 2em 1em;
-    width: 120px;
+    padding: 0 0 2em 8px;
+    width: 132px;
     float: left;
 }
 #footer-inner > ul > li > ul { padding: 0; }
@@ -218,6 +218,7 @@ body
     float: left;
     margin: 0;
     padding: 0;
+    min-width: 120px;
     list-style: none;
 }
 
@@ -441,6 +442,11 @@ ul.urls, ul.attachments
 	list-style: none;
 }
 
+h4.twitter
+{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
 h4.twitter a
 {
 	background-image: url(images/twitter-bird.png);
@@ -449,7 +455,6 @@ h4.twitter a
 	padding: 0 0 0 20px;
 	margin-left: 2px;
 }
-
 h4.twitter a:link, h4.twitter a:visited { text-decoration: none; }
 h4.twitter a:hover, h4.twitter a:active { text-decoration: underline; }
 
@@ -505,3 +510,5 @@ body.agenda div.event
     padding-top: 1em;
 }
 body.agenda span.subtitle { color: #666; }
+
+body.projects li h4 { margin-top: 32px; }
