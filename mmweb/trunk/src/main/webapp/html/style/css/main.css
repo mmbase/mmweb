@@ -65,6 +65,7 @@ body
 #footer-inner
 {
 	margin: 0 auto;
+	padding-left: 12px;
 	min-width: 800px;
 	max-width: 1000px;
 	clear: both;
@@ -185,7 +186,7 @@ body
 
 #footer-inner > ul
 {
-    padding: 0 0 2em 8px;
+    padding: 0 0 2em 6px;
     width: 132px;
     float: left;
 }
@@ -193,7 +194,7 @@ body
 
 #footer p
 {
-	padding: 1em 0 1em 1em;
+	padding: 1em 0 1em 6px;
 	color: #555;
 	margin-top: 0;
 }
